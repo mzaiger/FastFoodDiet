@@ -61,7 +61,7 @@ OUTPUT_PATH = os.path.join(_SCRIPT_DIR, "meals.json")
 
 # Tried in order; a 4xx (rate limit / quota / unknown model) moves to the next.
 # Only 3.8 Flash on purpose -- add fallbacks here if you ever want them.
-GEMINI_MODELS = ["gemini-3.5-flash"]
+GEMINI_MODELS = ["gemini-3.8-flash"]
 
 # The free-tier daily request limit you want to stay inside.
 MAX_GEMINI_CALLS_PER_DAY = int(os.environ.get("MAX_GEMINI_CALLS", "20"))
