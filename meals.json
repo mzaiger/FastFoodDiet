@@ -11230,7 +11230,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.iIIRtvVkKsDy4eRQMBLOBQHaFj&pid=15.1",
+      "image_full_url": "https://taco-bell-menus.com/wp-content/uploads/2026/06/Cheesy-Toasted-Breakfast-Burrito-Bacon.png"
     },
     {
       "restaurant": "Taco Bell",
@@ -11242,7 +11245,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.LFnQTZR_4SqTN9zuuf6WnwHaGC&pid=15.1",
+      "image_full_url": "https://fastfoodnutrition.org/item-photos/full/13602.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11254,7 +11260,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.KLFNam1ofuxJiBsRLkHi1AHaGh&pid=15.1",
+      "image_full_url": "https://www.tacobell.com/images/30181_cheesy_toasted_burrito_fiesta_potato_750x660.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11266,7 +11275,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.DbwSIrgGw2_4in6zlr4ObwHaGh&pid=15.1",
+      "image_full_url": "https://www.tacobell.com/images/30029_breakfast_crunchwrap_750x660.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11278,7 +11290,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.jqctZJ8sx42lxKyEWA2yuQHaGh&pid=15.1",
+      "image_full_url": "https://www.tacobell.com/images/30028_breakfast_crunchwrap_sausage_patty_750x660.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11290,7 +11305,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.DbwSIrgGw2_4in6zlr4ObwHaGh&pid=15.1",
+      "image_full_url": "https://www.tacobell.com/images/30029_breakfast_crunchwrap_750x660.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11302,7 +11320,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.explicit.bing.net/th?id=OIP.hfCXOwseB5DnD66IrgaeogHaFj&pid=15.1",
+      "image_full_url": "https://i.insider.com/5e94d84929d6d9240a0a2f6a?width=600&format=jpeg&auto=webp"
     },
     {
       "restaurant": "Taco Bell",
@@ -11314,7 +11335,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.x_S7JSu3phfbWujBvIzXKAHaGh&pid=15.1",
+      "image_full_url": "https://www.tacobell.com/images/30187_grande_toasted_burrito_steak_750x660.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11326,7 +11350,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.-wBT6VqhAcnOF_ugelQq9wHaFj&pid=15.1",
+      "image_full_url": "https://www.thedietchefs.com/wp-content/uploads/2023/12/Taco-Bell-Grande-Toasted-Breakfast-Burrito-Bacon.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11338,7 +11365,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.bmCC4Vjxfj3URNr8XTd9TwHaFj&pid=15.1",
+      "image_full_url": "https://www.thedietchefs.com/wp-content/uploads/2023/12/Taco-Bell-Grande-Toasted-Breakfast-Burrito-Sausage.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11350,7 +11380,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.VVDngozXj9MX8jXTtXEIlAHaF3&pid=15.1",
+      "image_full_url": "https://fastfoodnutrition.org/item-photos/816x647/13251.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11362,7 +11395,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.ZuAJcEJjYHJ4wUuWFEJcwAHaF4&pid=15.1",
+      "image_full_url": "https://vignette.wikia.nocookie.net/tacobell/images/4/43/Pdp_cheesy_double_beef_burrito.jpg/revision/latest?cb=20150709124602"
     },
     {
       "restaurant": "Taco Bell",
@@ -11374,7 +11410,10 @@
       "vegetarian": false,
       "healthy": true,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.va0PlDNYO2aesQTyWJOf5QHaEO&pid=15.1",
+      "image_full_url": "https://www.tacobell.com/images/23470_new_cantina_chicken_soft_taco_1400x800.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11386,7 +11425,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.Bp6QtEJ6NZ6bzo-6zMqTkgHaEO&pid=15.1",
+      "image_full_url": "https://www.tacobell.com/images/23471_new_cantina_chicken_crispy_taco_1400x800.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11398,7 +11440,10 @@
       "vegetarian": false,
       "healthy": true,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.o8nWil3SPKOVk6jPJpOtpwHaEO&pid=15.1",
+      "image_full_url": "https://www.tacobell.com/images/23472_new_cantina_chicken_burrito_1400x800.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11410,7 +11455,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.S_2HRND_0Q_jq-sQ5E78ZAHaFC&pid=15.1",
+      "image_full_url": "https://spoonuniversity.com/cdn-cgi/image/width=1024,f=auto/https://s3.amazonaws.com/secretsaucefiles/photos/images/000/256/400/original/tile-2024-E02-Cantina-Chicken-Quesadilla-Desktop.jpg?1710441759"
     },
     {
       "restaurant": "Taco Bell",
@@ -11422,7 +11470,10 @@
       "vegetarian": false,
       "healthy": true,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.CVgoHPY1AqddbrB4tiLa9gHaFC&pid=15.1",
+      "image_full_url": "https://spoonuniversity.com/cdn-cgi/image/width=1024,f=auto/https://s3.amazonaws.com/secretsaucefiles/photos/images/000/256/397/original/tile-2024-E02-Cantina-Chicken-Bowl-Desktop.jpg?1710441717"
     },
     {
       "restaurant": "Taco Bell",
@@ -11434,7 +11485,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.mdwkJRU4EcENNCwvTmHJ0QHaHh&pid=15.1",
+      "image_full_url": "https://fastfoodnutrition.org/item-photos/full/1282_s.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11446,7 +11500,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.SmzhlxchUGof0g1brEYbHQHaEO&pid=15.1",
+      "image_full_url": "https://www.tacobell.com/images/22101_crunchy_taco_supreme_1400x800.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11458,7 +11515,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.1zMXJJkmilKYwX2d3gWrzgHaDg&pid=15.1",
+      "image_full_url": "https://www.tacobell.co.uk/wp-content/uploads/2021/04/SoftTacoSupreme-1370x650px.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11470,7 +11530,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.iUMpkLbphU4CCPRDnXjXQQHaJQ&pid=15.1",
+      "image_full_url": "https://www.donecook.com/wp-content/uploads/2025/03/vegan-copycat-taco-bell-mexican-pizza-0_0_2025-03-19.webp"
     },
     {
       "restaurant": "Taco Bell",
@@ -11482,7 +11545,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.USzpKxNusg4o1wu2Dk6D6QHaFH&pid=15.1",
+      "image_full_url": "https://fastfoodnutrition.org/item-photos/full/8604_s.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11494,7 +11560,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.MWJifHfQA3REEDsNvlYAHwHaHa&pid=15.1",
+      "image_full_url": "https://i1.sndcdn.com/artworks-vNHZsNyyqUWzXRXd-IALyNA-t500x500.jpg"
     },
     {
       "restaurant": "Taco Bell",
@@ -11506,7 +11575,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:07:12.668956+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.fLoIlzBR1-DRiXgiCGyApAHaFj&pid=15.1",
+      "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhbjvO3Gb-QX01kP7TJqhAFaRB1nzkfw3QbSdovDdB_HF7q0Qr17Oh_meE444AV7hjuWZcAcUXrH5dUxvppxm4iHaajka7cLUxriiUk6pFGiT5c9_EckzBcK2dQi4nLDD28DyTtHuXcveNigo-i7xnJZhorLXvXeVzsh4b2h-awTsq4wHxE3m4Ka7fzvnE/s640/taco-bell-loaded-beef-nachos-02.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11518,7 +11590,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.XNe84etJ1MKN67PnOwckxgHaHa&pid=15.1",
+      "image_full_url": "https://ph-test-11.slatic.net/p/5cd7bce1eb49d4c28debb3e73b0724c6.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11530,7 +11605,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.ERjtz7GPR72qyhwDjRoEiQHaI1&pid=15.1",
+      "image_full_url": "https://fast.clickbooq.com/270674-836/4064974017IntP4-lg.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11542,7 +11620,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.B8_UulX93vXdGI-ZE4Q_JgHaHa&pid=15.1",
+      "image_full_url": "https://www.wendys.com/sites/default/files/styles/max_650x650/public/2021-05/daves-triple-143_medium_US_en_0.png?itok=Nj4DPiCI"
     },
     {
       "restaurant": "Wendy's",
@@ -11554,7 +11635,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.ptjzKjD2B_7N3P79CRfiyAHaJ4&pid=15.1",
+      "image_full_url": "https://photos.prnewswire.com/prnfull/20150626/226107"
     },
     {
       "restaurant": "Wendy's",
@@ -11566,7 +11650,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.jGrvFAgh69JjhFUm-f4a6QHaF7&pid=15.1",
+      "image_full_url": "https://tb-static.uber.com/prod/image-proc/processed_images/ff47b532d53aca7d4f58f05f29648415/30be7d11a3ed6f6183354d1933fbb6c7.jpeg"
     },
     {
       "restaurant": "Wendy's",
@@ -11578,7 +11665,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.0J6UBGy9IgN7qbqhSm_slwHaD8&pid=15.1",
+      "image_full_url": "https://imgix.ranker.com/user_node_img/50054/1001065736/original/big-bacon-classic-photo-u1?auto=format&q=60&fit=crop&fm=pjpg&dpr=2&w=650"
     },
     {
       "restaurant": "Wendy's",
@@ -11590,7 +11680,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.xMIqPJRBoh-SPaE-3bNJ_QHaEK&pid=15.1",
+      "image_full_url": "https://wendymenu.com/wp-content/uploads/2024/12/Wendys-Jr.-Bacon-Cheeseburger.webp"
     },
     {
       "restaurant": "Wendy's",
@@ -11602,7 +11695,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.xMIqPJRBoh-SPaE-3bNJ_QHaEK&pid=15.1",
+      "image_full_url": "https://wendymenu.com/wp-content/uploads/2024/12/Wendys-Jr.-Bacon-Cheeseburger.webp"
     },
     {
       "restaurant": "Wendy's",
@@ -11614,7 +11710,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.RKi_pNNJqTl7UzfBkytUewHaLU&pid=15.1",
+      "image_full_url": "https://mma.prnewswire.com/media/456787/The_Wendys_Company_Double_Stack_4_FOR_4.jpg?p=facebook"
     },
     {
       "restaurant": "Wendy's",
@@ -11626,7 +11725,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.r_Bhu_OJsfeIVY29iQiFAgHaHa&pid=15.1",
+      "image_full_url": "https://wendys.com.ph/cdn/shop/files/classicchickensandwich_solo.jpg?v=1692066230&width=720"
     },
     {
       "restaurant": "Wendy's",
@@ -11638,7 +11740,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.g5KjGXFNUA8t5qF1Y-SHjQHaEU&pid=15.1",
+      "image_full_url": "https://www.qsrmagazine.com/wp-content/uploads/2024/11/wendysgraphic.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11650,7 +11755,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.EdWkdtKcZ1y0Jd7wFUs9uwHaHa&pid=15.1",
+      "image_full_url": "https://chefstandards.com/wp-content/uploads/2025/02/Asiago-Ranch-Chicken-Club.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11662,7 +11770,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.HeLUXBZnyRU-WdP1skdT_wHaFa&pid=15.1",
+      "image_full_url": "https://wendys.com.ph/cdn/shop/files/CrispyChickenSandwich_1_c4f00f77-2343-45aa-a41a-8617378a7aab.jpg?v=1721127190"
     },
     {
       "restaurant": "Wendy's",
@@ -11674,7 +11785,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.loCqTOTGhhodVhHrjFUGWAHaEK&pid=15.1",
+      "image_full_url": "https://wendymenu.com/wp-content/uploads/2025/01/Wendys-Crispy-Chicken-BLT.webp"
     },
     {
       "restaurant": "Wendy's",
@@ -11686,7 +11800,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.8ifp6Xvcsa6DefA_pmhYsAHaFj&pid=15.1",
+      "image_full_url": "https://www.allrecipes.com/thmb/8jJQNqgDEemIfzMGBKLOox789rY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-wendys-nuggets-4x3-7786aed6b3af48cb88da1e1f673e0757.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11698,7 +11815,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.oh5DNwhTkQqvqHgjU_M8QwHaHa&pid=15.1",
+      "image_full_url": "https://image.zmenu.com/large/3250/20140409145241076856.png"
     },
     {
       "restaurant": "Wendy's",
@@ -11710,7 +11830,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.-HGSz1cWDlT7dwGrAsSsBwAAAA&pid=15.1",
+      "image_full_url": "https://fastfoodnutrition.org/item-photos/400x400/5598.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11722,7 +11845,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.0CRx_1nC33tVeSVoG-rnfgHaEW&pid=15.1",
+      "image_full_url": "https://buycheapchickennuggetsonline.weebly.com/uploads/4/3/1/6/43167877/s966489712541374703_p2_i1_w640.png"
     },
     {
       "restaurant": "Wendy's",
@@ -11734,7 +11860,10 @@
       "vegetarian": false,
       "healthy": true,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.04FqZQw94Z7JYrIl0TB4xAHaFb&pid=15.1",
+      "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/03/Wendys-new-cobb-salad.jpg?quality=82&strip=1"
     },
     {
       "restaurant": "Wendy's",
@@ -11746,7 +11875,10 @@
       "vegetarian": false,
       "healthy": true,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.Re3mutkLlr3T1vQ3dhIl6wHaEK&pid=15.1",
+      "image_full_url": "https://eatlikefit.com/wp-content/uploads/2025/11/Wendys-Apple-Pecan-Salad-1024x576.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11758,7 +11890,10 @@
       "vegetarian": false,
       "healthy": true,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.-ZxevzE9n1LkJVAlGQMwrgHaD3&pid=15.1",
+      "image_full_url": "https://www.wendys.com/sites/default/files/styles/max_1300x1300/public/2022-03/Wendy's-New-Salad-Parmesan-Caesar-Chicken-Salad_0.jpeg?itok=PXJldnbl"
     },
     {
       "restaurant": "Wendy's",
@@ -11770,7 +11905,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.xQhZJNXxvwjYRjjD-dzxFwHaFj&pid=15.1",
+      "image_full_url": "https://3.bp.blogspot.com/-h_WI4izuusg/WBiSSnOad1I/AAAAAAAAygY/kyQGRNAMlrQg3QygJ7l_QcFmoxiHd-9kACLcB/s640/wendys-taco-salad-01.JPG"
     },
     {
       "restaurant": "Wendy's",
@@ -11782,7 +11920,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.explicit.bing.net/th?id=OIP.4MJad5tEKlLeBlQTPpWuJwHaHa&pid=15.1",
+      "image_full_url": "https://www.wendys.com/sites/default/files/styles/max_650x650/public/2021-05/fries-medium-22_medium_US_en.png?itok=oZZGj9O2"
     },
     {
       "restaurant": "Wendy's",
@@ -11794,7 +11935,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.XcyErYg3TGQOQSEe2uIIhAHaJ4&pid=15.1",
+      "image_full_url": ""
     },
     {
       "restaurant": "Wendy's",
@@ -11806,7 +11950,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.a4_PqW7wPvLzpNtXo1qx2gHaGp&pid=15.1",
+      "image_full_url": "https://www.cheapism.com/wp-content/uploads/2025/07/wendys-cheese-fries.original-726x651.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11818,7 +11965,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.QvHEsTZVXAyjSokaYYntJgHaJ4&pid=15.1",
+      "image_full_url": "https://i.redd.it/zlsusal0dyj91.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11830,7 +11980,10 @@
       "vegetarian": false,
       "healthy": true,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.bUmxynF07E9i5eTON2Py0wHaD4&pid=15.1",
+      "image_full_url": "https://feastgood.com/wp-content/uploads/2022/09/small-chili-240-calories-1024x536.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11842,7 +11995,10 @@
       "vegetarian": false,
       "healthy": true,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.Aq786QQ4JKeXcCUTGN6t0wHaIF&pid=15.1",
+      "image_full_url": "https://i.redd.it/j707bz8hkpv31.png"
     },
     {
       "restaurant": "Wendy's",
@@ -11854,7 +12010,10 @@
       "vegetarian": true,
       "healthy": true,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.HE7XPFnshvI42gieY9gWKAHaHa&pid=15.1",
+      "image_full_url": "https://isitclean.org/wp-content/uploads/2023/11/wendys-plain-baked-potato.webp"
     },
     {
       "restaurant": "Wendy's",
@@ -11866,7 +12025,10 @@
       "vegetarian": true,
       "healthy": true,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.QHHgeP8odSTxcmOi4rFqzgHaEK&pid=15.1",
+      "image_full_url": "https://wendymenuusa.com/wp-content/uploads/2026/05/Wendys-Sour-Cream-And-Chive-Baked-Potato.webp"
     },
     {
       "restaurant": "Wendy's",
@@ -11878,7 +12040,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.KE__9dnwQwmXm1y2LuKs1wHaE8&pid=15.1",
+      "image_full_url": "https://www.rd.com/wp-content/uploads/2019/11/wendys-potato-collage.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11890,7 +12055,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.i2s7S2iIjClybFnjy25CpQHaHa&pid=15.1",
+      "image_full_url": "https://wendys.bs/wp-content/uploads/2022/10/27_medium_US_en.png"
     },
     {
       "restaurant": "Wendy's",
@@ -11902,7 +12070,10 @@
       "vegetarian": true,
       "healthy": true,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.IoRwBGs6JPxet3DnjRObzgHaD4&pid=15.1",
+      "image_full_url": "https://fastmenu.org/wp-content/uploads/2022/08/Apple-Slices-at-Wendys-960x504.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11914,7 +12085,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.vDK-8fo2IO8sp-O6enpC6QHaHa&pid=15.1",
+      "image_full_url": "https://www.wendys.com/sites/default/files/styles/max_650x650/public/2021-05/breakfast-baconator-826_medium_US_en.png?itok=OHaD6TU-"
     },
     {
       "restaurant": "Wendy's",
@@ -11926,7 +12100,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.85qXbC6F62ME3Zad6jkj9AHaFw&pid=15.1",
+      "image_full_url": "https://livingonthecheap.com/lotc-cms/wp-content/uploads/2021/11/Wendys-Sausage-Egg-Cheese-Biscuit-scaled-e1636318803133-1024x796.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11938,7 +12115,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.90BS2k5FGm8RDP5xl0O2BAHaF7&pid=15.1",
+      "image_full_url": "https://parade.com/.image/t_share/MjA3MzMxNTE2NzczMDQ5NzU5/wendys-bacon-egg-and-cheese-biscuit.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11950,7 +12130,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.p9c3Z-kdqm9tb7KcreOB4AAAAA&pid=15.1",
+      "image_full_url": "https://wendys.ky/wp-content/uploads/2020/12/Honey-Butter-Chicken-Biscuit-440x440.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11962,7 +12145,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.N4oiNdw17weIKizqTyoztAHaHa&pid=15.1",
+      "image_full_url": "https://wendys.bs/wp-content/uploads/2022/10/2764_medium_US_en.png"
     },
     {
       "restaurant": "Wendy's",
@@ -11974,7 +12160,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.I8f6FjovW1NxHY7-xjisQgHaHa&pid=15.1",
+      "image_full_url": "https://wendys.ky/wp-content/uploads/2019/03/sausage-egg-croissant-combo.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -11986,7 +12175,10 @@
       "vegetarian": false,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.54Uc7V74AOuvdMrgrwZ7nQHaHa&pid=15.1",
+      "image_full_url": "https://wendys.ky/wp-content/uploads/2020/10/image.jpeg"
     },
     {
       "restaurant": "Wendy's",
@@ -11998,7 +12190,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.tjf-3uksOc_sQXQwvdsdrgHaEK&pid=15.1",
+      "image_full_url": "https://wendymenu.com/wp-content/uploads/2024/10/Wendys-Egg-and-Cheese-Biscuit-Combo.webp"
     },
     {
       "restaurant": "Wendy's",
@@ -12010,7 +12205,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.CYDuX9XYV_R4PvoArzRA3wHaFj&pid=15.1",
+      "image_full_url": "https://1.bp.blogspot.com/-5XIwHGXEM-E/XnvFf50LeNI/AAAAAAABKz0/bEryjwKUP70AJ9wYFLWWB6aeL_5-be3MgCLcBGAsYHQ/s640/wendys-seasoned-fries-01.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -12022,7 +12220,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.GsjZI4lLNuPys-9PdPVdJwHaFS&pid=15.1",
+      "image_full_url": "https://www.wendys.com/sites/default/files/styles/max_1300x1300/public/2024-02/Cinnabon_1011x0721-02.png?itok=-xKBCCZY"
     },
     {
       "restaurant": "Wendy's",
@@ -12034,7 +12235,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.ifzhfLwanveyjxKFVfn3WAAAAA&pid=15.1",
+      "image_full_url": "https://fastfoodnutrition.org/item-photos/400x400/562_s.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -12046,7 +12250,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.zlG6PPhsmVPepf9W0y_O6QHaHa&pid=15.1",
+      "image_full_url": "https://www.wendys.com/sites/default/files/styles/max_650x650/public/2021-05/jr-chocolate-frosty-37_medium_US_en.png?itok=Ea5g2v80"
     },
     {
       "restaurant": "Wendy's",
@@ -12058,7 +12265,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.SxIrWSNsm7-8etDu0Pg_QQHaHe&pid=15.1",
+      "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTzYuSeKManO8TeO5pF8Li8uTYj1CJWIXhB7QG49kdJh9j43ZKE_kYt0_XUxsunKIQIV-D3nVNrlr0pTHrthV99ajYL8HKGF83JADq57QajOhaMZ8BJuf_-iG77VTYvQ025WD7IKvLp4o/s1600/wendys-frosty-chocolate-and-vanilla.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -12070,7 +12280,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.nBGSpEqS-loq8w_TwzLdawHaFj&pid=15.1",
+      "image_full_url": "https://www.cheapism.com/wp-content/uploads/2024/04/chocolate-chip-chunk-cookie-wendys.original-scaled.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -12082,7 +12295,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.ttwLlhTx-9pmMLgRv9Px-AHaFj&pid=15.1",
+      "image_full_url": "https://www.cheapism.com/wp-content/uploads/2024/04/sugar-cookie-wendys.original-scaled.jpg"
     },
     {
       "restaurant": "Wendy's",
@@ -12094,7 +12310,10 @@
       "vegetarian": true,
       "healthy": false,
       "_added_at": "2026-10-15T23:08:43.879366+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.Qtiwr8ie59hl4RYm3QqwfwHaLG&pid=15.1",
+      "image_full_url": "https://giadzy.com/cdn/shop/articles/20161203_005743_10358_2820_1024x1024.jpg?v=1654829690"
     }
   ],
   "restaurants": {
@@ -12224,5 +12443,5 @@
     "Texas Roadhouse",
     "Wendy's"
   ],
-  "updated_at": "2026-10-15T23:18:16.420719+00:00"
+  "updated_at": "2026-10-15T23:24:11.715597+00:00"
 }
