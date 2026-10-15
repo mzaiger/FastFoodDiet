@@ -596,13 +596,14 @@
     line-height:1;
   }
   .deliv:hover{ opacity:.75; }
-  /* The three delivery icons sit in one group; this gap is the space from an
+  /* The three delivery icons sit in one group under the calories / cost / serving; this gap is the space from an
      icon's arrow to the next icon: 13.3px (about 66% more than before). */
   .deliv-group{
-    display:inline-flex;
+    display:flex;
     align-items:center;
-    gap:17.3px;
-    margin-left:2px;
+    justify-content:flex-end;
+    gap:13.3px;
+    margin-top:6px;
   }
   .deliv-ic{
     display:block;
@@ -1595,8 +1596,9 @@ function mealRow(slot, meal, canRegenerate, dayIndex){
       <div class="meal-cal">${calories} cal*</div>
       <div class="meal-price">${priceDisplay}</div>
       <div class="meal-serving">Serving: ${servingsPerContainer}</div>
+      ${deliveryLinksHtml(meal)}
     </div>
-    <div class="meal-actions">${pickBtn}${regenBtn}${deliveryLinksHtml(meal)}</div>
+    <div class="meal-actions">${pickBtn}${regenBtn}</div>
   `;
   return row;
 }
