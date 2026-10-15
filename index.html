@@ -571,7 +571,7 @@
     display:flex;
     flex-wrap:nowrap;
     align-items:center;
-    gap:6.6px;
+    gap:4px;
   }
 
   /* Very narrow phones: not enough width for all four, so let them wrap. */
@@ -587,8 +587,8 @@
   .deliv{
     display:inline-flex;
     align-items:center;
-    gap:3.3px;
-    padding:3.3px;
+    gap:2px;
+    padding:2px;
     color:var(--steel-deep);
     font-size:12px;
     font-weight:700;
@@ -596,6 +596,8 @@
     line-height:1;
   }
   .deliv:hover{ opacity:.75; }
+  /* Extra room between the three delivery icons only (about 66% more than before). */
+  .deliv + .deliv{ margin-left:5.3px; }
   .deliv-ic{
     display:block;
     width:22px;
