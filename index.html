@@ -571,7 +571,7 @@
     display:flex;
     flex-wrap:nowrap;
     align-items:center;
-    gap:4px;
+    gap:6.6px;
   }
 
   /* Very narrow phones: not enough width for all four, so let them wrap. */
@@ -587,28 +587,21 @@
   .deliv{
     display:inline-flex;
     align-items:center;
-    gap:3px;
-    padding:2px 6px 2px 2px;
-    border:1px solid var(--line);
-    border-radius:3px;
-    background:var(--frost);
+    gap:3.3px;
+    padding:3.3px;
     color:var(--steel-deep);
     font-size:12px;
     font-weight:700;
     text-decoration:none;
     line-height:1;
   }
-  .deliv:hover{ border-color:var(--steel); }
+  .deliv:hover{ opacity:.75; }
   .deliv-ic{
     display:block;
     width:22px;
     height:22px;
     border-radius:4px;
-    background-size:cover;
   }
-  .deliv-dd{ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23FF3008'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-weight='900' font-size='26' fill='white'%3ED%3C/text%3E%3C/svg%3E"); }
-  .deliv-gh{ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23F63440'/%3E%3Ctext x='20' y='30' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-weight='900' font-size='28' fill='white'%3Eg%3C/text%3E%3C/svg%3E"); }
-  .deliv-ue{ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23000'/%3E%3Ctext x='20' y='27' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-weight='900' font-size='17' fill='%2306C167'%3EUE%3C/text%3E%3C/svg%3E"); }
 
   .meal-money .meal-serving{ margin-left:auto; }
 
@@ -1546,17 +1539,17 @@ function updateBudgetSummary(capActive, maxPrice, overCapCount, capFallback, hea
   }
 }
 
-// Delivery-app search links: restaurant + item go into each app's search URL.
-// Only the icon is shown (the app name is in the tooltip / screen-reader label).
+// Delivery-app search links: the restaurant name goes into each app's search URL.
+// Only the site's favicon is shown (the app name is in the tooltip / screen-reader label).
 function deliveryLinksHtml(meal){
-  const query = encodeURIComponent((getMealBrand(meal) + ' ' + (meal.PRODUCT_NAME || meal.name || '')).trim());
+  const query = encodeURIComponent(getMealBrand(meal));
   const apps = [
-    ['deliv-dd', 'DoorDash',  `https://www.doordash.com/search/store/${query}/`],
-    ['deliv-ue', 'Uber Eats', `https://www.ubereats.com/search?q=${query}`],
-    ['deliv-gh', 'Grubhub',   `https://www.grubhub.com/search?queryText=${query}`]
+    ['doordash.com', 'DoorDash',  `https://www.doordash.com/search/store/${query}/`],
+    ['ubereats.com', 'Uber Eats', `https://www.ubereats.com/search?q=${query}`],
+    ['grubhub.com', 'Grubhub',   `https://www.grubhub.com/search?queryText=${query}`]
   ];
-  return apps.map(([cls, label, url]) =>
-    `<a class="deliv" href="${url}" target="_blank" rel="noopener noreferrer" title="Search ${label}" aria-label="Search ${label}"><span class="deliv-ic ${cls}"></span><span aria-hidden="true">&rarr;</span></a>`
+  return apps.map(([domain, label, url]) =>
+    `<a class="deliv" href="${url}" target="_blank" rel="noopener noreferrer" title="Search ${label}" aria-label="Search ${label}"><img class="deliv-ic" src="https://www.google.com/s2/favicons?domain=${domain}&sz=64" alt="" width="22" height="22" loading="lazy" referrerpolicy="no-referrer" /><span aria-hidden="true">&rarr;</span></a>`
   ).join('');
 }
 
