@@ -1393,12 +1393,10 @@ async function loadPool(){
 
 // Meals per day by calorie target: breakfast, lunch and dinner, plus a late
 // night meal (a dessert / slush / shake / malt) once the target is high enough.
-//  up to 2000    -> 3 meals
-//  over 2000     -> 4 meals (+ late night)
-// With "Healthy" on, items run lower calorie, so the late night meal kicks in
-// earlier: 3 meals up to 1500, 4 meals above 1500.
+//  General:      up to 2800 -> 3 meals,  over 2800 -> 4 meals (+ late night)
+//  With Healthy: up to 2300 -> 3 meals,  over 2300 -> 4 meals (+ late night)
 function getMealSlotsForTarget(target, healthyOnly){
-  const lateNightFrom = healthyOnly ? 1500 : 2000;
+  const lateNightFrom = healthyOnly ? 2300 : 2800;
   if(target > lateNightFrom){
     return { breakfastSlots: ['breakfast'], generalSlots: ['lunch', 'dinner', 'late night'] };
   }
