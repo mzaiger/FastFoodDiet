@@ -4,25 +4,30 @@ Lazy Man's Fast Food Diet Plan -- daily meal puller.
 What it does, once per run (the GitHub Action runs it daily):
 
   1. Asks Gemini 3.8 Flash for menu items from the 20 approved restaurants
-     below -- ONE restaurant per call, and each call asks for BOTH a
-     "breakfast" category and a "regular" category. Each call also gets the
-     names already on file for that restaurant, so Gemini is asked for NEW
-     items only; the JSON grows a little more every day.
+     below -- ONE restaurant per call. Each item comes back tagged as
+     "breakfast", "regular" or "dessert" (desserts, slushes, shakes, malts --
+     the planner only uses these as late night), plus a "healthy" yes/no and a
+     "vegetarian" yes/no. Beverages and dips/sauces are excluded. Each call
+     also gets the names already on file for that restaurant, so Gemini is
+     asked for NEW items only; the JSON grows a little more every day.
   2. For every new meal, stores cost, calories and serving (as Gemini
      estimates them -- these are AI estimates, not live menu data).
-  3. Searches DuckDuckGo Images for each meal that has no picture yet and
-     stores the image URL in the JSON.
+  3. Searches DuckDuckGo Images (at most 250 searches per run, because DDG
+     rate-limits) for meals that have no picture yet and stores the image URL.
   4. Writes everything to meals.json, which index.html and products.html read.
 
-Daily limit: Gemini 3.8 Flash's free tier is treated as 20 requests/day
-(MAX_GEMINI_CALLS_PER_DAY). With 20 restaurants that is one full sweep per
-day. Calls used are counted in meals.json against the Pacific-time day (the
-day Google's quota resets on), so re-running the script manually the same day
-can't blow past the limit. Restaurants are visited oldest-pulled first, so if
-a run ends early (rate limit, error) the next run picks up where it left off.
+Resuming after errors: Gemini often answers 503 ("overloaded"). meals.json
+keeps a "pending" list of restaurants not yet pulled in the current pass.
+A restaurant only leaves that list after a successful pull, so the next run
+starts exactly where this one left off. When the list empties, a fresh pass
+over all 20 begins.
+
+Daily limit: Gemini 3.8 Flash is treated as 20 successful requests/day
+(MAX_GEMINI_CALLS_PER_DAY), counted against the Pacific-time day (the day
+Google's quota resets on). Failed 503s are not counted.
 
 Env var required: GEMINI_KEY  (missing -> the run is skipped, exit 0)
-Optional env vars: MAX_GEMINI_CALLS (default 20), MAX_IMAGE_SEARCHES (default 250)
+Optional env var: MAX_GEMINI_CALLS (default 20)
 
 Run locally:  GEMINI_KEY=xxxx python pull_meals.py
 Dependencies: pip install requests ddgs
@@ -64,10 +69,11 @@ MAX_NEW_MEALS_PER_CALL = 60       # asked for per restaurant per call
 KNOWN_NAMES_SENT_PER_CALL = 250   # already-known meal names sent so Gemini skips them
 MIN_CALL_INTERVAL_SECONDS = 8     # stays well under per-minute limits
 GEMINI_TIMEOUT_SECONDS = 120
-GEMINI_MAX_RETRIES = 3            # network errors / 5xx only
-GEMINI_RETRY_DELAY_SECONDS = 30
+GEMINI_MAX_RETRIES = 3            # network errors / 5xx only, per restaurant attempt
+GEMINI_RETRY_DELAY_SECONDS = 15
+RETRY_PASS_DELAY_SECONDS = 60     # pause before the one extra pass over restaurants that failed
 
-MAX_IMAGE_SEARCHES_PER_RUN = int(os.environ.get("MAX_IMAGE_SEARCHES", "250"))
+MAX_IMAGE_SEARCHES_PER_RUN = 250  # hard cap per run -- DuckDuckGo rate-limits
 IMAGE_SEARCH_DELAY_SECONDS = 1.5
 IMAGE_MAX_ATTEMPTS_PER_MEAL = 3   # then give up on that meal's picture
 IMAGE_RATELIMIT_STRIKES = 4       # consecutive failures -> stop image phase this run
@@ -102,7 +108,7 @@ RESTAURANTS = [
 ]
 RESTAURANT_NAMES = [r["name"] for r in RESTAURANTS]
 
-CATEGORIES = ("breakfast", "regular")
+CATEGORIES = ("breakfast", "regular", "dessert")
 
 PROMPT = """You are building a menu database for a calorie-counting meal planner.
 
@@ -111,17 +117,23 @@ This restaurant is a U.S. national chain. {availability}
 
 List as many DIFFERENT menu items as you can that are (or were recently) sold on the standard U.S. menu of {restaurant} -- and ONLY {restaurant}. Never include items from any other restaurant, and never invent items. If you are not confident an item exists, leave it out.
 
-Sort every item into one of two categories:
+Sort every item into one of three categories:
 - "breakfast": items sold as part of the breakfast menu (breakfast sandwiches, burritos, bowls, platters, pancakes, oatmeal, breakfast pastries, etc.). Many restaurants have none -- then return no breakfast items.
-- "regular": everything else you would eat as a meal or a real portion: entrees, sandwiches, burgers, wraps, bowls, pizzas (one slice or the standard single serving, not the whole party-size pizza), salads, chicken meals, sides worth counting (fries, breadsticks, soup, etc.), desserts and calorie-bearing drinks such as shakes or blended drinks. Skip plain water, plain coffee/tea, condiments, sauces and individual toppings.
+- "dessert": desserts, ice cream, sundaes, Blizzards, cookies, pies, brownies, cinnamon rolls, slushes/frozen slushies, milkshakes, malts, and sweet blended frozen drinks (such as Frappuccinos).
+- "regular": everything else you would eat as a meal or a real portion: entrees, sandwiches, burgers, wraps, bowls, pizzas (one slice or the standard single serving, not the whole party-size pizza), salads, chicken meals, and sides worth counting (fries, breadsticks, soup, etc.).
+
+DO NOT include:
+- Beverages of any kind (soda, water, coffee, tea, juice, lemonade, hot chocolate, smoothies and other drinks) -- the only drinks allowed are slushes, shakes, malts and sweet blended frozen drinks, which count as "dessert".
+- Dips, sauces, dressings, condiments, toppings and add-ons.
 
 For each item give:
 - "name": the menu name, e.g. "Big Mac" (do not include the restaurant name)
-- "category": "breakfast" or "regular"
-- "calories": calories for ONE serving exactly as that item is normally ordered (whole sandwich, one slice, one standard side) -- an integer
+- "category": "breakfast", "regular" or "dessert"
+- "calories": calories for ONE serving exactly as that item is normally ordered (whole sandwich, one slice, one standard side, one regular-size shake) -- an integer
 - "price": typical U.S. menu price in dollars for that single item (not a combo meal unless the item IS a combo) -- a number such as 6.49. This is an estimate; prices vary by location.
 - "serving": a short description of what one serving is, e.g. "1 sandwich", "2 slices", "medium fries", "1 bowl (14 oz)"
 - "vegetarian": true only if the item as normally served has no meat, poultry or fish
+- "healthy": true only if a reasonable dietitian would call it one of the healthier choices on this menu -- for example grilled or lean protein, salads and veggie-forward bowls, oatmeal, fruit, or a lower-calorie item that is not deep-fried and not heavy on sugar or cheese. Desserts, shakes, fried items and heavy combo-style items are normally false.
 
 Return at most {max_items} items, best-known and most-ordered first. Do NOT include any item whose name appears in the ALREADY KNOWN list below (treat small spelling differences as the same item). If you cannot find any more genuinely new items, return fewer -- or an empty array.
 
@@ -141,14 +153,19 @@ RESPONSE_SCHEMA = {
             "price": {"type": "NUMBER"},
             "serving": {"type": "STRING"},
             "vegetarian": {"type": "BOOLEAN"},
+            "healthy": {"type": "BOOLEAN"},
         },
-        "required": ["name", "category", "calories", "price", "serving", "vegetarian"],
+        "required": ["name", "category", "calories", "price", "serving", "vegetarian", "healthy"],
     },
 }
 
 
 def log(msg):
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}", file=sys.stderr, flush=True)
+
+
+# Counts HTTP 200 answers from Gemini (those use up daily quota; 503s do not).
+_stats = {"ok_responses": 0}
 
 
 class QuotaExceeded(RuntimeError):
@@ -181,6 +198,7 @@ def load_store(path):
     store.setdefault("meals", [])
     store.setdefault("restaurants", {})
     store.setdefault("quota", {"date": "", "gemini_calls": 0})
+    store.setdefault("pending", [])   # restaurants still to pull in the current pass, in order
     # Keep the published restaurant list (and exclusions) in the JSON in sync
     # with this script so the web page always shows what the script uses.
     for r in RESTAURANTS:
@@ -280,6 +298,7 @@ def call_model(prompt, key, model, limiter):
             time.sleep(GEMINI_RETRY_DELAY_SECONDS)
             continue
 
+        _stats["ok_responses"] += 1
         try:
             data = resp.json()
             parts = data["candidates"][0]["content"]["parts"]
@@ -353,6 +372,7 @@ def clean_meal(raw, restaurant):
         "price": price,
         "serving": serving,
         "vegetarian": bool(raw.get("vegetarian")),
+        "healthy": bool(raw.get("healthy")) and category != "dessert",
     }
 
 
@@ -442,68 +462,110 @@ def main():
         f"({by_cat['breakfast']} breakfast, {by_cat['regular']} regular).")
 
 
+def pull_one(store, restaurant, key, limiter, known):
+    """One Gemini call for one restaurant. Returns the number of meals added,
+    or None if the call failed (the restaurant then stays in the pending list)."""
+    known_names = [m["name"] for m in store["meals"] if m["restaurant"] == restaurant]
+    prompt = build_prompt(restaurant, known_names)
+    before = _stats["ok_responses"]
+    try:
+        raw_items, model_used = ask_gemini(prompt, key, limiter)
+    finally:
+        # Only answers Google actually served count toward the daily limit.
+        store["quota"]["gemini_calls"] += _stats["ok_responses"] - before
+
+    now = datetime.now(timezone.utc).isoformat()
+    added = rejected = dupes = 0
+    for raw in raw_items:
+        meal = clean_meal(raw, restaurant)
+        if meal is None:
+            rejected += 1
+            continue
+        k = meal_key(restaurant, meal["name"])
+        if k in known:
+            dupes += 1
+            continue
+        known.add(k)
+        meal["_added_at"] = now
+        meal["_model"] = model_used
+        store["meals"].append(meal)
+        added += 1
+    store["restaurants"][restaurant]["last_pulled"] = now
+    log(f"  {restaurant}: +{added} new, {dupes} already known, {rejected} rejected "
+        f"({len(raw_items)} returned).")
+    return added
+
+
 def pull_meals(store, key, out_path):
     today = pacific_today()
     quota = store["quota"]
     if quota.get("date") != today:
         quota["date"], quota["gemini_calls"] = today, 0
-    remaining = MAX_GEMINI_CALLS_PER_DAY - quota["gemini_calls"]
-    if remaining <= 0:
+    budget = MAX_GEMINI_CALLS_PER_DAY - quota["gemini_calls"]
+    if budget <= 0:
         log(f"Daily limit reached ({MAX_GEMINI_CALLS_PER_DAY} Gemini calls on {today} Pacific) "
             f"-- no meals pulled this run.")
         return
 
-    # Oldest-pulled restaurants first (never-pulled ones have "" and sort first).
-    order = sorted(RESTAURANT_NAMES, key=lambda n: store["restaurants"][n].get("last_pulled", ""))
-    targets = order[:remaining]
-    log(f"Gemini: {remaining} call(s) left today; visiting {len(targets)} restaurant(s) "
-        f"with {GEMINI_MODELS[0]}.")
+    # Resume where the last run left off: "pending" holds the restaurants not yet
+    # pulled in the current pass. Empty (or first run) -> start a fresh pass.
+    pending = [n for n in store.get("pending", []) if n in RESTAURANT_NAMES]
+    if not pending:
+        pending = list(RESTAURANT_NAMES)
+    store["pending"] = pending
+    log(f"Gemini: {budget} call(s) left today. Resuming at {pending[0]} "
+        f"({len(pending)} restaurant(s) left in this pass).")
 
     known = {meal_key(m["restaurant"], m["name"]) for m in store["meals"]}
     limiter = _RateLimiter(MIN_CALL_INTERVAL_SECONDS)
-    added_total = 0
+    queue = list(pending)
+    failed, retried = [], False
+    successes = attempts = added_total = 0
+    max_attempts = budget * 2          # failures can't make this loop forever
 
-    for n, restaurant in enumerate(targets, start=1):
-        known_names = [m["name"] for m in store["meals"] if m["restaurant"] == restaurant]
-        prompt = build_prompt(restaurant, known_names)
+    while quota["gemini_calls"] < MAX_GEMINI_CALLS_PER_DAY and attempts < max_attempts:
+        if not queue:
+            if failed and not retried:
+                retried = True
+                log(f"  {len(failed)} restaurant(s) failed -- waiting {RETRY_PASS_DELAY_SECONDS}s "
+                    f"for one more try: {', '.join(failed)}")
+                time.sleep(RETRY_PASS_DELAY_SECONDS)
+                queue, failed = failed, []
+                continue
+            if failed:
+                break                  # still failing; they stay at the front of "pending"
+            # Whole pass finished with quota to spare: start the next pass.
+            store["pending"] = pending = list(RESTAURANT_NAMES)
+            queue, retried = list(pending), False
+            log("Finished a full pass over all 20 restaurants -- starting another.")
+            continue
 
-        quota["gemini_calls"] += 1   # count before the call: a failed request may still burn quota
+        restaurant = queue.pop(0)
+        attempts += 1
         try:
-            raw_items, model_used = ask_gemini(prompt, key, limiter)
+            added = pull_one(store, restaurant, key, limiter, known)
         except QuotaExceeded as e:
-            log(f"  [{n}/{len(targets)}] {restaurant}: {e} -- stopping; the next run continues.")
+            log(f"  {restaurant}: {e} -- stopping; the next run continues here.")
             save_store(out_path, store)
             return
         except Exception as e:  # noqa: BLE001 -- one bad call shouldn't kill the run
-            log(f"  [{n}/{len(targets)}] {restaurant}: call failed ({e}); will retry on a later run.")
+            log(f"  {restaurant}: failed ({e}); it stays pending for the next try.")
+            failed.append(restaurant)
             save_store(out_path, store)
             continue
 
-        now = datetime.now(timezone.utc).isoformat()
-        added = rejected = dupes = 0
-        for raw in raw_items:
-            meal = clean_meal(raw, restaurant)
-            if meal is None:
-                rejected += 1
-                continue
-            k = meal_key(restaurant, meal["name"])
-            if k in known:
-                dupes += 1
-                continue
-            known.add(k)
-            meal["_added_at"] = now
-            meal["_model"] = model_used
-            store["meals"].append(meal)
-            added += 1
-
-        store["restaurants"][restaurant]["last_pulled"] = now
+        successes += 1
         added_total += added
-        log(f"  [{n}/{len(targets)}] {restaurant}: +{added} new, {dupes} already known, "
-            f"{rejected} rejected ({len(raw_items)} returned).")
-        save_store(out_path, store)  # progress survives an interrupted run
+        if restaurant in pending:
+            pending.remove(restaurant)
+        store["pending"] = pending
+        save_store(out_path, store)    # progress survives an interrupted run
 
-    log(f"Gemini: {added_total} new meal(s) added; {quota['gemini_calls']}/"
-        f"{MAX_GEMINI_CALLS_PER_DAY} calls used for {today} (Pacific).")
+    nxt = store["pending"][0] if store["pending"] else "(a fresh pass)"
+    log(f"Gemini: {successes} restaurant(s) pulled, {added_total} new meal(s); "
+        f"{quota['gemini_calls']}/{MAX_GEMINI_CALLS_PER_DAY} calls used for {today} (Pacific). "
+        f"Next run starts at: {nxt}.")
+    save_store(out_path, store)
 
 
 if __name__ == "__main__":

@@ -220,8 +220,8 @@
   }
 
   .col-img{ width:72px; }
-  .col-sku{ width:170px; }
   .col-cat{ width:110px; }
+  .col-links{ width:170px; }
   .col-num{ width:84px; white-space:nowrap; }
   .col-serving{ width:130px; }
   .col-pick{ display:none; width:96px; }
@@ -296,16 +296,13 @@
     line-height:1.2;
   }
 
-  .prod-sku{
-    font-size:12px;
-    font-weight:600;
-    color:var(--ink-soft);
-  }
-
   .prod-name{
     color:var(--ink);
     line-height:1.35;
   }
+
+  /* Restaurant name sits above the item name and reads as part of the name. */
+  .prod-brand{ display:block; }
 
   /* Breakfast / Regular pill. */
   .prod-cat-pill{
@@ -319,6 +316,37 @@
     color:var(--steel-deep);
   }
   .prod-cat-pill.breakfast{ background:#FFF4CC; border-color:#E3C55A; }
+  .prod-cat-pill.dessert{ background:#F6E3EE; border-color:#D9A9C4; }
+
+  /* Delivery-app search links: just the app's icon plus an arrow. */
+  .deliv{
+    display:inline-flex;
+    align-items:center;
+    gap:3px;
+    padding:2px 6px 2px 2px;
+    border:1px solid var(--line);
+    border-radius:3px;
+    background:var(--frost);
+    color:var(--steel-deep);
+    font-size:12px;
+    font-weight:700;
+    text-decoration:none;
+    line-height:1;
+  }
+  .deliv:hover{ border-color:var(--steel); }
+  .deliv-ic{
+    display:block;
+    width:22px;
+    height:22px;
+    border-radius:4px;
+    background-size:cover;
+  }
+  .deliv-dd{ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23FF3008'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-weight='900' font-size='26' fill='white'%3ED%3C/text%3E%3C/svg%3E"); }
+  .deliv-gh{ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23F63440'/%3E%3Ctext x='20' y='30' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-weight='900' font-size='28' fill='white'%3Eg%3C/text%3E%3C/svg%3E"); }
+  .deliv-ue{ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23000'/%3E%3Ctext x='20' y='27' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-weight='900' font-size='17' fill='%2306C167'%3EUE%3C/text%3E%3C/svg%3E"); }
+
+  .prod-links{ white-space:nowrap; }
+  .prod-links .deliv{ margin-right:4px; }
 
   .pager{
     display:flex;
@@ -406,10 +434,9 @@
       display:grid;
       grid-template-columns:64px auto auto minmax(0,1fr);
       grid-template-areas:
-        "img sku     sku   sku"
         "img name    name  name"
         "img cal     price serving"
-        "links links links links"
+        "cat cat     links links"
         "pick  pick  pick  pick";
       column-gap:12px;
       row-gap:4px;
@@ -418,12 +445,12 @@
     }
     td{ display:block; width:auto; padding:0; border:none; min-width:0; }
     .col-img{ grid-area:img; align-self:start; width:auto; }
-    .prod-sku{ grid-area:sku; }
     .prod-name{ grid-area:name; }
     .prod-cal{ grid-area:cal; }
     .prod-price{ grid-area:price; }
     .prod-serving{ grid-area:serving; }
-    td.prod-cat{ grid-area:links; margin-top:4px; }
+    td.prod-cat{ grid-area:cat; margin-top:4px; }
+    td.prod-links{ grid-area:links; margin-top:4px; }
     table.pick-mode .col-pick{ display:block; grid-area:pick; width:auto; margin-top:10px; }
     .select-btn{ width:100%; padding:12px 14px; font-size:15px; }
     .col-num, .col-serving{ width:auto; }
@@ -443,11 +470,12 @@
   </div>
 
   <div class="toolbar">
-    <input type="search" id="search-box" placeholder="Filter by meal or restaurant&hellip;" />
+    <input type="search" id="search-box" placeholder="Filter by item or restaurant&hellip;" />
     <select id="cat-filter" aria-label="Meal type">
       <option value="">All meals</option>
       <option value="breakfast">Breakfast</option>
       <option value="regular">Regular</option>
+      <option value="dessert">Dessert / late night</option>
     </select>
     <span class="count-label" id="count-label"></span>
   </div>
@@ -462,12 +490,12 @@
     <thead>
       <tr>
         <th class="col-img">Image</th>
-        <th class="col-sku">Restaurant</th>
-        <th>Meal</th>
+        <th>Item</th>
         <th class="col-num">Calories</th>
         <th class="col-num">Price</th>
         <th class="col-serving">Serving</th>
         <th class="col-cat">Type</th>
+        <th class="col-links">Order</th>
         <th class="col-pick">Pick</th>
       </tr>
     </thead>
@@ -508,7 +536,8 @@
   function getImageFallback(p){ return p.image_full_url || ''; }
   function getRestaurant(p){ return p.restaurant || ''; }
   function getName(p){ return p.name || 'Unnamed item'; }
-  function getCategory(p){ return p.category === 'breakfast' ? 'breakfast' : 'regular'; }
+  function getCategory(p){ return (p.category === 'breakfast' || p.category === 'dessert') ? p.category : 'regular'; }
+  const CATEGORY_LABELS = { breakfast: 'Breakfast', regular: 'Regular', dessert: 'Dessert' };
   function getCalories(p){
     const n = Number(p.calories);
     return (!isNaN(n) && n > 0) ? n : 0;
@@ -535,11 +564,12 @@
       PRODUCT_NAME: p.name,
       BRAND: p.restaurant,
       restaurant: p.restaurant,
-      CATEGORY: getCategory(p) === 'breakfast' ? 'Breakfast' : 'Regular',
+      CATEGORY: CATEGORY_LABELS[getCategory(p)],
       calories: p.calories,
       PRICE_CURRENT: p.price,
       servings_per_container: p.serving,
       vegetarian: p.vegetarian === true,
+      healthy: p.healthy === true,
       image_url: p.image_url || '',
       image_full_url: p.image_full_url || ''
     };
@@ -561,6 +591,20 @@
     window.location.href = 'index.html';
   }
 
+  // Delivery-app search links: restaurant + item go into each app's search URL.
+  // Only the icon is shown (the app name is in the tooltip / screen-reader label).
+  function deliveryLinksHtml(p){
+    const query = encodeURIComponent((getRestaurant(p) + ' ' + getName(p)).trim());
+    const apps = [
+      ['deliv-dd', 'DoorDash',  `https://www.doordash.com/search/store/${query}/`],
+      ['deliv-ue', 'Uber Eats', `https://www.ubereats.com/search?q=${query}`],
+      ['deliv-gh', 'Grubhub',   `https://www.grubhub.com/search?queryText=${query}`]
+    ];
+    return apps.map(([cls, label, url]) =>
+      `<a class="deliv" href="${url}" target="_blank" rel="noopener noreferrer" title="Search ${label}" aria-label="Search ${label}" onclick="event.stopPropagation()"><span class="deliv-ic ${cls}"></span><span aria-hidden="true">&rarr;</span></a>`
+    ).join('');
+  }
+
   function renderRow(p){
     const name = getName(p);
     const image = getImage(p);
@@ -578,12 +622,12 @@
     const tr = document.createElement('tr');
     tr.innerHTML = `
       <td class="col-img">${thumbImg}</td>
-      <td class="prod-sku">${escapeHtml(getRestaurant(p))}</td>
-      <td class="prod-name">${escapeHtml(name)}</td>
+      <td class="prod-name"><span class="prod-brand">${escapeHtml(getRestaurant(p))}</span>${escapeHtml(name)}</td>
       <td class="prod-num prod-cal">${cal ? cal + ' cal' : 'N/A'}</td>
       <td class="prod-num prod-price">${price ? '$' + price.toFixed(2) : 'N/A'}</td>
       <td class="prod-serving">${escapeHtml(serving)}</td>
-      <td class="prod-cat"><span class="prod-cat-pill ${category}">${category === 'breakfast' ? 'Breakfast' : 'Regular'}</span></td>
+      <td class="prod-cat"><span class="prod-cat-pill ${category}">${CATEGORY_LABELS[category]}</span></td>
+      <td class="prod-links">${deliveryLinksHtml(p)}</td>
       <td class="col-pick"><button type="button" class="select-btn">Select</button></td>
     `;
     if (pickRequest){

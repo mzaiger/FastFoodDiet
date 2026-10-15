@@ -537,17 +537,9 @@
 
   .meal-info{ flex:1; min-width:0; }
 
-  .meal-rest{
-    display:inline-block;
-    margin-top:4px;
-    padding:1px 7px;
-    font-size:11px;
-    font-weight:700;
-    color:var(--steel-deep);
-    background:var(--frost);
-    border:1px solid var(--line);
-    border-radius:10px;
-  }
+  /* Restaurant name sits above the item name and reads as part of the name
+     (same type as the item, no border or background). */
+  .meal-brand{ display:block; }
 
   .meal-slot{
     font-size:11px;
@@ -590,6 +582,33 @@
   .meal-money{
     text-align:right;
   }
+
+  /* Delivery-app search links: just the app's icon plus an arrow. */
+  .deliv{
+    display:inline-flex;
+    align-items:center;
+    gap:3px;
+    padding:2px 6px 2px 2px;
+    border:1px solid var(--line);
+    border-radius:3px;
+    background:var(--frost);
+    color:var(--steel-deep);
+    font-size:12px;
+    font-weight:700;
+    text-decoration:none;
+    line-height:1;
+  }
+  .deliv:hover{ border-color:var(--steel); }
+  .deliv-ic{
+    display:block;
+    width:22px;
+    height:22px;
+    border-radius:4px;
+    background-size:cover;
+  }
+  .deliv-dd{ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23FF3008'/%3E%3Ctext x='20' y='29' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-weight='900' font-size='26' fill='white'%3ED%3C/text%3E%3C/svg%3E"); }
+  .deliv-gh{ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23F63440'/%3E%3Ctext x='20' y='30' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-weight='900' font-size='28' fill='white'%3Eg%3C/text%3E%3C/svg%3E"); }
+  .deliv-ue{ background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='8' fill='%23000'/%3E%3Ctext x='20' y='27' text-anchor='middle' font-family='Arial,Helvetica,sans-serif' font-weight='900' font-size='17' fill='%2306C167'%3EUE%3C/text%3E%3C/svg%3E"); }
 
   .meal-money .meal-serving{ margin-left:auto; }
 
@@ -815,7 +834,7 @@
 
 <header>
   <h1>Lazy Man's Fast Food Diet Plan</h1>
-  <p class="sub">Seven days of meals pulled only from 20 national fast food chains — 3 to 5 meals a day depending on your calorie target, each day landing within 250 calories of goal. <a class="sub-link" href="#restaurants">See the restaurants</a></p>
+  <p class="sub">Seven days of meals pulled only from 20 national fast food chains — 3 to 4 meals a day depending on your calorie target, each day landing within 250 calories of goal. <a class="sub-link" href="#restaurants">See the restaurants</a></p>
 
   <div class="controls-wrap">
   <div class="controls">
@@ -861,6 +880,10 @@
       <input type="number" id="max-per-meal" value="6.00" min="0" max="50" step="0.25" disabled />
     </div>
     <div class="field diet-filters" style="--o-d:12; --o-m:14;">
+      <label class="diet-checkbox-label" for="healthy-only">
+        <input type="checkbox" id="healthy-only" />
+        <span>Healthy</span>
+      </label>
       <label class="diet-checkbox-label" for="vegetarian-only">
         <input type="checkbox" id="vegetarian-only" />
         <span>Vegetarian</span>
@@ -875,7 +898,7 @@
   </div>
   </div>
   <div class="budget-summary" id="budget-summary" style="display:none;"></div>
-  <div class="calc-note" id="calc-note"><span class="calc-star">*</span><span class="calc-text" id="calc-text">Restaurant pool is listed at the bottom of page.  Calories, prices and servings are estimates, last updated <strong id="data-date">&hellip;</strong>.<br>Menus and prices vary by location — always double-check at the restaurant.</span></div>
+  <div class="calc-note" id="calc-note"><span class="calc-star">*</span><span class="calc-text" id="calc-text">Calories, prices and servings are AI estimates (Gemini 3.8 Flash), last updated <strong id="data-date">&hellip;</strong>.<br>Menus and prices vary by location — always double-check at the restaurant.</span></div>
 </header>
 
 <main>
@@ -918,7 +941,7 @@
     <h2>Where the meals come from</h2>
     <p>Every meal in this plan comes from one of these 20 restaurants &mdash; nothing else is ever pulled in. They were picked because each one has locations in (nearly) all 50 states, so the plan works wherever you live. Where a chain is missing from a state, it&rsquo;s noted below.</p>
     <ul class="rest-list" id="rest-list"></ul>
-    <p class="rest-foot">Meal names, calories, prices and servings are estimated and refreshed daily, so the list keeps growing. Prices and menus differ by location.</p>
+    <p class="rest-foot">Meal names, calories, prices and servings are estimated by Gemini 3.8 Flash and refreshed daily, so the list keeps growing. Prices and menus differ by location.</p>
   </section>
 </main>
 
@@ -926,20 +949,25 @@
 const TOLERANCE = 250;
 const DAY_NAMES = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
 
-let pool = { generated_at: "", source: "", calories_source: "", breakfast: [], general: [] };
+let pool = { generated_at: "", breakfast: [], general: [], dessert: [] };
 
 // Live generated week (editable — supports per-meal regenerate).
 let currentWeek = [];
 let currentTargetGlobal = 1500;
 let activeBreakfastPool = [];
 let activeGeneralPool = [];
-let activeCapInfo = { capActive: false, maxPrice: 0, capFallback: false, vegetarianOnly: false, vegetarianFallback: false };
+let activeDessertPool = [];
+let activeCapInfo = { capActive: false, maxPrice: 0, capFallback: false, healthyOnly: false, vegetarianOnly: false, healthyFallback: false, vegetarianFallback: false };
 
-// Breakfast vs regular comes straight from the "category" Gemini assigns each
-// meal in meals.json. "Vegetarian" uses the vegetarian flag Gemini sets per meal.
-function isBreakfastItem(item){
-  return String(item.CATEGORY || item.category || '').toLowerCase() === 'breakfast';
+// Breakfast / regular / dessert come straight from the "category" Gemini assigns
+// each meal in meals.json. Desserts (desserts, slushes, shakes, malts) are only
+// ever used for the late night slot. "Vegetarian" and "Healthy" are yes/no flags
+// Gemini sets per meal.
+function categoryOf(item){
+  return String(item.CATEGORY || item.category || '').toLowerCase();
 }
+function isBreakfastItem(item){ return categoryOf(item) === 'breakfast'; }
+function isDessertItem(item){ return categoryOf(item) === 'dessert'; }
 
 function getMealBrand(meal){
   return (meal.BRAND || meal.restaurant || '').trim();
@@ -947,6 +975,10 @@ function getMealBrand(meal){
 
 function isVegetarianMeal(meal){
   return meal.vegetarian === true;
+}
+
+function isHealthyMeal(meal){
+  return meal.healthy === true;
 }
 
 // Weeks the user has saved to cookies, plus which tab is showing.
@@ -993,16 +1025,21 @@ function compactMeal(meal){
     servings: getMealServingsPerContainer(meal),
     restaurant: getMealBrand(meal),
     vegetarian: meal.vegetarian === true,
+    healthy: meal.healthy === true,
     image: getMealImage(meal) || null,
     imageFull: meal.image_full_url || meal.imageFull || null
   };
 }
 
-// Applies the max-per-meal cap (if any) to the raw pool, same rule used at
-// generation time and again when restoring the persisted current week.
-function computeActivePools(maxPrice, capActiveRequested, vegetarianOnly){
+// Applies the max-per-meal cap and the Healthy / Vegetarian filters (if any) to
+// the raw pools -- same rule at generation time and when restoring a saved week.
+// Each filter falls back (and says so) when too few meals would remain, rather
+// than leaving the week ungeneratable. Desserts (late night only) are only
+// price-capped: Gemini never marks a dessert healthy, so the diet filters skip them.
+function computeActivePools(maxPrice, capActiveRequested, healthyOnly, vegetarianOnly){
   let breakfastPool = pool.breakfast;
   let generalPool = pool.general;
+  let dessertPool = pool.dessert;
   let capFallback = false;
   if(capActiveRequested){
     const cappedBreakfast = pool.breakfast.filter(m => getMealPriceNumber(m) <= maxPrice);
@@ -1010,31 +1047,42 @@ function computeActivePools(maxPrice, capActiveRequested, vegetarianOnly){
     if(cappedBreakfast.length && cappedGeneral.length >= 2){
       breakfastPool = cappedBreakfast;
       generalPool = cappedGeneral;
+      const cappedDessert = pool.dessert.filter(m => getMealPriceNumber(m) <= maxPrice);
+      if(cappedDessert.length) dessertPool = cappedDessert;
     }else{
       capFallback = true;
     }
   }
 
-  // The vegetarian filter applies on top of (not instead of) the price cap, and
-  // falls back the same way it does: if too few items would remain, skip the
-  // filter rather than leaving the week ungeneratable.
+  let healthyFallback = false;
+  if(healthyOnly){
+    const hBreakfast = breakfastPool.filter(isHealthyMeal);
+    const hGeneral = generalPool.filter(isHealthyMeal);
+    if(hBreakfast.length && hGeneral.length >= 2){
+      breakfastPool = hBreakfast;
+      generalPool = hGeneral;
+    }else{
+      healthyFallback = true;
+    }
+  }
+
   let vegetarianFallback = false;
   if(vegetarianOnly){
-    const vegBreakfast = breakfastPool.filter(isVegetarianMeal);
-    const vegGeneral = generalPool.filter(isVegetarianMeal);
-    if(vegBreakfast.length && vegGeneral.length >= 2){
-      breakfastPool = vegBreakfast;
-      generalPool = vegGeneral;
+    const vBreakfast = breakfastPool.filter(isVegetarianMeal);
+    const vGeneral = generalPool.filter(isVegetarianMeal);
+    if(vBreakfast.length && vGeneral.length >= 2){
+      breakfastPool = vBreakfast;
+      generalPool = vGeneral;
+      const vDessert = dessertPool.filter(isVegetarianMeal);
+      if(vDessert.length) dessertPool = vDessert;
     }else{
       vegetarianFallback = true;
     }
   }
 
-  return { breakfastPool, generalPool, capFallback, vegetarianFallback };
+  return { breakfastPool, generalPool, dessertPool, capFallback, healthyFallback, vegetarianFallback };
 }
 
-// The live/current week persists across reloads so the site doesn't rebuild
-// it every visit — only "Generate week" or a per-meal "regenerate" changes it.
 function persistCurrentWeek(){
   if(!currentWeek || !currentWeek.length) return;
   const payload = {
@@ -1061,10 +1109,11 @@ function restoreCurrentWeek(){
   if(!payload || !Array.isArray(payload.days) || !payload.days.length) return false;
 
   currentTargetGlobal = payload.target || 1500;
-  activeCapInfo = payload.capInfo || { capActive: false, maxPrice: 0, capFallback: false, vegetarianOnly: false, vegetarianFallback: false };
-  const pools = computeActivePools(activeCapInfo.maxPrice, activeCapInfo.capActive, activeCapInfo.vegetarianOnly);
+  activeCapInfo = payload.capInfo || { capActive: false, maxPrice: 0, capFallback: false, healthyOnly: false, vegetarianOnly: false, healthyFallback: false, vegetarianFallback: false };
+  const pools = computeActivePools(activeCapInfo.maxPrice, activeCapInfo.capActive, activeCapInfo.healthyOnly, activeCapInfo.vegetarianOnly);
   activeBreakfastPool = pools.breakfastPool;
   activeGeneralPool = pools.generalPool;
+  activeDessertPool = pools.dessertPool;
 
   currentWeek = payload.days.map(day => ({
     dayName: day.dayName,
@@ -1089,6 +1138,7 @@ function saveFormData(){
     calorieTarget: document.getElementById('calorie-target').value,
     maxPerMeal: document.getElementById('max-per-meal').value,
     maxPerMealEnabled: document.getElementById('max-per-meal-enabled').checked,
+    healthyOnly: document.getElementById('healthy-only').checked,
     vegetarianOnly: document.getElementById('vegetarian-only').checked
   };
   try{
@@ -1113,6 +1163,7 @@ function loadFormData(){
     const enabledCheckbox = document.getElementById('max-per-meal-enabled');
     enabledCheckbox.checked = !!data.maxPerMealEnabled;
     document.getElementById('max-per-meal').disabled = !enabledCheckbox.checked;
+    document.getElementById('healthy-only').checked = !!data.healthyOnly;
     document.getElementById('vegetarian-only').checked = !!data.vegetarianOnly;
     return true;
   }catch(err){
@@ -1219,7 +1270,7 @@ function updatePoolCount(){
   const totalEl = document.getElementById('pool-total');
   const filteredEl = document.getElementById('pool-filtered');
   if(!totalEl || !filteredEl) return;
-  const total = (pool.breakfast || []).length + (pool.general || []).length;
+  const total = (pool.breakfast || []).length + (pool.general || []).length + (pool.dessert || []).length;
   if(!total){
     filteredEl.textContent = '\u2013';
     totalEl.textContent = '\u2013';
@@ -1227,9 +1278,10 @@ function updatePoolCount(){
   }
   const maxPrice = parseFloat(document.getElementById('max-per-meal').value);
   const capActive = document.getElementById('max-per-meal-enabled').checked && !isNaN(maxPrice) && maxPrice > 0;
+  const healthyOnly = document.getElementById('healthy-only').checked;
   const vegetarianOnly = document.getElementById('vegetarian-only').checked;
-  const { breakfastPool, generalPool } = computeActivePools(maxPrice, capActive, vegetarianOnly);
-  filteredEl.textContent = String(breakfastPool.length + generalPool.length);
+  const { breakfastPool, generalPool, dessertPool } = computeActivePools(maxPrice, capActive, healthyOnly, vegetarianOnly);
+  filteredEl.textContent = String(breakfastPool.length + generalPool.length + dessertPool.length);
   totalEl.textContent = String(total);
 }
 
@@ -1239,11 +1291,12 @@ function normalizeMeal(m){
     PRODUCT_NAME: m.name,
     BRAND: m.restaurant,
     restaurant: m.restaurant,
-    CATEGORY: m.category === 'breakfast' ? 'Breakfast' : 'Regular',
+    CATEGORY: m.category === 'breakfast' ? 'Breakfast' : (m.category === 'dessert' ? 'Dessert' : 'Regular'),
     calories: m.calories,
     PRICE_CURRENT: m.price,
     servings_per_container: m.serving,
     vegetarian: m.vegetarian === true,
+    healthy: m.healthy === true,
     image_url: m.image_url || '',
     image_full_url: m.image_full_url || '',
     _added_at: m._added_at || ''
@@ -1299,7 +1352,8 @@ async function loadPool(){
     items = items.filter(item => getMealCalories(item) >= MIN_MEAL_CALORIES);
 
     const breakfastItems = items.filter(isBreakfastItem);
-    const generalItems = items.filter(item => !isBreakfastItem(item));
+    const dessertItems = items.filter(isDessertItem);
+    const generalItems = items.filter(item => !isBreakfastItem(item) && !isDessertItem(item));
 
     // Fallback if no breakfast items found in dataset: default to N/A @ 400 cal
     const fallbackBreakfast = [{
@@ -1312,7 +1366,8 @@ async function loadPool(){
     pool = {
       generated_at: new Date().toISOString(),
       breakfast: breakfastItems.length ? breakfastItems : fallbackBreakfast,
-      general: generalItems
+      general: generalItems,
+      dessert: dessertItems
     };
 
     setDataDate(rawData.updated_at ? new Date(rawData.updated_at) : latestDataDate(items));
@@ -1334,36 +1389,36 @@ async function loadPool(){
   }
 }
 
-// Meal count scales with the daily calorie target:
-//  <=1400        -> 3 meals: breakfast, lunch, dinner
-//  1400-2000     -> 4 meals: + a late night meal (general pool)
-//  2000+         -> 5 meals: + a brunch too (drawn from the breakfast pool)
-function getMealSlotsForTarget(target){
-  if(target <= 1400){
-    return { breakfastSlots: ['breakfast'], generalSlots: ['lunch', 'dinner'] };
-  }else if(target <= 2000){
+// Meals per day by calorie target: breakfast, lunch and dinner, plus a late
+// night meal (a dessert / slush / shake / malt) once the target is high enough.
+//  up to 2000    -> 3 meals
+//  over 2000     -> 4 meals (+ late night)
+// With "Healthy" on, items run lower calorie, so the late night meal kicks in
+// earlier: 3 meals up to 1500, 4 meals above 1500.
+function getMealSlotsForTarget(target, healthyOnly){
+  const lateNightFrom = healthyOnly ? 1500 : 2000;
+  if(target > lateNightFrom){
     return { breakfastSlots: ['breakfast'], generalSlots: ['lunch', 'dinner', 'late night'] };
-  }else{
-    return { breakfastSlots: ['breakfast', 'brunch'], generalSlots: ['lunch', 'dinner', 'late night'] };
   }
+  return { breakfastSlots: ['breakfast'], generalSlots: ['lunch', 'dinner'] };
 }
 
-// 'brunch' (only present in the 5-meal tier) draws from BOTH the breakfast
-// and general pools combined, since brunch food realistically overlaps both
-// categories. Every other slot stays scoped to its usual pool.
-function poolForSlot(slot, breakfastPool, generalPool){
+// Late night draws from the dessert pool (falling back to the general pool only
+// if no desserts have been pulled yet); breakfast from the breakfast pool; the
+// rest from the general pool.
+function poolForSlot(slot, breakfastPool, generalPool, dessertPool){
   breakfastPool = breakfastPool || activeBreakfastPool;
   generalPool = generalPool || activeGeneralPool;
+  dessertPool = dessertPool || activeDessertPool;
   if(slot === 'breakfast') return breakfastPool;
-  if(slot === 'brunch') return breakfastPool.concat(generalPool);
+  if(slot === 'late night') return dessertPool.length ? dessertPool : generalPool;
   return generalPool;
 }
 
-// Randomly samples one item per slot (via poolForSlot, so 'brunch' draws from
-// the combined pool) and keeps the closest-to-target combo found. Tries to
+// Randomly samples one item per slot (via poolForSlot) and keeps the closest-to-target combo found. Tries to
 // avoid repeating the same item twice in a day when the pool allows it.
-// Works for any slot count (3, 4, or 5 meals).
-function buildDay(target, breakfastPool, generalPool, breakfastSlots, generalSlots){
+// Works for either slot count (3 or 4 meals).
+function buildDay(target, breakfastPool, generalPool, dessertPool, breakfastSlots, generalSlots){
   const low = target - TOLERANCE;
   const high = target + TOLERANCE;
   const allSlots = [...breakfastSlots, ...generalSlots];
@@ -1373,7 +1428,7 @@ function buildDay(target, breakfastPool, generalPool, breakfastSlots, generalSlo
   for(let i = 0; i < attempts; i++){
     const used = new Set();
     const items = allSlots.map(slot => {
-      const p = poolForSlot(slot, breakfastPool, generalPool);
+      const p = poolForSlot(slot, breakfastPool, generalPool, dessertPool);
       const unused = p.filter(m => !used.has(m));
       const candidates = unused.length ? unused : p;
       const choice = candidates[Math.floor(Math.random() * candidates.length)];
@@ -1414,17 +1469,19 @@ function generateWeek(){
   const maxPrice = parseFloat(document.getElementById('max-per-meal').value);
   const maxPriceEnabled = document.getElementById('max-per-meal-enabled').checked;
   const capActive = maxPriceEnabled && !isNaN(maxPrice) && maxPrice > 0;
+  const healthyOnly = document.getElementById('healthy-only').checked;
   const vegetarianOnly = document.getElementById('vegetarian-only').checked;
 
-  const { breakfastPool, generalPool, capFallback, vegetarianFallback } = computeActivePools(maxPrice, capActive, vegetarianOnly);
+  const { breakfastPool, generalPool, dessertPool, capFallback, healthyFallback, vegetarianFallback } = computeActivePools(maxPrice, capActive, healthyOnly, vegetarianOnly);
 
   activeBreakfastPool = breakfastPool;
   activeGeneralPool = generalPool;
+  activeDessertPool = dessertPool;
   currentTargetGlobal = target;
-  activeCapInfo = { capActive, maxPrice, capFallback, vegetarianOnly, vegetarianFallback };
+  activeCapInfo = { capActive, maxPrice, capFallback, healthyOnly, vegetarianOnly, healthyFallback, vegetarianFallback };
 
-  const { breakfastSlots, generalSlots } = getMealSlotsForTarget(target);
-  currentWeek = DAY_NAMES.map(dayName => ({ dayName, ...buildDay(target, breakfastPool, generalPool, breakfastSlots, generalSlots) }));
+  const { breakfastSlots, generalSlots } = getMealSlotsForTarget(target, healthyOnly);
+  currentWeek = DAY_NAMES.map(dayName => ({ dayName, ...buildDay(target, breakfastPool, generalPool, dessertPool, breakfastSlots, generalSlots) }));
 
   activeTab = 'current';
   renderTabs();
@@ -1457,10 +1514,11 @@ function weekTotals(days){
 
 // Each meal is filtered against the max-per-meal cap before selection, rather
 // than checking the week's average against a +/- tolerance.
-function updateBudgetSummary(capActive, maxPrice, overCapCount, capFallback, vegetarianFallback){
+function updateBudgetSummary(capActive, maxPrice, overCapCount, capFallback, healthyFallback, vegetarianFallback){
   const summary = document.getElementById('budget-summary');
 
   const dietNotes = [];
+  if(healthyFallback) dietNotes.push('not enough healthy meals in the pool — some non-healthy meals were included instead');
   if(vegetarianFallback) dietNotes.push('not enough vegetarian meals in the pool — some non-vegetarian meals were included instead');
   const dietNote = dietNotes.length ? ` (${dietNotes.join('; ')})` : '';
 
@@ -1486,6 +1544,20 @@ function updateBudgetSummary(capActive, maxPrice, overCapCount, capFallback, veg
   }else{
     summary.style.display = 'none';
   }
+}
+
+// Delivery-app search links: restaurant + item go into each app's search URL.
+// Only the icon is shown (the app name is in the tooltip / screen-reader label).
+function deliveryLinksHtml(meal){
+  const query = encodeURIComponent((getMealBrand(meal) + ' ' + (meal.PRODUCT_NAME || meal.name || '')).trim());
+  const apps = [
+    ['deliv-dd', 'DoorDash',  `https://www.doordash.com/search/store/${query}/`],
+    ['deliv-ue', 'Uber Eats', `https://www.ubereats.com/search?q=${query}`],
+    ['deliv-gh', 'Grubhub',   `https://www.grubhub.com/search?queryText=${query}`]
+  ];
+  return apps.map(([cls, label, url]) =>
+    `<a class="deliv" href="${url}" target="_blank" rel="noopener noreferrer" title="Search ${label}" aria-label="Search ${label}"><span class="deliv-ic ${cls}"></span><span aria-hidden="true">&rarr;</span></a>`
+  ).join('');
 }
 
 function mealRow(slot, meal, canRegenerate, dayIndex){
@@ -1515,15 +1587,14 @@ function mealRow(slot, meal, canRegenerate, dayIndex){
     ${thumb}
     <div class="meal-info">
       <div class="meal-slot">${slot}</div>
-      <div class="meal-name">${escHtml(name)}</div>
-      ${restaurant ? `<div class="meal-rest">${escHtml(restaurant)}</div>` : ''}
+      <div class="meal-name">${restaurant ? `<span class="meal-brand">${escHtml(restaurant)}</span>` : ''}${escHtml(name)}</div>
     </div>
     <div class="meal-money">
       <div class="meal-cal">${calories} cal*</div>
       <div class="meal-price">${priceDisplay}</div>
       <div class="meal-serving">Serving: ${servingsPerContainer}</div>
     </div>
-    <div class="meal-actions">${pickBtn}${regenBtn}</div>
+    <div class="meal-actions">${pickBtn}${regenBtn}${deliveryLinksHtml(meal)}</div>
   `;
   return row;
 }
@@ -1615,7 +1686,7 @@ function renderCurrentOrSaved(){
   document.getElementById('save-bar-top').style.display = editable ? 'flex' : 'none';
 
   if(editable){
-    updateBudgetSummary(activeCapInfo.capActive, activeCapInfo.maxPrice, countOverCap(days, activeCapInfo.capActive, activeCapInfo.maxPrice), activeCapInfo.capFallback, activeCapInfo.vegetarianFallback);
+    updateBudgetSummary(activeCapInfo.capActive, activeCapInfo.maxPrice, countOverCap(days, activeCapInfo.capActive, activeCapInfo.maxPrice), activeCapInfo.capFallback, activeCapInfo.healthyFallback, activeCapInfo.vegetarianFallback);
   }else{
     document.getElementById('budget-summary').style.display = 'none';
   }
@@ -1624,8 +1695,8 @@ function renderCurrentOrSaved(){
 // Returns the breakfast/general pools to draw from for a given cap setting —
 // used to regenerate meals on both the live week and any saved week.
 function poolsForCapInfo(capInfo){
-  if(!capInfo) return { breakfastPool: pool.breakfast, generalPool: pool.general };
-  return computeActivePools(capInfo.maxPrice, capInfo.capActive, capInfo.vegetarianOnly);
+  if(!capInfo) return { breakfastPool: pool.breakfast, generalPool: pool.general, dessertPool: pool.dessert };
+  return computeActivePools(capInfo.maxPrice, capInfo.capActive, capInfo.healthyOnly, capInfo.vegetarianOnly);
 }
 
 function regenerateMeal(dayIndex, slot){
@@ -1655,8 +1726,8 @@ function regenerateMeal(dayIndex, slot){
   const saved = savedWeeks[activeTab];
   if(!saved || !saved.days[dayIndex]) return;
   const day = saved.days[dayIndex];
-  const { breakfastPool, generalPool } = poolsForCapInfo(saved.capInfo);
-  const sourcePool = poolForSlot(slot, breakfastPool, generalPool);
+  const { breakfastPool, generalPool, dessertPool } = poolsForCapInfo(saved.capInfo);
+  const sourcePool = poolForSlot(slot, breakfastPool, generalPool, dessertPool);
   if(!sourcePool || !sourcePool.length) return;
 
   const usedNames = Object.values(day.meals).map(m => m.name);
@@ -1840,6 +1911,7 @@ document.getElementById('lose-per-week').addEventListener('input', () => { recal
 document.getElementById('calories-burned').addEventListener('input', () => { recalcDailyTarget(); saveFormData(); });
 document.getElementById('calorie-target').addEventListener('input', saveFormData);
 document.getElementById('max-per-meal').addEventListener('input', () => { saveFormData(); updatePoolCount(); });
+document.getElementById('healthy-only').addEventListener('change', () => { saveFormData(); updatePoolCount(); });
 document.getElementById('vegetarian-only').addEventListener('change', () => { saveFormData(); updatePoolCount(); });
 document.getElementById('max-per-meal-enabled').addEventListener('change', function(){
   const input = document.getElementById('max-per-meal');
