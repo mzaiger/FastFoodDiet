@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Menu Items &middot; Lazy Man's Fast Food Diet Plan</title>
+<meta name="theme-color" content="#123645" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+<style>
+  /* Same look as index.html: drive-thru steel blue, shelf-tag yellow, Franklin
+     Gothic type. Header picture: a fast food restaurant illustration drawn
+     inline as an SVG; to use a real photo instead, change the URL in
+     --hero-photo to any image URL you have the rights to use. */
+  :root{
+    --paper: #EEF2F0;
+    --card: #FFFFFF;
+    --frost: #E6EDEB;
+    --line: #CBD6D3;
+    --line-strong: #AEBFBB;
+    --ink: #16262D;
+    --ink-soft: #4A5D65;
+    --steel: #2A5E73;
+    --steel-deep: #123645;
+    --good: #2B7A4B;
+    --warn: #B3382C;
+    --sans: 'Libre Franklin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --hero-photo: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201800%20600'%20preserveAspectRatio='xMidYMid%20slice'%3E%3Cdefs%3E%3ClinearGradient%20id='sky'%20x1='0'%20y1='0'%20x2='0'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%239aa3a6'/%3E%3Cstop%20offset='1'%20stop-color='%23e4e8e8'/%3E%3C/linearGradient%3E%3ClinearGradient%20id='glow'%20x1='0'%20y1='0'%20x2='0'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%23fff3b0'/%3E%3Cstop%20offset='1'%20stop-color='%23ffd25a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width='1800'%20height='600'%20fill='url(%23sky)'/%3E%3Cg%20fill='%23ffffff'%20opacity='.55'%3E%3Cellipse%20cx='430'%20cy='110'%20rx='150'%20ry='30'/%3E%3Cellipse%20cx='520'%20cy='95'%20rx='100'%20ry='28'/%3E%3Cellipse%20cx='1380'%20cy='80'%20rx='170'%20ry='26'/%3E%3C/g%3E%3Cg%20fill='%236f7a7c'%3E%3Crect%20x='0'%20y='400'%20width='1800'%20height='90'/%3E%3Ccircle%20cx='120'%20cy='400'%20r='55'/%3E%3Ccircle%20cx='210'%20cy='410'%20r='48'/%3E%3Ccircle%20cx='1650'%20cy='405'%20r='60'/%3E%3Ccircle%20cx='1740'%20cy='410'%20r='50'/%3E%3C/g%3E%3Crect%20x='0'%20y='480'%20width='1800'%20height='120'%20fill='%234a4f51'/%3E%3Crect%20x='0'%20y='480'%20width='1800'%20height='10'%20fill='%23c9cecf'/%3E%3Cg%20fill='%23e9ecec'%3E%3Crect%20x='40'%20y='555'%20width='120'%20height='10'/%3E%3Crect%20x='260'%20y='555'%20width='120'%20height='10'/%3E%3Crect%20x='480'%20y='555'%20width='120'%20height='10'/%3E%3Crect%20x='700'%20y='555'%20width='120'%20height='10'/%3E%3Crect%20x='920'%20y='555'%20width='120'%20height='10'/%3E%3Crect%20x='1140'%20y='555'%20width='120'%20height='10'/%3E%3Crect%20x='1360'%20y='555'%20width='120'%20height='10'/%3E%3Crect%20x='1580'%20y='555'%20width='120'%20height='10'/%3E%3C/g%3E%3Crect%20x='760'%20y='250'%20width='740'%20height='235'%20fill='%23f3f1ea'/%3E%3Crect%20x='760'%20y='250'%20width='740'%20height='235'%20fill='none'%20stroke='%232b2f31'%20stroke-width='4'/%3E%3Cpolygon%20points='735,255%201525,255%201490,205%20770,205'%20fill='%232b2f31'/%3E%3Crect%20x='735'%20y='248'%20width='790'%20height='14'%20fill='%238a9093'/%3E%3Crect%20x='820'%20y='282'%20width='620'%20height='84'%20rx='10'%20fill='%231f2426'/%3E%3Crect%20x='830'%20y='292'%20width='600'%20height='64'%20rx='6'%20fill='none'%20stroke='%23ffd25a'%20stroke-width='4'/%3E%3Ctext%20x='1130'%20y='340'%20text-anchor='middle'%20font-family='Arial%20Black,Arial,Helvetica,sans-serif'%20font-weight='900'%20font-size='46'%20letter-spacing='4'%20fill='%23ffd25a'%3EFAST%20FOOD%3C/text%3E%3Cg%3E%3Crect%20x='790'%20y='384'%20width='680'%20height='34'%20fill='%23ffffff'/%3E%3Cg%20fill='%235c6366'%3E%3Crect%20x='790'%20y='384'%20width='57'%20height='34'/%3E%3Crect%20x='904'%20y='384'%20width='57'%20height='34'/%3E%3Crect%20x='1018'%20y='384'%20width='57'%20height='34'/%3E%3Crect%20x='1132'%20y='384'%20width='57'%20height='34'/%3E%3Crect%20x='1246'%20y='384'%20width='57'%20height='34'/%3E%3Crect%20x='1360'%20y='384'%20width='57'%20height='34'/%3E%3C/g%3E%3Cpolygon%20points='790,418%20847,418%20836,438%20801,438'%20fill='%23ffffff'/%3E%3Cpolygon%20points='904,418%20961,418%20950,438%20915,438'%20fill='%23ffffff'/%3E%3Cpolygon%20points='1018,418%201075,418%201064,438%201029,438'%20fill='%23ffffff'/%3E%3Cpolygon%20points='1132,418%201189,418%201178,438%201143,438'%20fill='%23ffffff'/%3E%3Cpolygon%20points='1246,418%201303,418%201292,438%201257,438'%20fill='%23ffffff'/%3E%3Cpolygon%20points='1360,418%201417,418%201406,438%201371,438'%20fill='%23ffffff'/%3E%3C/g%3E%3Crect%20x='800'%20y='440'%20width='250'%20height='44'%20fill='url(%23glow)'%20stroke='%232b2f31'%20stroke-width='3'/%3E%3Crect%20x='1210'%20y='440'%20width='250'%20height='44'%20fill='url(%23glow)'%20stroke='%232b2f31'%20stroke-width='3'/%3E%3Cg%20stroke='%232b2f31'%20stroke-width='3'%3E%3Cline%20x1='883'%20y1='440'%20x2='883'%20y2='484'/%3E%3Cline%20x1='967'%20y1='440'%20x2='967'%20y2='484'/%3E%3Cline%20x1='1293'%20y1='440'%20x2='1293'%20y2='484'/%3E%3Cline%20x1='1377'%20y1='440'%20x2='1377'%20y2='484'/%3E%3C/g%3E%3Crect%20x='1085'%20y='432'%20width='100'%20height='53'%20fill='%232b2f31'/%3E%3Crect%20x='1093'%20y='440'%20width='38'%20height='45'%20fill='%239fb0b4'/%3E%3Crect%20x='1139'%20y='440'%20width='38'%20height='45'%20fill='%239fb0b4'/%3E%3Crect%20x='1500'%20y='300'%20width='150'%20height='185'%20fill='%23e6e3da'%20stroke='%232b2f31'%20stroke-width='4'/%3E%3Crect%20x='1490'%20y='286'%20width='170'%20height='24'%20fill='%232b2f31'/%3E%3Crect%20x='1522'%20y='350'%20width='106'%20height='70'%20fill='url(%23glow)'%20stroke='%232b2f31'%20stroke-width='3'/%3E%3Crect%20x='1536'%20y='430'%20width='78'%20height='10'%20fill='%238a9093'/%3E%3Cg%20transform='translate(-1040%200)'%3E%3Crect%20x='1690'%20y='330'%20width='78'%20height='116'%20rx='6'%20fill='%231f2426'/%3E%3Crect%20x='1700'%20y='342'%20width='58'%20height='14'%20fill='%23ffd25a'/%3E%3Cg%20fill='%23d9dedf'%3E%3Crect%20x='1700'%20y='366'%20width='58'%20height='6'/%3E%3Crect%20x='1700'%20y='380'%20width='58'%20height='6'/%3E%3Crect%20x='1700'%20y='394'%20width='58'%20height='6'/%3E%3Crect%20x='1700'%20y='408'%20width='58'%20height='6'/%3E%3C/g%3E%3Crect%20x='1722'%20y='446'%20width='14'%20height='38'%20fill='%232b2f31'/%3E%3C/g%3E%3Cg%20transform='translate(1110%200)'%3E%3Crect%20x='598'%20y='140'%20width='16'%20height='345'%20fill='%232b2f31'/%3E%3Ccircle%20cx='606'%20cy='128'%20r='82'%20fill='%23ffd25a'%20stroke='%232b2f31'%20stroke-width='6'/%3E%3Ccircle%20cx='606'%20cy='128'%20r='64'%20fill='%231f2426'/%3E%3Cg%3E%3Cpath%20d='M556%20118%20Q556%2082%20606%2082%20Q656%2082%20656%20118%20Z'%20fill='%23ffd25a'/%3E%3Crect%20x='552'%20y='122'%20width='108'%20height='10'%20rx='5'%20fill='%239aa3a6'/%3E%3Crect%20x='556'%20y='136'%20width='100'%20height='10'%20rx='5'%20fill='%23ffffff'/%3E%3Cpath%20d='M556%20150%20H656%20Q656%20170%20606%20170%20Q556%20170%20556%20150%20Z'%20fill='%23ffd25a'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3Crect%20x='1380'%20y='500'%20width='250'%20height='50'%20rx='16'%20fill='%23c9cecf'/%3E%3Cpath%20d='M1420%20500%20L1450%20462%20H1570%20L1600%20500%20Z'%20fill='%23b4babc'/%3E%3Cpath%20d='M1458%20498%20L1478%20468%20H1520%20V498%20Z%20M1528%20498%20V468%20H1562%20L1584%20498%20Z'%20fill='%236f7a7c'/%3E%3Ccircle%20cx='1432'%20cy='552'%20r='22'%20fill='%231f2426'/%3E%3Ccircle%20cx='1432'%20cy='552'%20r='9'%20fill='%23c9cecf'/%3E%3Ccircle%20cx='1580'%20cy='552'%20r='22'%20fill='%231f2426'/%3E%3Ccircle%20cx='1580'%20cy='552'%20r='9'%20fill='%23c9cecf'/%3E%3C/g%3E%3Cg%3E%3Crect%20x='240'%20y='505'%20width='230'%20height='46'%20rx='15'%20fill='%232b2f31'/%3E%3Cpath%20d='M275%20505%20L303%20470%20H410%20L440%20505%20Z'%20fill='%233b4144'/%3E%3Cpath%20d='M310%20503%20L326%20475%20H364%20V503%20Z%20M372%20503%20V475%20H405%20L428%20503%20Z'%20fill='%239fb0b4'/%3E%3Ccircle%20cx='290'%20cy='553'%20r='21'%20fill='%231f2426'/%3E%3Ccircle%20cx='290'%20cy='553'%20r='8'%20fill='%238a9093'/%3E%3Ccircle%20cx='425'%20cy='553'%20r='21'%20fill='%231f2426'/%3E%3Ccircle%20cx='425'%20cy='553'%20r='8'%20fill='%238a9093'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  *{ box-sizing:border-box; }
+
+  .sr-only{
+    position:absolute;
+    width:1px;
+    height:1px;
+    margin:-1px;
+    padding:0;
+    overflow:hidden;
+    clip:rect(0,0,0,0);
+    white-space:nowrap;
+    border:0;
+  }
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    padding:0 0 80px;
+  }
+
+  /* Full-bleed photo band. The side padding keeps the content on the same
+     1080px column as <main>. */
+  header{
+    position:relative;
+    background:var(--steel-deep);
+    color:#fff;
+    padding:56px max(24px, calc(50% - 516px)) 28px;
+    margin-bottom:28px;
+  }
+
+  @supports (mix-blend-mode:multiply){
+    header{
+      isolation:isolate;
+      background:#fff;
+    }
+
+    header::before,
+    header::after{
+      content:'';
+      position:absolute;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      z-index:-1;
+    }
+
+    /* The photo, flattened to greys... */
+    header::before{
+      background:var(--hero-photo) center 40% / cover no-repeat;
+      filter:grayscale(1) contrast(1.15);
+    }
+
+    /* ...then dyed steel blue. Multiply can only darken, so the lightest pixel
+       of any photo is never lighter than the steel itself and the white type
+       stays readable whichever photo is used. If the photo fails to load, the
+       header is simply solid steel. */
+    header::after{
+      background:var(--steel);
+      mix-blend-mode:multiply;
+    }
+  }
+
+  @supports (mix-blend-mode:multiply){
+    @media (max-width:760px){
+      header::before{
+        background:var(--hero-photo) center top / auto 300px no-repeat, #4a4f51;
+      }
+    }
+  }
+
+  h1{
+    font-family:var(--sans);
+    font-weight:900;
+    font-size:clamp(36px, 6vw, 56px);
+    letter-spacing:-0.025em;
+    margin:0 0 10px;
+    color:#fff;
+    line-height:1;
+    text-wrap:balance;
+  }
+
+  .sub{
+    color:rgba(255,255,255,0.88);
+    max-width:640px;
+    font-size:15px;
+    line-height:1.5;
+    margin:0;
+  }
+
+  main{
+    max-width:1080px;
+    margin:0 auto;
+    padding:0 24px;
+  }
+
+  .toolbar{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    gap:14px;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:14px 18px;
+    margin-bottom:18px;
+  }
+
+  .toolbar input[type="search"]{
+    font-family:var(--sans);
+    font-size:14px;
+    border:1px solid var(--line-strong);
+    border-radius:3px;
+    padding:9px 12px;
+    background:var(--frost);
+    color:var(--ink);
+    flex:1 1 240px;
+    min-width:180px;
+  }
+
+  .toolbar input[type="search"]:focus{
+    outline:2px solid var(--steel);
+    outline-offset:1px;
+  }
+
+  .toolbar select{
+    font-family:var(--sans);
+    font-size:14px;
+    border:1px solid var(--line-strong);
+    border-radius:3px;
+    padding:9px 12px;
+    background:var(--frost);
+    color:var(--ink);
+  }
+
+  .count-label{
+    font-size:12px;
+    font-weight:600;
+    color:var(--ink-soft);
+    white-space:nowrap;
+  }
+
+  .status{
+    color:var(--ink-soft);
+    font-size:14px;
+    padding:40px 0;
+    text-align:center;
+  }
+
+  table{
+    width:100%;
+    border-collapse:collapse;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:4px;
+    overflow:hidden;
+  }
+
+  thead th{
+    text-align:left;
+    font-size:12px;
+    font-weight:700;
+    color:var(--ink);
+    background:var(--frost);
+    padding:10px 14px;
+    border-bottom:2px solid var(--ink);
+    position:sticky;
+    top:0;
+  }
+
+  tbody tr{
+    border-bottom:1px solid var(--line);
+  }
+
+  tbody tr:last-child{
+    border-bottom:none;
+  }
+
+  tbody tr:hover{
+    background:rgba(42,94,115,0.06);
+  }
+
+  td{
+    padding:10px 14px;
+    font-size:14px;
+    vertical-align:middle;
+  }
+
+  .col-img{ width:72px; }
+  .col-sku{ width:170px; }
+  .col-cat{ width:110px; }
+  .col-num{ width:84px; white-space:nowrap; }
+  .col-serving{ width:130px; }
+  .col-pick{ display:none; width:96px; }
+  table.pick-mode .col-pick{ display:table-cell; }
+
+  .prod-num{ font-size:13px; font-weight:600; white-space:nowrap; }
+  .prod-serving{ font-size:12px; color:var(--ink-soft); overflow-wrap:anywhere; }
+
+  /* Pick mode: opened from the "+" on a meal in index.html. */
+  .pick-banner{
+    display:none;
+    align-items:center;
+    justify-content:space-between;
+    gap:14px;
+    flex-wrap:wrap;
+    background:#FFF4CC;
+    border:1px solid #E3C55A;
+    border-radius:4px;
+    padding:12px 18px;
+    margin-bottom:18px;
+    font-size:14px;
+  }
+  .pick-banner.on{ display:flex; }
+  .pick-banner button{
+    font-family:var(--sans);
+    font-size:13px;
+    font-weight:600;
+    border:1px solid var(--line-strong);
+    background:var(--card);
+    color:var(--steel-deep);
+    border-radius:3px;
+    padding:7px 12px;
+    cursor:pointer;
+  }
+  table.pick-mode tbody tr{ cursor:pointer; }
+  .select-btn{
+    font-family:var(--sans);
+    font-size:13px;
+    font-weight:700;
+    border:0;
+    background:var(--steel-deep);
+    color:#fff;
+    border-radius:3px;
+    padding:8px 14px;
+    cursor:pointer;
+  }
+  .select-btn:hover{ background:var(--steel); }
+
+  .prod-thumb{
+    width:56px;
+    height:56px;
+    object-fit:contain;
+    background:var(--card);
+    border:0px solid var(--line);
+    border-radius:3px;
+    display:block;
+  }
+
+  .prod-thumb-empty{
+    width:56px;
+    height:56px;
+    background:var(--frost);
+    border:1px dashed var(--warn);
+    border-radius:3px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:9px;
+    font-weight:600;
+    color:var(--warn);
+    text-align:center;
+    line-height:1.2;
+  }
+
+  .prod-sku{
+    font-size:12px;
+    font-weight:600;
+    color:var(--ink-soft);
+  }
+
+  .prod-name{
+    color:var(--ink);
+    line-height:1.35;
+  }
+
+  /* Breakfast / Regular pill. */
+  .prod-cat-pill{
+    display:inline-block;
+    padding:2px 10px;
+    font-size:11px;
+    font-weight:700;
+    border-radius:10px;
+    border:1px solid var(--line);
+    background:var(--frost);
+    color:var(--steel-deep);
+  }
+  .prod-cat-pill.breakfast{ background:#FFF4CC; border-color:#E3C55A; }
+
+  .pager{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    gap:8px;
+    margin:22px 0;
+  }
+
+  .pager button{
+    font-family:var(--sans);
+    font-size:13px;
+    font-weight:600;
+    border:1px solid var(--line-strong);
+    background:var(--card);
+    color:var(--steel-deep);
+    border-radius:3px;
+    padding:8px 12px;
+    cursor:pointer;
+  }
+
+  .pager button:hover:not(:disabled){
+    border-color:var(--steel);
+  }
+
+  .pager button:disabled{
+    opacity:0.35;
+    cursor:default;
+  }
+
+  .pager button.active{
+    background:var(--steel-deep);
+    border-color:var(--steel-deep);
+    color:#fff;
+  }
+
+  .pager .page-jump{
+    font-size:12px;
+    font-weight:600;
+    color:var(--ink-soft);
+    display:flex;
+    align-items:center;
+    gap:6px;
+    margin-left:8px;
+  }
+
+  .pager .page-jump input{
+    width:54px;
+    font-family:var(--sans);
+    font-size:13px;
+    font-weight:600;
+    border:1px solid var(--line-strong);
+    border-radius:3px;
+    padding:6px 8px;
+    text-align:center;
+  }
+
+  .empty-state{
+    text-align:center;
+    color:var(--ink-soft);
+    padding:60px 20px;
+    font-size:14px;
+  }
+
+  .empty-state code{
+    font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:0.92em;
+    background:var(--frost);
+    padding:2px 6px;
+    border-radius:3px;
+  }
+
+  a:focus-visible,
+  .select-btn:focus-visible,
+  .pager button:focus-visible{
+    outline:2px solid var(--steel);
+    outline-offset:2px;
+  }
+
+  @media (max-width:640px){
+    thead{ display:none; }
+    table, tbody{ display:block; width:100%; }
+    tbody tr{
+      display:grid;
+      grid-template-columns:64px auto auto minmax(0,1fr);
+      grid-template-areas:
+        "img sku     sku   sku"
+        "img name    name  name"
+        "img cal     price serving"
+        "links links links links"
+        "pick  pick  pick  pick";
+      column-gap:12px;
+      row-gap:4px;
+      align-items:center;
+      padding:14px;
+    }
+    td{ display:block; width:auto; padding:0; border:none; min-width:0; }
+    .col-img{ grid-area:img; align-self:start; width:auto; }
+    .prod-sku{ grid-area:sku; }
+    .prod-name{ grid-area:name; }
+    .prod-cal{ grid-area:cal; }
+    .prod-price{ grid-area:price; }
+    .prod-serving{ grid-area:serving; }
+    td.prod-cat{ grid-area:links; margin-top:4px; }
+    table.pick-mode .col-pick{ display:block; grid-area:pick; width:auto; margin-top:10px; }
+    .select-btn{ width:100%; padding:12px 14px; font-size:15px; }
+    .col-num, .col-serving{ width:auto; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Menu Items</h1>
+</header>
+
+<main>
+  <div class="pick-banner" id="pick-banner">
+    <span id="pick-banner-text">Choose a meal.</span>
+    <button type="button" id="pick-cancel">Cancel &amp; go back</button>
+  </div>
+
+  <div class="toolbar">
+    <input type="search" id="search-box" placeholder="Filter by meal or restaurant&hellip;" />
+    <select id="cat-filter" aria-label="Meal type">
+      <option value="">All meals</option>
+      <option value="breakfast">Breakfast</option>
+      <option value="regular">Regular</option>
+    </select>
+    <span class="count-label" id="count-label"></span>
+  </div>
+
+  <div class="status" id="status">Loading menu items&hellip;</div>
+
+  <div class="empty-state" id="empty-state" style="display:none;">
+    Meal list not found. Run <code>pull_meals.py</code> (or wait for the daily GitHub Action) and make sure <code>meals.json</code> is deployed alongside this page.
+  </div>
+
+  <table id="products-table" style="display:none;">
+    <thead>
+      <tr>
+        <th class="col-img">Image</th>
+        <th class="col-sku">Restaurant</th>
+        <th>Meal</th>
+        <th class="col-num">Calories</th>
+        <th class="col-num">Price</th>
+        <th class="col-serving">Serving</th>
+        <th class="col-cat">Type</th>
+        <th class="col-pick">Pick</th>
+      </tr>
+    </thead>
+    <tbody id="products-body"></tbody>
+  </table>
+
+  <div class="pager" id="pager-top" style="display:none;"></div>
+  <div class="pager" id="pager-bottom" style="display:none;"></div>
+</main>
+
+<script>
+(function(){
+  const PAGE_SIZE = 100;
+
+  let allProducts = [];
+  let filtered = [];
+  let currentPage = 1;
+
+  const statusEl = document.getElementById('status');
+  const emptyEl = document.getElementById('empty-state');
+  const tableEl = document.getElementById('products-table');
+  const bodyEl = document.getElementById('products-body');
+  const countEl = document.getElementById('count-label');
+  const searchEl = document.getElementById('search-box');
+  const catEl = document.getElementById('cat-filter');
+  const pagerTop = document.getElementById('pager-top');
+  const pagerBottom = document.getElementById('pager-bottom');
+
+  function escapeHtml(str){
+    return String(str == null ? '' : str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;');
+  }
+
+  function getImage(p){ return p.image_url || ''; }
+  function getImageFallback(p){ return p.image_full_url || ''; }
+  function getRestaurant(p){ return p.restaurant || ''; }
+  function getName(p){ return p.name || 'Unnamed item'; }
+  function getCategory(p){ return p.category === 'breakfast' ? 'breakfast' : 'regular'; }
+  function getCalories(p){
+    const n = Number(p.calories);
+    return (!isNaN(n) && n > 0) ? n : 0;
+  }
+  function getPriceNumber(p){
+    const n = parseFloat(p.price);
+    return isNaN(n) ? 0 : n;
+  }
+  function getServing(p){ return p.serving || 'N/A'; }
+
+  // ---- Pick mode (opened from the "+" on a meal in index.html) ----
+  const pickRequest = (function(){
+    if (!/[?&]pick=1/.test(location.search)) return null;
+    try{
+      const r = JSON.parse(localStorage.getItem('lazymanPickRequest') || 'null');
+      return (r && r.slot) ? r : null;
+    }catch(err){ return null; }
+  })();
+
+  function trimProduct(p){
+    // Same shape index.html builds from meals.json, so a hand-picked meal
+    // shows up exactly like a generated one.
+    return {
+      PRODUCT_NAME: p.name,
+      BRAND: p.restaurant,
+      restaurant: p.restaurant,
+      CATEGORY: getCategory(p) === 'breakfast' ? 'Breakfast' : 'Regular',
+      calories: p.calories,
+      PRICE_CURRENT: p.price,
+      servings_per_container: p.serving,
+      vegetarian: p.vegetarian === true,
+      image_url: p.image_url || '',
+      image_full_url: p.image_full_url || ''
+    };
+  }
+
+  function choose(p){
+    try{
+      localStorage.setItem('lazymanPickResult', JSON.stringify({
+        tab: pickRequest.tab,
+        dayIndex: pickRequest.dayIndex,
+        slot: pickRequest.slot,
+        product: trimProduct(p)
+      }));
+      localStorage.removeItem('lazymanPickRequest');
+    }catch(err){
+      alert("Couldn't save your pick in this browser's storage.");
+      return;
+    }
+    window.location.href = 'index.html';
+  }
+
+  function renderRow(p){
+    const name = getName(p);
+    const image = getImage(p);
+    const fallback = getImageFallback(p);
+    const category = getCategory(p);
+
+    const thumbImg = image
+      ? `<img class="prod-thumb" src="${escapeHtml(image)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback="${escapeHtml(fallback)}" />`
+      : `<div class="prod-thumb-empty">no image</div>`;
+
+    const cal = getCalories(p);
+    const price = getPriceNumber(p);
+    const serving = getServing(p);
+
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="col-img">${thumbImg}</td>
+      <td class="prod-sku">${escapeHtml(getRestaurant(p))}</td>
+      <td class="prod-name">${escapeHtml(name)}</td>
+      <td class="prod-num prod-cal">${cal ? cal + ' cal' : 'N/A'}</td>
+      <td class="prod-num prod-price">${price ? '$' + price.toFixed(2) : 'N/A'}</td>
+      <td class="prod-serving">${escapeHtml(serving)}</td>
+      <td class="prod-cat"><span class="prod-cat-pill ${category}">${category === 'breakfast' ? 'Breakfast' : 'Regular'}</span></td>
+      <td class="col-pick"><button type="button" class="select-btn">Select</button></td>
+    `;
+    if (pickRequest){
+      tr.querySelector('.select-btn').addEventListener('click', (e) => { e.stopPropagation(); choose(p); });
+      tr.addEventListener('click', () => choose(p));
+    }
+    return tr;
+  }
+
+  function renderPage(toTop){
+    const totalPages = Math.max(1, Math.ceil(filtered.length / PAGE_SIZE));
+    currentPage = Math.min(Math.max(1, currentPage), totalPages);
+
+    const start = (currentPage - 1) * PAGE_SIZE;
+    const pageItems = filtered.slice(start, start + PAGE_SIZE);
+
+    bodyEl.innerHTML = '';
+    const fragment = document.createDocumentFragment();
+    pageItems.forEach(p => fragment.appendChild(renderRow(p)));
+    bodyEl.appendChild(fragment);
+
+    const rangeStart = filtered.length === 0 ? 0 : start + 1;
+    const rangeEnd = Math.min(start + PAGE_SIZE, filtered.length);
+    countEl.textContent = `Showing ${rangeStart}-${rangeEnd} of ${filtered.length} (page ${currentPage} of ${totalPages})`;
+
+    renderPager(pagerTop, totalPages);
+    renderPager(pagerBottom, totalPages);
+
+    // First load (e.g. arriving from a meal's "select" button): stay at the very
+    // top so the pick banner and search box are visible. Paging/filtering still
+    // jumps to the start of the table.
+    window.scrollTo({ top: toTop ? 0 : tableEl.offsetTop - 20, behavior: 'instant' in window ? 'instant' : 'auto' });
+  }
+
+  function renderPager(container, totalPages){
+    container.innerHTML = '';
+    if (totalPages <= 1){
+      container.style.display = 'none';
+      return;
+    }
+    container.style.display = 'flex';
+
+    const makeBtn = (label, page, opts) => {
+      opts = opts || {};
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.textContent = label;
+      if (opts.disabled) btn.disabled = true;
+      if (opts.active) btn.className = 'active';
+      btn.addEventListener('click', () => { currentPage = page; renderPage(); });
+      return btn;
+    };
+
+    container.appendChild(makeBtn('\u2190 Prev', currentPage - 1, { disabled: currentPage === 1 }));
+
+    // Windowed page numbers: first, last, and a range around current.
+    const windowSize = 2;
+    const pages = new Set([1, totalPages]);
+    for (let i = currentPage - windowSize; i <= currentPage + windowSize; i++){
+      if (i >= 1 && i <= totalPages) pages.add(i);
+    }
+    const sorted = Array.from(pages).sort((a, b) => a - b);
+
+    let prev = null;
+    sorted.forEach(p => {
+      if (prev !== null && p - prev > 1){
+        const gap = document.createElement('span');
+        gap.textContent = '\u2026';
+        gap.style.color = 'var(--ink-soft)';
+        gap.style.fontSize = '13px';
+        container.appendChild(gap);
+      }
+      container.appendChild(makeBtn(String(p), p, { active: p === currentPage }));
+      prev = p;
+    });
+
+    container.appendChild(makeBtn('Next \u2192', currentPage + 1, { disabled: currentPage === totalPages }));
+
+    const jump = document.createElement('span');
+    jump.className = 'page-jump';
+    jump.innerHTML = `Go to <input type="number" min="1" max="${totalPages}" value="${currentPage}" /> `;
+    const jumpInput = jump.querySelector('input');
+    jumpInput.addEventListener('change', () => {
+      const val = parseInt(jumpInput.value, 10);
+      if (!isNaN(val)){
+        currentPage = val;
+        renderPage();
+      }
+    });
+    container.appendChild(jump);
+  }
+
+  function applyFilter(){
+    const q = searchEl.value.trim().toLowerCase();
+    const cat = catEl.value;
+    filtered = allProducts.filter(p => {
+      if (cat && getCategory(p) !== cat) return false;
+      if (!q) return true;
+      return getName(p).toLowerCase().includes(q) || getRestaurant(p).toLowerCase().includes(q);
+    });
+    currentPage = 1;
+    renderPage();
+  }
+
+  let debounceTimer = null;
+  catEl.addEventListener('change', applyFilter);
+  searchEl.addEventListener('input', () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(applyFilter, 150);
+  });
+
+  async function init(){
+    try{
+      const res = await fetch('meals.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error('fetch failed: ' + res.status);
+      const data = await res.json();
+      const allowed = new Set(data.allowed_restaurants || []);
+      allProducts = (data.meals || [])
+        .filter(m => !allowed.size || allowed.has(m.restaurant))
+        .sort((a, b) =>
+          a.restaurant.localeCompare(b.restaurant) ||
+          getCategory(a).localeCompare(getCategory(b)) ||
+          a.name.localeCompare(b.name));
+      filtered = allProducts;
+
+      statusEl.style.display = 'none';
+      if (allProducts.length === 0){
+        emptyEl.style.display = 'block';
+        return;
+      }
+      tableEl.style.display = 'table';
+      renderPage(true);
+    } catch (err){
+      statusEl.style.display = 'none';
+      emptyEl.style.display = 'block';
+      console.error('Failed to load meals.json', err);
+    }
+  }
+
+  document.addEventListener('error', (e) => {
+    const img = e.target;
+    if (!(img instanceof HTMLImageElement) || !img.classList.contains('prod-thumb')) return;
+    const fb = img.dataset.fallback;
+    if (fb && img.src !== fb && !img.dataset.triedFallback){
+      img.dataset.triedFallback = '1';
+      img.src = fb;
+      return;
+    }
+    const empty = document.createElement('div');
+    empty.className = 'prod-thumb-empty';
+    empty.textContent = 'no image';
+    img.replaceWith(empty);
+  }, true);
+
+  if (pickRequest){
+    tableEl.classList.add('pick-mode');
+    const where = [pickRequest.dayName, pickRequest.slot].filter(Boolean).join(' \u00b7 ');
+    document.getElementById('pick-banner-text').textContent =
+      'Choosing a meal for ' + where + ' \u2014 click a product (or Select) to put it in your plan.';
+    document.getElementById('pick-banner').classList.add('on');
+    document.getElementById('pick-cancel').addEventListener('click', () => {
+      try{ localStorage.removeItem('lazymanPickRequest'); }catch(err){}
+      window.location.href = 'index.html';
+    });
+  }
+
+  init();
+})();
+</script>
+
+</body>
+</html>

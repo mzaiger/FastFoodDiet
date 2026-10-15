@@ -1,0 +1,1876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lazy Man's Fast Food Diet Plan</title>
+<meta name="theme-color" content="#123645" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;900&family=Permanent+Marker&display=swap" rel="stylesheet">
+<style>
+  /* Look: drive-thru steel blue, shelf-tag yellow, Franklin Gothic type.
+     Fonts: Libre Franklin (everything) + Permanent Marker (day labels only).
+     Header picture: a fast food restaurant illustration drawn inline as an SVG
+     (no hotlinking, always loads). To use a real photo instead, change the
+     URL in --hero-photo below to any image URL you have the rights to use. */
+  :root{
+    --paper: #EEF2F0;
+    --card: #FFFFFF;
+    --frost: #E6EDEB;
+    --line: #CBD6D3;
+    --line-strong: #AEBFBB;
+    --ink: #16262D;
+    --ink-soft: #4A5D65;
+    --steel: #2A5E73;
+    --steel-deep: #123645;
+    --tag: #F5C83B;
+    --tag-deep: #E3B21F;
+    --tape: #E7D8B2;
+    --good: #2B7A4B;
+    --warn: #B3382C;
+    --sans: 'Libre Franklin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --hand: 'Permanent Marker', 'Marker Felt', 'Bradley Hand', cursive;
+    --hero-photo: url("data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201800%20600'%20preserveAspectRatio='xMidYMid%20slice'%3E%3Cdefs%3E%3ClinearGradient%20id='sky'%20x1='0'%20y1='0'%20x2='0'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%239aa3a6'/%3E%3Cstop%20offset='1'%20stop-color='%23e4e8e8'/%3E%3C/linearGradient%3E%3ClinearGradient%20id='glow'%20x1='0'%20y1='0'%20x2='0'%20y2='1'%3E%3Cstop%20offset='0'%20stop-color='%23fff3b0'/%3E%3Cstop%20offset='1'%20stop-color='%23ffd25a'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect%20width='1800'%20height='600'%20fill='url(%23sky)'/%3E%3Cg%20fill='%23ffffff'%20opacity='.55'%3E%3Cellipse%20cx='430'%20cy='110'%20rx='150'%20ry='30'/%3E%3Cellipse%20cx='520'%20cy='95'%20rx='100'%20ry='28'/%3E%3Cellipse%20cx='1380'%20cy='80'%20rx='170'%20ry='26'/%3E%3C/g%3E%3Cg%20fill='%236f7a7c'%3E%3Crect%20x='0'%20y='400'%20width='1800'%20height='90'/%3E%3Ccircle%20cx='120'%20cy='400'%20r='55'/%3E%3Ccircle%20cx='210'%20cy='410'%20r='48'/%3E%3Ccircle%20cx='1650'%20cy='405'%20r='60'/%3E%3Ccircle%20cx='1740'%20cy='410'%20r='50'/%3E%3C/g%3E%3Crect%20x='0'%20y='480'%20width='1800'%20height='120'%20fill='%234a4f51'/%3E%3Crect%20x='0'%20y='480'%20width='1800'%20height='10'%20fill='%23c9cecf'/%3E%3Cg%20fill='%23e9ecec'%3E%3Crect%20x='40'%20y='555'%20width='120'%20height='10'/%3E%3Crect%20x='260'%20y='555'%20width='120'%20height='10'/%3E%3Crect%20x='480'%20y='555'%20width='120'%20height='10'/%3E%3Crect%20x='700'%20y='555'%20width='120'%20height='10'/%3E%3Crect%20x='920'%20y='555'%20width='120'%20height='10'/%3E%3Crect%20x='1140'%20y='555'%20width='120'%20height='10'/%3E%3Crect%20x='1360'%20y='555'%20width='120'%20height='10'/%3E%3Crect%20x='1580'%20y='555'%20width='120'%20height='10'/%3E%3C/g%3E%3Crect%20x='760'%20y='250'%20width='740'%20height='235'%20fill='%23f3f1ea'/%3E%3Crect%20x='760'%20y='250'%20width='740'%20height='235'%20fill='none'%20stroke='%232b2f31'%20stroke-width='4'/%3E%3Cpolygon%20points='735,255%201525,255%201490,205%20770,205'%20fill='%232b2f31'/%3E%3Crect%20x='735'%20y='248'%20width='790'%20height='14'%20fill='%238a9093'/%3E%3Crect%20x='820'%20y='282'%20width='620'%20height='84'%20rx='10'%20fill='%231f2426'/%3E%3Crect%20x='830'%20y='292'%20width='600'%20height='64'%20rx='6'%20fill='none'%20stroke='%23ffd25a'%20stroke-width='4'/%3E%3Ctext%20x='1130'%20y='340'%20text-anchor='middle'%20font-family='Arial%20Black,Arial,Helvetica,sans-serif'%20font-weight='900'%20font-size='46'%20letter-spacing='4'%20fill='%23ffd25a'%3EFAST%20FOOD%3C/text%3E%3Cg%3E%3Crect%20x='790'%20y='384'%20width='680'%20height='34'%20fill='%23ffffff'/%3E%3Cg%20fill='%235c6366'%3E%3Crect%20x='790'%20y='384'%20width='57'%20height='34'/%3E%3Crect%20x='904'%20y='384'%20width='57'%20height='34'/%3E%3Crect%20x='1018'%20y='384'%20width='57'%20height='34'/%3E%3Crect%20x='1132'%20y='384'%20width='57'%20height='34'/%3E%3Crect%20x='1246'%20y='384'%20width='57'%20height='34'/%3E%3Crect%20x='1360'%20y='384'%20width='57'%20height='34'/%3E%3C/g%3E%3Cpolygon%20points='790,418%20847,418%20836,438%20801,438'%20fill='%23ffffff'/%3E%3Cpolygon%20points='904,418%20961,418%20950,438%20915,438'%20fill='%23ffffff'/%3E%3Cpolygon%20points='1018,418%201075,418%201064,438%201029,438'%20fill='%23ffffff'/%3E%3Cpolygon%20points='1132,418%201189,418%201178,438%201143,438'%20fill='%23ffffff'/%3E%3Cpolygon%20points='1246,418%201303,418%201292,438%201257,438'%20fill='%23ffffff'/%3E%3Cpolygon%20points='1360,418%201417,418%201406,438%201371,438'%20fill='%23ffffff'/%3E%3C/g%3E%3Crect%20x='800'%20y='440'%20width='250'%20height='44'%20fill='url(%23glow)'%20stroke='%232b2f31'%20stroke-width='3'/%3E%3Crect%20x='1210'%20y='440'%20width='250'%20height='44'%20fill='url(%23glow)'%20stroke='%232b2f31'%20stroke-width='3'/%3E%3Cg%20stroke='%232b2f31'%20stroke-width='3'%3E%3Cline%20x1='883'%20y1='440'%20x2='883'%20y2='484'/%3E%3Cline%20x1='967'%20y1='440'%20x2='967'%20y2='484'/%3E%3Cline%20x1='1293'%20y1='440'%20x2='1293'%20y2='484'/%3E%3Cline%20x1='1377'%20y1='440'%20x2='1377'%20y2='484'/%3E%3C/g%3E%3Crect%20x='1085'%20y='432'%20width='100'%20height='53'%20fill='%232b2f31'/%3E%3Crect%20x='1093'%20y='440'%20width='38'%20height='45'%20fill='%239fb0b4'/%3E%3Crect%20x='1139'%20y='440'%20width='38'%20height='45'%20fill='%239fb0b4'/%3E%3Crect%20x='1500'%20y='300'%20width='150'%20height='185'%20fill='%23e6e3da'%20stroke='%232b2f31'%20stroke-width='4'/%3E%3Crect%20x='1490'%20y='286'%20width='170'%20height='24'%20fill='%232b2f31'/%3E%3Crect%20x='1522'%20y='350'%20width='106'%20height='70'%20fill='url(%23glow)'%20stroke='%232b2f31'%20stroke-width='3'/%3E%3Crect%20x='1536'%20y='430'%20width='78'%20height='10'%20fill='%238a9093'/%3E%3Cg%20transform='translate(-1040%200)'%3E%3Crect%20x='1690'%20y='330'%20width='78'%20height='116'%20rx='6'%20fill='%231f2426'/%3E%3Crect%20x='1700'%20y='342'%20width='58'%20height='14'%20fill='%23ffd25a'/%3E%3Cg%20fill='%23d9dedf'%3E%3Crect%20x='1700'%20y='366'%20width='58'%20height='6'/%3E%3Crect%20x='1700'%20y='380'%20width='58'%20height='6'/%3E%3Crect%20x='1700'%20y='394'%20width='58'%20height='6'/%3E%3Crect%20x='1700'%20y='408'%20width='58'%20height='6'/%3E%3C/g%3E%3Crect%20x='1722'%20y='446'%20width='14'%20height='38'%20fill='%232b2f31'/%3E%3C/g%3E%3Cg%20transform='translate(1110%200)'%3E%3Crect%20x='598'%20y='140'%20width='16'%20height='345'%20fill='%232b2f31'/%3E%3Ccircle%20cx='606'%20cy='128'%20r='82'%20fill='%23ffd25a'%20stroke='%232b2f31'%20stroke-width='6'/%3E%3Ccircle%20cx='606'%20cy='128'%20r='64'%20fill='%231f2426'/%3E%3Cg%3E%3Cpath%20d='M556%20118%20Q556%2082%20606%2082%20Q656%2082%20656%20118%20Z'%20fill='%23ffd25a'/%3E%3Crect%20x='552'%20y='122'%20width='108'%20height='10'%20rx='5'%20fill='%239aa3a6'/%3E%3Crect%20x='556'%20y='136'%20width='100'%20height='10'%20rx='5'%20fill='%23ffffff'/%3E%3Cpath%20d='M556%20150%20H656%20Q656%20170%20606%20170%20Q556%20170%20556%20150%20Z'%20fill='%23ffd25a'/%3E%3C/g%3E%3C/g%3E%3Cg%3E%3Crect%20x='1380'%20y='500'%20width='250'%20height='50'%20rx='16'%20fill='%23c9cecf'/%3E%3Cpath%20d='M1420%20500%20L1450%20462%20H1570%20L1600%20500%20Z'%20fill='%23b4babc'/%3E%3Cpath%20d='M1458%20498%20L1478%20468%20H1520%20V498%20Z%20M1528%20498%20V468%20H1562%20L1584%20498%20Z'%20fill='%236f7a7c'/%3E%3Ccircle%20cx='1432'%20cy='552'%20r='22'%20fill='%231f2426'/%3E%3Ccircle%20cx='1432'%20cy='552'%20r='9'%20fill='%23c9cecf'/%3E%3Ccircle%20cx='1580'%20cy='552'%20r='22'%20fill='%231f2426'/%3E%3Ccircle%20cx='1580'%20cy='552'%20r='9'%20fill='%23c9cecf'/%3E%3C/g%3E%3Cg%3E%3Crect%20x='240'%20y='505'%20width='230'%20height='46'%20rx='15'%20fill='%232b2f31'/%3E%3Cpath%20d='M275%20505%20L303%20470%20H410%20L440%20505%20Z'%20fill='%233b4144'/%3E%3Cpath%20d='M310%20503%20L326%20475%20H364%20V503%20Z%20M372%20503%20V475%20H405%20L428%20503%20Z'%20fill='%239fb0b4'/%3E%3Ccircle%20cx='290'%20cy='553'%20r='21'%20fill='%231f2426'/%3E%3Ccircle%20cx='290'%20cy='553'%20r='8'%20fill='%238a9093'/%3E%3Ccircle%20cx='425'%20cy='553'%20r='21'%20fill='%231f2426'/%3E%3Ccircle%20cx='425'%20cy='553'%20r='8'%20fill='%238a9093'/%3E%3C/g%3E%3C/svg%3E");
+  }
+
+  *{ box-sizing:border-box; }
+
+  .sr-only{
+    position:absolute;
+    width:1px;
+    height:1px;
+    margin:-1px;
+    padding:0;
+    overflow:hidden;
+    clip:rect(0,0,0,0);
+    white-space:nowrap;
+    border:0;
+  }
+
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:var(--sans);
+    padding:0 0 80px;
+  }
+
+  /* Full-bleed photo band. The side padding keeps the content on the same
+     1080px column as <main>. */
+  header{
+    position:relative;
+    background:var(--steel-deep);
+    color:#fff;
+    padding:56px max(24px, calc(50% - 516px)) 28px;
+  }
+
+  @supports (mix-blend-mode:multiply){
+    header{
+      isolation:isolate;
+      background:#fff;
+    }
+
+    header::before,
+    header::after{
+      content:'';
+      position:absolute;
+      top:0;
+      right:0;
+      bottom:0;
+      left:0;
+      z-index:-1;
+    }
+
+    /* The photo, flattened to greys... */
+    header::before{
+      background:var(--hero-photo) center 40% / cover no-repeat;
+      filter:grayscale(1) contrast(1.15);
+    }
+
+    /* ...then dyed steel blue. Multiply can only darken, so the lightest pixel
+       of any photo is never lighter than the steel itself and the white type
+       stays readable whichever photo is used. If the photo fails to load, the
+       header is simply solid steel. */
+    header::after{
+      background:var(--steel);
+      mix-blend-mode:multiply;
+    }
+  }
+
+  @supports (mix-blend-mode:multiply){
+    @media (max-width:760px){
+      header::before{
+        background:var(--hero-photo) center top / auto 300px no-repeat, #4a4f51;
+      }
+    }
+  }
+
+  h1{
+    font-family:var(--sans);
+    font-weight:900;
+    font-size:clamp(40px, 7vw, 64px);
+    letter-spacing:-0.025em;
+    margin:0 0 10px;
+    color:#fff;
+    line-height:1;
+    text-wrap:balance;
+  }
+
+  .sub-link{ color:var(--tag); font-weight:700; white-space:nowrap; }
+
+  .restaurants{
+    margin-top:36px;
+    padding:22px 24px;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:4px;
+  }
+  .restaurants h2{ margin:0 0 8px; font-size:20px; font-weight:900; letter-spacing:-0.01em; }
+  .restaurants p{ margin:0 0 14px; font-size:14px; line-height:1.55; color:var(--ink-soft); max-width:760px; }
+  .rest-list{
+    list-style:none;
+    margin:0 0 14px;
+    padding:0;
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
+    gap:8px;
+  }
+  .rest-list li{
+    padding:8px 10px;
+    background:var(--frost);
+    border:1px solid var(--line);
+    border-radius:3px;
+    font-size:14px;
+    font-weight:700;
+    color:var(--ink);
+  }
+  .rest-list .rest-note{ display:block; margin-top:2px; font-size:12px; font-weight:500; color:var(--ink-soft); }
+  .rest-list .rest-count{ float:right; font-size:12px; font-weight:600; color:var(--steel); }
+  .restaurants .rest-foot{ margin:0; font-size:12px; }
+
+  .sub{
+    color:rgba(255,255,255,0.88);
+    max-width:560px;
+    font-size:15px;
+    line-height:1.5;
+    margin:0 0 28px;
+  }
+
+  .controls-wrap{
+    display:flex;
+    justify-content:flex-start;
+  }
+
+  .controls{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-end;
+    gap:20px;
+    /* Wide enough that the last row (Max per meal, filters, Generate, Filtered
+       Pool Size badge) stays on one line even where Safari renders form controls
+       a bit wider than Chrome, e.g. iPad. */
+    max-width:615px;
+    background:var(--card);
+    color:var(--ink);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:20px 24px;
+  }
+
+  .controls .field,
+  .controls .tolerance,
+  .controls button,
+  .controls .pool-badge,
+  .controls .row-break{
+    order:var(--o-d);
+  }
+
+  .row-break{
+    flex-basis:100%;
+    width:0;
+    height:0;
+    margin:0;
+    padding:0;
+  }
+
+  .row-break.mobile-only{ display:none; }
+
+  @media (max-width:640px){
+    .controls{
+      max-width:365px;
+      padding:20px 16px;
+    }
+    .controls .field,
+    .controls .tolerance,
+    .controls button,
+    .controls .pool-badge,
+    .controls .row-break{
+      order:var(--o-m);
+    }
+    .row-break.mobile-only{ display:block; }
+    .diet-filters{
+      max-width:120px;
+    }
+  }
+
+  .field label{
+    display:block;
+    font-size:11px;
+    font-weight:600;
+    color:var(--ink-soft);
+    margin-bottom:6px;
+  }
+
+  .field input{
+    font-family:var(--sans);
+    font-size:20px;
+    font-weight:700;
+    color:var(--steel-deep);
+    border:1px solid var(--line-strong);
+    border-radius:3px;
+    padding:8px 12px;
+    width:120px;
+    background:var(--frost);
+  }
+
+  .field input:disabled{
+    opacity:0.45;
+    cursor:not-allowed;
+  }
+
+  .max-price-label{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    cursor:pointer;
+  }
+
+  .max-price-label input[type="checkbox"]{
+    width:13px;
+    height:13px;
+    margin:0;
+    position:relative;
+    top:1px;
+    cursor:pointer;
+    accent-color:var(--steel);
+  }
+
+  .diet-filters{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    justify-content:center;
+  }
+
+  .diet-checkbox-label{
+    display:flex;
+    align-items:center;
+    gap:6px;
+    cursor:pointer;
+    font-size:13px;
+    color:var(--ink);
+  }
+
+  .field .diet-checkbox-label{
+    font-weight:400;
+  }
+
+  .diet-checkbox-label input[type="checkbox"]{
+    width:13px;
+    height:13px;
+    margin:0;
+    position:relative;
+    top:1px;
+    cursor:pointer;
+    accent-color:var(--steel);
+  }
+
+  .field select{
+    font-family:var(--sans);
+    font-size:12px;
+    font-weight:600;
+    color:var(--steel-deep);
+    border:1px solid var(--line-strong);
+    border-radius:3px;
+    padding:9px 10px;
+    width:260px;
+    background:var(--frost);
+    cursor:pointer;
+  }
+
+  .field select:focus{
+    outline:2px solid var(--steel);
+    outline-offset:1px;
+  }
+
+  .field input:focus{
+    outline:2px solid var(--steel);
+    outline-offset:1px;
+  }
+
+  .tolerance{
+    font-size:12px;
+    color:var(--ink-soft);
+    align-self:center;
+    padding-bottom:10px;
+    width:120px;
+  }
+
+  button#generate{
+    font-family:var(--sans);
+    font-weight:700;
+    font-size:14px;
+    background:var(--tag);
+    color:var(--ink);
+    border:1px solid rgba(22,38,45,0.3);
+    border-radius:3px;
+    padding:13px 14px;
+    width:140px;
+    text-align:center;
+    cursor:pointer;
+    transition:background 0.15s ease;
+  }
+
+  button#generate:hover{ background:var(--tag-deep); }
+  button#generate:focus-visible{ outline:2px solid var(--steel-deep); outline-offset:2px; }
+
+  /* Filtered pool counter: label sits to the LEFT of the circle. The count is a
+     stacked fraction (filtered over total) so 4-digit pool sizes still fit. */
+  .pool-badge{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    white-space:nowrap;
+  }
+
+  .pool-badge-title{
+    display:flex;
+    flex-direction:column;
+    line-height:1.05;
+    text-align:right;
+  }
+
+  .pool-badge-title b{
+    font-family:var(--sans);
+    font-weight:800;
+    font-size:14px;
+    color:var(--ink);
+  }
+
+  .pool-badge-title span{
+    font-size:11px;
+    font-weight:600;
+    color:var(--ink-soft);
+    margin-top:2px;
+  }
+
+  .pool-circle{
+    width:54px;
+    height:54px;
+    flex:none;
+    border-radius:50%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    font-family:var(--sans);
+    font-weight:800;
+    font-size:13px;
+    line-height:1;
+    color:var(--steel-deep);
+    border:3px solid var(--steel);
+    background:var(--card);
+  }
+
+  .pool-circle .bar{
+    display:block;
+    width:30px;
+    height:2px;
+    margin:3px 0;
+    border-radius:1px;
+    background:var(--steel);
+  }
+
+  /* Hanging indent: the asterisk sits in its own column so line 2 (and any
+     wrapped line) lines up under the text after it. */
+  .calc-note{
+    display:flex;
+    gap:0.4em;
+    font-size:12px;
+    color:rgba(255,255,255,0.84);
+    margin-top:14px;
+    line-height:1.5;
+  }
+
+  .calc-note strong{ color:#fff; }
+
+  .calc-note .calc-star{
+    flex:none;
+  }
+
+  /* Sits on the photo, so it's a solid slip rather than a tint. */
+  .budget-summary{
+    font-size:13px;
+    font-weight:600;
+    line-height:1.4;
+    margin-top:10px;
+    padding:10px 14px;
+    border-radius:3px;
+    border-left:4px solid var(--steel);
+    background:var(--card);
+    display:inline-block;
+    max-width:100%;
+  }
+
+  .budget-summary.in-range{
+    color:var(--good);
+    border-left-color:var(--good);
+  }
+
+  .budget-summary.off-range{
+    color:var(--warn);
+    border-left-color:var(--warn);
+  }
+
+  /* Heavy top rule borrowed from the back-of-box nutrition panel. */
+  .week-totals{
+    display:grid;
+    grid-template-columns:repeat(4, auto);
+    gap:24px 32px;
+    background:var(--card);
+    border:1px solid var(--ink);
+    border-top-width:8px;
+    border-radius:2px;
+    padding:14px 24px 18px;
+    margin-top:16px;
+    margin-bottom:8px;
+    width:fit-content;
+  }
+
+  .week-totals .total-item .label{
+    font-size:12px;
+    font-weight:600;
+    color:var(--ink-soft);
+    margin-bottom:4px;
+  }
+
+  .week-totals .total-item .value{
+    font-family:var(--sans);
+    font-size:16px;
+    font-weight:800;
+    color:var(--ink);
+  }
+
+  .week-totals .total-item .value .per-meal{
+    font-size:12px;
+    font-weight:500;
+    color:var(--ink-soft);
+  }
+
+  @media (max-width:640px){
+    .week-totals{
+      grid-template-columns:repeat(2, minmax(0,1fr));
+      gap:18px 24px;
+      width:100%;
+    }
+  }
+
+  main{
+    max-width:1080px;
+    margin:0 auto;
+    padding:0 24px;
+  }
+
+  #week{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+    gap:18px;
+    margin-top:14px;
+  }
+
+  .day-card{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:20px 14px 18px;
+    display:flex;
+    flex-direction:column;
+    gap:14px;
+  }
+
+  /* Day names are the masking-tape-and-marker labels you stick on a bag
+     containers. Delete this rule (and the nth-child one) for plain text. */
+  .day-name{
+    display:inline-block;
+    font-family:var(--hand);
+    font-size:22px;
+    line-height:1.15;
+    color:var(--ink);
+    padding:4px 16px 3px 14px;
+    background:var(--tape);
+    transform:rotate(-1.5deg);
+    transform-origin:left center;
+    -webkit-clip-path:polygon(0 0, 100% 0, calc(100% - 3px) 25%, 100% 50%, calc(100% - 3px) 75%, 100% 100%, 0 100%, 3px 75%, 0 50%, 3px 25%);
+    clip-path:polygon(0 0, 100% 0, calc(100% - 3px) 25%, 100% 50%, calc(100% - 3px) 75%, 100% 100%, 0 100%, 3px 75%, 0 50%, 3px 25%);
+  }
+
+  .day-card:nth-child(even) .day-name{
+    transform:rotate(1deg);
+  }
+
+  /* 2 x 3 grid so every row lines up across the columns:
+       image        | slot + name | calories + price + serving
+       select + regenerate buttons (one full-width row)          */
+  .meal-row{
+    display:grid;
+    grid-template-columns:80px minmax(0,1fr) auto;
+    grid-template-rows:auto auto;
+    column-gap:8px;
+    row-gap:8px;
+    align-items:start;
+    padding:10px 0;
+    border-top:1px solid var(--line);
+  }
+
+  .meal-row:first-of-type{ border-top:none; }
+
+  .meal-info{ flex:1; min-width:0; }
+
+  .meal-rest{
+    display:inline-block;
+    margin-top:4px;
+    padding:1px 7px;
+    font-size:11px;
+    font-weight:700;
+    color:var(--steel-deep);
+    background:var(--frost);
+    border:1px solid var(--line);
+    border-radius:10px;
+  }
+
+  .meal-slot{
+    font-size:11px;
+    color:var(--steel);
+    font-weight:700;
+    text-transform:lowercase;
+  }
+
+  .meal-name{
+    font-size:14px;
+    color:var(--ink);
+    line-height:1.35;
+    margin-top:2px;
+  }
+
+  .meal-serving{
+    font-size:12px;
+    color:var(--ink-soft);
+    margin-top:3px;
+    max-width:12ch;
+    overflow-wrap:anywhere;
+    text-align:right;
+  }
+
+  /* Row 2 is one wide cell; the button and chips sit side by side and are
+     not tied to the columns above. */
+  .meal-actions{
+    grid-column:1 / -1;
+    display:flex;
+    flex-wrap:nowrap;
+    align-items:center;
+    gap:4px;
+  }
+
+  /* Very narrow phones: not enough width for all four, so let them wrap. */
+  @media (max-width:380px){
+    .meal-actions{ flex-wrap:wrap; }
+  }
+
+  .meal-money{
+    text-align:right;
+  }
+
+  .meal-money .meal-serving{ margin-left:auto; }
+
+  /* Brief highlight on the meal you just picked after returning here. */
+  @keyframes pickedFlash{
+    from{ background:rgba(245,200,59,0.55); }
+    to{ background:transparent; }
+  }
+  .meal-row.just-picked{ animation:pickedFlash 2.2s ease-out; }
+
+
+  .meal-cal{
+    font-family:var(--sans);
+    font-size:14px;
+    font-weight:700;
+    color:var(--ink);
+    white-space:nowrap;
+    padding-top:1px;
+  }
+
+  .meal-price{
+    font-size:12px;
+    color:var(--ink-soft);
+    margin-top:2px;
+  }
+
+  .meal-thumb-link{ flex-shrink:0; display:block; }
+
+  .meal-thumb{
+    width:80px;
+    height:auto;
+    max-height:150px;
+    border:0px solid var(--line);
+    border-radius:3px;
+    object-fit:contain;
+    display:block;
+    background:var(--card);
+  }
+
+  .meal-thumb-empty{
+    width:80px;
+    height:80px;
+    background:var(--frost);
+    border-style:dashed;
+  }
+
+  .day-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:12px;
+  }
+
+  .day-header-totals{
+    text-align:right;
+    flex-shrink:0;
+  }
+
+  .day-header-totals .value{
+    font-family:var(--sans);
+    font-size:16px;
+    font-weight:800;
+  }
+
+  /* The day's cost is the number this whole page is about, so it gets the
+     shelf-tag treatment. */
+  .day-header-totals .price{
+    display:inline-block;
+    font-size:12px;
+    font-weight:700;
+    color:var(--ink);
+    background:var(--tag);
+    border-radius:2px;
+    padding:1px 7px;
+    margin-top:3px;
+  }
+
+  .value.in-range{ color:var(--good); }
+  .value.off-range{ color:var(--warn); }
+
+  .flag{
+    font-size:11px;
+    color:var(--warn);
+    margin-top:-6px;
+  }
+
+  .empty-state{
+    border:1.5px dashed var(--line-strong);
+    border-radius:4px;
+    padding:40px 24px;
+    text-align:center;
+    color:var(--ink-soft);
+    margin-top:28px;
+  }
+
+  .tab-bar{
+    display:flex;
+    flex-wrap:wrap;
+    gap:6px;
+    margin-top:14px;
+  }
+
+  .tab-btn{
+    font-family:var(--sans);
+    font-size:13px;
+    font-weight:600;
+    color:var(--ink-soft);
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:4px 4px 0 0;
+    padding:10px 16px;
+    cursor:pointer;
+  }
+
+  .tab-btn.active{
+    color:var(--ink);
+    background:var(--paper);
+    border-bottom:2px solid var(--steel);
+    box-shadow:inset 0 3px 0 var(--tag);
+  }
+
+  .tab-btn:hover:not(.active){ color:var(--steel); }
+
+  .tab-clear{
+    color:var(--warn);
+    border-color:var(--warn);
+    background:var(--card);
+  }
+
+  .tab-clear:hover{ background:rgba(179,56,44,0.08); }
+
+  .regen-btn{
+    font-family:var(--sans);
+    font-size:11px;
+    font-weight:600;
+    background:var(--tag);
+    color:var(--ink);
+    border:1px solid;
+    border-radius:3px;
+    padding:3px 6px;
+    margin-top:0;
+    cursor:pointer;
+  }
+
+  .regen-btn:hover{ background:var(--frost); border-color:var(--steel); }
+
+  .save-bar{
+    display:flex;
+    align-items:center;
+    gap:14px;
+    margin-top:24px;
+    padding-top:20px;
+    border-top:1px solid var(--line);
+  }
+
+  #save-bar-top{
+    margin-bottom:20px;
+  }
+
+  button#save-week,
+  button#save-week-top{
+    font-family:var(--sans);
+    font-weight:700;
+    font-size:14px;
+    background:var(--steel-deep);
+    color:#fff;
+    border:none;
+    border-radius:3px;
+    padding:11px 18px;
+    cursor:pointer;
+  }
+
+  button#save-week:hover,
+  button#save-week-top:hover{ background:var(--steel); }
+  button#save-week:disabled,
+  button#save-week-top:disabled{ background:var(--line); color:var(--ink-soft); cursor:default; }
+
+  .save-note{
+    font-size:12px;
+    color:var(--ink-soft);
+  }
+
+  .save-confirmation{
+    font-size:13px;
+    font-weight:600;
+    color:var(--steel-deep);
+    background:rgba(42,94,115,0.12);
+    border-left:4px solid var(--steel);
+    border-radius:3px;
+    padding:10px 14px;
+    margin-top:16px;
+    margin-bottom:16px;
+    display:block;
+    width:fit-content;
+  }
+
+  .tab-delete{
+    margin-left:8px;
+    color:var(--warn);
+    font-weight:700;
+    cursor:pointer;
+  }
+
+  .empty-state code{
+    font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size:0.92em;
+    background:var(--frost);
+    padding:2px 6px;
+    border-radius:3px;
+  }
+
+  a:focus-visible,
+  .tab-btn:focus-visible,
+  .regen-btn:focus-visible,
+  button#save-week:focus-visible,
+  button#save-week-top:focus-visible{
+    outline:2px solid var(--steel);
+    outline-offset:2px;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Lazy Man's Fast Food Diet Plan</h1>
+  <p class="sub">Seven days of meals pulled only from 20 national fast food chains — 3 to 5 meals a day depending on your calorie target, each day landing within 250 calories of goal. <a class="sub-link" href="#restaurants">See the restaurants</a></p>
+
+  <div class="controls-wrap">
+  <div class="controls">
+    <div class="field" style="--o-d:1; --o-m:1;">
+      <label for="weight">Weight (lbs)</label>
+      <input type="number" id="weight" value="180" min="50" max="600" step="1" />
+    </div>
+    <div class="field" style="--o-d:2; --o-m:2;">
+      <label for="age">Age</label>
+      <input type="number" id="age" value="30" min="13" max="100" step="1" />
+    </div>
+    <div class="row-break mobile-only" style="--o-m:3;"></div>
+    <div class="field" style="--o-d:3; --o-m:4;">
+      <label for="activity-level">Activity level</label>
+      <select id="activity-level">
+        <option value="13">Sedentary (desk job, little exercise)</option>
+        <option value="14">Lightly active (light exercise 1-3x/wk)</option>
+        <option value="15" selected>Moderately active (exercise 3-5x/wk)</option>
+        <option value="17">Very active (hard exercise 6-7x/wk)</option>
+      </select>
+    </div>
+    <div class="row-break" style="--o-d:4; --o-m:5;"></div>
+    <div class="field" style="--o-d:5; --o-m:6;">
+      <label for="calories-burned">Calories burned / day</label>
+      <input type="number" id="calories-burned" value="2700" min="800" max="6000" step="10" />
+    </div>
+    <div class="field" style="--o-d:6; --o-m:7;">
+      <label for="lose-per-week">Lose / week (lbs)</label>
+      <input type="number" id="lose-per-week" value="1" min="0" max="5" step="0.25" />
+    </div>
+    <div class="row-break mobile-only" style="--o-m:8;"></div>
+    <div class="field" style="--o-d:7; --o-m:9;">
+      <label for="calorie-target">Daily calorie target</label>
+      <input type="number" id="calorie-target" value="1500" min="800" max="4000" step="50" />
+    </div>
+    <div class="tolerance" style="--o-d:8; --o-m:10;">&plusmn; 250 cal window</div>
+    <div class="row-break" style="--o-d:9; --o-m:11;"></div>
+    <div class="field" style="--o-d:10; --o-m:12;">
+      <label for="max-per-meal" class="max-price-label">
+        <input type="checkbox" id="max-per-meal-enabled" />
+        <span>Max per meal ($)</span>
+      </label>
+      <input type="number" id="max-per-meal" value="6.00" min="0" max="50" step="0.25" disabled />
+    </div>
+    <div class="field diet-filters" style="--o-d:12; --o-m:14;">
+      <label class="diet-checkbox-label" for="vegetarian-only">
+        <input type="checkbox" id="vegetarian-only" />
+        <span>Vegetarian</span>
+      </label>
+    </div>
+    <div class="row-break mobile-only" style="--o-m:15;"></div>
+    <button id="generate" style="--o-d:13; --o-m:16;">Generate week</button>
+    <div class="pool-badge" id="pool-badge" style="--o-d:14; --o-m:17;" title="Meals matching your current filters / total meals in the pool">
+      <div class="pool-badge-title"><b>Filtered</b><span>Pool Size</span></div>
+      <div class="pool-circle" aria-label="Filtered pool size"><span id="pool-filtered">&ndash;</span><span class="bar"></span><span id="pool-total">&ndash;</span></div>
+    </div>
+  </div>
+  </div>
+  <div class="budget-summary" id="budget-summary" style="display:none;"></div>
+  <div class="calc-note" id="calc-note"><span class="calc-star">*</span><span class="calc-text" id="calc-text">Calories, prices and servings are AI estimates (Gemini 3.8 Flash), last updated <strong id="data-date">&hellip;</strong>.<br>Menus and prices vary by location — always double-check at the restaurant.</span></div>
+</header>
+
+<main>
+  <div class="tab-bar" id="tab-bar"></div>
+  <div class="save-confirmation" id="save-confirmation" style="display:none;"></div>
+  <div class="save-bar" id="save-bar-top" style="display:none;">
+    <button id="save-week-top">Save this week</button>
+  </div>
+  <div class="week-totals" id="week-totals" style="display:none;">
+    <div class="total-item">
+      <div class="label">Week calorie goal</div>
+      <div class="value" id="week-goal">0</div>
+    </div>
+    <div class="total-item">
+      <div class="label">Week actual calories</div>
+      <div class="value" id="total-calories">0</div>
+    </div>
+    <div class="total-item">
+      <div class="label">Week cost goal</div>
+      <div class="value" id="week-cost-goal">$0.00</div>
+    </div>
+    <div class="total-item">
+      <div class="label">Week actual cost</div>
+      <div class="value" id="total-cost">$0.00</div>
+    </div>
+  </div>
+  <div id="week"></div>
+  <div class="empty-state" id="empty-state" style="display:none;">
+    Meal list not found yet. Run <code>pull_meals.py</code> (or wait for the daily GitHub Action) to generate <code>meals.json</code>.
+  </div>
+  <div class="empty-state" id="prompt-state" style="display:none;">
+    Set your numbers above, then click <code>Generate week</code> to build this week's meals.
+  </div>
+  <div class="save-bar" id="save-bar" style="display:none;">
+    <button id="save-week">Save this week</button>
+    <span class="save-note" id="save-note">Saved weeks live in this browser and show up as tabs above.</span>
+  </div>
+
+  <section class="restaurants" id="restaurants">
+    <h2>Where the meals come from</h2>
+    <p>Every meal in this plan comes from one of these 20 restaurants &mdash; nothing else is ever pulled in. They were picked because each one has locations in (nearly) all 50 states, so the plan works wherever you live. Where a chain is missing from a state, it&rsquo;s noted below.</p>
+    <ul class="rest-list" id="rest-list"></ul>
+    <p class="rest-foot">Meal names, calories, prices and servings are estimated by Gemini 3.8 Flash and refreshed daily, so the list keeps growing. Prices and menus differ by location.</p>
+  </section>
+</main>
+
+<script>
+const TOLERANCE = 250;
+const DAY_NAMES = ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
+
+let pool = { generated_at: "", source: "", calories_source: "", breakfast: [], general: [] };
+
+// Live generated week (editable — supports per-meal regenerate).
+let currentWeek = [];
+let currentTargetGlobal = 1500;
+let activeBreakfastPool = [];
+let activeGeneralPool = [];
+let activeCapInfo = { capActive: false, maxPrice: 0, capFallback: false, vegetarianOnly: false, vegetarianFallback: false };
+
+// Breakfast vs regular comes straight from the "category" Gemini assigns each
+// meal in meals.json. "Vegetarian" uses the vegetarian flag Gemini sets per meal.
+function isBreakfastItem(item){
+  return String(item.CATEGORY || item.category || '').toLowerCase() === 'breakfast';
+}
+
+function getMealBrand(meal){
+  return (meal.BRAND || meal.restaurant || '').trim();
+}
+
+function isVegetarianMeal(meal){
+  return meal.vegetarian === true;
+}
+
+// Weeks the user has saved to cookies, plus which tab is showing.
+let savedWeeks = [];
+let activeTab = 'current';
+
+function setStorage(name, value){
+  try{
+    localStorage.setItem(name, value);
+    return true;
+  }catch(err){
+    console.warn(`Could not save "${name}" to this browser's storage.`, err);
+    return false;
+  }
+}
+
+function getStorage(name){
+  try{
+    return localStorage.getItem(name);
+  }catch(err){
+    return null;
+  }
+}
+
+function removeStorage(name){
+  try{ localStorage.removeItem(name); }catch(err){}
+}
+
+function loadSavedWeeks(){
+  const raw = getStorage('lazymanSavedWeeks');
+  if(!raw) return;
+  try{ savedWeeks = JSON.parse(raw) || []; }catch(err){ savedWeeks = []; }
+}
+
+function persistSavedWeeks(){
+  setStorage('lazymanSavedWeeks', JSON.stringify(savedWeeks));
+}
+
+function compactMeal(meal){
+  return {
+    name: meal.PRODUCT_NAME || meal.name || 'Unnamed item',
+    calories: getMealCalories(meal),
+    price: getMealPriceNumber(meal) || null,
+    servings: getMealServingsPerContainer(meal),
+    restaurant: getMealBrand(meal),
+    vegetarian: meal.vegetarian === true,
+    image: getMealImage(meal) || null,
+    imageFull: meal.image_full_url || meal.imageFull || null
+  };
+}
+
+// Applies the max-per-meal cap (if any) to the raw pool, same rule used at
+// generation time and again when restoring the persisted current week.
+function computeActivePools(maxPrice, capActiveRequested, vegetarianOnly){
+  let breakfastPool = pool.breakfast;
+  let generalPool = pool.general;
+  let capFallback = false;
+  if(capActiveRequested){
+    const cappedBreakfast = pool.breakfast.filter(m => getMealPriceNumber(m) <= maxPrice);
+    const cappedGeneral = pool.general.filter(m => getMealPriceNumber(m) <= maxPrice);
+    if(cappedBreakfast.length && cappedGeneral.length >= 2){
+      breakfastPool = cappedBreakfast;
+      generalPool = cappedGeneral;
+    }else{
+      capFallback = true;
+    }
+  }
+
+  // The vegetarian filter applies on top of (not instead of) the price cap, and
+  // falls back the same way it does: if too few items would remain, skip the
+  // filter rather than leaving the week ungeneratable.
+  let vegetarianFallback = false;
+  if(vegetarianOnly){
+    const vegBreakfast = breakfastPool.filter(isVegetarianMeal);
+    const vegGeneral = generalPool.filter(isVegetarianMeal);
+    if(vegBreakfast.length && vegGeneral.length >= 2){
+      breakfastPool = vegBreakfast;
+      generalPool = vegGeneral;
+    }else{
+      vegetarianFallback = true;
+    }
+  }
+
+  return { breakfastPool, generalPool, capFallback, vegetarianFallback };
+}
+
+// The live/current week persists across reloads so the site doesn't rebuild
+// it every visit — only "Generate week" or a per-meal "regenerate" changes it.
+function persistCurrentWeek(){
+  if(!currentWeek || !currentWeek.length) return;
+  const payload = {
+    target: currentTargetGlobal,
+    capInfo: activeCapInfo,
+    days: currentWeek.map(day => {
+      const meals = {};
+      Object.keys(day.meals).forEach(slot => { meals[slot] = compactMeal(day.meals[slot]); });
+      return { dayName: day.dayName, total: day.total, inRange: day.inRange, slotOrder: day.slotOrder, meals };
+    })
+  };
+  setStorage('lazymanCurrentWeek', JSON.stringify(payload));
+}
+
+function clearPersistedCurrentWeek(){
+  removeStorage('lazymanCurrentWeek');
+}
+
+function restoreCurrentWeek(){
+  const raw = getStorage('lazymanCurrentWeek');
+  if(!raw) return false;
+  let payload;
+  try{ payload = JSON.parse(raw); }catch(err){ return false; }
+  if(!payload || !Array.isArray(payload.days) || !payload.days.length) return false;
+
+  currentTargetGlobal = payload.target || 1500;
+  activeCapInfo = payload.capInfo || { capActive: false, maxPrice: 0, capFallback: false, vegetarianOnly: false, vegetarianFallback: false };
+  const pools = computeActivePools(activeCapInfo.maxPrice, activeCapInfo.capActive, activeCapInfo.vegetarianOnly);
+  activeBreakfastPool = pools.breakfastPool;
+  activeGeneralPool = pools.generalPool;
+
+  currentWeek = payload.days.map(day => ({
+    dayName: day.dayName,
+    total: day.total,
+    inRange: day.inRange,
+    slotOrder: day.slotOrder,
+    meals: day.meals
+  }));
+
+  return true;
+}
+
+// Form inputs persist too, restored as-typed (no recalculation) so a manual
+// override to calories-burned or the daily target survives a reload.
+function saveFormData(){
+  const data = {
+    weight: document.getElementById('weight').value,
+    age: document.getElementById('age').value,
+    activityLevel: document.getElementById('activity-level').value,
+    loseRate: document.getElementById('lose-per-week').value,
+    caloriesBurned: document.getElementById('calories-burned').value,
+    calorieTarget: document.getElementById('calorie-target').value,
+    maxPerMeal: document.getElementById('max-per-meal').value,
+    maxPerMealEnabled: document.getElementById('max-per-meal-enabled').checked,
+    vegetarianOnly: document.getElementById('vegetarian-only').checked
+  };
+  try{
+    setStorage('lazymanFormData', JSON.stringify(data));
+  }catch(err){
+    console.warn('Could not save form data.', err);
+  }
+}
+
+function loadFormData(){
+  const raw = getStorage('lazymanFormData');
+  if(!raw) return false;
+  try{
+    const data = JSON.parse(raw);
+    if(data.weight !== undefined) document.getElementById('weight').value = data.weight;
+    if(data.age !== undefined) document.getElementById('age').value = data.age;
+    if(data.activityLevel !== undefined) document.getElementById('activity-level').value = data.activityLevel;
+    if(data.loseRate !== undefined) document.getElementById('lose-per-week').value = data.loseRate;
+    if(data.caloriesBurned !== undefined) document.getElementById('calories-burned').value = data.caloriesBurned;
+    if(data.calorieTarget !== undefined) document.getElementById('calorie-target').value = data.calorieTarget;
+    if(data.maxPerMeal !== undefined) document.getElementById('max-per-meal').value = data.maxPerMeal;
+    const enabledCheckbox = document.getElementById('max-per-meal-enabled');
+    enabledCheckbox.checked = !!data.maxPerMealEnabled;
+    document.getElementById('max-per-meal').disabled = !enabledCheckbox.checked;
+    document.getElementById('vegetarian-only').checked = !!data.vegetarianOnly;
+    return true;
+  }catch(err){
+    return false;
+  }
+}
+
+function getMealCalories(meal){
+  if(typeof meal.calories === 'number') return meal.calories;
+  if(meal.calories && !isNaN(Number(meal.calories))) return Number(meal.calories);
+  if(meal.open_food_facts && typeof meal.open_food_facts.calories === 'number'){
+    return meal.open_food_facts.calories;
+  }
+  return 0;
+}
+
+function getMealServingsPerContainer(meal){
+  if(meal.SERVINGS_PER_CONTAINER) return meal.SERVINGS_PER_CONTAINER;
+  if(meal.servings_per_container) return meal.servings_per_container;
+  if(meal.servings) return meal.servings;
+  if(meal.open_food_facts && meal.open_food_facts.servings_per_container){
+    return meal.open_food_facts.servings_per_container;
+  }
+  return 'N/A';
+}
+
+function getMealPrice(meal){
+  const price = meal.PRICE_CURRENT ?? meal.price ?? meal.PRICE_RETAIL;
+  if(price === undefined || price === null || price === 0 || price === '0') return 'N/A';
+  const num = parseFloat(price);
+  return isNaN(num) ? 'N/A' : `$${num.toFixed(2)}`;
+}
+
+function getMealImage(meal){
+  return meal.image_url || meal.image || '';
+}
+
+function getMealImageFallback(meal){
+  return meal.image_full_url || meal.imageFull || '';
+}
+
+function getMealPriceNumber(meal){
+  const raw = meal.PRICE_CURRENT ?? meal.price ?? meal.PRICE_RETAIL;
+  const num = parseFloat(raw);
+  return isNaN(num) ? 0 : num;
+}
+
+// Weight-based estimate: cal/lb/day multiplier varies with activity level,
+// then nudged down for age since resting metabolism slows gradually past 25.
+function recalcCaloriesBurned(){
+  const weight = parseFloat(document.getElementById('weight').value) || 0;
+  const age = parseFloat(document.getElementById('age').value) || 25;
+  const multiplier = parseFloat(document.getElementById('activity-level').value) || 15;
+  const ageFactor = Math.max(0.8, 1 - Math.max(0, age - 25) * 0.0025);
+  document.getElementById('calories-burned').value = Math.round(weight * multiplier * ageFactor);
+  recalcDailyTarget();
+}
+
+// weekly calories burned - 3500 cal per pound they want to lose = weekly target, / 7 = daily target
+function recalcDailyTarget(){
+  const burned = parseFloat(document.getElementById('calories-burned').value) || 0;
+  const loseRate = parseFloat(document.getElementById('lose-per-week').value) || 0;
+  const weeklyBurn = burned * 7;
+  const weeklyTarget = weeklyBurn - (3500 * loseRate);
+  const dailyTarget = Math.round(weeklyTarget / 7);
+  document.getElementById('calorie-target').value = dailyTarget;
+}
+
+// Newest timestamp in the meal list: when meals.json was last written, or when
+// the newest meal was added.
+const DATA_DATE_FIELDS = ['_added_at'];
+
+function parseDataTimestamp(raw){
+  if(!raw || typeof raw !== 'string') return NaN;
+  // "2022-09-11 21:20:04" -> ISO (Safari needs the T); trim microseconds to ms.
+  const iso = raw.trim().replace(' ', 'T').replace(/(\.\d{3})\d+/, '$1');
+  return Date.parse(iso);
+}
+
+function latestDataDate(items){
+  let newest = NaN;
+  items.forEach(item => {
+    DATA_DATE_FIELDS.forEach(field => {
+      const t = parseDataTimestamp(item[field]);
+      if(!isNaN(t) && (isNaN(newest) || t > newest)) newest = t;
+    });
+  });
+  return isNaN(newest) ? null : new Date(newest);
+}
+
+function setDataDate(date){
+  const note = document.getElementById('calc-text');
+  if(date){
+    document.getElementById('data-date').textContent = date.toLocaleDateString();
+  }else{
+    // No usable date -- drop the "as recent as" clause rather than show a blank.
+    note.innerHTML = 'Calorie and price figures come from product/retailer data.<br>May be out of date or inaccurate — always double-check at the store.';
+  }
+}
+
+// Filtered Pool Size badge: how many meals survive the current price cap /
+// diet filters (the same pools "Generate week" draws from) out of the whole pool.
+function updatePoolCount(){
+  const totalEl = document.getElementById('pool-total');
+  const filteredEl = document.getElementById('pool-filtered');
+  if(!totalEl || !filteredEl) return;
+  const total = (pool.breakfast || []).length + (pool.general || []).length;
+  if(!total){
+    filteredEl.textContent = '\u2013';
+    totalEl.textContent = '\u2013';
+    return;
+  }
+  const maxPrice = parseFloat(document.getElementById('max-per-meal').value);
+  const capActive = document.getElementById('max-per-meal-enabled').checked && !isNaN(maxPrice) && maxPrice > 0;
+  const vegetarianOnly = document.getElementById('vegetarian-only').checked;
+  const { breakfastPool, generalPool } = computeActivePools(maxPrice, capActive, vegetarianOnly);
+  filteredEl.textContent = String(breakfastPool.length + generalPool.length);
+  totalEl.textContent = String(total);
+}
+
+// Turns one meals.json entry into the shape the rest of this page uses.
+function normalizeMeal(m){
+  return {
+    PRODUCT_NAME: m.name,
+    BRAND: m.restaurant,
+    restaurant: m.restaurant,
+    CATEGORY: m.category === 'breakfast' ? 'Breakfast' : 'Regular',
+    calories: m.calories,
+    PRICE_CURRENT: m.price,
+    servings_per_container: m.serving,
+    vegetarian: m.vegetarian === true,
+    image_url: m.image_url || '',
+    image_full_url: m.image_full_url || '',
+    _added_at: m._added_at || ''
+  };
+}
+
+// The 20 restaurants (and states they skip). meals.json carries this list too
+// and wins when present; this copy is only the fallback if it can't be loaded.
+let restaurantInfo = [
+  ["Applebee's", []], ["Burger King", []], ["Chick-fil-A", ["Vermont","Alaska"]], ["Chipotle", ["Alaska","Hawaii"]],
+  ["Dairy Queen", ["Vermont"]], ["Domino's", []], ["Five Guys", []], ["IHOP", ["Vermont"]],
+  ["Jersey Mike's Subs", []], ["Kentucky Fried Chicken", []], ["Little Caesar's", []], ["McDonald's", []],
+  ["Olive Garden", []], ["Panera", ["Alaska","Hawaii"]], ["Pizza Hut", []], ["Starbucks", []],
+  ["Subway", []], ["Taco Bell", []], ["Texas Roadhouse", ["Hawaii"]], ["Wendy's", []]
+];
+
+function escHtml(str){
+  return String(str == null ? '' : str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function renderRestaurantList(counts){
+  const list = document.getElementById('rest-list');
+  if(!list) return;
+  list.innerHTML = restaurantInfo.map(([name, skip]) => {
+    const note = skip.length ? `All states except ${skip.join(' and ')}` : 'All 50 states';
+    const count = counts && counts[name] ? `<span class="rest-count">${counts[name]} meals</span>` : '';
+    return `<li>${escHtml(name)}${count}<span class="rest-note">${escHtml(note)}</span></li>`;
+  }).join('');
+}
+
+async function loadPool(){
+  renderRestaurantList(null);
+  try{
+    const res = await fetch('meals.json', { cache: 'no-store' });
+    if(!res.ok) throw new Error('not found');
+    const rawData = await res.json();
+
+    if(rawData.restaurants && typeof rawData.restaurants === 'object'){
+      const fromJson = Object.keys(rawData.restaurants).map(n => [n, rawData.restaurants[n].except_states || []]);
+      if(fromJson.length) restaurantInfo = fromJson;
+    }
+    const allowed = new Set(restaurantInfo.map(r => r[0]));
+    // Only meals from the approved restaurants are ever used.
+    let items = (rawData.meals || []).filter(m => allowed.has(m.restaurant)).map(normalizeMeal);
+
+    const counts = {};
+    items.forEach(m => { counts[m.restaurant] = (counts[m.restaurant] || 0) + 1; });
+    renderRestaurantList(counts);
+
+    // Anything under this is too small to count as a real meal.
+    const MIN_MEAL_CALORIES = 150;
+    const tooSmallCount = items.filter(item => getMealCalories(item) < MIN_MEAL_CALORIES).length;
+    items = items.filter(item => getMealCalories(item) >= MIN_MEAL_CALORIES);
+
+    const breakfastItems = items.filter(isBreakfastItem);
+    const generalItems = items.filter(item => !isBreakfastItem(item));
+
+    // Fallback if no breakfast items found in dataset: default to N/A @ 400 cal
+    const fallbackBreakfast = [{
+      PRODUCT_NAME: 'N/A',
+      calories: 400,
+      PRICE_CURRENT: 0,
+      SERVINGS_PER_CONTAINER: 'N/A'
+    }];
+
+    pool = {
+      generated_at: new Date().toISOString(),
+      breakfast: breakfastItems.length ? breakfastItems : fallbackBreakfast,
+      general: generalItems
+    };
+
+    setDataDate(rawData.updated_at ? new Date(rawData.updated_at) : latestDataDate(items));
+    updatePoolCount();
+
+    document.getElementById('empty-state').style.display = 'none';
+    if(restoreCurrentWeek()){
+      activeTab = 'current';
+    }
+    const pickedMeal = applyPendingPick();
+    renderTabs();
+    renderCurrentOrSaved();
+    updateSaveButton();
+    flashPickedMeal(pickedMeal);
+  }catch(err){
+    setDataDate(null);
+    document.getElementById('prompt-state').style.display = 'none';
+    document.getElementById('empty-state').style.display = 'block';
+  }
+}
+
+// Meal count scales with the daily calorie target:
+//  <=1400        -> 3 meals: breakfast, lunch, dinner
+//  1400-2000     -> 4 meals: + a late night meal (general pool)
+//  2000+         -> 5 meals: + a brunch too (drawn from the breakfast pool)
+function getMealSlotsForTarget(target){
+  if(target <= 1400){
+    return { breakfastSlots: ['breakfast'], generalSlots: ['lunch', 'dinner'] };
+  }else if(target <= 2000){
+    return { breakfastSlots: ['breakfast'], generalSlots: ['lunch', 'dinner', 'late night'] };
+  }else{
+    return { breakfastSlots: ['breakfast', 'brunch'], generalSlots: ['lunch', 'dinner', 'late night'] };
+  }
+}
+
+// 'brunch' (only present in the 5-meal tier) draws from BOTH the breakfast
+// and general pools combined, since brunch food realistically overlaps both
+// categories. Every other slot stays scoped to its usual pool.
+function poolForSlot(slot, breakfastPool, generalPool){
+  breakfastPool = breakfastPool || activeBreakfastPool;
+  generalPool = generalPool || activeGeneralPool;
+  if(slot === 'breakfast') return breakfastPool;
+  if(slot === 'brunch') return breakfastPool.concat(generalPool);
+  return generalPool;
+}
+
+// Randomly samples one item per slot (via poolForSlot, so 'brunch' draws from
+// the combined pool) and keeps the closest-to-target combo found. Tries to
+// avoid repeating the same item twice in a day when the pool allows it.
+// Works for any slot count (3, 4, or 5 meals).
+function buildDay(target, breakfastPool, generalPool, breakfastSlots, generalSlots){
+  const low = target - TOLERANCE;
+  const high = target + TOLERANCE;
+  const allSlots = [...breakfastSlots, ...generalSlots];
+
+  let best = null;
+  const attempts = 600;
+  for(let i = 0; i < attempts; i++){
+    const used = new Set();
+    const items = allSlots.map(slot => {
+      const p = poolForSlot(slot, breakfastPool, generalPool);
+      const unused = p.filter(m => !used.has(m));
+      const candidates = unused.length ? unused : p;
+      const choice = candidates[Math.floor(Math.random() * candidates.length)];
+      used.add(choice);
+      return choice;
+    });
+    const sum = items.reduce((s, m) => s + getMealCalories(m), 0);
+    const dist = sum < low ? low - sum : (sum > high ? sum - high : 0);
+    if(!best || dist < best.dist){
+      best = { items, sum, dist };
+    }
+    if(dist === 0) break;
+  }
+
+  const meals = {};
+  allSlots.forEach((slot, idx) => { meals[slot] = best.items[idx]; });
+
+  return {
+    meals,
+    slotOrder: allSlots,
+    total: best.sum,
+    inRange: best.sum >= low && best.sum <= high
+  };
+}
+
+function generateWeek(){
+  document.getElementById('save-confirmation').style.display = 'none';
+  if(!pool.breakfast || !pool.general || !pool.breakfast.length || pool.general.length < 2){
+    document.getElementById('empty-state').style.display = 'block';
+    document.getElementById('prompt-state').style.display = 'none';
+    document.getElementById('week-totals').style.display = 'none';
+    document.getElementById('save-bar').style.display = 'none';
+    return;
+  }
+  document.getElementById('empty-state').style.display = 'none';
+
+  const target = parseInt(document.getElementById('calorie-target').value, 10) || 1500;
+  const maxPrice = parseFloat(document.getElementById('max-per-meal').value);
+  const maxPriceEnabled = document.getElementById('max-per-meal-enabled').checked;
+  const capActive = maxPriceEnabled && !isNaN(maxPrice) && maxPrice > 0;
+  const vegetarianOnly = document.getElementById('vegetarian-only').checked;
+
+  const { breakfastPool, generalPool, capFallback, vegetarianFallback } = computeActivePools(maxPrice, capActive, vegetarianOnly);
+
+  activeBreakfastPool = breakfastPool;
+  activeGeneralPool = generalPool;
+  currentTargetGlobal = target;
+  activeCapInfo = { capActive, maxPrice, capFallback, vegetarianOnly, vegetarianFallback };
+
+  const { breakfastSlots, generalSlots } = getMealSlotsForTarget(target);
+  currentWeek = DAY_NAMES.map(dayName => ({ dayName, ...buildDay(target, breakfastPool, generalPool, breakfastSlots, generalSlots) }));
+
+  activeTab = 'current';
+  renderTabs();
+  renderCurrentOrSaved();
+  updateSaveButton();
+  persistCurrentWeek();
+}
+
+function countOverCap(days, capActive, maxPrice){
+  if(!capActive) return 0;
+  let count = 0;
+  days.forEach(day => {
+    Object.values(day.meals).forEach(meal => {
+      if(getMealPriceNumber(meal) > maxPrice) count++;
+    });
+  });
+  return count;
+}
+
+function weekTotals(days){
+  let calories = 0, cost = 0, mealCount = 0;
+  days.forEach(day => {
+    calories += day.total;
+    const meals = Object.values(day.meals);
+    cost += meals.reduce((s, m) => s + getMealPriceNumber(m), 0);
+    mealCount += meals.length;
+  });
+  return { calories, cost, mealCount };
+}
+
+// Each meal is filtered against the max-per-meal cap before selection, rather
+// than checking the week's average against a +/- tolerance.
+function updateBudgetSummary(capActive, maxPrice, overCapCount, capFallback, vegetarianFallback){
+  const summary = document.getElementById('budget-summary');
+
+  const dietNotes = [];
+  if(vegetarianFallback) dietNotes.push('not enough vegetarian meals in the pool — some non-vegetarian meals were included instead');
+  const dietNote = dietNotes.length ? ` (${dietNotes.join('; ')})` : '';
+
+  if(capActive && capFallback){
+    summary.style.display = 'inline-block';
+    summary.className = 'budget-summary off-range';
+    summary.textContent = `Not enough meals priced at $${maxPrice.toFixed(2)} or under in the pool — showing the closest calorie matches instead, some may be over cap.${dietNote}`;
+    return;
+  }
+  if(capActive && overCapCount > 0){
+    summary.style.display = 'inline-block';
+    summary.className = 'budget-summary off-range';
+    summary.textContent = `${overCapCount} meal${overCapCount === 1 ? '' : 's'} this week landed over the $${maxPrice.toFixed(2)} cap.${dietNote}`;
+    return;
+  }
+
+  // Everything landed within the cap (or no cap is set): only diet-filter
+  // fallback warnings are worth showing.
+  if(dietNotes.length){
+    summary.style.display = 'inline-block';
+    summary.className = 'budget-summary off-range';
+    summary.textContent = dietNotes.map(n => n.charAt(0).toUpperCase() + n.slice(1)).join('; ') + '.';
+  }else{
+    summary.style.display = 'none';
+  }
+}
+
+function mealRow(slot, meal, canRegenerate, dayIndex){
+  const row = document.createElement('div');
+  row.className = 'meal-row';
+  const image = getMealImage(meal);
+  const imageFallback = getMealImageFallback(meal);
+  const calories = getMealCalories(meal);
+  const servingsPerContainer = getMealServingsPerContainer(meal);
+  const price = getMealPrice(meal);
+  const priceDisplay = price === 'N/A' ? price : `${price}*`;
+  const name = meal.PRODUCT_NAME || meal.name || 'Unnamed item';
+  const restaurant = getMealBrand(meal);
+
+  const emptyThumb = '<div class="meal-thumb meal-thumb-empty"></div>';
+  const thumbImg = image
+    ? `<img class="meal-thumb" src="${escHtml(image)}" alt="" loading="lazy" referrerpolicy="no-referrer" data-fallback="${escHtml(imageFallback)}" />`
+    : emptyThumb;
+  const thumb = `<div class="meal-thumb-link">${thumbImg}</div>`;
+
+  const regenBtn = canRegenerate
+    ? `<button type="button" class="regen-btn" data-day="${dayIndex}" data-slot="${slot}" title="Swap this meal for another option">regen</button>`
+    : '';
+  const pickBtn = `<button type="button" class="regen-btn pick-btn" data-day="${dayIndex}" data-slot="${slot}" title="Pick this meal by hand from the product list" aria-label="Select this meal by hand">select</button>`;
+
+  row.innerHTML = `
+    ${thumb}
+    <div class="meal-info">
+      <div class="meal-slot">${slot}</div>
+      <div class="meal-name">${escHtml(name)}</div>
+      ${restaurant ? `<div class="meal-rest">${escHtml(restaurant)}</div>` : ''}
+    </div>
+    <div class="meal-money">
+      <div class="meal-cal">${calories} cal*</div>
+      <div class="meal-price">${priceDisplay}</div>
+      <div class="meal-serving">Serving: ${servingsPerContainer}</div>
+    </div>
+    <div class="meal-actions">${pickBtn}${regenBtn}</div>
+  `;
+  return row;
+}
+
+function renderDayCard(dayName, day, target, editable, dayIndex){
+  const card = document.createElement('div');
+  card.className = 'day-card';
+
+  const totalPrice = Object.values(day.meals).reduce((sum, meal) => sum + getMealPriceNumber(meal), 0);
+  const priceStr = totalPrice > 0 ? `$${totalPrice.toFixed(2)}*` : 'N/A';
+
+  const header = document.createElement('div');
+  header.className = 'day-header';
+  header.innerHTML = `
+    <div class="day-name">${dayName}</div>
+    <div class="day-header-totals">
+      <div class="value ${day.inRange ? 'in-range' : 'off-range'}">${day.total} cal*</div>
+      <div class="price">${priceStr}</div>
+    </div>
+  `;
+  card.appendChild(header);
+
+  // Regenerate works on saved weeks too, as long as the meal pool itself
+  // has loaded — it's independent of whether this is the "live" tab.
+  const canRegenerate = !!(pool.breakfast && pool.breakfast.length && pool.general && pool.general.length);
+  day.slotOrder.forEach(slot => {
+    card.appendChild(mealRow(slot, day.meals[slot], canRegenerate, dayIndex));
+  });
+
+  if(!day.inRange){
+    const flag = document.createElement('div');
+    flag.className = 'flag';
+    flag.textContent = `Outside the ±250 window around ${target} — pool didn't have a closer combo today.`;
+    card.appendChild(flag);
+  }
+
+  return card;
+}
+
+// Draws whichever tab is active — the live editable week, or a saved
+// read-only snapshot — into #week, and updates totals/budget summary to match.
+function renderCurrentOrSaved(){
+  const weekEl = document.getElementById('week');
+  weekEl.innerHTML = '';
+
+  if(activeTab === 'current' && (!currentWeek || !currentWeek.length)){
+    document.getElementById('prompt-state').style.display = 'block';
+    document.getElementById('week-totals').style.display = 'none';
+    document.getElementById('save-bar').style.display = 'none';
+    document.getElementById('save-bar-top').style.display = 'none';
+    document.getElementById('budget-summary').style.display = 'none';
+    return;
+  }
+  document.getElementById('prompt-state').style.display = 'none';
+
+  let days, target, editable, capInfo;
+  if(activeTab === 'current'){
+    days = currentWeek;
+    target = currentTargetGlobal;
+    editable = true;
+    capInfo = activeCapInfo;
+  }else{
+    const saved = savedWeeks[activeTab];
+    if(!saved){ activeTab = 'current'; days = currentWeek; target = currentTargetGlobal; editable = true; capInfo = activeCapInfo; }
+    else{ days = saved.days; target = saved.target; editable = false; capInfo = saved.capInfo || activeCapInfo; }
+  }
+
+  days.forEach((day, idx) => {
+    weekEl.appendChild(renderDayCard(day.dayName, day, target, editable, idx));
+  });
+
+  const totals = weekTotals(days);
+  document.getElementById('week-totals').style.display = 'grid';
+  const caloriesPerMeal = totals.mealCount > 0 ? Math.round(totals.calories / totals.mealCount) : 0;
+  document.getElementById('total-calories').innerHTML = `${totals.calories.toLocaleString()} cal*<br><span class="per-meal">${caloriesPerMeal.toLocaleString()} cal/meal</span>`;
+  const actualPerMeal = totals.mealCount > 0 ? (totals.cost / totals.mealCount) : 0;
+  document.getElementById('total-cost').innerHTML = `$${totals.cost.toFixed(2)}*<br><span class="per-meal">$${actualPerMeal.toFixed(2)}/meal</span>`;
+  const weekGoalCals = target * 7;
+  const goalCaloriesPerMeal = totals.mealCount > 0 ? Math.round(weekGoalCals / totals.mealCount) : 0;
+  document.getElementById('week-goal').innerHTML = `${weekGoalCals.toLocaleString()} cal<br><span class="per-meal">${goalCaloriesPerMeal.toLocaleString()} cal/meal</span>`;
+  const costGoalEl = document.getElementById('week-cost-goal');
+  if(capInfo && capInfo.capActive){
+    costGoalEl.innerHTML = `$${(capInfo.maxPrice * totals.mealCount).toFixed(2)}<br><span class="per-meal">$${capInfo.maxPrice.toFixed(2)}/meal</span>`;
+  }else{
+    costGoalEl.textContent = 'No cap';
+  }
+
+  document.getElementById('save-bar').style.display = editable ? 'flex' : 'none';
+  document.getElementById('save-bar-top').style.display = editable ? 'flex' : 'none';
+
+  if(editable){
+    updateBudgetSummary(activeCapInfo.capActive, activeCapInfo.maxPrice, countOverCap(days, activeCapInfo.capActive, activeCapInfo.maxPrice), activeCapInfo.capFallback, activeCapInfo.vegetarianFallback);
+  }else{
+    document.getElementById('budget-summary').style.display = 'none';
+  }
+}
+
+// Returns the breakfast/general pools to draw from for a given cap setting —
+// used to regenerate meals on both the live week and any saved week.
+function poolsForCapInfo(capInfo){
+  if(!capInfo) return { breakfastPool: pool.breakfast, generalPool: pool.general };
+  return computeActivePools(capInfo.maxPrice, capInfo.capActive, capInfo.vegetarianOnly);
+}
+
+function regenerateMeal(dayIndex, slot){
+  if(activeTab === 'current'){
+    if(!currentWeek[dayIndex]) return;
+    const day = currentWeek[dayIndex];
+    const sourcePool = poolForSlot(slot);
+    if(!sourcePool || !sourcePool.length) return;
+
+    const used = Object.values(day.meals);
+    let choices = sourcePool.filter(m => !used.includes(m));
+    if(!choices.length) choices = sourcePool;
+
+    day.meals[slot] = choices[Math.floor(Math.random() * choices.length)];
+    day.total = Object.values(day.meals).reduce((s, m) => s + getMealCalories(m), 0);
+    const low = currentTargetGlobal - TOLERANCE;
+    const high = currentTargetGlobal + TOLERANCE;
+    day.inRange = day.total >= low && day.total <= high;
+
+    renderCurrentOrSaved();
+    persistCurrentWeek();
+    return;
+  }
+
+  // Saved week: pull from the pool/cap that was active when it was saved
+  // (older saves without a stored cap just use the full pool).
+  const saved = savedWeeks[activeTab];
+  if(!saved || !saved.days[dayIndex]) return;
+  const day = saved.days[dayIndex];
+  const { breakfastPool, generalPool } = poolsForCapInfo(saved.capInfo);
+  const sourcePool = poolForSlot(slot, breakfastPool, generalPool);
+  if(!sourcePool || !sourcePool.length) return;
+
+  const usedNames = Object.values(day.meals).map(m => m.name);
+  let choices = sourcePool.filter(m => !usedNames.includes(m.PRODUCT_NAME || m.name));
+  if(!choices.length) choices = sourcePool;
+
+  day.meals[slot] = compactMeal(choices[Math.floor(Math.random() * choices.length)]);
+  day.total = Object.values(day.meals).reduce((s, m) => s + getMealCalories(m), 0);
+  const low = saved.target - TOLERANCE;
+  const high = saved.target + TOLERANCE;
+  day.inRange = day.total >= low && day.total <= high;
+
+  renderCurrentOrSaved();
+  persistSavedWeeks();
+}
+
+// Manual pick: the "+" button remembers which day/slot (and which tab) it
+// was for, then opens products.html. Choosing a product there writes the
+// result back to storage and returns here; applyPendingPick() finishes it.
+function startManualPick(dayIndex, slot){
+  const days = (activeTab === 'current') ? currentWeek : (savedWeeks[activeTab] ? savedWeeks[activeTab].days : []);
+  const day = days[dayIndex];
+  const ok = setStorage('lazymanPickRequest', JSON.stringify({
+    tab: activeTab,
+    dayIndex: dayIndex,
+    slot: slot,
+    dayName: day ? day.dayName : ''
+  }));
+  if(!ok){ alert("This browser won't let the page save the pick, so the product list can't send it back."); return; }
+  removeStorage('lazymanPickResult');
+  window.location.href = 'products.html?pick=1';
+}
+
+function applyPendingPick(){
+  const raw = getStorage('lazymanPickResult');
+  if(!raw) return null;
+  removeStorage('lazymanPickResult');
+  let pick;
+  try{ pick = JSON.parse(raw); }catch(err){ return null; }
+  if(!pick || !pick.product || !pick.slot) return null;
+
+  let day, target;
+  if(pick.tab === 'current'){
+    day = currentWeek[pick.dayIndex];
+    target = currentTargetGlobal;
+  }else{
+    const saved = savedWeeks[pick.tab];
+    day = saved && saved.days[pick.dayIndex];
+    target = saved && saved.target;
+  }
+  if(!day || !day.meals || !day.meals[pick.slot]) return null;
+
+  day.meals[pick.slot] = (pick.tab === 'current') ? pick.product : compactMeal(pick.product);
+  day.total = Object.values(day.meals).reduce((s, m) => s + getMealCalories(m), 0);
+  day.inRange = day.total >= target - TOLERANCE && day.total <= target + TOLERANCE;
+
+  activeTab = pick.tab;
+  if(pick.tab === 'current') persistCurrentWeek(); else persistSavedWeeks();
+  return pick;
+}
+
+function flashPickedMeal(pick){
+  if(!pick) return;
+  const btn = Array.from(document.querySelectorAll('#week .pick-btn'))
+    .find(b => b.dataset.day === String(pick.dayIndex) && b.dataset.slot === pick.slot);
+  const row = btn && btn.closest('.meal-row');
+  if(!row) return;
+  row.scrollIntoView({ block: 'center' });
+  row.classList.add('just-picked');
+}
+
+function updateSaveButton(){
+  const label = `Save as Week ${savedWeeks.length + 1}`;
+  const disabled = !(currentWeek && currentWeek.length === DAY_NAMES.length);
+  [document.getElementById('save-week'), document.getElementById('save-week-top')].forEach(btn => {
+    if(!btn) return;
+    btn.textContent = label;
+    btn.disabled = disabled;
+  });
+}
+
+function saveCurrentWeek(){
+  if(!currentWeek || currentWeek.length !== DAY_NAMES.length) return;
+
+  const label = `Week ${savedWeeks.length + 1}`;
+  const days = currentWeek.map(day => {
+    const meals = {};
+    Object.keys(day.meals).forEach(slot => { meals[slot] = compactMeal(day.meals[slot]); });
+    return { dayName: day.dayName, total: day.total, inRange: day.inRange, slotOrder: day.slotOrder, meals };
+  });
+
+  savedWeeks.push({ label, target: currentTargetGlobal, capInfo: activeCapInfo, savedAt: new Date().toISOString(), days });
+  persistSavedWeeks();
+
+  // Saving clears the live builder back to blank, ready for a new week —
+  // but we land on the just-saved tab first so its totals/meals stay visible.
+  currentWeek = [];
+  clearPersistedCurrentWeek();
+  activeTab = savedWeeks.length - 1;
+
+  renderTabs();
+  renderCurrentOrSaved();
+  updateSaveButton();
+
+  const confirmation = document.getElementById('save-confirmation');
+  confirmation.textContent = `Saved as ${label} — find it in the tabs above.`;
+  confirmation.style.display = 'block';
+}
+
+function renderTabs(){
+  const bar = document.getElementById('tab-bar');
+  bar.innerHTML = '';
+
+  const currentBtn = document.createElement('button');
+  currentBtn.type = 'button';
+  currentBtn.className = 'tab-btn' + (activeTab === 'current' ? ' active' : '');
+  currentBtn.textContent = 'This week';
+  currentBtn.addEventListener('click', () => { activeTab = 'current'; renderTabs(); renderCurrentOrSaved(); });
+  bar.appendChild(currentBtn);
+
+  savedWeeks.forEach((week, idx) => {
+    const tab = document.createElement('button');
+    tab.type = 'button';
+    tab.className = 'tab-btn' + (activeTab === idx ? ' active' : '');
+    tab.innerHTML = `${week.label}<span class="tab-delete" title="Delete this saved week">&times;</span>`;
+    tab.addEventListener('click', (e) => {
+      if(e.target.classList.contains('tab-delete')){
+        savedWeeks.splice(idx, 1);
+        persistSavedWeeks();
+        activeTab = 'current';
+        renderTabs();
+        renderCurrentOrSaved();
+        updateSaveButton();
+        return;
+      }
+      activeTab = idx;
+      renderTabs();
+      renderCurrentOrSaved();
+    });
+    bar.appendChild(tab);
+  });
+
+  if(savedWeeks.length){
+    const clearBtn = document.createElement('button');
+    clearBtn.type = 'button';
+    clearBtn.className = 'tab-btn tab-clear';
+    clearBtn.textContent = 'Clear weeks';
+    clearBtn.addEventListener('click', () => {
+      if(!confirm('Delete all saved weeks from this browser?')) return;
+      savedWeeks = [];
+      persistSavedWeeks();
+      activeTab = 'current';
+      renderTabs();
+      renderCurrentOrSaved();
+      updateSaveButton();
+    });
+    bar.appendChild(clearBtn);
+  }
+}
+
+// Picture failed to load: try the full-size URL once, then show the empty tile.
+document.addEventListener('error', (e) => {
+  const img = e.target;
+  if(!(img instanceof HTMLImageElement) || !img.classList.contains('meal-thumb')) return;
+  const fb = img.dataset.fallback;
+  if(fb && img.src !== fb && !img.dataset.triedFallback){
+    img.dataset.triedFallback = '1';
+    img.src = fb;
+    return;
+  }
+  const empty = document.createElement('div');
+  empty.className = 'meal-thumb meal-thumb-empty';
+  img.replaceWith(empty);
+}, true);
+
+document.getElementById('generate').addEventListener('click', generateWeek);
+document.getElementById('weight').addEventListener('input', () => { recalcCaloriesBurned(); saveFormData(); });
+document.getElementById('age').addEventListener('input', () => { recalcCaloriesBurned(); saveFormData(); });
+document.getElementById('activity-level').addEventListener('change', () => { recalcCaloriesBurned(); saveFormData(); });
+document.getElementById('lose-per-week').addEventListener('input', () => { recalcDailyTarget(); saveFormData(); });
+document.getElementById('calories-burned').addEventListener('input', () => { recalcDailyTarget(); saveFormData(); });
+document.getElementById('calorie-target').addEventListener('input', saveFormData);
+document.getElementById('max-per-meal').addEventListener('input', () => { saveFormData(); updatePoolCount(); });
+document.getElementById('vegetarian-only').addEventListener('change', () => { saveFormData(); updatePoolCount(); });
+document.getElementById('max-per-meal-enabled').addEventListener('change', function(){
+  const input = document.getElementById('max-per-meal');
+  input.disabled = !this.checked;
+  if(this.checked && (!input.value || parseFloat(input.value) <= 0)){
+    input.value = '6.00';
+  }
+  saveFormData();
+  updatePoolCount();
+});
+document.getElementById('save-week').addEventListener('click', saveCurrentWeek);
+document.getElementById('save-week-top').addEventListener('click', saveCurrentWeek);
+document.getElementById('week').addEventListener('click', (e) => {
+  const pickBtn = e.target.closest('.pick-btn');
+  if(pickBtn){
+    startManualPick(parseInt(pickBtn.dataset.day, 10), pickBtn.dataset.slot);
+    return;
+  }
+  const btn = e.target.closest('.regen-btn');
+  if(!btn) return;
+  regenerateMeal(parseInt(btn.dataset.day, 10), btn.dataset.slot);
+});
+
+loadSavedWeeks();
+renderTabs();
+if(!loadFormData()){
+  recalcCaloriesBurned();
+}
+saveFormData();
+loadPool();
+</script>
+
+</body>
+</html>
