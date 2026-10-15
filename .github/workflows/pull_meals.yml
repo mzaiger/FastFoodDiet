@@ -1,0 +1,52 @@
+name: Pull fast food meals (daily)
+
+on:
+  schedule:
+    # Once a day at 09:17 UTC (about 2:17 AM Pacific, shortly after Gemini's
+    # daily quota resets at midnight Pacific). GitHub cron is always UTC.
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+    inputs:
+      max_gemini_calls:
+        description: "Max Gemini 3.8 Flash calls today (free tier limit is 20)"
+        required: false
+        default: "20"
+
+concurrency:
+  group: pull-meals
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  pull:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests ddgs
+
+      - name: Pull meals (Gemini 3.8 Flash; resumes where the last run stopped) and find up to 250 pictures (DuckDuckGo)
+        env:
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
+          MAX_GEMINI_CALLS: ${{ github.event.inputs.max_gemini_calls || '20' }}
+        run: python pull_meals.py
+
+      - name: Commit updated meals.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add meals.json
+          git diff --staged --quiet || git commit -m "Daily fast food meal pull [automated]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
