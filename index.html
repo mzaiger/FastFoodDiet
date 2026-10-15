@@ -519,9 +519,9 @@
     transform:rotate(1deg);
   }
 
-  /* 3-column grid:
-       row 1: image | slot + name | calories + price + serving
-       row 2: select + regen (left column) | delivery icons (middle + right combined) */
+  /* 2 x 3 grid so every row lines up across the columns:
+       image        | slot + name | calories + price + serving
+       select + regenerate buttons (one full-width row)          */
   .meal-row{
     display:grid;
     grid-template-columns:80px minmax(0,1fr) auto;
@@ -564,15 +564,19 @@
     text-align:right;
   }
 
-  /* Row 2: select + regen sit in the left column under the picture (stacked);
-     the delivery icons fill the middle + right columns combined, spaced out. */
+  /* Row 2 is one wide cell; the button and chips sit side by side and are
+     not tied to the columns above. */
   .meal-actions{
-    grid-column:1;
-    grid-row:2;
+    grid-column:1 / -1;
     display:flex;
-    flex-direction:column;
-    align-items:flex-start;
+    flex-wrap:nowrap;
+    align-items:center;
     gap:4px;
+  }
+
+  /* Very narrow phones: not enough width for all four, so let them wrap. */
+  @media (max-width:380px){
+    .meal-actions{ flex-wrap:wrap; }
   }
 
   .meal-money{
@@ -584,7 +588,7 @@
     display:inline-flex;
     align-items:center;
     gap:2px;
-    padding:2px 0;
+    padding:2px;
     color:var(--steel-deep);
     font-size:12px;
     font-weight:700;
@@ -592,18 +596,8 @@
     line-height:1;
   }
   .deliv:hover{ opacity:.75; }
-  /* The three delivery icons sit in one group spanning the middle + right columns, spread evenly; the gap is at
-     least the space from an icon's arrow to the next icon: 13.3px (about 66% more than before). */
-  .deliv-group{
-    grid-column:2 / -1;
-    grid-row:2;
-    align-self:center;
-    display:flex;
-    align-items:center;
-    justify-content:space-evenly;
-    gap:13.3px;
-    margin-top:6px;
-  }
+  /* Extra room between the three delivery icons only (about 66% more than before). */
+  .deliv + .deliv{ margin-left:5.3px; }
   .deliv-ic{
     display:block;
     width:22px;
@@ -1556,10 +1550,9 @@ function deliveryLinksHtml(meal){
     ['ubereats.com', 'Uber Eats', `https://www.ubereats.com/search?q=${query}`],
     ['grubhub.com', 'Grubhub',   `https://www.grubhub.com/search?queryText=${query}`]
   ];
-  const links = apps.map(([domain, label, url]) =>
+  return apps.map(([domain, label, url]) =>
     `<a class="deliv" href="${url}" target="_blank" rel="noopener noreferrer" title="Search ${label}" aria-label="Search ${label}"><img class="deliv-ic" src="https://www.google.com/s2/favicons?domain=${domain}&sz=64" alt="" width="22" height="22" loading="lazy" referrerpolicy="no-referrer" /><span aria-hidden="true">&rarr;</span></a>`
   ).join('');
-  return `<span class="deliv-group">${links}</span>`;
 }
 
 function mealRow(slot, meal, canRegenerate, dayIndex){
@@ -1596,8 +1589,7 @@ function mealRow(slot, meal, canRegenerate, dayIndex){
       <div class="meal-price">${priceDisplay}</div>
       <div class="meal-serving">Serving: ${servingsPerContainer}</div>
     </div>
-    <div class="meal-actions">${pickBtn}${regenBtn}</div>
-    ${deliveryLinksHtml(meal)}
+    <div class="meal-actions">${pickBtn}${regenBtn}${deliveryLinksHtml(meal)}</div>
   `;
   return row;
 }
