@@ -588,7 +588,7 @@
     display:inline-flex;
     align-items:center;
     gap:2px;
-    padding:2px;
+    padding:2px 0;
     color:var(--steel-deep);
     font-size:12px;
     font-weight:700;
@@ -596,8 +596,14 @@
     line-height:1;
   }
   .deliv:hover{ opacity:.75; }
-  /* Extra room between the three delivery icons only (about 66% more than before). */
-  .deliv + .deliv{ margin-left:5.3px; }
+  /* The three delivery icons sit in one group; this gap is the space from an
+     icon's arrow to the next icon: 13.3px (about 66% more than before). */
+  .deliv-group{
+    display:inline-flex;
+    align-items:center;
+    gap:13.3px;
+    margin-left:2px;
+  }
   .deliv-ic{
     display:block;
     width:22px;
@@ -1550,9 +1556,10 @@ function deliveryLinksHtml(meal){
     ['ubereats.com', 'Uber Eats', `https://www.ubereats.com/search?q=${query}`],
     ['grubhub.com', 'Grubhub',   `https://www.grubhub.com/search?queryText=${query}`]
   ];
-  return apps.map(([domain, label, url]) =>
+  const links = apps.map(([domain, label, url]) =>
     `<a class="deliv" href="${url}" target="_blank" rel="noopener noreferrer" title="Search ${label}" aria-label="Search ${label}"><img class="deliv-ic" src="https://www.google.com/s2/favicons?domain=${domain}&sz=64" alt="" width="22" height="22" loading="lazy" referrerpolicy="no-referrer" /><span aria-hidden="true">&rarr;</span></a>`
   ).join('');
+  return `<span class="deliv-group">${links}</span>`;
 }
 
 function mealRow(slot, meal, canRegenerate, dayIndex){
