@@ -1,14 +1,15 @@
-name: Pull fast food meals (daily)
+name: Pull fast food meals (4x daily)
 
 on:
   schedule:
-    # Once a day at 09:17 UTC (about 2:17 AM Pacific, shortly after Gemini's
-    # daily quota resets at midnight Pacific). GitHub cron is always UTC.
-    - cron: "17 9 * * *"
+    # 4 times a day, every 6 hours (UTC). Each run makes up to 20 Gemini calls
+    # (Flash 3.8 -> 3.7 -> 3.6 -> 3.5, each with its own 20/day allowance),
+    # retries restaurants that failed earlier, and fills in pictures.
+    - cron: "17 3,9,15,21 * * *"
   workflow_dispatch:
     inputs:
       max_gemini_calls:
-        description: "Max Gemini 3.8 Flash calls today (free tier limit is 20)"
+        description: "Max Gemini calls per model per day (free tier is 20)"
         required: false
         default: "20"
 
@@ -36,7 +37,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests ddgs
 
-      - name: Pull meals (Gemini 3.8 Flash; resumes where the last run stopped) and find pictures for every new meal (DuckDuckGo)
+      - name: Pull meals (Gemini Flash 3.8/3.7/3.6/3.5; resumes where the last run stopped) and find pictures for every new meal (DuckDuckGo)
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
           MAX_GEMINI_CALLS: ${{ github.event.inputs.max_gemini_calls || '20' }}
