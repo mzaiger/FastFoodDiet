@@ -25,6 +25,7 @@
     --ink: #16262D;
     --ink-soft: #4A5D65;
     --steel: #2A5E73;
+    --hero-tint: #417A93;   /* header picture tint: lighter than --steel, still 4.7:1 against white text */
     --steel-deep: #123645;
     --tag: #F5C83B;
     --tag-deep: #E3B21F;
@@ -88,7 +89,7 @@
     /* The photo, flattened to greys... */
     header::before{
       background:var(--hero-photo) center 40% / cover no-repeat, var(--hero-fallback) center 40% / cover no-repeat;
-      filter:grayscale(1) contrast(1.15);
+      filter:grayscale(1) contrast(.6) brightness(1.4);
     }
 
     /* ...then dyed steel blue. Multiply can only darken, so the lightest pixel
@@ -96,7 +97,7 @@
        stays readable whichever photo is used. If the photo fails to load, the
        header is simply solid steel. */
     header::after{
-      background:var(--steel);
+      background:var(--hero-tint);
       mix-blend-mode:multiply;
     }
   }
