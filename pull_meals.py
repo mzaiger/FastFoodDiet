@@ -12,8 +12,11 @@ What it does, once per run (the GitHub Action runs it daily):
      asked for NEW items only; the JSON grows a little more every day.
   2. For every new meal, stores cost, calories and serving (as Gemini
      estimates them -- these are AI estimates, not live menu data).
-  3. Searches DuckDuckGo Images (at most 250 searches per run, because DDG
-     rate-limits) for meals that have no picture yet and stores the image URL.
+  3. Searches DuckDuckGo Images for every meal that has no picture yet and
+     stores the image URL. There is no cap on the number of searches; the phase
+     ends when every meal has a picture, when DuckDuckGo starts rate-limiting
+     (the rest wait for the next run), or after IMAGE_TIME_BUDGET_MINUTES so the
+     job always finishes and commits meals.json.
   4. Writes everything to meals.json, which index.html and products.html read.
 
 Resuming after errors: Gemini often answers 503 ("overloaded"). meals.json
@@ -73,7 +76,7 @@ GEMINI_MAX_RETRIES = 3            # network errors / 5xx only, per restaurant at
 GEMINI_RETRY_DELAY_SECONDS = 15
 RETRY_PASS_DELAY_SECONDS = 60     # pause before the one extra pass over restaurants that failed
 
-MAX_IMAGE_SEARCHES_PER_RUN = 250  # hard cap per run -- DuckDuckGo rate-limits
+IMAGE_TIME_BUDGET_MINUTES = 60   # safety stop (not a count limit) so the Action finishes and commits
 IMAGE_SEARCH_DELAY_SECONDS = 1.5
 IMAGE_MAX_ATTEMPTS_PER_MEAL = 3   # then give up on that meal's picture
 IMAGE_RATELIMIT_STRIKES = 4       # consecutive failures -> stop image phase this run
@@ -394,7 +397,7 @@ def find_image(restaurant, name):
     return None, None
 
 
-def fill_images(store, limit):
+def fill_images(store):
     if DDGS is None:
         log("ddgs isn't installed (pip install ddgs) -- skipping image search.")
         return 0
@@ -404,10 +407,14 @@ def fill_images(store, limit):
     if not todo:
         log("Images: every meal already has a picture (or has used its attempts).")
         return 0
-    log(f"Images: {len(todo)} meal(s) need a picture; searching up to {limit} this run.")
+    log(f"Images: {len(todo)} meal(s) need a picture; searching until done or rate-limited.")
 
     found, strikes = 0, 0
-    for i, meal in enumerate(todo[:limit], start=1):
+    deadline = time.monotonic() + IMAGE_TIME_BUDGET_MINUTES * 60
+    for i, meal in enumerate(todo, start=1):
+        if time.monotonic() > deadline:
+            log(f"  image time budget ({IMAGE_TIME_BUDGET_MINUTES} min) reached -- the rest wait for the next run.")
+            break
         try:
             thumb, full = find_image(meal["restaurant"], meal["name"])
             strikes = 0
@@ -454,7 +461,7 @@ def main():
             pull_meals(store, key, args.output)
 
     if not args.skip_images:
-        fill_images(store, MAX_IMAGE_SEARCHES_PER_RUN)
+        fill_images(store)
 
     save_store(args.output, store)
     by_cat = {c: sum(1 for m in store["meals"] if m["category"] == c) for c in CATEGORIES}
