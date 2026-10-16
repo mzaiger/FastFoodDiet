@@ -25,12 +25,19 @@ A restaurant only leaves that list after a successful pull, so the next run
 starts exactly where this one left off. When the list empties, a fresh pass
 over all 20 begins.
 
-Daily limit: Gemini 3.8 Flash is treated as 20 successful requests/day
-(MAX_GEMINI_CALLS_PER_DAY), counted against the Pacific-time day (the day
-Google's quota resets on). Failed 503s are not counted.
+Models and daily limits: Gemini Flash 3.8, 3.7, 3.6 and 3.5 are tried in that
+order. Each model gets its own daily allowance (MAX_GEMINI_CALLS per model, default
+20), counted on the Pacific-time day Google's quota resets on. When a model is out of
+quota (or rejects the request), the script moves to the next model; a 503
+("overloaded") first tries the next model too. Only answers Google actually served
+count toward a model's allowance. The Action runs 4 times a day; each run makes at most
+20 Gemini calls (one pass over the restaurants, MAX_CALLS_PER_RUN), so the day's
+allowance is spread across the runs, failed restaurants get another try, and pictures
+keep filling in.
 
 Env var required: GEMINI_KEY  (missing -> the run is skipped, exit 0)
-Optional env var: MAX_GEMINI_CALLS (default 20)
+Optional env vars: MAX_GEMINI_CALLS (per model per day, default 20),
+                   MAX_CALLS_PER_RUN (default 20)
 
 Run locally:  GEMINI_KEY=xxxx python pull_meals.py
 Dependencies: pip install requests ddgs
@@ -62,17 +69,18 @@ OUTPUT_PATH = os.path.join(_SCRIPT_DIR, "meals.json")
 # Config
 #---------------------------------------------------------------------------
 
-# Tried in order; a 4xx (rate limit / quota / unknown model) moves to the next.
-# Only 3.8 Flash on purpose -- add fallbacks here if you ever want them.
-GEMINI_MODELS = ["gemini-3.7-flash"]
+# Tried in order. A model that answers 4xx (quota used up / unknown model) is skipped for
+# the rest of the Pacific day; a model that keeps answering 5xx is skipped for this restaurant.
+GEMINI_MODELS = ["gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.6-flash", "gemini-3.5-flash"]
 
 # The free-tier daily request limit you want to stay inside.
-MAX_GEMINI_CALLS_PER_DAY = int(os.environ.get("MAX_GEMINI_CALLS", "20"))
+MAX_GEMINI_CALLS_PER_DAY = int(os.environ.get("MAX_GEMINI_CALLS", "20"))   # per model
+MAX_GEMINI_CALLS_PER_RUN = int(os.environ.get("MAX_CALLS_PER_RUN", "20"))     # = one pass over the 20 restaurants; 4 runs a day use up 4 models x 20
 MAX_NEW_MEALS_PER_CALL = 60       # asked for per restaurant per call
 KNOWN_NAMES_SENT_PER_CALL = 250   # already-known meal names sent so Gemini skips them
 MIN_CALL_INTERVAL_SECONDS = 8     # stays well under per-minute limits
 GEMINI_TIMEOUT_SECONDS = 120
-GEMINI_MAX_RETRIES = 3            # network errors / 5xx only, per restaurant attempt
+GEMINI_MAX_RETRIES = 2            # network errors / 5xx only, per model per restaurant
 GEMINI_RETRY_DELAY_SECONDS = 15
 RETRY_PASS_DELAY_SECONDS = 60     # pause before the one extra pass over restaurants that failed
 
@@ -168,7 +176,8 @@ def log(msg):
 
 
 # Counts HTTP 200 answers from Gemini (those use up daily quota; 503s do not).
-_stats = {"ok_responses": 0}
+_stats = {"ok": {}, "streak": {}}   # streak = consecutive 5xx/bad answers per model this run
+FLAKY_AFTER = 3                    # skip a model for the rest of the run after this many in a row
 
 
 class QuotaExceeded(RuntimeError):
@@ -200,7 +209,7 @@ def load_store(path):
 
     store.setdefault("meals", [])
     store.setdefault("restaurants", {})
-    store.setdefault("quota", {"date": "", "gemini_calls": 0})
+    store.setdefault("quota", {"date": "", "calls": {}, "exhausted": []})
     store.setdefault("pending", [])   # restaurants still to pull in the current pass, in order
     # Keep the published restaurant list (and exclusions) in the JSON in sync
     # with this script so the web page always shows what the script uses.
@@ -279,7 +288,6 @@ def call_model(prompt, key, model, limiter):
                 json={
                     "contents": [{"parts": [{"text": prompt}]}],
                     "generationConfig": {
-                        "temperature": 0.2,
                         "responseMimeType": "application/json",
                         "responseSchema": RESPONSE_SCHEMA,
                         "maxOutputTokens": 32768,
@@ -301,7 +309,7 @@ def call_model(prompt, key, model, limiter):
             time.sleep(GEMINI_RETRY_DELAY_SECONDS)
             continue
 
-        _stats["ok_responses"] += 1
+        _stats["ok"][model] = _stats["ok"].get(model, 0) + 1
         try:
             data = resp.json()
             parts = data["candidates"][0]["content"]["parts"]
@@ -315,17 +323,38 @@ def call_model(prompt, key, model, limiter):
     raise last_err or RuntimeError(f"{model} failed for an unknown reason")
 
 
-def ask_gemini(prompt, key, limiter):
-    """Returns (items, model_used). The caller counts each restaurant call
-    against the daily budget once, before making it."""
-    last = None
-    for model in GEMINI_MODELS:
+def models_available(quota):
+    """Models that still have allowance today and haven't been ruled out."""
+    return [m for m in GEMINI_MODELS
+            if m not in quota["exhausted"] and quota["calls"].get(m, 0) < MAX_GEMINI_CALLS_PER_DAY]
+
+
+def ask_gemini(prompt, key, limiter, quota):
+    """Returns (items, model_used). Walks the model list in order, skipping models that
+    are used up for today. 4xx -> model is marked used up for the day; 5xx / bad
+    output -> try the next model for this restaurant only."""
+    transient = None
+    for model in models_available(quota):
+        if _stats["streak"].get(model, 0) >= FLAKY_AFTER:
+            continue                       # overloaded all run long; the next run tries it again
+        before = _stats["ok"].get(model, 0)
         try:
-            return call_model(prompt, key, model, limiter), model
+            items = call_model(prompt, key, model, limiter)
+            _stats["streak"][model] = 0
+            return items, model
         except _ModelUnavailable as e:
-            last = e
-            log(f"  {model} unavailable ({e}) -- trying next model.")
-    raise QuotaExceeded(f"all models unavailable (last: {last})")
+            quota["exhausted"].append(model)
+            log(f"  {model} unavailable for today ({e}) -- trying the next model.")
+        except Exception as e:  # noqa: BLE001
+            transient = e
+            _stats["streak"][model] = _stats["streak"].get(model, 0) + 1
+            log(f"  {model} failed ({e}) -- trying the next model.")
+        finally:
+            # Only answers Google actually served count toward the model's daily allowance.
+            quota["calls"][model] = quota["calls"].get(model, 0) + _stats["ok"].get(model, 0) - before
+    if transient:
+        raise transient
+    raise QuotaExceeded("every model is used up for today")
 
 
 def build_prompt(restaurant, known_names):
@@ -474,12 +503,7 @@ def pull_one(store, restaurant, key, limiter, known):
     or None if the call failed (the restaurant then stays in the pending list)."""
     known_names = [m["name"] for m in store["meals"] if m["restaurant"] == restaurant]
     prompt = build_prompt(restaurant, known_names)
-    before = _stats["ok_responses"]
-    try:
-        raw_items, model_used = ask_gemini(prompt, key, limiter)
-    finally:
-        # Only answers Google actually served count toward the daily limit.
-        store["quota"]["gemini_calls"] += _stats["ok_responses"] - before
+    raw_items, model_used = ask_gemini(prompt, key, limiter, store["quota"])
 
     now = datetime.now(timezone.utc).isoformat()
     added = rejected = dupes = 0
@@ -499,7 +523,7 @@ def pull_one(store, restaurant, key, limiter, known):
         added += 1
     store["restaurants"][restaurant]["last_pulled"] = now
     log(f"  {restaurant}: +{added} new, {dupes} already known, {rejected} rejected "
-        f"({len(raw_items)} returned).")
+        f"({len(raw_items)} returned by {model_used}).")
     return added
 
 
@@ -507,10 +531,13 @@ def pull_meals(store, key, out_path):
     today = pacific_today()
     quota = store["quota"]
     if quota.get("date") != today:
-        quota["date"], quota["gemini_calls"] = today, 0
-    budget = MAX_GEMINI_CALLS_PER_DAY - quota["gemini_calls"]
+        quota.clear()
+        quota.update({"date": today, "calls": {}, "exhausted": []})
+    quota.setdefault("calls", {})
+    quota.setdefault("exhausted", [])
+    budget = sum(MAX_GEMINI_CALLS_PER_DAY - quota["calls"].get(m, 0) for m in models_available(quota))
     if budget <= 0:
-        log(f"Daily limit reached ({MAX_GEMINI_CALLS_PER_DAY} Gemini calls on {today} Pacific) "
+        log(f"Every model is at its daily limit ({MAX_GEMINI_CALLS_PER_DAY} calls each on {today} Pacific) "
             f"-- no meals pulled this run.")
         return
 
@@ -520,7 +547,7 @@ def pull_meals(store, key, out_path):
     if not pending:
         pending = list(RESTAURANT_NAMES)
     store["pending"] = pending
-    log(f"Gemini: {budget} call(s) left today. Resuming at {pending[0]} "
+    log(f"Gemini: up to {budget} call(s) left today across {len(models_available(quota))} model(s). Resuming at {pending[0]} "
         f"({len(pending)} restaurant(s) left in this pass).")
 
     known = {meal_key(m["restaurant"], m["name"]) for m in store["meals"]}
@@ -530,7 +557,7 @@ def pull_meals(store, key, out_path):
     successes = attempts = added_total = 0
     max_attempts = budget * 2          # failures can't make this loop forever
 
-    while quota["gemini_calls"] < MAX_GEMINI_CALLS_PER_DAY and attempts < max_attempts:
+    while models_available(quota) and successes < MAX_GEMINI_CALLS_PER_RUN and attempts < max_attempts:
         if not queue:
             if failed and not retried:
                 retried = True
@@ -570,7 +597,7 @@ def pull_meals(store, key, out_path):
 
     nxt = store["pending"][0] if store["pending"] else "(a fresh pass)"
     log(f"Gemini: {successes} restaurant(s) pulled, {added_total} new meal(s); "
-        f"{quota['gemini_calls']}/{MAX_GEMINI_CALLS_PER_DAY} calls used for {today} (Pacific). "
+        f"calls used today (Pacific) per model: {quota['calls']}. "
         f"Next run starts at: {nxt}.")
     save_store(out_path, store)
 

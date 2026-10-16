@@ -323,7 +323,7 @@
     display:inline-flex;
     align-items:center;
     gap:2px;
-    padding:2px;
+    padding:2px 0;
     color:var(--steel-deep);
     font-size:12px;
     font-weight:700;
@@ -339,7 +339,9 @@
   }
 
   .prod-links{ white-space:nowrap; }
-  .prod-links .deliv{ margin-right:9.3px; }
+  /* Space between the three order icons (arrow to next icon): 13.3px. */
+  .prod-links .deliv{ margin-right:13.3px; }
+  .prod-links .deliv:first-child{ margin-left:2px; }
 
   .pager{
     display:flex;
