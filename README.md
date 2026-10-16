@@ -115,7 +115,7 @@ Fields that start with an underscore (`_added_at`, `_model`, `_image_attempts`) 
 | Run schedule | the `cron` line in `.github/workflows/pull_meals.yml` (GitHub cron is UTC) |
 | Calorie/price sanity bounds | `MIN_CALORIES`, `MAX_CALORIES`, `MIN_PRICE`, `MAX_PRICE` in `pull_meals.py` |
 | 3 vs 4 meals thresholds | `getMealSlotsForTarget` in `index.html` |
-| Header picture | `--hero-photo` in the CSS of both HTML files: a photo of a fast food menu from Wikimedia Commons ("Tasty Made menu", released under CC0, so no credit is required). Swap in any image URL you have rights to use. If the photo can't load, `--hero-fallback` (an inline illustration) shows instead. |
+| Header picture | `--hero-photo` in the CSS of both HTML files: a photo of a fast food drive-thru ordering menu ("Digital Menu Boards in the Drive-Thru" by Erik Mclean on Pexels; free to use under the Pexels license, no credit required). Swap in any image URL you have rights to use. If the photo can't load, `--hero-fallback` (an inline illustration) shows instead. |
 
 ## Notes and limits
 
