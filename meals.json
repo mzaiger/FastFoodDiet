@@ -12414,8 +12414,8 @@
     }
   },
   "quota": {
-    "date": "2026-10-15",
-    "gemini_calls": 18
+    "date": "2026-10-16",
+    "gemini_calls": 0
   },
   "pending": [
     "Subway",
@@ -12443,5 +12443,5 @@
     "Texas Roadhouse",
     "Wendy's"
   ],
-  "updated_at": "2026-10-15T23:24:11.715597+00:00"
+  "updated_at": "2026-10-16T09:46:47.502692+00:00"
 }
