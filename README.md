@@ -1,4 +1,4 @@
-# Lazy Man's Fast Food Diet Plan
+# Lazy Man's Fast Food Diet
 
 A static website that builds a 7-day meal plan, **only from 20 national fast food chains**, to hit a daily calorie target. Menu data (calories, price, serving, healthy/vegetarian flags) is gathered automatically by Google Gemini, and pictures come from DuckDuckGo Images. A GitHub Action refreshes it 4 times a day.
 
@@ -51,6 +51,14 @@ The list lives in `RESTAURANTS` at the top of `pull_meals.py` and is copied into
 
 Beverages, dips, sauces and condiments are excluded, and any item with an unknown category or an out-of-range calorie/price value is dropped.
 
+**Serving rules (tacos and pizza slices).** Gemini reports a single taco or a single slice, and `pull_meals.py` converts it when saving (`apply_serving_rules`):
+
+- A single taco (serving `1 taco`) is saved as **3 tacos**, with calories and price x3.
+- A single pizza slice (serving `1 slice ...` on an item that is a pizza) is saved as **2 slices**, with calories x2. The price is doubled only for **Pizza Hut** slices under $7 (`SLICE_PRICE_DOUBLED_FOR`, `SLICE_PRICE_DOUBLE_BELOW`); other chains list a whole-pizza price on a one-slice item, so their prices are left as reported. Fractions are scaled too, e.g. `1 slice (1/8 pizza)` becomes `2 slices (2/8 pizza)`.
+- Left alone: dessert pizzas (Dairy Queen Treatzza), Gordita Crunches, anything that is already several servings (`3 tacos`, `order of 3 tacos`, `2 rolled tacos`, `2 slices`, `1/4 pizza (2 slices)`), personal / individual / kids' / whole pizzas (`1 personal pizza`, `1 pizza (4 slices)`), combos (`1 slice pizza + 2 stix`), and "slices" of things that are not pizza (cheesecake, pie, loaves, ham).
+- A leading "Single " is dropped from the name (`Single Chicken Taco` becomes `Chicken Taco`).
+- Converted meals get `_serving_multiplier` (3 or 2). The rule skips meals that have it, and it also runs over `meals.json` every time the script starts, so saved meals can never be multiplied twice.
+
 **Models and daily limits.** Gemini Flash **3.8, 3.7, 3.6, 3.5** are tried in that order. Each model has its own allowance of 20 calls per Pacific-time day (`MAX_GEMINI_CALLS`), and each run makes at most 20 calls (`MAX_CALLS_PER_RUN`), which is one pass over the restaurants. Only answers Google actually served count toward the allowance.
 
 - A model that answers with a 4xx (out of quota, unknown model ID) is skipped for the rest of that day.
@@ -91,7 +99,7 @@ Environment variables: `GEMINI_KEY` (required for the Gemini step), `MAX_GEMINI_
 }
 ```
 
-Fields that start with an underscore (`_added_at`, `_model`, `_image_attempts`) are bookkeeping. If you ever want a clean start, delete `meals.json` and run the workflow again.
+Fields that start with an underscore (`_added_at`, `_model`, `_image_attempts`, `_serving_multiplier`) are bookkeeping. If you ever want a clean start, delete `meals.json` and run the workflow again.
 
 ## How the plan works (`index.html`)
 

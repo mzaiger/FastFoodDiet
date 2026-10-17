@@ -1,5 +1,5 @@
 """
-Lazy Man's Fast Food Diet Plan -- daily meal puller.
+Lazy Man's Fast Food Diet -- daily meal puller.
 
 What it does, once per run (the GitHub Action runs it daily):
 
@@ -12,6 +12,13 @@ What it does, once per run (the GitHub Action runs it daily):
      asked for NEW items only; the JSON grows a little more every day.
   2. For every new meal, stores cost, calories and serving (as Gemini
      estimates them -- these are AI estimates, not live menu data).
+     Serving rules applied by this script when saving (see apply_serving_rules):
+     a single taco is stored as 3 tacos (calories and price x3) and a single
+     pizza slice as 2 slices (calories x2; the price is doubled only for Pizza
+     Hut slices priced under $7, other slice prices are left as reported). Items that are
+     already multiple servings, personal/individual/kids'/whole pizzas, dessert
+     pizzas, Gordita Crunches, and non-pizza "slice" items (cakes, pies, loaves)
+     are left alone.
   3. Searches DuckDuckGo Images for every meal that has no picture yet and
      stores the image URL. There is no cap on the number of searches; the phase
      ends when every meal has a picture, when DuckDuckGo starts rate-limiting
@@ -146,6 +153,11 @@ For each item give:
 - "vegetarian": true only if the item as normally served has no meat, poultry or fish
 - "healthy": true only if a reasonable dietitian would call it one of the healthier choices on this menu -- for example grilled or lean protein, salads and veggie-forward bowls, oatmeal, fruit, or a lower-calorie item that is not deep-fried and not heavy on sugar or cheese. Desserts, shakes, fried items and heavy combo-style items are normally false.
 
+SERVING RULES (follow exactly):
+- A taco sold on its own: "serving" must be exactly "1 taco", and "calories" and "price" are for that ONE taco. Orders or packs of several tacos (e.g. "3 tacos", "order of 3 tacos", "2 rolled tacos") keep their real serving text and the calories and price of the whole order.
+- A pizza sold by the slice: "serving" must start with "1 slice" (for example "1 slice (1/8 large pizza)"), and "calories" and "price" are for that ONE slice. Personal, individual, kids' or whole pizzas are NOT slices: give them as the whole item (for example "1 personal pizza").
+- Do NOT multiply anything yourself. After your answer, the program turns a single taco into 3 tacos (calories and price x3) and a single pizza slice into 2 slices (calories x2; the price is only doubled for Pizza Hut slices). Just report the single taco or single slice.
+
 Return at most {max_items} items, best-known and most-ordered first. Do NOT include any item whose name appears in the ALREADY KNOWN list below (treat small spelling differences as the same item). If you cannot find any more genuinely new items, return fewer -- or an empty array.
 
 ALREADY KNOWN for {restaurant} ({known_count} items):
@@ -218,6 +230,9 @@ def load_store(path):
         entry["except_states"] = r["except"]
         entry.setdefault("last_pulled", "")
     store["allowed_restaurants"] = RESTAURANT_NAMES
+    fixed = apply_serving_rules_to_store(store)
+    if fixed:
+        log(f"Serving rules: updated {fixed} saved meal(s) (single taco -> 3, single pizza slice -> 2).")
     return store
 
 
@@ -375,6 +390,64 @@ def build_prompt(restaurant, known_names):
     )
 
 
+# --- Serving rules applied when a meal is saved --------------------------------
+# A lone taco is stored as 3 tacos (calories and price x3); a lone pizza slice is
+# stored as 2 slices (calories x2; price doubled only for Pizza Hut slices that are
+# priced like a single slice, i.e. under SLICE_PRICE_DOUBLE_BELOW -- other chains'
+# "slice" prices are really whole-pizza prices, so they are left as reported). Anything that is already
+# several servings, a personal / individual / kids' / whole pizza, a dessert pizza,
+# a Gordita Crunch, or a "slice" of something that isn't pizza (cheesecake, pie,
+# loaf, ham...) is left alone. The rule only fires on a
+# serving that reads like ONE taco / ONE slice, and rewriting the serving text
+# makes it fire only once, so running it again on saved meals changes nothing.
+TACO_COUNT, PIZZA_SLICE_COUNT = 3, 2
+SLICE_PRICE_DOUBLED_FOR = {"Pizza Hut"}
+SLICE_PRICE_DOUBLE_BELOW = 7.00
+_ONE = r"(?:1|one|a|single)"
+_TACO_SERVING_RE = re.compile(rf"^\s*{_ONE}\s+(?:[a-z'’\-]+\s+){{0,2}}tacos?\s*(?:\(.*\))?\s*$", re.I)
+_SLICE_SERVING_RE = re.compile(rf"^\s*{_ONE}\s+slice\b", re.I)
+_PIZZA_WORD_RE = re.compile(r"\bpizza\b", re.I)
+_NOT_A_SLICE_RE = re.compile(r"\+|&|\bwith\b|\band\b|stix|personal|individual|kid|mini|whole|calzone", re.I)
+_NEVER_SCALE_NAME_RE = re.compile(r"gordita|treatzza", re.I)   # not "tacos" / dessert pizzas: leave as reported
+
+
+def apply_serving_rules(meal):
+    """Turns a single taco into 3 (calories and price x3) and a single pizza slice into 2
+    (calories x2; price x2 only for Pizza Hut slices under $7). Returns True if the meal was changed."""
+    if meal.get("_serving_multiplier"):
+        return False                                   # already done
+    name, serving = meal.get("name", ""), str(meal.get("serving", ""))
+    if meal.get("category") == "dessert" or _NEVER_SCALE_NAME_RE.search(name):
+        return False                                   # dessert pizzas and Gordita Crunches stay as they are
+    price_mult = 1
+    if _TACO_SERVING_RE.match(serving):
+        mult = price_mult = TACO_COUNT
+        serving = re.sub(rf"^\s*{_ONE}\s+", f"{mult} ", serving, flags=re.I)
+        serving = re.sub(r"\btaco\b", "tacos", serving, count=1, flags=re.I)
+    elif (_SLICE_SERVING_RE.match(serving)
+          and (_PIZZA_WORD_RE.search(name) or _PIZZA_WORD_RE.search(serving))
+          and not _NOT_A_SLICE_RE.search(serving) and not _NOT_A_SLICE_RE.search(name)):
+        mult = PIZZA_SLICE_COUNT
+        if meal.get("restaurant") in SLICE_PRICE_DOUBLED_FOR and float(meal["price"]) < SLICE_PRICE_DOUBLE_BELOW:
+            price_mult = mult
+        serving = re.sub(rf"^\s*{_ONE}\s+slice\b", f"{mult} slices", serving, flags=re.I)
+        serving = re.sub(r"\b1/(\d+)\b", rf"{mult}/\1", serving)   # "1/8 pizza" -> "2/8 pizza"
+    else:
+        return False
+    meal["calories"] = int(round(float(meal["calories"]) * mult))
+    meal["price"] = round(float(meal["price"]) * price_mult, 2)
+    meal["serving"] = serving
+    meal["_serving_multiplier"] = mult
+    # "Single Chicken Taco" no longer makes sense once it is 3 tacos.
+    meal["name"] = re.sub(r"^single\s+", "", name, flags=re.I).strip() or name
+    return True
+
+
+def apply_serving_rules_to_store(store):
+    """One-time (and harmless to repeat) pass over meals already saved in meals.json."""
+    return sum(1 for m in store["meals"] if apply_serving_rules(m))
+
+
 def clean_meal(raw, restaurant):
     """Validates one Gemini item. Returns a meal dict or None."""
     if not isinstance(raw, dict):
@@ -396,7 +469,7 @@ def clean_meal(raw, restaurant):
     if not (MIN_CALORIES <= calories <= MAX_CALORIES and MIN_PRICE <= price <= MAX_PRICE):
         return None
     serving = str(raw.get("serving", "")).strip()[:80] or "1 serving"
-    return {
+    meal = {
         "restaurant": restaurant,
         "name": name,
         "category": category,
@@ -406,6 +479,8 @@ def clean_meal(raw, restaurant):
         "vegetarian": bool(raw.get("vegetarian")),
         "healthy": bool(raw.get("healthy")) and category != "dessert",
     }
+    apply_serving_rules(meal)   # single taco -> 3 tacos, single pizza slice -> 2 slices
+    return meal
 
 
 #---------------------------------------------------------------------------
