@@ -497,9 +497,25 @@ def clean_meal(raw, restaurant):
 # DuckDuckGo image search
 #---------------------------------------------------------------------------
 
+_ddgs_client = None
+
+
+def _client(reset=False):
+    """One shared DuckDuckGo session (new connections for every search look like a bot);
+    after an error a fresh one is made for the next search."""
+    global _ddgs_client
+    if reset or _ddgs_client is None:
+        _ddgs_client = DDGS()
+    return _ddgs_client
+
+
 def _first_https_image(query):
     """One DuckDuckGo image search. Returns (thumbnail_url, full_url) or (None, None)."""
-    results = DDGS().images(query, max_results=6, safesearch="moderate")
+    try:
+        results = _client().images(query, max_results=6, safesearch="moderate")
+    except Exception:
+        _client(reset=True)
+        raise
     for res in results or []:
         thumb = (res.get("thumbnail") or "").strip()
         full = (res.get("image") or "").strip()

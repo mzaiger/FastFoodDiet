@@ -93,7 +93,7 @@ site:www.olivegarden.com Fettuccine Alfredo
 
 If the official site has nothing for a meal that has no picture at all, the script falls back to an open search for `"<restaurant> <item>"` (turn that off with `IMAGE_FALLBACK_TO_WEB = False`). Each picture records where it came from in `_image_source`: `site` (official website) or `web` (fallback). There is no cap on the number of searches. The picture step stops early if DuckDuckGo starts failing several searches in a row (rate limiting) or after 60 minutes (`IMAGE_TIME_BUDGET_MINUTES`); the remaining meals get pictures on the next run. A meal gives up after 3 failed attempts.
 
-**Refreshing every picture (manual).** Pictures found before this strategy came from open searches. To redo all of them from the official sites, open the **Actions** tab, choose **Refresh all meal images (manual)** and click **Run workflow** (or run `python refresh_images.py` locally). For each meal it searches `site:<restaurant site> <item>` and replaces the picture with the first result; if the official site has nothing, the meal keeps its current picture. It marks each finished meal with `_image_site_checked`, so a run that stops early (rate limiting, time budget) is simply run again and continues where it stopped. Inputs: *restart* (redo everything), *restaurant* (just one chain, good for a quick test), *time budget*. New meals are searched the same way and marked as done, so this only needs running once for the existing list.
+**Refreshing every picture (manual).** Pictures found before this strategy came from open searches. To redo all of them from the official sites, open the **Actions** tab, choose **Refresh all meal images (manual)** and click **Run workflow** (or run `python refresh_images.py` locally). For each meal it searches `site:<restaurant site> <item>` and replaces the picture with the first result; if the official site has nothing, the meal keeps its current picture. DuckDuckGo throttles fast searching, so it pauses a few seconds between searches and, when a search fails, cools down (30 s up to 5 min) and retries the same meal; only after 6 failures in a row does it stop and save. A full refresh of the ~2,650 meals takes a few runs. It marks each finished meal with `_image_site_checked`, so a run that stops early (rate limiting, time budget) is simply run again and continues where it stopped. Inputs: *restart* (redo everything), *restaurant* (just one chain, good for a quick test), *delay* (seconds between searches), *time budget*. New meals are searched the same way and marked as done, so this only needs running once for the existing list.
 
 ### Running it locally
 
@@ -104,7 +104,7 @@ GEMINI_KEY=your_key python pull_meals.py
 
 Options: `--skip-images` (Gemini only), `--images-only` (pictures only), `--output path/to/meals.json`.
 
-Refresh every picture from the official sites: `python refresh_images.py` (options: `--restaurant "Olive Garden"`, `--limit 25`, `--restart`, `--time-budget-minutes 100`).
+Refresh every picture from the official sites: `python refresh_images.py` (options: `--restaurant "Olive Garden"`, `--limit 25`, `--restart`, `--delay 3`, `--time-budget-minutes 100`).
 
 Environment variables: `GEMINI_KEY` (required for the Gemini step), `MAX_GEMINI_CALLS` (per model per day, default 20), `MAX_CALLS_PER_RUN` (default 20).
 
