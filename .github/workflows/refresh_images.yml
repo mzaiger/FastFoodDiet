@@ -1,9 +1,10 @@
 name: Refresh all meal images (manual)
 
 # Manual only: Actions tab > "Refresh all meal images (manual)" > Run workflow.
-# Redoes every picture in meals.json by searching the restaurant's own website
-# (site:www.olivegarden.com Fettuccine Alfredo). It resumes where it stopped, so if a
-# run ends early (DuckDuckGo rate limiting or the time budget) just run it again.
+# Redoes every picture in meals.json with a DuckDuckGo image search that has the
+# restaurant and the item in double quotes ("Olive Garden" "Fettuccine Alfredo"). It
+# resumes where it stopped, so if a run ends early (DuckDuckGo rate limiting or the
+# time budget) just run it again.
 on:
   workflow_dispatch:
     inputs:
@@ -13,7 +14,7 @@ on:
         required: false
         default: false
       restaurant:
-        description: "Only this restaurant, exact name (e.g. Olive Garden). Blank = all 20"
+        description: "Only this restaurant, exact name (e.g. Olive Garden). Blank = all restaurants"
         required: false
         default: ""
       delay_seconds:
@@ -50,7 +51,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests ddgs
 
-      - name: Refresh pictures from each restaurant's official site
+      - name: Refresh pictures (quoted restaurant + item search)
         env:
           RESTART: ${{ github.event.inputs.restart }}
           RESTAURANT: ${{ github.event.inputs.restaurant }}
@@ -68,6 +69,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add meals.json
-          git diff --staged --quiet || git commit -m "Refresh meal images from official sites [automated]"
+          git diff --staged --quiet || git commit -m "Refresh meal images [automated]"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
