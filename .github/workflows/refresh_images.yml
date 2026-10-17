@@ -16,6 +16,10 @@ on:
         description: "Only this restaurant, exact name (e.g. Olive Garden). Blank = all 20"
         required: false
         default: ""
+      delay_seconds:
+        description: "Pause between searches, in seconds (higher = gentler on DuckDuckGo)"
+        required: false
+        default: "3"
       time_budget_minutes:
         description: "Stop and save after this many minutes (the job limit is 150)"
         required: false
@@ -51,8 +55,9 @@ jobs:
           RESTART: ${{ github.event.inputs.restart }}
           RESTAURANT: ${{ github.event.inputs.restaurant }}
           TIME_BUDGET: ${{ github.event.inputs.time_budget_minutes || '110' }}
+          DELAY: ${{ github.event.inputs.delay_seconds || '3' }}
         run: |
-          args=(--time-budget-minutes "$TIME_BUDGET")
+          args=(--time-budget-minutes "$TIME_BUDGET" --delay "$DELAY")
           if [ "$RESTART" = "true" ]; then args+=(--restart); fi
           if [ -n "$RESTAURANT" ]; then args+=(--restaurant "$RESTAURANT"); fi
           python refresh_images.py "${args[@]}"
