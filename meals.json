@@ -40070,98 +40070,118 @@
   "restaurants": {
     "Applebee's": {
       "except_states": [],
-      "last_pulled": "2026-10-17T13:07:30.851597+00:00"
+      "last_pulled": "2026-10-17T13:07:30.851597+00:00",
+      "site": "www.applebees.com"
     },
     "Burger King": {
       "except_states": [],
-      "last_pulled": "2026-10-17T13:08:09.383804+00:00"
+      "last_pulled": "2026-10-17T13:08:09.383804+00:00",
+      "site": "www.bk.com"
     },
     "Chick-fil-A": {
       "except_states": [
         "Vermont",
         "Alaska"
       ],
-      "last_pulled": "2026-10-17T13:08:40.229227+00:00"
+      "last_pulled": "2026-10-17T13:08:40.229227+00:00",
+      "site": "www.chick-fil-a.com"
     },
     "Chipotle": {
       "except_states": [
         "Alaska",
         "Hawaii"
       ],
-      "last_pulled": "2026-10-17T13:08:52.793207+00:00"
+      "last_pulled": "2026-10-17T13:08:52.793207+00:00",
+      "site": "www.chipotle.com"
     },
     "Dairy Queen": {
       "except_states": [
         "Vermont"
       ],
-      "last_pulled": "2026-10-17T13:09:52.124179+00:00"
+      "last_pulled": "2026-10-17T13:09:52.124179+00:00",
+      "site": "www.dairyqueen.com"
     },
     "Domino's": {
       "except_states": [],
-      "last_pulled": "2026-10-17T13:10:55.989746+00:00"
+      "last_pulled": "2026-10-17T13:10:55.989746+00:00",
+      "site": "www.dominos.com"
     },
     "Five Guys": {
       "except_states": [],
-      "last_pulled": "2026-10-17T13:11:26.472811+00:00"
+      "last_pulled": "2026-10-17T13:11:26.472811+00:00",
+      "site": "www.fiveguys.com"
     },
     "IHOP": {
       "except_states": [
         "Vermont"
       ],
-      "last_pulled": "2026-10-17T13:11:42.480282+00:00"
+      "last_pulled": "2026-10-17T13:11:42.480282+00:00",
+      "site": "www.ihop.com"
     },
     "Jersey Mike's Subs": {
       "except_states": [],
-      "last_pulled": "2026-10-17T13:00:15.086894+00:00"
+      "last_pulled": "2026-10-17T13:00:15.086894+00:00",
+      "site": "www.jerseymikes.com"
     },
     "Kentucky Fried Chicken": {
       "except_states": [],
-      "last_pulled": "2026-10-17T13:00:44.370788+00:00"
+      "last_pulled": "2026-10-17T13:00:44.370788+00:00",
+      "site": "www.kfc.com"
     },
     "Little Caesar's": {
       "except_states": [],
-      "last_pulled": "2026-10-17T13:01:07.974653+00:00"
+      "last_pulled": "2026-10-17T13:01:07.974653+00:00",
+      "site": "www.littlecaesars.com"
     },
     "McDonald's": {
       "except_states": [],
-      "last_pulled": "2026-10-17T13:02:02.918227+00:00"
+      "last_pulled": "2026-10-17T13:02:02.918227+00:00",
+      "site": "www.mcdonalds.com"
     },
     "Olive Garden": {
       "except_states": [],
-      "last_pulled": "2026-10-17T13:02:48.141160+00:00"
+      "last_pulled": "2026-10-17T13:02:48.141160+00:00",
+      "site": "www.olivegarden.com"
     },
     "Panera": {
       "except_states": [
         "Alaska",
         "Hawaii"
       ],
-      "last_pulled": "2026-10-17T13:03:11.081666+00:00"
+      "last_pulled": "2026-10-17T13:03:11.081666+00:00",
+      "site": "www.panerabread.com"
     },
     "Pizza Hut": {
       "except_states": [],
-      "last_pulled": "2026-10-17T13:03:36.724264+00:00"
+      "last_pulled": "2026-10-17T13:03:36.724264+00:00",
+      "site": "www.pizzahut.com"
     },
     "Starbucks": {
       "except_states": [],
-      "last_pulled": "2026-10-17T13:04:37.402119+00:00"
+      "last_pulled": "2026-10-17T13:04:37.402119+00:00",
+      "site": "www.starbucks.com"
     },
     "Subway": {
       "except_states": [],
-      "last_pulled": "2026-10-17T13:05:23.072816+00:00"
+      "last_pulled": "2026-10-17T13:05:23.072816+00:00",
+      "site": "www.subway.com"
     },
     "Taco Bell": {
       "except_states": [],
-      "last_pulled": "2026-10-17T13:05:59.634649+00:00"
+      "last_pulled": "2026-10-17T13:05:59.634649+00:00",
+      "site": "www.tacobell.com"
     },
     "Texas Roadhouse": {
       "except_states": [
         "Hawaii"
       ],
-      "last_pulled": "2026-10-17T13:06:38.453699+00:00"
+      "last_pulled": "2026-10-17T13:06:38.453699+00:00",
+      "site": "www.texasroadhouse.com"
     },
     "Wendy's": {
       "except_states": [],
-      "last_pulled": "2026-10-17T13:06:58.674108+00:00"
+      "last_pulled": "2026-10-17T13:06:58.674108+00:00",
+      "site": "www.wendys.com"
     }
   },
   "quota": {

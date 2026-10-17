@@ -20,7 +20,9 @@ What it does, once per run (the GitHub Action runs it daily):
      pizzas, Gordita Crunches, and non-pizza "slice" items (cakes, pies, loaves)
      are left alone.
   3. Searches DuckDuckGo Images for every meal that has no picture yet and
-     stores the image URL. There is no cap on the number of searches; the phase
+     stores the image URL. The search is limited to the restaurant's official
+     site, e.g. "site:www.olivegarden.com Fettuccine Alfredo" (the sites are in
+     RESTAURANTS below). refresh_images.py redoes every picture this way. There is no cap on the number of searches; the phase
      ends when every meal has a picture, when DuckDuckGo starts rate-limiting
      (the rest wait for the next run), or after IMAGE_TIME_BUDGET_MINUTES so the
      job always finishes and commits meals.json.
@@ -95,36 +97,43 @@ IMAGE_TIME_BUDGET_MINUTES = 60   # safety stop (not a count limit) so the Action
 IMAGE_SEARCH_DELAY_SECONDS = 1.5
 IMAGE_MAX_ATTEMPTS_PER_MEAL = 3   # then give up on that meal's picture
 IMAGE_RATELIMIT_STRIKES = 4       # consecutive failures -> stop image phase this run
+# Pictures are searched on the restaurant's own site ("site:www.olivegarden.com <item>").
+# If that finds nothing for a meal that has no picture at all, True falls back to an
+# open DuckDuckGo search ("<restaurant> <item>"); False leaves the meal without one.
+IMAGE_FALLBACK_TO_WEB = True
 
 # Sanity bounds so a hallucinated number can't poison the meal planner.
 MIN_CALORIES, MAX_CALORIES = 20, 3500
 MIN_PRICE, MAX_PRICE = 0.50, 80.00
 
 # The ONLY restaurants meals may come from. `except` = states with no locations
-# (every other state has them). Shown on the web page too (index.html).
+# (every other state has them). `site` = the restaurant's official website; pictures
+# are searched ONLY on that site ("site:www.olivegarden.com Fettuccine Alfredo").
+# Shown on the web page too (index.html).
 RESTAURANTS = [
-    {"name": "Applebee's",              "except": []},
-    {"name": "Burger King",             "except": []},
-    {"name": "Chick-fil-A",             "except": ["Vermont", "Alaska"]},
-    {"name": "Chipotle",                "except": ["Alaska", "Hawaii"]},
-    {"name": "Dairy Queen",             "except": ["Vermont"]},
-    {"name": "Domino's",                "except": []},
-    {"name": "Five Guys",               "except": []},
-    {"name": "IHOP",                    "except": ["Vermont"]},
-    {"name": "Jersey Mike's Subs",      "except": []},
-    {"name": "Kentucky Fried Chicken",  "except": []},
-    {"name": "Little Caesar's",         "except": []},
-    {"name": "McDonald's",              "except": []},
-    {"name": "Olive Garden",            "except": []},
-    {"name": "Panera",                  "except": ["Alaska", "Hawaii"]},
-    {"name": "Pizza Hut",               "except": []},
-    {"name": "Starbucks",               "except": []},
-    {"name": "Subway",                  "except": []},
-    {"name": "Taco Bell",               "except": []},
-    {"name": "Texas Roadhouse",         "except": ["Hawaii"]},
-    {"name": "Wendy's",                 "except": []},
+    {"name": "Applebee's",            "except": [], "site": "www.applebees.com"},
+    {"name": "Burger King",           "except": [], "site": "www.bk.com"},
+    {"name": "Chick-fil-A",           "except": ["Vermont", "Alaska"], "site": "www.chick-fil-a.com"},
+    {"name": "Chipotle",              "except": ["Alaska", "Hawaii"], "site": "www.chipotle.com"},
+    {"name": "Dairy Queen",           "except": ["Vermont"], "site": "www.dairyqueen.com"},
+    {"name": "Domino's",              "except": [], "site": "www.dominos.com"},
+    {"name": "Five Guys",             "except": [], "site": "www.fiveguys.com"},
+    {"name": "IHOP",                  "except": ["Vermont"], "site": "www.ihop.com"},
+    {"name": "Jersey Mike's Subs",    "except": [], "site": "www.jerseymikes.com"},
+    {"name": "Kentucky Fried Chicken", "except": [], "site": "www.kfc.com"},
+    {"name": "Little Caesar's",       "except": [], "site": "www.littlecaesars.com"},
+    {"name": "McDonald's",            "except": [], "site": "www.mcdonalds.com"},
+    {"name": "Olive Garden",          "except": [], "site": "www.olivegarden.com"},
+    {"name": "Panera",                "except": ["Alaska", "Hawaii"], "site": "www.panerabread.com"},
+    {"name": "Pizza Hut",             "except": [], "site": "www.pizzahut.com"},
+    {"name": "Starbucks",             "except": [], "site": "www.starbucks.com"},
+    {"name": "Subway",                "except": [], "site": "www.subway.com"},
+    {"name": "Taco Bell",             "except": [], "site": "www.tacobell.com"},
+    {"name": "Texas Roadhouse",       "except": ["Hawaii"], "site": "www.texasroadhouse.com"},
+    {"name": "Wendy's",               "except": [], "site": "www.wendys.com"},
 ]
 RESTAURANT_NAMES = [r["name"] for r in RESTAURANTS]
+RESTAURANT_SITES = {r["name"]: r["site"] for r in RESTAURANTS}   # official site, used for the picture search
 
 CATEGORIES = ("breakfast", "regular", "dessert")
 
@@ -228,6 +237,7 @@ def load_store(path):
     for r in RESTAURANTS:
         entry = store["restaurants"].setdefault(r["name"], {})
         entry["except_states"] = r["except"]
+        entry["site"] = r["site"]
         entry.setdefault("last_pulled", "")
     store["allowed_restaurants"] = RESTAURANT_NAMES
     fixed = apply_serving_rules_to_store(store)
@@ -487,9 +497,8 @@ def clean_meal(raw, restaurant):
 # DuckDuckGo image search
 #---------------------------------------------------------------------------
 
-def find_image(restaurant, name):
-    """Returns (thumbnail_url, full_url) or (None, None) when nothing usable."""
-    query = f"{restaurant} {name}"
+def _first_https_image(query):
+    """One DuckDuckGo image search. Returns (thumbnail_url, full_url) or (None, None)."""
     results = DDGS().images(query, max_results=6, safesearch="moderate")
     for res in results or []:
         thumb = (res.get("thumbnail") or "").strip()
@@ -499,6 +508,26 @@ def find_image(restaurant, name):
             return (thumb if thumb.startswith("https://") else full,
                     full if full.startswith("https://") else "")
     return None, None
+
+
+def image_query(restaurant, name):
+    """The site-restricted search, e.g. 'site:www.olivegarden.com Fettuccine Alfredo'."""
+    return f"site:{RESTAURANT_SITES[restaurant]} {name}"
+
+
+def find_image(restaurant, name, fallback=None):
+    """Searches the restaurant's official site first. Returns (thumbnail, full, source)
+    where source is "site" or "web" (open-web fallback), or (None, None, None)."""
+    if fallback is None:
+        fallback = IMAGE_FALLBACK_TO_WEB
+    thumb, full = _first_https_image(image_query(restaurant, name))
+    if thumb:
+        return thumb, full, "site"
+    if fallback:
+        thumb, full = _first_https_image(f"{restaurant} {name}")
+        if thumb:
+            return thumb, full, "web"
+    return None, None, None
 
 
 def fill_images(store):
@@ -520,7 +549,7 @@ def fill_images(store):
             log(f"  image time budget ({IMAGE_TIME_BUDGET_MINUTES} min) reached -- the rest wait for the next run.")
             break
         try:
-            thumb, full = find_image(meal["restaurant"], meal["name"])
+            thumb, full, source = find_image(meal["restaurant"], meal["name"])
             strikes = 0
         except Exception as e:  # noqa: BLE001 -- DDG throws many error types when rate limiting
             strikes += 1
@@ -533,9 +562,11 @@ def fill_images(store):
             continue
 
         meal["_image_attempts"] = meal.get("_image_attempts", 0) + 1
+        meal["_image_site_checked"] = True       # the official-site search has been done for this meal
         if thumb:
             meal["image_url"] = thumb
             meal["image_full_url"] = full or ""
+            meal["_image_source"] = source       # "site" = official website, "web" = fallback
             found += 1
         if i % 25 == 0:
             log(f"  ...{i} searched, {found} pictures found so far")

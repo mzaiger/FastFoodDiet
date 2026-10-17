@@ -12,6 +12,8 @@ A static website that builds a 7-day meal plan, **only from 20 national fast foo
 | `products.html` | "Menu Items": a searchable table of every meal in the data, and the picker used by the home page's **select** button. |
 | `pull_meals.py` | Asks Gemini for menu items, finds pictures on DuckDuckGo, and writes `meals.json`. |
 | `.github/workflows/pull_meals.yml` | GitHub Action that runs `pull_meals.py` 4 times a day and commits `meals.json`. |
+| `refresh_images.py` | Manual tool: redoes **every** meal picture by searching each restaurant's own website (see "Pictures"). |
+| `.github/workflows/refresh_images.yml` | Manual GitHub Action (Run workflow button) that runs `refresh_images.py` and commits `meals.json`. |
 | `meals.json` | **Created by the first run.** All meals plus run state. Both pages read it. |
 
 Repo layout:
@@ -20,7 +22,9 @@ Repo layout:
 index.html
 products.html
 pull_meals.py
+refresh_images.py
 .github/workflows/pull_meals.yml
+.github/workflows/refresh_images.yml
 meals.json            <- created by the first run
 ```
 
@@ -38,6 +42,21 @@ After that the Action runs on its own at 03:17, 09:17, 15:17 and 21:17 UTC.
 Meals can only come from these 20 chains. Each has locations in all 50 states except where noted:
 
 Applebee's, Burger King, Chick-fil-A (not VT, AK), Chipotle (not AK, HI), Dairy Queen (not VT), Domino's, Five Guys, IHOP (not VT), Jersey Mike's Subs, Kentucky Fried Chicken, Little Caesar's, McDonald's, Olive Garden, Panera (not AK, HI), Pizza Hut, Starbucks, Subway, Taco Bell, Texas Roadhouse (not HI), Wendy's.
+
+Official websites, used for the picture search (`site:` searches, see "Pictures"):
+
+| Restaurant | Site | Restaurant | Site |
+|---|---|---|---|
+| Applebee's | `www.applebees.com` | Pizza Hut | `www.pizzahut.com` |
+| Burger King | `www.bk.com` | Starbucks | `www.starbucks.com` |
+| Chick-fil-A | `www.chick-fil-a.com` | Subway | `www.subway.com` |
+| Chipotle | `www.chipotle.com` | Taco Bell | `www.tacobell.com` |
+| Dairy Queen | `www.dairyqueen.com` | Texas Roadhouse | `www.texasroadhouse.com` |
+| Domino's | `www.dominos.com` | Wendy's | `www.wendys.com` |
+| Five Guys | `www.fiveguys.com` | Kentucky Fried Chicken | `www.kfc.com` |
+| IHOP | `www.ihop.com` | Little Caesar's | `www.littlecaesars.com` |
+| Jersey Mike's Subs | `www.jerseymikes.com` | McDonald's | `www.mcdonalds.com` |
+| Olive Garden | `www.olivegarden.com` | Panera | `www.panerabread.com` |
 
 The list lives in `RESTAURANTS` at the top of `pull_meals.py` and is copied into `meals.json`, which is what the page's "Where the meals come from" section shows. The pages also ignore any meal whose restaurant isn't on that list.
 
@@ -66,7 +85,15 @@ Beverages, dips, sauces and condiments are excluded, and any item with an unknow
 
 **Resuming.** `meals.json` keeps a `pending` list of restaurants not yet pulled in the current pass. A restaurant leaves the list only after a successful pull, so the next run starts exactly where the last one stopped. When the list empties, a new pass begins.
 
-**Pictures.** For every meal without a picture, the script searches DuckDuckGo Images for `"<restaurant> <item>"` and stores the image URL (`image_url`, plus the full-size `image_full_url` as a fallback). There is no cap on the number of searches. The picture step stops early if DuckDuckGo starts failing several searches in a row (rate limiting) or after 60 minutes (`IMAGE_TIME_BUDGET_MINUTES`); the remaining meals get pictures on the next run. A meal gives up after 3 failed attempts.
+**Pictures.** For every meal without a picture, the script searches DuckDuckGo Images **on the restaurant's own website** and stores the image URL (`image_url`, plus the full-size `image_full_url` as a fallback). The query is the site plus the item name, for example Olive Garden's Fettuccine Alfredo is searched as:
+
+```
+site:www.olivegarden.com Fettuccine Alfredo
+```
+
+If the official site has nothing for a meal that has no picture at all, the script falls back to an open search for `"<restaurant> <item>"` (turn that off with `IMAGE_FALLBACK_TO_WEB = False`). Each picture records where it came from in `_image_source`: `site` (official website) or `web` (fallback). There is no cap on the number of searches. The picture step stops early if DuckDuckGo starts failing several searches in a row (rate limiting) or after 60 minutes (`IMAGE_TIME_BUDGET_MINUTES`); the remaining meals get pictures on the next run. A meal gives up after 3 failed attempts.
+
+**Refreshing every picture (manual).** Pictures found before this strategy came from open searches. To redo all of them from the official sites, open the **Actions** tab, choose **Refresh all meal images (manual)** and click **Run workflow** (or run `python refresh_images.py` locally). For each meal it searches `site:<restaurant site> <item>` and replaces the picture with the first result; if the official site has nothing, the meal keeps its current picture. It marks each finished meal with `_image_site_checked`, so a run that stops early (rate limiting, time budget) is simply run again and continues where it stopped. Inputs: *restart* (redo everything), *restaurant* (just one chain, good for a quick test), *time budget*. New meals are searched the same way and marked as done, so this only needs running once for the existing list.
 
 ### Running it locally
 
@@ -77,6 +104,8 @@ GEMINI_KEY=your_key python pull_meals.py
 
 Options: `--skip-images` (Gemini only), `--images-only` (pictures only), `--output path/to/meals.json`.
 
+Refresh every picture from the official sites: `python refresh_images.py` (options: `--restaurant "Olive Garden"`, `--limit 25`, `--restart`, `--time-budget-minutes 100`).
+
 Environment variables: `GEMINI_KEY` (required for the Gemini step), `MAX_GEMINI_CALLS` (per model per day, default 20), `MAX_CALLS_PER_RUN` (default 20).
 
 ### `meals.json` shape
@@ -85,7 +114,7 @@ Environment variables: `GEMINI_KEY` (required for the Gemini step), `MAX_GEMINI_
 {
   "updated_at": "...",
   "allowed_restaurants": ["Applebee's", "..."],
-  "restaurants": { "Chick-fil-A": { "except_states": ["Vermont", "Alaska"], "last_pulled": "..." } },
+  "restaurants": { "Chick-fil-A": { "except_states": ["Vermont", "Alaska"], "site": "www.chick-fil-a.com", "last_pulled": "..." } },
   "quota": { "date": "2026-10-16", "calls": { "gemini-3.8-flash": 7 }, "exhausted": [] },
   "pending": ["Five Guys", "..."],
   "meals": [
@@ -99,7 +128,7 @@ Environment variables: `GEMINI_KEY` (required for the Gemini step), `MAX_GEMINI_
 }
 ```
 
-Fields that start with an underscore (`_added_at`, `_model`, `_image_attempts`, `_serving_multiplier`) are bookkeeping. If you ever want a clean start, delete `meals.json` and run the workflow again.
+Fields that start with an underscore (`_added_at`, `_model`, `_image_attempts`, `_image_site_checked`, `_image_source`, `_serving_multiplier`) are bookkeeping. If you ever want a clean start, delete `meals.json` and run the workflow again.
 
 ## How the plan works (`index.html`)
 
@@ -117,7 +146,7 @@ Fields that start with an underscore (`_added_at`, `_model`, `_image_attempts`, 
 
 | What | Where |
 |---|---|
-| Restaurants and state exclusions | `RESTAURANTS` in `pull_meals.py` (and the fallback copy near `restaurantInfo` in `index.html`) |
+| Restaurants, state exclusions and official sites (`site`) | `RESTAURANTS` in `pull_meals.py` (and the fallback copy near `restaurantInfo` in `index.html`) |
 | Models and per-day limits | `GEMINI_MODELS`, `MAX_GEMINI_CALLS_PER_DAY`, `MAX_GEMINI_CALLS_PER_RUN` in `pull_meals.py` |
 | How many new items per Gemini call | `MAX_NEW_MEALS_PER_CALL` in `pull_meals.py` |
 | Run schedule | the `cron` line in `.github/workflows/pull_meals.yml` (GitHub cron is UTC) |
@@ -128,6 +157,6 @@ Fields that start with an underscore (`_added_at`, `_model`, `_image_attempts`, 
 ## Notes and limits
 
 - Gemini's menu knowledge can be wrong or out of date. Numbers are estimates, not live menu data.
-- DuckDuckGo image results aren't verified, so a picture may not match the item exactly.
+- Pictures come from DuckDuckGo searches limited to each restaurant's website, but they aren't verified, so a picture may still not match the item exactly (menus change and some items have no page). If a chain's pictures look wrong, check its `site` in `RESTAURANTS`.
 - Delivery-app search links go to each app's search page; results depend on your location.
 - DuckDuckGo rate-limits aggressively, so a big backlog of pictures fills in over several runs.
