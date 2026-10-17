@@ -3,8 +3,8 @@ Lazy Man's Fast Food Diet -- daily meal puller.
 
 What it does, once per run (the GitHub Action runs it daily):
 
-  1. Asks Gemini 3.8 Flash for menu items from the 20 approved restaurants
-     below -- ONE restaurant per call. Each item comes back tagged as
+  1. Asks Gemini 3.8 Flash for menu items from the approved restaurants
+     below (RESTAURANTS) -- ONE restaurant per call. Each item comes back tagged as
      "breakfast", "regular" or "dessert" (desserts, slushes, shakes, malts --
      the planner only uses these as late night), plus a "healthy" yes/no and a
      "vegetarian" yes/no. Beverages and dips/sauces are excluded. Each call
@@ -15,24 +15,25 @@ What it does, once per run (the GitHub Action runs it daily):
      Serving rules applied by this script when saving (see apply_serving_rules):
      a single taco is stored as 3 tacos (calories and price x3) and a single
      pizza slice as 2 slices (calories x2; the price is doubled only for Pizza
-     Hut slices priced under $7, other slice prices are left as reported). Items that are
-     already multiple servings, personal/individual/kids'/whole pizzas, dessert
-     pizzas, Gordita Crunches, and non-pizza "slice" items (cakes, pies, loaves)
-     are left alone.
+     Hut slices priced under $7, other slice prices are left as reported).
+     Items that are already multiple servings, personal/individual/kids'/whole
+     pizzas, dessert pizzas, Gordita Crunches, and non-pizza "slice" items
+     (cakes, pies, loaves) are left alone.
   3. Searches DuckDuckGo Images for every meal that has no picture yet and
-     stores the image URL. The search is limited to the restaurant's official
-     site, e.g. "site:www.olivegarden.com Fettuccine Alfredo" (the sites are in
-     RESTAURANTS below). refresh_images.py redoes every picture this way. There is no cap on the number of searches; the phase
-     ends when every meal has a picture, when DuckDuckGo starts rate-limiting
-     (the rest wait for the next run), or after IMAGE_TIME_BUDGET_MINUTES so the
-     job always finishes and commits meals.json.
+     stores the image URL. The search puts the restaurant and the item in
+     double quotes, e.g.  "Olive Garden" "Fettuccine Alfredo"  (find_image).
+     refresh_images.py redoes every picture the same way. There is no cap on
+     the number of searches; the phase ends when every meal has a picture,
+     when DuckDuckGo starts rate-limiting (the rest wait for the next run), or
+     after IMAGE_TIME_BUDGET_MINUTES so the job always finishes and commits
+     meals.json.
   4. Writes everything to meals.json, which index.html and products.html read.
 
 Resuming after errors: Gemini often answers 503 ("overloaded"). meals.json
 keeps a "pending" list of restaurants not yet pulled in the current pass.
 A restaurant only leaves that list after a successful pull, so the next run
 starts exactly where this one left off. When the list empties, a fresh pass
-over all 20 begins.
+over all the restaurants begins.
 
 Models and daily limits: Gemini Flash 3.8, 3.7, 3.6 and 3.5 are tried in that
 order. Each model gets its own daily allowance (MAX_GEMINI_CALLS per model, default
@@ -40,7 +41,7 @@ order. Each model gets its own daily allowance (MAX_GEMINI_CALLS per model, defa
 quota (or rejects the request), the script moves to the next model; a 503
 ("overloaded") first tries the next model too. Only answers Google actually served
 count toward a model's allowance. The Action runs 4 times a day; each run makes at most
-20 Gemini calls (one pass over the restaurants, MAX_CALLS_PER_RUN), so the day's
+20 Gemini calls (MAX_CALLS_PER_RUN; a full pass over the restaurants can take more than one run), so the day's
 allowance is spread across the runs, failed restaurants get another try, and pictures
 keep filling in.
 
@@ -84,7 +85,7 @@ GEMINI_MODELS = ["gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.6-flash", "ge
 
 # The free-tier daily request limit you want to stay inside.
 MAX_GEMINI_CALLS_PER_DAY = int(os.environ.get("MAX_GEMINI_CALLS", "20"))   # per model
-MAX_GEMINI_CALLS_PER_RUN = int(os.environ.get("MAX_CALLS_PER_RUN", "20"))     # = one pass over the 20 restaurants; 4 runs a day use up 4 models x 20
+MAX_GEMINI_CALLS_PER_RUN = int(os.environ.get("MAX_CALLS_PER_RUN", "20"))     # 4 runs a day use up 4 models x 20 calls
 MAX_NEW_MEALS_PER_CALL = 60       # asked for per restaurant per call
 KNOWN_NAMES_SENT_PER_CALL = 250   # already-known meal names sent so Gemini skips them
 MIN_CALL_INTERVAL_SECONDS = 8     # stays well under per-minute limits
@@ -97,43 +98,57 @@ IMAGE_TIME_BUDGET_MINUTES = 60   # safety stop (not a count limit) so the Action
 IMAGE_SEARCH_DELAY_SECONDS = 1.5
 IMAGE_MAX_ATTEMPTS_PER_MEAL = 3   # then give up on that meal's picture
 IMAGE_RATELIMIT_STRIKES = 4       # consecutive failures -> stop image phase this run
-# Pictures are searched on the restaurant's own site ("site:www.olivegarden.com <item>").
-# If that finds nothing for a meal that has no picture at all, True falls back to an
-# open DuckDuckGo search ("<restaurant> <item>"); False leaves the meal without one.
+# Pictures are searched with the restaurant and the item in double quotes, e.g.
+#   "Olive Garden" "Fettuccine Alfredo"
+# IMAGE_STRATEGY names that method. Meals are marked with it ("_image_refreshed") once
+# refresh_images.py has redone them; change it when the method changes and the next
+# refresh redoes every picture again.
+IMAGE_STRATEGY = "quoted-v1"
+# If the quoted searches find nothing for a meal that has no picture at all, True falls
+# back to an unquoted search ("<restaurant> <item>"); False leaves the meal without one.
 IMAGE_FALLBACK_TO_WEB = True
 
 # Sanity bounds so a hallucinated number can't poison the meal planner.
 MIN_CALORIES, MAX_CALORIES = 20, 3500
 MIN_PRICE, MAX_PRICE = 0.50, 80.00
 
-# The ONLY restaurants meals may come from. `except` = states with no locations
-# (every other state has them). `site` = the restaurant's official website; pictures
-# are searched ONLY on that site ("site:www.olivegarden.com Fettuccine Alfredo").
-# Shown on the web page too (index.html).
+# The ONLY restaurants meals may come from: national chains with locations in at
+# least ~90% of the states. `except` = states with no locations (every other state
+# has them). `site` = the restaurant's official website; its favicon is shown next
+# to the delivery-app icons and links there. Shown on the web page too (index.html).
 RESTAURANTS = [
-    {"name": "Applebee's",            "except": [], "site": "www.applebees.com"},
-    {"name": "Burger King",           "except": [], "site": "www.bk.com"},
-    {"name": "Chick-fil-A",           "except": ["Vermont", "Alaska"], "site": "www.chick-fil-a.com"},
-    {"name": "Chipotle",              "except": ["Alaska", "Hawaii"], "site": "www.chipotle.com"},
-    {"name": "Dairy Queen",           "except": ["Vermont"], "site": "www.dairyqueen.com"},
-    {"name": "Domino's",              "except": [], "site": "www.dominos.com"},
-    {"name": "Five Guys",             "except": [], "site": "www.fiveguys.com"},
-    {"name": "IHOP",                  "except": ["Vermont"], "site": "www.ihop.com"},
-    {"name": "Jersey Mike's Subs",    "except": [], "site": "www.jerseymikes.com"},
+    {"name": "Applebee's", "except": [], "site": "www.applebees.com"},
+    {"name": "Arby's", "except": ["Rhode Island", "Vermont"], "site": "www.arbys.com"},
+    {"name": "Buffalo Wild Wings", "except": [], "site": "www.buffalowildwings.com"},
+    {"name": "Burger King", "except": [], "site": "www.bk.com"},
+    {"name": "Chick-fil-A", "except": ["Vermont", "Alaska"], "site": "www.chick-fil-a.com"},
+    {"name": "Chili's", "except": ["Oregon"], "site": "www.chilis.com"},
+    {"name": "Chipotle", "except": ["Alaska", "Hawaii"], "site": "www.chipotle.com"},
+    {"name": "Dairy Queen", "except": ["Vermont"], "site": "www.dairyqueen.com"},
+    {"name": "Domino's", "except": [], "site": "www.dominos.com"},
+    {"name": "Five Guys", "except": [], "site": "www.fiveguys.com"},
+    {"name": "IHOP", "except": ["Vermont"], "site": "www.ihop.com"},
+    {"name": "Jersey Mike's Subs", "except": [], "site": "www.jerseymikes.com"},
     {"name": "Kentucky Fried Chicken", "except": [], "site": "www.kfc.com"},
-    {"name": "Little Caesar's",       "except": [], "site": "www.littlecaesars.com"},
-    {"name": "McDonald's",            "except": [], "site": "www.mcdonalds.com"},
-    {"name": "Olive Garden",          "except": [], "site": "www.olivegarden.com"},
-    {"name": "Panera",                "except": ["Alaska", "Hawaii"], "site": "www.panerabread.com"},
-    {"name": "Pizza Hut",             "except": [], "site": "www.pizzahut.com"},
-    {"name": "Starbucks",             "except": [], "site": "www.starbucks.com"},
-    {"name": "Subway",                "except": [], "site": "www.subway.com"},
-    {"name": "Taco Bell",             "except": [], "site": "www.tacobell.com"},
-    {"name": "Texas Roadhouse",       "except": ["Hawaii"], "site": "www.texasroadhouse.com"},
-    {"name": "Wendy's",               "except": [], "site": "www.wendys.com"},
+    {"name": "Little Caesar's", "except": [], "site": "www.littlecaesars.com"},
+    {"name": "McDonald's", "except": [], "site": "www.mcdonalds.com"},
+    {"name": "Olive Garden", "except": [], "site": "www.olivegarden.com"},
+    {"name": "Outback Steakhouse", "except": ["Maine", "Vermont", "Rhode Island", "North Dakota"], "site": "www.outback.com"},
+    {"name": "Panda Express", "except": ["Vermont"], "site": "www.pandaexpress.com"},
+    {"name": "Panera", "except": ["Alaska", "Hawaii"], "site": "www.panerabread.com"},
+    {"name": "Papa John's", "except": ["Vermont"], "site": "www.papajohns.com"},
+    {"name": "Pizza Hut", "except": [], "site": "www.pizzahut.com"},
+    {"name": "Popeyes", "except": ["Vermont", "Wyoming"], "site": "www.popeyes.com"},
+    {"name": "Sonic Drive-In", "except": ["Maine", "New Hampshire", "Vermont"], "site": "www.sonicdrivein.com"},
+    {"name": "Starbucks", "except": [], "site": "www.starbucks.com"},
+    {"name": "Subway", "except": [], "site": "www.subway.com"},
+    {"name": "Taco Bell", "except": [], "site": "www.tacobell.com"},
+    {"name": "Texas Roadhouse", "except": ["Hawaii"], "site": "www.texasroadhouse.com"},
+    {"name": "Wendy's", "except": [], "site": "www.wendys.com"},
 ]
+
 RESTAURANT_NAMES = [r["name"] for r in RESTAURANTS]
-RESTAURANT_SITES = {r["name"]: r["site"] for r in RESTAURANTS}   # official site, used for the picture search
+RESTAURANT_SITES = {r["name"]: r["site"] for r in RESTAURANTS}   # official site: favicon + link on the web pages
 
 CATEGORIES = ("breakfast", "regular", "dessert")
 
@@ -382,11 +397,17 @@ def ask_gemini(prompt, key, limiter, quota):
     raise QuotaExceeded("every model is used up for today")
 
 
+def _and_list(items):
+    """['A'] -> 'A', ['A','B'] -> 'A and B', ['A','B','C'] -> 'A, B and C'"""
+    items = list(items)
+    return items[0] if len(items) == 1 else ", ".join(items[:-1]) + " and " + items[-1]
+
+
 def build_prompt(restaurant, known_names):
     r = next(x for x in RESTAURANTS if x["name"] == restaurant)
     if r["except"]:
         availability = ("It has locations in every U.S. state except "
-                        + " and ".join(r["except"]) + ".")
+                        + _and_list(r["except"]) + ".")
     else:
         availability = "It has locations in all 50 U.S. states."
     shown = known_names[-KNOWN_NAMES_SENT_PER_CALL:]
@@ -526,23 +547,36 @@ def _first_https_image(query):
     return None, None
 
 
-def image_query(restaurant, name):
-    """The site-restricted search, e.g. 'site:www.olivegarden.com Fettuccine Alfredo'."""
-    return f"site:{RESTAURANT_SITES[restaurant]} {name}"
+def _quote(text):
+    """Wraps text in double quotes for the search box (any quotes inside are dropped)."""
+    return '"' + str(text).replace('"', "").strip() + '"'
+
+
+def image_queries(restaurant, name, fallback):
+    """The searches to try, in order, as (query, source) pairs. The first is what you would
+    type by hand:  "Olive Garden" "Fettuccine Alfredo"  -- then the same without any
+    "(...)" in the item name, then (if allowed) the plain unquoted words."""
+    queries = [(f"{_quote(restaurant)} {_quote(name)}", "quoted")]
+    short = re.sub(r"\s*\([^)]*\)", "", name).strip()
+    if short and short.lower() != name.strip().lower():
+        queries.append((f"{_quote(restaurant)} {_quote(short)}", "quoted"))
+    if fallback:
+        queries.append((f"{restaurant} {name}", "web"))
+    return queries
 
 
 def find_image(restaurant, name, fallback=None):
-    """Searches the restaurant's official site first. Returns (thumbnail, full, source)
-    where source is "site" or "web" (open-web fallback), or (None, None, None)."""
+    """Searches DuckDuckGo Images with the restaurant and item in double quotes.
+    Returns (thumbnail, full, source) -- source is "quoted" or "web" (unquoted fallback) --
+    or (None, None, None) when nothing was found."""
     if fallback is None:
         fallback = IMAGE_FALLBACK_TO_WEB
-    thumb, full = _first_https_image(image_query(restaurant, name))
-    if thumb:
-        return thumb, full, "site"
-    if fallback:
-        thumb, full = _first_https_image(f"{restaurant} {name}")
+    for i, (query, source) in enumerate(image_queries(restaurant, name, fallback)):
+        if i:
+            time.sleep(IMAGE_SEARCH_DELAY_SECONDS)       # pause between searches for the same meal
+        thumb, full = _first_https_image(query)
         if thumb:
-            return thumb, full, "web"
+            return thumb, full, source
     return None, None, None
 
 
@@ -578,11 +612,12 @@ def fill_images(store):
             continue
 
         meal["_image_attempts"] = meal.get("_image_attempts", 0) + 1
-        meal["_image_site_checked"] = True       # the official-site search has been done for this meal
+        meal.pop("_image_site_checked", None)    # leftover marker from the old site: search
         if thumb:
             meal["image_url"] = thumb
             meal["image_full_url"] = full or ""
-            meal["_image_source"] = source       # "site" = official website, "web" = fallback
+            meal["_image_source"] = source       # "quoted" = quoted search, "web" = unquoted fallback
+            meal["_image_refreshed"] = IMAGE_STRATEGY
             found += 1
         if i % 25 == 0:
             log(f"  ...{i} searched, {found} pictures found so far")
@@ -668,6 +703,10 @@ def pull_meals(store, key, out_path):
     pending = [n for n in store.get("pending", []) if n in RESTAURANT_NAMES]
     if not pending:
         pending = list(RESTAURANT_NAMES)
+    # Restaurants that have never been pulled (e.g. just added to RESTAURANTS) go first.
+    never = [n for n in RESTAURANT_NAMES
+             if n not in pending and not store["restaurants"].get(n, {}).get("last_pulled")]
+    pending = never + pending
     store["pending"] = pending
     log(f"Gemini: up to {budget} call(s) left today across {len(models_available(quota))} model(s). Resuming at {pending[0]} "
         f"({len(pending)} restaurant(s) left in this pass).")
@@ -693,7 +732,7 @@ def pull_meals(store, key, out_path):
             # Whole pass finished with quota to spare: start the next pass.
             store["pending"] = pending = list(RESTAURANT_NAMES)
             queue, retried = list(pending), False
-            log("Finished a full pass over all 20 restaurants -- starting another.")
+            log(f"Finished a full pass over all {len(RESTAURANT_NAMES)} restaurants -- starting another.")
             continue
 
         restaurant = queue.pop(0)

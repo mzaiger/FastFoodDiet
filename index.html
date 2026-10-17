@@ -587,32 +587,33 @@
     text-align:right;
   }
 
-  /* Delivery-app search links: just the app's icon plus an arrow. */
+  /* Site + delivery-app links: just the icon plus a small arrow. */
   .deliv{
     display:inline-flex;
     align-items:center;
-    gap:2px;
-    padding:2px;
+    gap:1px;
+    padding:2px 1px;
     color:var(--steel-deep);
-    font-size:12px;
+    font-size:11px;
     font-weight:700;
     text-decoration:none;
     line-height:1;
   }
   .deliv:hover{ opacity:.75; }
-  /* The three delivery icons share the rest of the row after select + regen
-     and are spread evenly so they fill the line. */
+  /* The restaurant's site icon plus the three delivery icons sit squeezed together
+     in the rest of the row after select + regen. */
   .deliv-group{
     flex:1 1 0;
     min-width:0;
     display:flex;
     align-items:center;
-    justify-content:space-evenly;
+    justify-content:flex-start;
+    gap:1px;
   }
   .deliv-ic{
     display:block;
-    width:22px;
-    height:22px;
+    width:20px;
+    height:20px;
     border-radius:4px;
   }
 
@@ -840,7 +841,7 @@
 
 <header>
   <h1>Lazy Man's Fast Food Diet</h1>
-  <p class="sub">Seven days of meals pulled only from 20 national fast food chains — 3 to 4 meals a day depending on your calorie target, each day landing within 250 calories of goal. <a class="sub-link" href="#restaurants">See the restaurants</a></p>
+  <p class="sub">Seven days of meals pulled only from <span id="rest-total-sub">28</span> national fast food chains — 3 to 4 meals a day depending on your calorie target, each day landing within 250 calories of goal. <a class="sub-link" href="#restaurants">See the restaurants</a></p>
 
   <div class="controls-wrap">
   <div class="controls">
@@ -945,7 +946,7 @@
 
   <section class="restaurants" id="restaurants">
     <h2>Where the meals come from</h2>
-    <p>Every meal in this comes from one of these 20 restaurants &mdash; nothing else is ever pulled in. They were picked because each one has locations in (nearly) all 50 states, so the it works wherever you live. Where a chain is missing from a state, it&rsquo;s noted below.</p>
+    <p>Every meal in this comes from one of these <span id="rest-total">28</span> restaurants &mdash; nothing else is ever pulled in. They were picked because each one has locations in at least 90% of the states (45 or more), so it works almost wherever you live. Where a chain is missing from a state, it&rsquo;s noted below.</p>
     <ul class="rest-list" id="rest-list"></ul>
     <p class="rest-foot">Meal names, calories, prices and servings are estimated by Google Gemini Flash and refreshed several times a day, so the list keeps growing. Prices and menus differ by location.</p>
   </section>
@@ -1310,15 +1311,39 @@ function normalizeMeal(m){
   };
 }
 
-// The 20 restaurants (and states they skip). meals.json carries this list too
+// The restaurants (and states they skip). meals.json carries this list too
 // and wins when present; this copy is only the fallback if it can't be loaded.
 let restaurantInfo = [
-  ["Applebee's", []], ["Burger King", []], ["Chick-fil-A", ["Vermont","Alaska"]], ["Chipotle", ["Alaska","Hawaii"]],
-  ["Dairy Queen", ["Vermont"]], ["Domino's", []], ["Five Guys", []], ["IHOP", ["Vermont"]],
-  ["Jersey Mike's Subs", []], ["Kentucky Fried Chicken", []], ["Little Caesar's", []], ["McDonald's", []],
-  ["Olive Garden", []], ["Panera", ["Alaska","Hawaii"]], ["Pizza Hut", []], ["Starbucks", []],
-  ["Subway", []], ["Taco Bell", []], ["Texas Roadhouse", ["Hawaii"]], ["Wendy's", []]
+  ["Applebee's", []], ["Arby's", ["Rhode Island","Vermont"]], ["Buffalo Wild Wings", []],
+  ["Burger King", []], ["Chick-fil-A", ["Vermont","Alaska"]], ["Chili's", ["Oregon"]],
+  ["Chipotle", ["Alaska","Hawaii"]], ["Dairy Queen", ["Vermont"]], ["Domino's", []],
+  ["Five Guys", []], ["IHOP", ["Vermont"]], ["Jersey Mike's Subs", []],
+  ["Kentucky Fried Chicken", []], ["Little Caesar's", []], ["McDonald's", []],
+  ["Olive Garden", []], ["Outback Steakhouse", ["Maine","Vermont","Rhode Island","North Dakota"]], ["Panda Express", ["Vermont"]],
+  ["Panera", ["Alaska","Hawaii"]], ["Papa John's", ["Vermont"]], ["Pizza Hut", []],
+  ["Popeyes", ["Vermont","Wyoming"]], ["Sonic Drive-In", ["Maine","New Hampshire","Vermont"]], ["Starbucks", []],
+  ["Subway", []], ["Taco Bell", []], ["Texas Roadhouse", ["Hawaii"]],
+  ["Wendy's", []]
 ];
+
+// Each restaurant's official website (meals.json carries these too and wins when present).
+// The site's favicon is shown before the delivery-app icons and links there.
+let restaurantSites = {
+  "Applebee's": "www.applebees.com", "Arby's": "www.arbys.com",
+  "Buffalo Wild Wings": "www.buffalowildwings.com", "Burger King": "www.bk.com",
+  "Chick-fil-A": "www.chick-fil-a.com", "Chili's": "www.chilis.com",
+  "Chipotle": "www.chipotle.com", "Dairy Queen": "www.dairyqueen.com",
+  "Domino's": "www.dominos.com", "Five Guys": "www.fiveguys.com",
+  "IHOP": "www.ihop.com", "Jersey Mike's Subs": "www.jerseymikes.com",
+  "Kentucky Fried Chicken": "www.kfc.com", "Little Caesar's": "www.littlecaesars.com",
+  "McDonald's": "www.mcdonalds.com", "Olive Garden": "www.olivegarden.com",
+  "Outback Steakhouse": "www.outback.com", "Panda Express": "www.pandaexpress.com",
+  "Panera": "www.panerabread.com", "Papa John's": "www.papajohns.com",
+  "Pizza Hut": "www.pizzahut.com", "Popeyes": "www.popeyes.com",
+  "Sonic Drive-In": "www.sonicdrivein.com", "Starbucks": "www.starbucks.com",
+  "Subway": "www.subway.com", "Taco Bell": "www.tacobell.com",
+  "Texas Roadhouse": "www.texasroadhouse.com", "Wendy's": "www.wendys.com"
+};
 
 function escHtml(str){
   return String(str == null ? '' : str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -1327,8 +1352,13 @@ function escHtml(str){
 function renderRestaurantList(counts){
   const list = document.getElementById('rest-list');
   if(!list) return;
+  ['rest-total', 'rest-total-sub'].forEach(id => {
+    const el = document.getElementById(id);
+    if(el) el.textContent = restaurantInfo.length;
+  });
+  const joinAnd = (a) => a.length < 2 ? a.join('') : a.slice(0, -1).join(', ') + ' and ' + a[a.length - 1];
   list.innerHTML = restaurantInfo.map(([name, skip]) => {
-    const note = skip.length ? `All states except ${skip.join(' and ')}` : 'All 50 states';
+    const note = skip.length ? `All states except ${joinAnd(skip)}` : 'All 50 states';
     const count = counts && counts[name] ? `<span class="rest-count">${counts[name]} meals</span>` : '';
     return `<li>${escHtml(name)}${count}<span class="rest-note">${escHtml(note)}</span></li>`;
   }).join('');
@@ -1344,6 +1374,10 @@ async function loadPool(){
     if(rawData.restaurants && typeof rawData.restaurants === 'object'){
       const fromJson = Object.keys(rawData.restaurants).map(n => [n, rawData.restaurants[n].except_states || []]);
       if(fromJson.length) restaurantInfo = fromJson;
+      Object.keys(rawData.restaurants).forEach(n => {
+        const site = rawData.restaurants[n].site;
+        if(site) restaurantSites[n] = site;
+      });
     }
     const allowed = new Set(restaurantInfo.map(r => r[0]));
     // Only meals from the approved restaurants are ever used.
@@ -1551,19 +1585,28 @@ function updateBudgetSummary(capActive, maxPrice, overCapCount, capFallback, hea
   }
 }
 
-// Delivery-app search links: the restaurant name goes into each app's search URL.
-// Only the site's favicon is shown (the app name is in the tooltip / screen-reader label).
+// Links after the select/regen buttons: the restaurant's own website (its favicon) first,
+// then the delivery apps, whose search URLs get the restaurant name. Only favicons are shown
+// (the name is in the tooltip / screen-reader label); they are squeezed tightly together.
+function siteLinkHtml(restaurant){
+  const site = String(restaurantSites[restaurant] || '').trim();
+  if(!/^[a-z0-9.-]+\.[a-z]{2,}$/i.test(site)) return '';
+  const label = `${restaurant} website`;
+  return `<a class="deliv deliv-site" href="https://${site}/" target="_blank" rel="noopener noreferrer" title="${escHtml(label)}" aria-label="${escHtml(label)}"><img class="deliv-ic" src="https://www.google.com/s2/favicons?domain=${site}&sz=64" alt="" width="20" height="20" loading="lazy" referrerpolicy="no-referrer" /><span aria-hidden="true">&rarr;</span></a>`;
+}
+
 function deliveryLinksHtml(meal){
-  const query = encodeURIComponent(getMealBrand(meal));
+  const brand = getMealBrand(meal);
+  const query = encodeURIComponent(brand);
   const apps = [
     ['doordash.com', 'DoorDash',  `https://www.doordash.com/search/store/${query}/`],
     ['ubereats.com', 'Uber Eats', `https://www.ubereats.com/search?q=${query}`],
     ['grubhub.com', 'Grubhub',   `https://www.grubhub.com/search?queryText=${query}`]
   ];
   const links = apps.map(([domain, label, url]) =>
-    `<a class="deliv" href="${url}" target="_blank" rel="noopener noreferrer" title="Search ${label}" aria-label="Search ${label}"><img class="deliv-ic" src="https://www.google.com/s2/favicons?domain=${domain}&sz=64" alt="" width="22" height="22" loading="lazy" referrerpolicy="no-referrer" /><span aria-hidden="true">&rarr;</span></a>`
+    `<a class="deliv" href="${url}" target="_blank" rel="noopener noreferrer" title="Search ${label}" aria-label="Search ${label}"><img class="deliv-ic" src="https://www.google.com/s2/favicons?domain=${domain}&sz=64" alt="" width="20" height="20" loading="lazy" referrerpolicy="no-referrer" /><span aria-hidden="true">&rarr;</span></a>`
   ).join('');
-  return `<span class="deliv-group">${links}</span>`;
+  return `<span class="deliv-group">${siteLinkHtml(brand)}${links}</span>`;
 }
 
 function mealRow(slot, meal, canRegenerate, dayIndex){

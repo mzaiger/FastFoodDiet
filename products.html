@@ -322,14 +322,14 @@
   .prod-cat-pill.breakfast{ background:#FFF4CC; border-color:#E3C55A; }
   .prod-cat-pill.dessert{ background:#F6E3EE; border-color:#D9A9C4; }
 
-  /* Delivery-app search links: just the app's icon plus an arrow. */
+  /* Site + delivery-app links: just the icon plus a small arrow. */
   .deliv{
     display:inline-flex;
     align-items:center;
-    gap:2px;
+    gap:1px;
     padding:2px 0;
     color:var(--steel-deep);
-    font-size:12px;
+    font-size:11px;
     font-weight:700;
     text-decoration:none;
     line-height:1;
@@ -337,14 +337,14 @@
   .deliv:hover{ opacity:.75; }
   .deliv-ic{
     display:block;
-    width:22px;
-    height:22px;
+    width:20px;
+    height:20px;
     border-radius:4px;
   }
 
   .prod-links{ white-space:nowrap; }
-  /* Space between the three order icons (arrow to next icon): 13.3px. */
-  .prod-links .deliv{ margin-right:13.3px; }
+  /* The site icon and the three order icons are squeezed together: 3px from each arrow to the next icon. */
+  .prod-links .deliv{ margin-right:3px; }
   .prod-links .deliv:first-child{ margin-left:2px; }
 
   .pager{
@@ -591,17 +591,43 @@
     window.location.href = 'index.html';
   }
 
-  // Delivery-app search links: restaurant + item go into each app's search URL.
-  // Only the icon is shown (the app name is in the tooltip / screen-reader label).
+  // Each restaurant's official website (meals.json carries these too and wins when present).
+  const restaurantSites = {
+    "Applebee's": "www.applebees.com", "Arby's": "www.arbys.com",
+    "Buffalo Wild Wings": "www.buffalowildwings.com", "Burger King": "www.bk.com",
+    "Chick-fil-A": "www.chick-fil-a.com", "Chili's": "www.chilis.com",
+    "Chipotle": "www.chipotle.com", "Dairy Queen": "www.dairyqueen.com",
+    "Domino's": "www.dominos.com", "Five Guys": "www.fiveguys.com",
+    "IHOP": "www.ihop.com", "Jersey Mike's Subs": "www.jerseymikes.com",
+    "Kentucky Fried Chicken": "www.kfc.com", "Little Caesar's": "www.littlecaesars.com",
+    "McDonald's": "www.mcdonalds.com", "Olive Garden": "www.olivegarden.com",
+    "Outback Steakhouse": "www.outback.com", "Panda Express": "www.pandaexpress.com",
+    "Panera": "www.panerabread.com", "Papa John's": "www.papajohns.com",
+    "Pizza Hut": "www.pizzahut.com", "Popeyes": "www.popeyes.com",
+    "Sonic Drive-In": "www.sonicdrivein.com", "Starbucks": "www.starbucks.com",
+    "Subway": "www.subway.com", "Taco Bell": "www.tacobell.com",
+    "Texas Roadhouse": "www.texasroadhouse.com", "Wendy's": "www.wendys.com"
+};
+
+  // The restaurant's own site (its favicon) first, then the delivery apps, whose search URLs
+  // get the restaurant name. Only icons are shown (names are in the tooltip / screen-reader label).
+  function siteLinkHtml(restaurant){
+    const site = String(restaurantSites[restaurant] || '').trim();
+    if (!/^[a-z0-9.-]+\.[a-z]{2,}$/i.test(site)) return '';
+    const label = `${restaurant} website`;
+    return `<a class="deliv deliv-site" href="https://${site}/" target="_blank" rel="noopener noreferrer" title="${escapeHtml(label)}" aria-label="${escapeHtml(label)}" onclick="event.stopPropagation()"><img class="deliv-ic" src="https://www.google.com/s2/favicons?domain=${site}&sz=64" alt="" width="20" height="20" loading="lazy" referrerpolicy="no-referrer" /><span aria-hidden="true">&rarr;</span></a>`;
+  }
+
   function deliveryLinksHtml(p){
-    const query = encodeURIComponent(getRestaurant(p));
+    const brand = getRestaurant(p);
+    const query = encodeURIComponent(brand);
     const apps = [
       ['doordash.com', 'DoorDash',  `https://www.doordash.com/search/store/${query}/`],
       ['ubereats.com', 'Uber Eats', `https://www.ubereats.com/search?q=${query}`],
       ['grubhub.com', 'Grubhub',   `https://www.grubhub.com/search?queryText=${query}`]
     ];
-    return apps.map(([domain, label, url]) =>
-      `<a class="deliv" href="${url}" target="_blank" rel="noopener noreferrer" title="Search ${label}" aria-label="Search ${label}" onclick="event.stopPropagation()"><img class="deliv-ic" src="https://www.google.com/s2/favicons?domain=${domain}&sz=64" alt="" width="22" height="22" loading="lazy" referrerpolicy="no-referrer" /><span aria-hidden="true">&rarr;</span></a>`
+    return siteLinkHtml(brand) + apps.map(([domain, label, url]) =>
+      `<a class="deliv" href="${url}" target="_blank" rel="noopener noreferrer" title="Search ${label}" aria-label="Search ${label}" onclick="event.stopPropagation()"><img class="deliv-ic" src="https://www.google.com/s2/favicons?domain=${domain}&sz=64" alt="" width="20" height="20" loading="lazy" referrerpolicy="no-referrer" /><span aria-hidden="true">&rarr;</span></a>`
     ).join('');
   }
 
@@ -745,6 +771,10 @@
       if (!res.ok) throw new Error('fetch failed: ' + res.status);
       const data = await res.json();
       const allowed = new Set(data.allowed_restaurants || []);
+      Object.keys(data.restaurants || {}).forEach(n => {
+        const site = data.restaurants[n].site;
+        if (site) restaurantSites[n] = site;
+      });
       allProducts = (data.meals || [])
         .filter(m => !allowed.size || allowed.has(m.restaurant))
         .sort((a, b) =>

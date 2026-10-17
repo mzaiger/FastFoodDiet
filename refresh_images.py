@@ -1,28 +1,31 @@
 """
-Lazy Man's Fast Food Diet -- re-find EVERY meal picture on the restaurant's own site.
+Lazy Man's Fast Food Diet -- re-find EVERY meal picture with a quoted DuckDuckGo search.
 
 Run by hand (GitHub: Actions > "Refresh all meal images (manual)" > Run workflow),
 or locally:   python refresh_images.py
 
-For each meal it searches DuckDuckGo Images restricted to the restaurant's official
-website, e.g.
+For each meal it searches DuckDuckGo Images with the restaurant and the item in
+double quotes, exactly as you would type it in the search box:
 
-    Olive Garden / Fettuccine Alfredo  ->  site:www.olivegarden.com Fettuccine Alfredo
+    Olive Garden / Fettuccine Alfredo  ->  "Olive Garden" "Fettuccine Alfredo"
 
-(the sites are in RESTAURANTS in pull_meals.py) and replaces the meal's picture with
-the first https result. If the official site has nothing for a meal, its current
-picture is kept (a meal with no picture at all falls back to an open search when
-IMAGE_FALLBACK_TO_WEB is on in pull_meals.py).
+and replaces the meal's picture with the first https result. If that finds nothing,
+it tries the same search without any "(...)" in the item name (e.g. "Chicken Taco"
+for "Chicken Taco (Soft Flour)"). If there is still nothing, the meal keeps its
+current picture (a meal with no picture at all also gets one last unquoted search
+when IMAGE_FALLBACK_TO_WEB is on in pull_meals.py).
 
 DuckDuckGo throttles fast searching (it answers with errors such as "malformed
 headers"), so this goes slowly: a pause of --delay seconds plus a little random
 extra between searches, and when a search fails it cools down (30s, 60s, 2 min,
 4 min, 5 min) and retries the SAME meal. Only after several failures in a row does
-it stop and save. Expect a full refresh of ~2,650 meals to take a few runs.
+it stop and save. Expect a full refresh of ~2,650+ meals to take a few runs.
 
-It resumes: every meal that has been searched gets "_image_site_checked": true, so a
-run that stops early (throttling, the time budget) is simply run again and carries
-on with the meals not done yet. Use --restart to begin again from the top.
+It resumes: every meal that has been redone is marked "_image_refreshed" with the
+name of the search method (IMAGE_STRATEGY in pull_meals.py), so a run that stops early
+(throttling, the time budget) is simply run again and carries on with the meals not
+done yet. Pictures found by an older method (for example the earlier site: search)
+count as not done and are redone. Use --restart to begin again from the top.
 New meals pulled by pull_meals.py are searched the same way and marked as done, so
 this only needs to be run once for the existing list.
 
@@ -77,9 +80,13 @@ def main():
     scope = [m for m in store["meals"] if not restaurant or m["restaurant"] == restaurant]
     if args.restart:
         for m in scope:
-            m.pop("_image_site_checked", None)
+            m.pop("_image_refreshed", None)
             m.pop("_image_refresh_failures", None)
-    todo = [m for m in scope if not m.get("_image_site_checked")]
+
+    def is_done(m):
+        return m.get("_image_refreshed") == pm.IMAGE_STRATEGY
+
+    todo = [m for m in scope if not is_done(m)]
     if args.limit > 0:
         todo = todo[: args.limit]
 
@@ -112,7 +119,7 @@ def main():
                         stopped = True
                         fails = meal["_image_refresh_failures"] = meal.get("_image_refresh_failures", 0) + 1
                         if fails >= GIVE_UP_AFTER_STOPPED_RUNS:
-                            meal["_image_site_checked"] = True   # skip this one from now on; it keeps its picture
+                            meal["_image_refreshed"] = pm.IMAGE_STRATEGY   # skip this one from now on; it keeps its picture
                             pm.log(f"  giving up on {meal['restaurant']} / {meal['name']} after {fails} stopped runs.")
                         break
                     cooldown = min(COOLDOWN_BASE_SECONDS * 2 ** (strikes - 1), COOLDOWN_MAX_SECONDS)
@@ -122,7 +129,8 @@ def main():
                 pm.log("  too many failures in a row -- stopping and saving; run it again later to continue.")
                 break
 
-            meal["_image_site_checked"] = True
+            meal["_image_refreshed"] = pm.IMAGE_STRATEGY
+            meal.pop("_image_site_checked", None)        # leftover marker from the old site: search
             meal.pop("_image_refresh_failures", None)
             if thumb:
                 meal["image_url"] = thumb
@@ -133,7 +141,7 @@ def main():
                 else:
                     added += 1
             else:
-                kept += 1                                    # nothing on the official site: keep what it had
+                kept += 1                                    # nothing found: keep the picture it had
             done += 1
             if done % SAVE_EVERY == 0:
                 pm.log(f"  ...{done} done ({replaced} replaced, {added} added, {kept} kept as they were)")
@@ -142,9 +150,9 @@ def main():
     finally:
         pm.save_store(args.output, store)
 
-    left = sum(1 for m in scope if not m.get("_image_site_checked"))
+    left = sum(1 for m in scope if not is_done(m))
     pm.log(f"Refresh finished: {done} meal(s) searched -- {replaced} picture(s) replaced, "
-           f"{added} added, {kept} kept (nothing on the official site). {left} meal(s) left for {label}.")
+           f"{added} added, {kept} kept (nothing found). {left} meal(s) left for {label}.")
     if left:
         pm.log("Run it again to continue where this left off.")
 
