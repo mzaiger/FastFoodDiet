@@ -1,0 +1,68 @@
+name: Refresh all meal images (manual)
+
+# Manual only: Actions tab > "Refresh all meal images (manual)" > Run workflow.
+# Redoes every picture in meals.json by searching the restaurant's own website
+# (site:www.olivegarden.com Fettuccine Alfredo). It resumes where it stopped, so if a
+# run ends early (DuckDuckGo rate limiting or the time budget) just run it again.
+on:
+  workflow_dispatch:
+    inputs:
+      restart:
+        description: "Start over: redo every meal, even ones already refreshed"
+        type: boolean
+        required: false
+        default: false
+      restaurant:
+        description: "Only this restaurant, exact name (e.g. Olive Garden). Blank = all 20"
+        required: false
+        default: ""
+      time_budget_minutes:
+        description: "Stop and save after this many minutes (the job limit is 150)"
+        required: false
+        default: "110"
+
+# Same group as the 4x-daily meal pull, so the two never edit meals.json at once.
+concurrency:
+  group: pull-meals
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests ddgs
+
+      - name: Refresh pictures from each restaurant's official site
+        env:
+          RESTART: ${{ github.event.inputs.restart }}
+          RESTAURANT: ${{ github.event.inputs.restaurant }}
+          TIME_BUDGET: ${{ github.event.inputs.time_budget_minutes || '110' }}
+        run: |
+          args=(--time-budget-minutes "$TIME_BUDGET")
+          if [ "$RESTART" = "true" ]; then args+=(--restart); fi
+          if [ -n "$RESTAURANT" ]; then args+=(--restaurant "$RESTAURANT"); fi
+          python refresh_images.py "${args[@]}"
+
+      - name: Commit updated meals.json
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add meals.json
+          git diff --staged --quiet || git commit -m "Refresh meal images from official sites [automated]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
