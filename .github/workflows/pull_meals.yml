@@ -1,5 +1,9 @@
 name: Pull fast food meals (manual)
 
+# Step 1 of 2, run by hand: Actions tab > "Pull fast food meals (manual)" > Run workflow.
+# Pulls new meals from Gemini with an EMPTY picture and stamps them with today's date.
+# Then run "Fill missing meal images (manual)" (step 2) to find the pictures.
+
 on:
   workflow_dispatch:
     inputs:
@@ -30,9 +34,9 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install requests ddgs
+        run: pip install requests
 
-      - name: Pull meals (Gemini Flash 3.8/3.7/3.6/3.5; resumes where the last run stopped) and find pictures for every new meal (DuckDuckGo)
+      - name: Pull meals (Gemini Flash 3.8/3.7/3.6/3.5; resumes where the last run stopped; pictures left empty)
         env:
           GEMINI_KEY: ${{ secrets.GEMINI_KEY }}
           MAX_GEMINI_CALLS: ${{ github.event.inputs.max_gemini_calls || '20' }}
