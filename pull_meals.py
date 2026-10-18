@@ -103,10 +103,11 @@ IMAGE_RATELIMIT_STRIKES = 4       # consecutive failures -> stop image phase thi
 # IMAGE_STRATEGY names that method. Meals are marked with it ("_image_refreshed") once
 # refresh_images.py has redone them; change it when the method changes and the next
 # refresh redoes every picture again.
-IMAGE_STRATEGY = "quoted-v1"
+IMAGE_STRATEGY = "quoted-v2"
 # If the quoted searches find nothing for a meal that has no picture at all, True falls
 # back to an unquoted search ("<restaurant> <item>"); False leaves the meal without one.
 IMAGE_FALLBACK_TO_WEB = True
+IMAGE_SAFESEARCH = "on"   # strict safe search ("on" = strict, "moderate", "off"); keeps adult images out
 
 # Sanity bounds so a hallucinated number can't poison the meal planner.
 MIN_CALORIES, MAX_CALORIES = 20, 3500
@@ -531,21 +532,58 @@ def _client(reset=False):
     return _ddgs_client
 
 
-def _first_https_image(query):
-    """One DuckDuckGo image search. Returns (thumbnail_url, full_url) or (None, None)."""
+_STOP = {"the", "a", "an", "and", "with", "of", "oz", "pc", "pcs", "piece", "pieces",
+         "classic", "original", "regular", "large", "small", "medium", "meal", "combo"}
+
+
+_GENERIC = {"steakhouse", "steak", "house", "restaurant", "grill", "kitchen", "cafe", "diner",
+            "pizza", "burger", "burgers", "chicken", "sandwiches", "bar", "eatery"}
+
+
+def _words(text):
+    """Lower-case words of 3+ letters, without filler like 'oz' or 'classic'."""
+    return [w for w in re.findall(r"[a-z]+", str(text).lower()) if len(w) >= 3 and w not in _STOP]
+
+
+def _relevant(res, restaurant, name):
+    """True if the result's title / page address / file name look like this item.
+    Rejects pictures that merely matched on a loose word (a dress called 'Melbourne', etc.).
+    Needs the restaurant OR most of the item's words to show up."""
+    text = " ".join(str(res.get(k) or "") for k in ("title", "url", "image")).lower()
+    text = re.sub(r"[^a-z]+", " ", text)
+    rest_words = [w for w in _words(restaurant) if w not in _GENERIC] or _words(restaurant)
+    rest_hit = bool(rest_words) and all(w in text for w in rest_words)
+    item_words = _words(re.sub(r"\s*\([^)]*\)", "", name)) or _words(name)
+    item_hits = sum(1 for w in item_words if w in text)
+    item_hit = bool(item_words) and item_hits >= max(1, (len(item_words) + 1) // 2)
+    return rest_hit and item_hit
+
+
+def _first_https_image(query, restaurant=None, name=None):
+    """One DuckDuckGo image search. Returns (thumbnail_url, full_url) or (None, None).
+    When restaurant and name are given, only a result whose title/address mention both the
+    restaurant and the item is accepted (so a wrong picture is better left empty than used)."""
     try:
-        results = _client().images(query, max_results=6, safesearch="moderate")
+        results = _client().images(query, max_results=15, safesearch=IMAGE_SAFESEARCH)
     except Exception:
         _client(reset=True)
         raise
+    fallback = None   # first acceptable result on Bing's "explicit" thumbnail host, used only if nothing else fits
     for res in results or []:
         thumb = (res.get("thumbnail") or "").strip()
         full = (res.get("image") or "").strip()
+        if restaurant and name and not _relevant(res, restaurant, name):
+            continue
         # https only: an http image would be blocked on an https site.
-        if thumb.startswith("https://") or full.startswith("https://"):
-            return (thumb if thumb.startswith("https://") else full,
-                    full if full.startswith("https://") else "")
-    return None, None
+        if not (thumb.startswith("https://") or full.startswith("https://")):
+            continue
+        pair = (thumb if thumb.startswith("https://") else full,
+                full if full.startswith("https://") else "")
+        if "explicit.bing.net" in thumb:     # avoid these when anything else is acceptable
+            fallback = fallback or pair
+            continue
+        return pair
+    return fallback or (None, None)
 
 
 def _quote(text):
@@ -554,15 +592,18 @@ def _quote(text):
 
 
 def image_queries(restaurant, name, fallback):
-    """The searches to try, in order, as (query, source) pairs. The first is what you would
-    type by hand:  "Olive Garden" "Fettuccine Alfredo"  -- then the same without any
-    "(...)" in the item name, then (if allowed) the plain unquoted words."""
-    queries = [(f"{_quote(restaurant)} {_quote(name)}", "quoted")]
+    """The searches to try, in order, as (query, source) pairs. The item name WITHOUT any
+    "(...)" comes first, because a quoted "(22 oz)" almost never appears on a web page and
+    makes the search drift to unrelated pictures:  "Outback Steakhouse" "Melbourne Porterhouse"
+    -- then the full name as typed, then (if allowed) the plain unquoted words."""
     short = re.sub(r"\s*\([^)]*\)", "", name).strip()
-    if short and short.lower() != name.strip().lower():
+    queries = []
+    if short:
         queries.append((f"{_quote(restaurant)} {_quote(short)}", "quoted"))
+    if not short or short.lower() != name.strip().lower():
+        queries.append((f"{_quote(restaurant)} {_quote(name)}", "quoted"))
     if fallback:
-        queries.append((f"{restaurant} {name}", "web"))
+        queries.append((f"{restaurant} {short or name}", "web"))
     return queries
 
 
@@ -575,7 +616,7 @@ def find_image(restaurant, name, fallback=None):
     for i, (query, source) in enumerate(image_queries(restaurant, name, fallback)):
         if i:
             time.sleep(IMAGE_SEARCH_DELAY_SECONDS)       # pause between searches for the same meal
-        thumb, full = _first_https_image(query)
+        thumb, full = _first_https_image(query, restaurant, name)
         if thumb:
             return thumb, full, source
     return None, None, None
