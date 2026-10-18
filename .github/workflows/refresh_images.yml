@@ -17,6 +17,15 @@ on:
         description: "Only this restaurant, exact name (e.g. Olive Garden). Blank = all restaurants"
         required: false
         default: ""
+      added_since:
+        description: 'Only meals first pulled on/after this date (YYYY-MM-DD, or "today"). Blank = all meals'
+        required: false
+        default: ""
+      clear_missing:
+        description: "If no relevant picture is found, remove the old (probably wrong) one instead of keeping it"
+        type: boolean
+        required: false
+        default: false
       delay_seconds:
         description: "Pause between searches, in seconds (higher = gentler on DuckDuckGo)"
         required: false
@@ -55,12 +64,16 @@ jobs:
         env:
           RESTART: ${{ github.event.inputs.restart }}
           RESTAURANT: ${{ github.event.inputs.restaurant }}
+          ADDED_SINCE: ${{ github.event.inputs.added_since }}
+          CLEAR_MISSING: ${{ github.event.inputs.clear_missing }}
           TIME_BUDGET: ${{ github.event.inputs.time_budget_minutes || '110' }}
           DELAY: ${{ github.event.inputs.delay_seconds || '3' }}
         run: |
           args=(--time-budget-minutes "$TIME_BUDGET" --delay "$DELAY")
           if [ "$RESTART" = "true" ]; then args+=(--restart); fi
           if [ -n "$RESTAURANT" ]; then args+=(--restaurant "$RESTAURANT"); fi
+          if [ -n "$ADDED_SINCE" ]; then args+=(--added-since "$ADDED_SINCE"); fi
+          if [ "$CLEAR_MISSING" = "true" ]; then args+=(--clear-missing); fi
           python refresh_images.py "${args[@]}"
 
       - name: Commit updated meals.json
