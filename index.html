@@ -1098,7 +1098,7 @@ function persistCurrentWeek(){
     days: currentWeek.map(day => {
       const meals = {};
       Object.keys(day.meals).forEach(slot => { meals[slot] = compactMeal(day.meals[slot]); });
-      return { dayName: day.dayName, total: day.total, inRange: day.inRange, slotOrder: day.slotOrder, meals };
+      return { dayName: day.dayName, total: day.total, inRange: day.inRange, slotOrder: day.slotOrder, meals, regenBase: day.regenBase || {} };
     })
   };
   setStorage('lazymanCurrentWeek', JSON.stringify(payload));
@@ -1127,7 +1127,8 @@ function restoreCurrentWeek(){
     total: day.total,
     inRange: day.inRange,
     slotOrder: day.slotOrder,
-    meals: day.meals
+    meals: day.meals,
+    regenBase: day.regenBase || {}
   }));
 
   return true;
@@ -1635,7 +1636,7 @@ function mealRow(slot, meal, canRegenerate, dayIndex){
   const thumb = `<div class="meal-thumb-link">${thumbImg}</div>`;
 
   const regenBtn = canRegenerate
-    ? `<button type="button" class="regen-btn" data-day="${dayIndex}" data-slot="${slot}" title="Swap this meal for another within 100 calories">regen</button>`
+    ? `<button type="button" class="regen-btn" data-day="${dayIndex}" data-slot="${slot}" title="Swap this meal for another within 150 calories of the original">regen</button>`
     : '';
   const pickBtn = `<button type="button" class="regen-btn pick-btn" data-day="${dayIndex}" data-slot="${slot}" title="Pick this meal by hand from the product list" aria-label="Select this meal by hand">select</button>`;
 
@@ -1755,12 +1756,15 @@ function poolsForCapInfo(capInfo){
   return computeActivePools(capInfo.maxPrice, capInfo.capActive, capInfo.healthyOnly, capInfo.vegetarianOnly);
 }
 
-// Regen keeps the swapped meal close to the one it replaces: a random pick from the
-// choices within REGEN_CALORIE_RANGE calories either way of the original. If nothing is
-// that close, it takes the closest one available instead of leaving the slot unchanged.
-const REGEN_CALORIE_RANGE = 100;
-function pickRegenChoice(choices, original){
-  const base = getMealCalories(original);
+// Regen keeps the swapped meal close to the slot's ORIGINAL meal: a random pick from the
+// choices within REGEN_CALORIE_RANGE calories either way of the calories the slot had before
+// its first regen -- not the meal currently showing, so repeated presses can't drift. If
+// nothing is that close, it takes the closest one available instead of leaving the slot unchanged.
+const REGEN_CALORIE_RANGE = 150;
+function pickRegenChoice(choices, day, slot){
+  if(!day.regenBase) day.regenBase = {};
+  if(day.regenBase[slot] == null) day.regenBase[slot] = getMealCalories(day.meals[slot]);
+  const base = day.regenBase[slot];
   const close = choices.filter(m => Math.abs(getMealCalories(m) - base) <= REGEN_CALORIE_RANGE);
   if(close.length) return close[Math.floor(Math.random() * close.length)];
   const nearest = Math.min(...choices.map(m => Math.abs(getMealCalories(m) - base)));
@@ -1779,7 +1783,7 @@ function regenerateMeal(dayIndex, slot){
     let choices = sourcePool.filter(m => !used.includes(m));
     if(!choices.length) choices = sourcePool;
 
-    day.meals[slot] = pickRegenChoice(choices, day.meals[slot]);
+    day.meals[slot] = pickRegenChoice(choices, day, slot);
     day.total = Object.values(day.meals).reduce((s, m) => s + getMealCalories(m), 0);
     const low = currentTargetGlobal - TOLERANCE;
     const high = currentTargetGlobal + TOLERANCE;
@@ -1803,7 +1807,7 @@ function regenerateMeal(dayIndex, slot){
   let choices = sourcePool.filter(m => !usedNames.includes(m.PRODUCT_NAME || m.name));
   if(!choices.length) choices = sourcePool;
 
-  day.meals[slot] = compactMeal(pickRegenChoice(choices, day.meals[slot]));
+  day.meals[slot] = compactMeal(pickRegenChoice(choices, day, slot));
   day.total = Object.values(day.meals).reduce((s, m) => s + getMealCalories(m), 0);
   const low = saved.target - TOLERANCE;
   const high = saved.target + TOLERANCE;
@@ -1850,6 +1854,7 @@ function applyPendingPick(){
   if(!day || !day.meals || !day.meals[pick.slot]) return null;
 
   day.meals[pick.slot] = (pick.tab === 'current') ? pick.product : compactMeal(pick.product);
+  if(day.regenBase) delete day.regenBase[pick.slot]; // hand-picked meal becomes the new anchor
   day.total = Object.values(day.meals).reduce((s, m) => s + getMealCalories(m), 0);
   day.inRange = day.total >= target - TOLERANCE && day.total <= target + TOLERANCE;
 
@@ -1885,7 +1890,7 @@ function saveCurrentWeek(){
   const days = currentWeek.map(day => {
     const meals = {};
     Object.keys(day.meals).forEach(slot => { meals[slot] = compactMeal(day.meals[slot]); });
-    return { dayName: day.dayName, total: day.total, inRange: day.inRange, slotOrder: day.slotOrder, meals };
+    return { dayName: day.dayName, total: day.total, inRange: day.inRange, slotOrder: day.slotOrder, meals, regenBase: day.regenBase || {} };
   });
 
   savedWeeks.push({ label, target: currentTargetGlobal, capInfo: activeCapInfo, savedAt: new Date().toISOString(), days });
