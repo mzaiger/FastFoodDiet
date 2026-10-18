@@ -105,7 +105,7 @@ IMAGE_RATELIMIT_STRIKES = 4       # consecutive failures -> stop image phase thi
 # refresh redoes every picture again.
 IMAGE_STRATEGY = "quoted-v1"
 # If the quoted searches find nothing for a meal that has no picture at all, True falls
-# back to an unquoted search ("<restaurant> <item>"); False leaves the meal without one.
+# back to a looser search ("<restaurant>" <item>, restaurant still quoted); False leaves the meal without one.
 IMAGE_FALLBACK_TO_WEB = True
 
 # Sanity bounds so a hallucinated number can't poison the meal planner.
@@ -562,7 +562,9 @@ def image_queries(restaurant, name, fallback):
     if short and short.lower() != name.strip().lower():
         queries.append((f"{_quote(restaurant)} {_quote(short)}", "quoted"))
     if fallback:
-        queries.append((f"{restaurant} {name}", "web"))
+        # Last resort. Keep the restaurant in quotes so the results stay on that chain;
+        # a fully unquoted search ("Chili's Classic Sirloin (6 oz)") returns random junk.
+        queries.append((f"{_quote(restaurant)} {short or name}", "web"))
     return queries
 
 
