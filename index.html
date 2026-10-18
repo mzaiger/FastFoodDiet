@@ -933,7 +933,7 @@
   </div>
   <div id="week"></div>
   <div class="empty-state" id="empty-state" style="display:none;">
-    Meal list not found yet. Run <code>pull_meals.py</code> (or wait for the daily GitHub Action) to generate <code>meals.json</code>.
+    Meal list not found yet. Run <code>pull_meals.py</code> (or run the <strong>Pull fast food meals</strong> GitHub Action) to generate <code>meals.json</code>.
   </div>
   <div class="empty-state" id="prompt-state" style="display:none;">
     Set your numbers above, then click <code>Generate week</code> to build this week's meals.
@@ -1241,7 +1241,7 @@ function recalcDailyTarget(){
 
 // Newest timestamp in the meal list: when meals.json was last written, or when
 // the newest meal was added.
-const DATA_DATE_FIELDS = ['_added_at'];
+const DATA_DATE_FIELDS = ['_added_at', '_updated_at'];
 
 function parseDataTimestamp(raw){
   if(!raw || typeof raw !== 'string') return NaN;
@@ -1306,7 +1306,8 @@ function normalizeMeal(m){
     healthy: m.healthy === true,
     image_url: m.image_url || '',
     image_full_url: m.image_full_url || '',
-    _added_at: m._added_at || ''
+    _added_at: m._added_at || '',
+    _updated_at: m._updated_at || ''
   };
 }
 

@@ -482,7 +482,7 @@
   <div class="status" id="status">Loading menu items&hellip;</div>
 
   <div class="empty-state" id="empty-state" style="display:none;">
-    Meal list not found. Run <code>pull_meals.py</code> (or wait for the daily GitHub Action) and make sure <code>meals.json</code> is deployed alongside this page.
+    Meal list not found. Run <code>pull_meals.py</code> (or run the <strong>Pull fast food meals</strong> GitHub Action) and make sure <code>meals.json</code> is deployed alongside this page.
   </div>
 
   <table id="products-table" style="display:none;">
@@ -790,10 +790,12 @@
           ? (a, b) =>
               a.name.localeCompare(b.name) ||
               a.restaurant.localeCompare(b.restaurant)
-          // Normal browsing: newest first (ISO timestamps sort correctly as text); meals
-          // pulled in the same batch share a timestamp, so they fall back to restaurant / type / name.
+          // Normal browsing: most recently updated first (ISO timestamps sort correctly as text).
+          // _updated_at is stamped by every meal pull and by every picture fill; older meals
+          // only have _added_at. Meals updated in the same batch share a timestamp, so they
+          // fall back to restaurant / type / name.
           : (a, b) =>
-              (b._added_at || '').localeCompare(a._added_at || '') ||
+              (b._updated_at || b._added_at || '').localeCompare(a._updated_at || a._added_at || '') ||
               a.restaurant.localeCompare(b.restaurant) ||
               getCategory(a).localeCompare(getCategory(b)) ||
               a.name.localeCompare(b.name));

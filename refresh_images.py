@@ -1,38 +1,45 @@
 """
-Lazy Man's Fast Food Diet -- re-find EVERY meal picture with a quoted DuckDuckGo search.
+Lazy Man's Fast Food Diet -- fill in the meal pictures that are still EMPTY.
 
-Run by hand (GitHub: Actions > "Refresh all meal images (manual)" > Run workflow),
+STEP 2 of a two-step manual process:
+  1. "Pull fast food meals (manual)"   -> pull_meals.py     adds new meals with an empty picture
+  2. "Fill missing meal images (manual)" -> refresh_images.py  finds pictures for the empty ones
+
+Run by hand (GitHub: Actions > "Fill missing meal images (manual)" > Run workflow),
 or locally:   python refresh_images.py
 
-For each meal it searches DuckDuckGo Images with the restaurant and the item in
-double quotes, exactly as you would type it in the search box:
+It ONLY touches meals whose image_url is empty. Meals that already have a picture are
+never searched and never changed. For each empty meal it searches DuckDuckGo Images
+with the restaurant and the item in double quotes, exactly as you would type it in the
+search box:
 
     Olive Garden / Fettuccine Alfredo  ->  "Olive Garden" "Fettuccine Alfredo"
 
-and replaces the meal's picture with the first https result. If that finds nothing,
-it tries the same search without any "(...)" in the item name (e.g. "Chicken Taco"
-for "Chicken Taco (Soft Flour)"). If there is still nothing, the meal keeps its
-current picture (a meal with no picture at all also gets one last unquoted search
-when IMAGE_FALLBACK_TO_WEB is on in pull_meals.py).
+and stores the first https result. If that finds nothing it tries the same search
+without any "(...)" in the item name (e.g. "Chicken Taco" for "Chicken Taco (Soft
+Flour)"), and finally one looser search that keeps only the restaurant in quotes
+(IMAGE_FALLBACK_TO_WEB). If there is still nothing the meal stays empty.
+
+Every meal that gets a picture also gets a new "_updated_at" date, so it moves up on
+the Menu Items page (products.html sorts newest "_updated_at" first). meals.json's own
+"updated_at" is refreshed on every save.
 
 DuckDuckGo throttles fast searching (it answers with errors such as "malformed
 headers"), so this goes slowly: a pause of --delay seconds plus a little random
 extra between searches, and when a search fails it cools down (30s, 60s, 2 min,
 4 min, 5 min) and retries the SAME meal. Only after several failures in a row does
-it stop and save. Expect a full refresh of ~2,650+ meals to take a few runs.
+it stop and save.
 
-It resumes: every meal that has been redone is marked "_image_refreshed" with the
-name of the search method (IMAGE_STRATEGY in pull_meals.py), so a run that stops early
-(throttling, the time budget) is simply run again and carries on with the meals not
-done yet. Pictures found by an older method (for example the earlier site: search)
-count as not done and are redone. Use --restart to begin again from the top.
-New meals pulled by pull_meals.py are searched the same way and marked as done, so
-this only needs to be run once for the existing list.
+It resumes by itself: a meal that got a picture is no longer empty, so a run that stops
+early (throttling, the time budget) is simply run again and carries on with the meals
+that are still empty. A meal where nothing was found is tried up to
+IMAGE_MAX_ATTEMPTS_PER_MEAL times over separate runs (counted in "_image_attempts"),
+then skipped; --retry-failed gives those another go.
 
 Options:
   --restaurant "Olive Garden"   only that restaurant (handy for a quick test)
   --limit 25                    stop after this many meals
-  --restart                     forget what was already refreshed and do them all again
+  --retry-failed                also retry meals that already used up their attempts
   --delay 3                     seconds between searches (plus 0-2s random); default 3
   --time-budget-minutes 100     stop (and save) after this long; default 60
   --output path/to/meals.json
@@ -42,31 +49,120 @@ Dependencies: pip install requests ddgs
 
 import argparse
 import random
+import re
 import sys
 import time
+from datetime import datetime, timezone
 
 import pull_meals as pm
 
+try:  # the package was renamed from duckduckgo_search to ddgs
+    from ddgs import DDGS
+except ImportError:  # pragma: no cover
+    try:
+        from duckduckgo_search import DDGS
+    except ImportError:
+        DDGS = None
+
+IMAGE_SEARCH_DELAY_SECONDS = 1.5   # pause between the searches made for the same meal
+IMAGE_MAX_ATTEMPTS_PER_MEAL = 3    # runs in which nothing was found, then the meal is skipped
+# If the quoted searches find nothing, True falls back to a looser search
+# ("<restaurant>" <item>, restaurant still quoted); False leaves the meal empty.
+IMAGE_FALLBACK_TO_WEB = True
+
+DEFAULT_TIME_BUDGET_MINUTES = 60
 SAVE_EVERY = 25            # write meals.json this often so an interrupted run keeps its progress
 DEFAULT_DELAY_SECONDS = 3.0
 JITTER_SECONDS = 2.0       # random extra pause so the searches aren't evenly spaced
 MAX_STRIKES = 6            # failures in a row before the run stops (cooldowns total ~12 minutes)
 COOLDOWN_BASE_SECONDS = 30
 COOLDOWN_MAX_SECONDS = 300
-GIVE_UP_AFTER_STOPPED_RUNS = 3   # a meal at which 3 separate runs had to stop is skipped (keeps its picture)
+GIVE_UP_AFTER_STOPPED_RUNS = 3   # a meal at which 3 separate runs had to stop is skipped
 
+
+#---------------------------------------------------------------------------
+# DuckDuckGo image search
+#---------------------------------------------------------------------------
+
+_ddgs_client = None
+
+
+def _client(reset=False):
+    """One shared DuckDuckGo session (new connections for every search look like a bot);
+    after an error a fresh one is made for the next search."""
+    global _ddgs_client
+    if reset or _ddgs_client is None:
+        _ddgs_client = DDGS()
+    return _ddgs_client
+
+
+def _first_https_image(query):
+    """One DuckDuckGo image search. Returns (thumbnail_url, full_url) or (None, None)."""
+    try:
+        results = _client().images(query, max_results=6, safesearch="moderate")
+    except Exception:
+        _client(reset=True)
+        raise
+    for res in results or []:
+        thumb = (res.get("thumbnail") or "").strip()
+        full = (res.get("image") or "").strip()
+        # https only: an http image would be blocked on an https site.
+        if thumb.startswith("https://") or full.startswith("https://"):
+            return (thumb if thumb.startswith("https://") else full,
+                    full if full.startswith("https://") else "")
+    return None, None
+
+
+def _quote(text):
+    """Wraps text in double quotes for the search box (any quotes inside are dropped)."""
+    return '"' + str(text).replace('"', "").strip() + '"'
+
+
+def image_queries(restaurant, name, fallback):
+    """The searches to try, in order, as (query, source) pairs. The first is what you would
+    type by hand:  "Olive Garden" "Fettuccine Alfredo"  -- then the same without any
+    "(...)" in the item name, then (if allowed) a looser search."""
+    queries = [(f"{_quote(restaurant)} {_quote(name)}", "quoted")]
+    short = re.sub(r"\s*\([^)]*\)", "", name).strip()
+    if short and short.lower() != name.strip().lower():
+        queries.append((f"{_quote(restaurant)} {_quote(short)}", "quoted"))
+    if fallback:
+        # Last resort. Keep the restaurant in quotes so the results stay on that chain;
+        # a fully unquoted search ("Chili's Classic Sirloin (6 oz)") returns random junk.
+        queries.append((f"{_quote(restaurant)} {short or name}", "web"))
+    return queries
+
+
+def find_image(restaurant, name, fallback=None):
+    """Searches DuckDuckGo Images with the restaurant and item in double quotes.
+    Returns (thumbnail, full, source) -- source is "quoted" or "web" (looser fallback) --
+    or (None, None, None) when nothing was found."""
+    if fallback is None:
+        fallback = IMAGE_FALLBACK_TO_WEB
+    for i, (query, source) in enumerate(image_queries(restaurant, name, fallback)):
+        if i:
+            time.sleep(IMAGE_SEARCH_DELAY_SECONDS)       # pause between searches for the same meal
+        thumb, full = _first_https_image(query)
+        if thumb:
+            return thumb, full, source
+    return None, None, None
+
+
+#---------------------------------------------------------------------------
+# Main
+#---------------------------------------------------------------------------
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--output", default=pm.OUTPUT_PATH, help="Path to meals.json")
     ap.add_argument("--restaurant", default="", help="Only this restaurant (exact name)")
     ap.add_argument("--limit", type=int, default=0, help="Stop after this many meals (0 = no limit)")
-    ap.add_argument("--restart", action="store_true", help="Redo meals that were already refreshed")
+    ap.add_argument("--retry-failed", action="store_true", help="Also retry meals that used up their attempts")
     ap.add_argument("--delay", type=float, default=DEFAULT_DELAY_SECONDS, help="Seconds between searches")
-    ap.add_argument("--time-budget-minutes", type=float, default=pm.IMAGE_TIME_BUDGET_MINUTES)
+    ap.add_argument("--time-budget-minutes", type=float, default=DEFAULT_TIME_BUDGET_MINUTES)
     args = ap.parse_args()
 
-    if pm.DDGS is None:
+    if DDGS is None:
         raise SystemExit("ddgs isn't installed (pip install ddgs).")
 
     restaurant = args.restaurant.strip()
@@ -78,25 +174,27 @@ def main():
 
     store = pm.load_store(args.output)
     scope = [m for m in store["meals"] if not restaurant or m["restaurant"] == restaurant]
-    if args.restart:
+    if args.retry_failed:
         for m in scope:
-            m.pop("_image_refreshed", None)
-            m.pop("_image_refresh_failures", None)
+            if not m.get("image_url"):
+                m["_image_attempts"] = 0
+                m.pop("_image_refresh_failures", None)
 
-    def is_done(m):
-        return m.get("_image_refreshed") == pm.IMAGE_STRATEGY
+    def needs_image(m):
+        return not m.get("image_url") and m.get("_image_attempts", 0) < IMAGE_MAX_ATTEMPTS_PER_MEAL
 
-    todo = [m for m in scope if not is_done(m)]
+    empty_total = sum(1 for m in scope if not m.get("image_url"))
+    todo = [m for m in scope if needs_image(m)]
     if args.limit > 0:
         todo = todo[: args.limit]
 
     label = restaurant or "all restaurants"
-    pm.log(f"Refresh: {len(scope)} meal(s) for {label}; {len(todo)} still to do this run.")
+    pm.log(f"Images: {empty_total} meal(s) with an empty picture for {label}; {len(todo)} to search this run.")
     if not todo:
-        pm.log("Nothing to do -- every meal has already been refreshed (use --restart to redo them).")
+        pm.log("Nothing to do -- no empty pictures (or the rest used up their attempts; use --retry-failed).")
         return
 
-    replaced = kept = added = done = 0
+    found = not_found = done = 0
     strikes = 0
     stopped = False
     deadline = time.monotonic() + args.time_budget_minutes * 60
@@ -105,11 +203,10 @@ def main():
             if time.monotonic() > deadline:
                 pm.log(f"  time budget ({args.time_budget_minutes:g} min) reached -- run it again to continue.")
                 break
-            had_picture = bool(meal.get("image_url"))
 
             while True:                                  # retry this same meal after a cooldown
                 try:
-                    thumb, full, source = pm.find_image(meal["restaurant"], meal["name"], fallback=not had_picture)
+                    thumb, full, source = find_image(meal["restaurant"], meal["name"])
                     strikes = 0
                     break
                 except Exception as e:  # noqa: BLE001 -- DDG throws many error types when it throttles
@@ -119,7 +216,7 @@ def main():
                         stopped = True
                         fails = meal["_image_refresh_failures"] = meal.get("_image_refresh_failures", 0) + 1
                         if fails >= GIVE_UP_AFTER_STOPPED_RUNS:
-                            meal["_image_refreshed"] = pm.IMAGE_STRATEGY   # skip this one from now on; it keeps its picture
+                            meal["_image_attempts"] = IMAGE_MAX_ATTEMPTS_PER_MEAL   # skip this one from now on
                             pm.log(f"  giving up on {meal['restaurant']} / {meal['name']} after {fails} stopped runs.")
                         break
                     cooldown = min(COOLDOWN_BASE_SECONDS * 2 ** (strikes - 1), COOLDOWN_MAX_SECONDS)
@@ -129,30 +226,27 @@ def main():
                 pm.log("  too many failures in a row -- stopping and saving; run it again later to continue.")
                 break
 
-            meal["_image_refreshed"] = pm.IMAGE_STRATEGY
-            meal.pop("_image_site_checked", None)        # leftover marker from the old site: search
+            meal["_image_attempts"] = meal.get("_image_attempts", 0) + 1
             meal.pop("_image_refresh_failures", None)
             if thumb:
                 meal["image_url"] = thumb
                 meal["image_full_url"] = full or ""
-                meal["_image_source"] = source
-                if had_picture:
-                    replaced += 1
-                else:
-                    added += 1
+                meal["_image_source"] = source           # "quoted" or "web" (looser fallback)
+                meal["_updated_at"] = datetime.now(timezone.utc).isoformat()
+                found += 1
             else:
-                kept += 1                                    # nothing found: keep the picture it had
+                not_found += 1                           # stays empty; tried again on a later run
             done += 1
             if done % SAVE_EVERY == 0:
-                pm.log(f"  ...{done} done ({replaced} replaced, {added} added, {kept} kept as they were)")
+                pm.log(f"  ...{done} searched ({found} pictures found, {not_found} not found)")
                 pm.save_store(args.output, store)
             time.sleep(args.delay + random.uniform(0, JITTER_SECONDS))
     finally:
         pm.save_store(args.output, store)
 
-    left = sum(1 for m in scope if not is_done(m))
-    pm.log(f"Refresh finished: {done} meal(s) searched -- {replaced} picture(s) replaced, "
-           f"{added} added, {kept} kept (nothing found). {left} meal(s) left for {label}.")
+    left = sum(1 for m in scope if not m.get("image_url"))
+    pm.log(f"Images finished: {done} meal(s) searched -- {found} picture(s) added, "
+           f"{not_found} not found. {left} meal(s) still have an empty picture for {label}.")
     if left:
         pm.log("Run it again to continue where this left off.")
 

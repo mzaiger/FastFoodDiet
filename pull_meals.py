@@ -1,17 +1,21 @@
 """
-Lazy Man's Fast Food Diet -- daily meal puller.
+Lazy Man's Fast Food Diet -- meal puller (run by hand: GitHub Actions > "Pull fast food meals (manual)").
 
-What it does, once per run (the GitHub Action runs it daily):
+STEP 1 of a two-step manual process. This script only pulls MEALS. It does not look
+for pictures. Step 2 is refresh_images.py ("Fill missing meal images (manual)"), which
+finds pictures for every meal whose image is still empty.
 
-  1. Asks Gemini 3.8 Flash for menu items from the approved restaurants
-     below (RESTAURANTS) -- ONE restaurant per call. Each item comes back tagged as
-     "breakfast", "regular" or "dessert" (desserts, slushes, shakes, malts --
-     the planner only uses these as late night), plus a "healthy" yes/no and a
-     "vegetarian" yes/no. Beverages and dips/sauces are excluded. Each call
-     also gets the names already on file for that restaurant, so Gemini is
-     asked for NEW items only; the JSON grows a little more every day.
-  2. For every new meal, stores cost, calories and serving (as Gemini
-     estimates them -- these are AI estimates, not live menu data).
+What it does, once per run:
+
+  1. Asks Gemini for menu items from the approved restaurants below (RESTAURANTS) --
+     ONE restaurant per call. Each item comes back tagged as "breakfast", "regular" or
+     "dessert" (desserts, slushes, shakes, malts -- the planner only uses these as late
+     night), plus a "healthy" yes/no and a "vegetarian" yes/no. Beverages and
+     dips/sauces are excluded. Each call also gets the names already on file for that
+     restaurant, so Gemini is asked for NEW items only; the JSON grows with every pull.
+  2. For every new meal, stores cost, calories and serving (as Gemini estimates them --
+     these are AI estimates, not live menu data). The picture is left EMPTY
+     (image_url and image_full_url are ""); refresh_images.py fills it in later.
      Serving rules applied by this script when saving (see apply_serving_rules):
      a single taco is stored as 3 tacos (calories and price x3) and a single
      pizza slice as 2 slices (calories x2; the price is doubled only for Pizza
@@ -19,14 +23,9 @@ What it does, once per run (the GitHub Action runs it daily):
      Items that are already multiple servings, personal/individual/kids'/whole
      pizzas, dessert pizzas, Gordita Crunches, and non-pizza "slice" items
      (cakes, pies, loaves) are left alone.
-  3. Searches DuckDuckGo Images for every meal that has no picture yet and
-     stores the image URL. The search puts the restaurant and the item in
-     double quotes, e.g.  "Olive Garden" "Fettuccine Alfredo"  (find_image).
-     refresh_images.py redoes every picture the same way. There is no cap on
-     the number of searches; the phase ends when every meal has a picture,
-     when DuckDuckGo starts rate-limiting (the rest wait for the next run), or
-     after IMAGE_TIME_BUDGET_MINUTES so the job always finishes and commits
-     meals.json.
+  3. Stamps every new meal with "_updated_at" (and "_added_at"), the date of this pull,
+     and stamps meals.json itself ("updated_at"). products.html sorts by the newest
+     "_updated_at" first, so the latest pull shows at the top of the Menu Items page.
   4. Writes everything to meals.json, which index.html and products.html read.
 
 Resuming after errors: Gemini often answers 503 ("overloaded"). meals.json
@@ -40,17 +39,16 @@ order. Each model gets its own daily allowance (MAX_GEMINI_CALLS per model, defa
 20), counted on the Pacific-time day Google's quota resets on. When a model is out of
 quota (or rejects the request), the script moves to the next model; a 503
 ("overloaded") first tries the next model too. Only answers Google actually served
-count toward a model's allowance. The Action runs 4 times a day; each run makes at most
-20 Gemini calls (MAX_CALLS_PER_RUN; a full pass over the restaurants can take more than one run), so the day's
-allowance is spread across the runs, failed restaurants get another try, and pictures
-keep filling in.
+count toward a model's allowance. Each run makes at most 20 Gemini calls
+(MAX_CALLS_PER_RUN; a full pass over the restaurants can take more than one run), so
+run it again to keep going.
 
 Env var required: GEMINI_KEY  (missing -> the run is skipped, exit 0)
 Optional env vars: MAX_GEMINI_CALLS (per model per day, default 20),
                    MAX_CALLS_PER_RUN (default 20)
 
 Run locally:  GEMINI_KEY=xxxx python pull_meals.py
-Dependencies: pip install requests ddgs
+Dependencies: pip install requests
 """
 
 import argparse
@@ -63,14 +61,6 @@ from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 
 import requests
-
-try:  # the package was renamed from duckduckgo_search to ddgs
-    from ddgs import DDGS
-except ImportError:  # pragma: no cover
-    try:
-        from duckduckgo_search import DDGS
-    except ImportError:
-        DDGS = None
 
 _SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 OUTPUT_PATH = os.path.join(_SCRIPT_DIR, "meals.json")
@@ -93,20 +83,6 @@ GEMINI_TIMEOUT_SECONDS = 120
 GEMINI_MAX_RETRIES = 2            # network errors / 5xx only, per model per restaurant
 GEMINI_RETRY_DELAY_SECONDS = 15
 RETRY_PASS_DELAY_SECONDS = 60     # pause before the one extra pass over restaurants that failed
-
-IMAGE_TIME_BUDGET_MINUTES = 60   # safety stop (not a count limit) so the Action finishes and commits
-IMAGE_SEARCH_DELAY_SECONDS = 1.5
-IMAGE_MAX_ATTEMPTS_PER_MEAL = 3   # then give up on that meal's picture
-IMAGE_RATELIMIT_STRIKES = 4       # consecutive failures -> stop image phase this run
-# Pictures are searched with the restaurant and the item in double quotes, e.g.
-#   "Olive Garden" "Fettuccine Alfredo"
-# IMAGE_STRATEGY names that method. Meals are marked with it ("_image_refreshed") once
-# refresh_images.py has redone them; change it when the method changes and the next
-# refresh redoes every picture again.
-IMAGE_STRATEGY = "quoted-v1"
-# If the quoted searches find nothing for a meal that has no picture at all, True falls
-# back to a looser search ("<restaurant>" <item>, restaurant still quoted); False leaves the meal without one.
-IMAGE_FALLBACK_TO_WEB = True
 
 # Sanity bounds so a hallucinated number can't poison the meal planner.
 MIN_CALORIES, MAX_CALORIES = 20, 3500
@@ -510,123 +486,11 @@ def clean_meal(raw, restaurant):
         "serving": serving,
         "vegetarian": bool(raw.get("vegetarian")),
         "healthy": bool(raw.get("healthy")) and category != "dessert",
+        "image_url": "",         # left empty on purpose; refresh_images.py fills it in
+        "image_full_url": "",
     }
     apply_serving_rules(meal)   # single taco -> 3 tacos, single pizza slice -> 2 slices
     return meal
-
-
-#---------------------------------------------------------------------------
-# DuckDuckGo image search
-#---------------------------------------------------------------------------
-
-_ddgs_client = None
-
-
-def _client(reset=False):
-    """One shared DuckDuckGo session (new connections for every search look like a bot);
-    after an error a fresh one is made for the next search."""
-    global _ddgs_client
-    if reset or _ddgs_client is None:
-        _ddgs_client = DDGS()
-    return _ddgs_client
-
-
-def _first_https_image(query):
-    """One DuckDuckGo image search. Returns (thumbnail_url, full_url) or (None, None)."""
-    try:
-        results = _client().images(query, max_results=6, safesearch="moderate")
-    except Exception:
-        _client(reset=True)
-        raise
-    for res in results or []:
-        thumb = (res.get("thumbnail") or "").strip()
-        full = (res.get("image") or "").strip()
-        # https only: an http image would be blocked on an https site.
-        if thumb.startswith("https://") or full.startswith("https://"):
-            return (thumb if thumb.startswith("https://") else full,
-                    full if full.startswith("https://") else "")
-    return None, None
-
-
-def _quote(text):
-    """Wraps text in double quotes for the search box (any quotes inside are dropped)."""
-    return '"' + str(text).replace('"', "").strip() + '"'
-
-
-def image_queries(restaurant, name, fallback):
-    """The searches to try, in order, as (query, source) pairs. The first is what you would
-    type by hand:  "Olive Garden" "Fettuccine Alfredo"  -- then the same without any
-    "(...)" in the item name, then (if allowed) the plain unquoted words."""
-    queries = [(f"{_quote(restaurant)} {_quote(name)}", "quoted")]
-    short = re.sub(r"\s*\([^)]*\)", "", name).strip()
-    if short and short.lower() != name.strip().lower():
-        queries.append((f"{_quote(restaurant)} {_quote(short)}", "quoted"))
-    if fallback:
-        # Last resort. Keep the restaurant in quotes so the results stay on that chain;
-        # a fully unquoted search ("Chili's Classic Sirloin (6 oz)") returns random junk.
-        queries.append((f"{_quote(restaurant)} {short or name}", "web"))
-    return queries
-
-
-def find_image(restaurant, name, fallback=None):
-    """Searches DuckDuckGo Images with the restaurant and item in double quotes.
-    Returns (thumbnail, full, source) -- source is "quoted" or "web" (unquoted fallback) --
-    or (None, None, None) when nothing was found."""
-    if fallback is None:
-        fallback = IMAGE_FALLBACK_TO_WEB
-    for i, (query, source) in enumerate(image_queries(restaurant, name, fallback)):
-        if i:
-            time.sleep(IMAGE_SEARCH_DELAY_SECONDS)       # pause between searches for the same meal
-        thumb, full = _first_https_image(query)
-        if thumb:
-            return thumb, full, source
-    return None, None, None
-
-
-def fill_images(store):
-    if DDGS is None:
-        log("ddgs isn't installed (pip install ddgs) -- skipping image search.")
-        return 0
-    todo = [m for m in store["meals"]
-            if not m.get("image_url")
-            and m.get("_image_attempts", 0) < IMAGE_MAX_ATTEMPTS_PER_MEAL]
-    if not todo:
-        log("Images: every meal already has a picture (or has used its attempts).")
-        return 0
-    log(f"Images: {len(todo)} meal(s) need a picture; searching until done or rate-limited.")
-
-    found, strikes = 0, 0
-    deadline = time.monotonic() + IMAGE_TIME_BUDGET_MINUTES * 60
-    for i, meal in enumerate(todo, start=1):
-        if time.monotonic() > deadline:
-            log(f"  image time budget ({IMAGE_TIME_BUDGET_MINUTES} min) reached -- the rest wait for the next run.")
-            break
-        try:
-            thumb, full, source = find_image(meal["restaurant"], meal["name"])
-            strikes = 0
-        except Exception as e:  # noqa: BLE001 -- DDG throws many error types when rate limiting
-            strikes += 1
-            log(f"  image search failed for {meal['restaurant']} {meal['name']}: {e}")
-            if strikes >= IMAGE_RATELIMIT_STRIKES:
-                log("  too many image-search failures in a row (likely rate-limited) -- "
-                    "stopping the image phase; the rest wait for the next run.")
-                break
-            time.sleep(IMAGE_SEARCH_DELAY_SECONDS * 5 * strikes)
-            continue
-
-        meal["_image_attempts"] = meal.get("_image_attempts", 0) + 1
-        meal.pop("_image_site_checked", None)    # leftover marker from the old site: search
-        if thumb:
-            meal["image_url"] = thumb
-            meal["image_full_url"] = full or ""
-            meal["_image_source"] = source       # "quoted" = quoted search, "web" = unquoted fallback
-            meal["_image_refreshed"] = IMAGE_STRATEGY
-            found += 1
-        if i % 25 == 0:
-            log(f"  ...{i} searched, {found} pictures found so far")
-        time.sleep(IMAGE_SEARCH_DELAY_SECONDS)
-    log(f"Images: {found} picture(s) added.")
-    return found
 
 
 #---------------------------------------------------------------------------
@@ -636,26 +500,22 @@ def fill_images(store):
 def main():
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--output", default=OUTPUT_PATH, help="Path to meals.json")
-    parser.add_argument("--skip-images", action="store_true", help="Only pull meals, skip DuckDuckGo")
-    parser.add_argument("--images-only", action="store_true", help="Only fill missing pictures, skip Gemini")
     args = parser.parse_args()
 
     store = load_store(args.output)
 
-    if not args.images_only:
-        key = os.environ.get("GEMINI_KEY")
-        if not key:
-            log("No GEMINI_KEY set -- skipping the Gemini meal pull.")
-        else:
-            pull_meals(store, key, args.output)
-
-    if not args.skip_images:
-        fill_images(store)
+    key = os.environ.get("GEMINI_KEY")
+    if not key:
+        log("No GEMINI_KEY set -- skipping the Gemini meal pull.")
+    else:
+        pull_meals(store, key, args.output)
 
     save_store(args.output, store)
     by_cat = {c: sum(1 for m in store["meals"] if m["category"] == c) for c in CATEGORIES}
+    no_image = sum(1 for m in store["meals"] if not m.get("image_url"))
     log(f"Done. meals.json now has {len(store['meals'])} meals "
-        f"({by_cat['breakfast']} breakfast, {by_cat['regular']} regular).")
+        f"({by_cat['breakfast']} breakfast, {by_cat['regular']} regular, {by_cat['dessert']} dessert); "
+        f"{no_image} still need a picture (run refresh_images.py).")
 
 
 def pull_one(store, restaurant, key, limiter, known):
@@ -678,6 +538,7 @@ def pull_one(store, restaurant, key, limiter, known):
             continue
         known.add(k)
         meal["_added_at"] = now
+        meal["_updated_at"] = now     # products.html sorts newest first by this
         meal["_model"] = model_used
         store["meals"].append(meal)
         added += 1
