@@ -112,39 +112,53 @@ IMAGE_FALLBACK_TO_WEB = True
 MIN_CALORIES, MAX_CALORIES = 20, 3500
 MIN_PRICE, MAX_PRICE = 0.50, 80.00
 
-# The ONLY restaurants meals may come from: national chains with locations in at
-# least ~90% of the states. `except` = states with no locations (every other state
-# has them). `site` = the restaurant's official website; its favicon is shown next
-# to the delivery-app icons and links there. Shown on the web page too (index.html).
+# The ONLY restaurants meals may come from. `site` = the restaurant's official website;
+# its favicon is shown next to the delivery-app icons and links there. Shown on the web
+# page too (index.html).
 RESTAURANTS = [
-    {"name": "Applebee's", "except": [], "site": "www.applebees.com"},
-    {"name": "Arby's", "except": ["Rhode Island", "Vermont"], "site": "www.arbys.com"},
-    {"name": "Buffalo Wild Wings", "except": [], "site": "www.buffalowildwings.com"},
-    {"name": "Burger King", "except": [], "site": "www.bk.com"},
-    {"name": "Chick-fil-A", "except": ["Vermont", "Alaska"], "site": "www.chick-fil-a.com"},
-    {"name": "Chili's", "except": ["Oregon"], "site": "www.chilis.com"},
-    {"name": "Chipotle", "except": ["Alaska", "Hawaii"], "site": "www.chipotle.com"},
-    {"name": "Dairy Queen", "except": ["Vermont"], "site": "www.dairyqueen.com"},
-    {"name": "Domino's", "except": [], "site": "www.dominos.com"},
-    {"name": "Five Guys", "except": [], "site": "www.fiveguys.com"},
-    {"name": "IHOP", "except": ["Vermont"], "site": "www.ihop.com"},
-    {"name": "Jersey Mike's Subs", "except": [], "site": "www.jerseymikes.com"},
-    {"name": "Kentucky Fried Chicken", "except": [], "site": "www.kfc.com"},
-    {"name": "Little Caesar's", "except": [], "site": "www.littlecaesars.com"},
-    {"name": "McDonald's", "except": [], "site": "www.mcdonalds.com"},
-    {"name": "Olive Garden", "except": [], "site": "www.olivegarden.com"},
-    {"name": "Outback Steakhouse", "except": ["Maine", "Vermont", "Rhode Island", "North Dakota"], "site": "www.outback.com"},
-    {"name": "Panda Express", "except": ["Vermont"], "site": "www.pandaexpress.com"},
-    {"name": "Panera", "except": ["Alaska", "Hawaii"], "site": "www.panerabread.com"},
-    {"name": "Papa John's", "except": ["Vermont"], "site": "www.papajohns.com"},
-    {"name": "Pizza Hut", "except": [], "site": "www.pizzahut.com"},
-    {"name": "Popeyes", "except": ["Vermont", "Wyoming"], "site": "www.popeyes.com"},
-    {"name": "Sonic Drive-In", "except": ["Maine", "New Hampshire", "Vermont"], "site": "www.sonicdrivein.com"},
-    {"name": "Starbucks", "except": [], "site": "www.starbucks.com"},
-    {"name": "Subway", "except": [], "site": "www.subway.com"},
-    {"name": "Taco Bell", "except": [], "site": "www.tacobell.com"},
-    {"name": "Texas Roadhouse", "except": ["Hawaii"], "site": "www.texasroadhouse.com"},
-    {"name": "Wendy's", "except": [], "site": "www.wendys.com"},
+    {"name": "Applebee's", "site": "www.applebees.com"},
+    {"name": "Arby's", "site": "www.arbys.com"},
+    {"name": "Blaze Pizza", "site": "www.blazepizza.com"},
+    {"name": "Buffalo Wild Wings", "site": "www.buffalowildwings.com"},
+    {"name": "Burger King", "site": "www.bk.com"},
+    {"name": "Charleys Cheesesteaks", "site": "www.charleys.com"},
+    {"name": "Chick-fil-A", "site": "www.chick-fil-a.com"},
+    {"name": "Chili's", "site": "www.chilis.com"},
+    {"name": "Chipotle", "site": "www.chipotle.com"},
+    {"name": "Cracker Barrel", "site": "www.crackerbarrel.com"},
+    {"name": "Culver's", "site": "www.culvers.com"},
+    {"name": "Dairy Queen", "site": "www.dairyqueen.com"},
+    {"name": "Denny's", "site": "www.dennys.com"},
+    {"name": "Domino's", "site": "www.dominos.com"},
+    {"name": "Dunkin'", "site": "www.dunkindonuts.com"},
+    {"name": "Firehouse Subs", "site": "www.firehousesubs.com"},
+    {"name": "Five Guys", "site": "www.fiveguys.com"},
+    {"name": "Freddy's", "site": "www.freddys.com"},
+    {"name": "Godfather's Pizza", "site": "www.godfathers.com"},
+    {"name": "IHOP", "site": "www.ihop.com"},
+    {"name": "Jersey Mike's Subs", "site": "www.jerseymikes.com"},
+    {"name": "Jimmy John's", "site": "www.jimmyjohns.com"},
+    {"name": "Kentucky Fried Chicken", "site": "www.kfc.com"},
+    {"name": "Little Caesar's", "site": "www.littlecaesars.com"},
+    {"name": "McAlister's Deli", "site": "www.mcalistersdeli.com"},
+    {"name": "McDonald's", "site": "www.mcdonalds.com"},
+    {"name": "Olive Garden", "site": "www.olivegarden.com"},
+    {"name": "Outback Steakhouse", "site": "www.outback.com"},
+    {"name": "Panda Express", "site": "www.pandaexpress.com"},
+    {"name": "Panera", "site": "www.panerabread.com"},
+    {"name": "Papa John's", "site": "www.papajohns.com"},
+    {"name": "Papa Murphy's", "site": "www.papamurphys.com"},
+    {"name": "Pizza Hut", "site": "www.pizzahut.com"},
+    {"name": "Popeyes", "site": "www.popeyes.com"},
+    {"name": "Qdoba", "site": "www.qdoba.com"},
+    {"name": "Red Robin", "site": "www.redrobin.com"},
+    {"name": "Sonic Drive-In", "site": "www.sonicdrivein.com"},
+    {"name": "Starbucks", "site": "www.starbucks.com"},
+    {"name": "Subway", "site": "www.subway.com"},
+    {"name": "Taco Bell", "site": "www.tacobell.com"},
+    {"name": "Texas Roadhouse", "site": "www.texasroadhouse.com"},
+    {"name": "Wendy's", "site": "www.wendys.com"},
+    {"name": "Wingstop", "site": "www.wingstop.com"},
 ]
 
 RESTAURANT_NAMES = [r["name"] for r in RESTAURANTS]
@@ -155,7 +169,7 @@ CATEGORIES = ("breakfast", "regular", "dessert")
 PROMPT = """You are building a menu database for a calorie-counting meal planner.
 
 Restaurant: {restaurant}
-This restaurant is a U.S. national chain. {availability}
+This restaurant is a U.S. national chain.
 
 List as many DIFFERENT menu items as you can that are (or were recently) sold on the standard U.S. menu of {restaurant} -- and ONLY {restaurant}. Never include items from any other restaurant, and never invent items. If you are not confident an item exists, leave it out.
 
@@ -247,11 +261,11 @@ def load_store(path):
     store.setdefault("restaurants", {})
     store.setdefault("quota", {"date": "", "calls": {}, "exhausted": []})
     store.setdefault("pending", [])   # restaurants still to pull in the current pass, in order
-    # Keep the published restaurant list (and exclusions) in the JSON in sync
+    # Keep the published restaurant list (and sites) in the JSON in sync
     # with this script so the web page always shows what the script uses.
     for r in RESTAURANTS:
         entry = store["restaurants"].setdefault(r["name"], {})
-        entry["except_states"] = r["except"]
+        entry.pop("except_states", None)        # states are no longer tracked
         entry["site"] = r["site"]
         entry.setdefault("last_pulled", "")
     store["allowed_restaurants"] = RESTAURANT_NAMES
@@ -397,24 +411,11 @@ def ask_gemini(prompt, key, limiter, quota):
     raise QuotaExceeded("every model is used up for today")
 
 
-def _and_list(items):
-    """['A'] -> 'A', ['A','B'] -> 'A and B', ['A','B','C'] -> 'A, B and C'"""
-    items = list(items)
-    return items[0] if len(items) == 1 else ", ".join(items[:-1]) + " and " + items[-1]
-
-
 def build_prompt(restaurant, known_names):
-    r = next(x for x in RESTAURANTS if x["name"] == restaurant)
-    if r["except"]:
-        availability = ("It has locations in every U.S. state except "
-                        + _and_list(r["except"]) + ".")
-    else:
-        availability = "It has locations in all 50 U.S. states."
     shown = known_names[-KNOWN_NAMES_SENT_PER_CALL:]
     known_block = "\n".join(f"- {n}" for n in shown) if shown else "(none yet)"
     return PROMPT.format(
         restaurant=restaurant,
-        availability=availability,
         max_items=MAX_NEW_MEALS_PER_CALL,
         known_count=len(known_names),
         known_block=known_block,

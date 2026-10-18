@@ -1,6 +1,6 @@
 # Lazy Man's Fast Food Diet
 
-A static website that builds a 7-day meal plan, **only from 28 national fast food chains**, to hit a daily calorie target. Menu data (calories, price, serving, healthy/vegetarian flags) is gathered automatically by Google Gemini, and pictures come from DuckDuckGo Images. A GitHub Action refreshes it 4 times a day.
+A static website that builds a 7-day meal plan, **only from 43 national fast food chains**, to hit a daily calorie target. Menu data (calories, price, serving, healthy/vegetarian flags) is gathered automatically by Google Gemini, and pictures come from DuckDuckGo Images. A GitHub Action refreshes it 4 times a day.
 
 > All calories, prices and servings are **AI estimates**. Menus and prices vary by location, so double-check at the restaurant.
 
@@ -39,38 +39,53 @@ After that the Action runs on its own at 03:17, 09:17, 15:17 and 21:17 UTC.
 
 ## The restaurants
 
-Meals can only come from these 28 chains: national chains with locations in at least about 90% of the states (45 or more). The states each one skips are noted below, and the official site is where the page's favicon link goes.
+Meals can only come from these 43 chains. The official site is where each restaurant's favicon link on the page goes.
 
-| Restaurant | States | Official site |
-|---|---|---|
-| Applebee's | all 50 | [www.applebees.com](https://www.applebees.com/) |
-| Arby's | all except Rhode Island and Vermont | [www.arbys.com](https://www.arbys.com/) |
-| Buffalo Wild Wings | all 50 | [www.buffalowildwings.com](https://www.buffalowildwings.com/) |
-| Burger King | all 50 | [www.bk.com](https://www.bk.com/) |
-| Chick-fil-A | all except Vermont and Alaska | [www.chick-fil-a.com](https://www.chick-fil-a.com/) |
-| Chili's | all except Oregon | [www.chilis.com](https://www.chilis.com/) |
-| Chipotle | all except Alaska and Hawaii | [www.chipotle.com](https://www.chipotle.com/) |
-| Dairy Queen | all except Vermont | [www.dairyqueen.com](https://www.dairyqueen.com/) |
-| Domino's | all 50 | [www.dominos.com](https://www.dominos.com/) |
-| Five Guys | all 50 | [www.fiveguys.com](https://www.fiveguys.com/) |
-| IHOP | all except Vermont | [www.ihop.com](https://www.ihop.com/) |
-| Jersey Mike's Subs | all 50 | [www.jerseymikes.com](https://www.jerseymikes.com/) |
-| Kentucky Fried Chicken | all 50 | [www.kfc.com](https://www.kfc.com/) |
-| Little Caesar's | all 50 | [www.littlecaesars.com](https://www.littlecaesars.com/) |
-| McDonald's | all 50 | [www.mcdonalds.com](https://www.mcdonalds.com/) |
-| Olive Garden | all 50 | [www.olivegarden.com](https://www.olivegarden.com/) |
-| Outback Steakhouse | all except Maine, Vermont, Rhode Island and North Dakota | [www.outback.com](https://www.outback.com/) |
-| Panda Express | all except Vermont | [www.pandaexpress.com](https://www.pandaexpress.com/) |
-| Panera | all except Alaska and Hawaii | [www.panerabread.com](https://www.panerabread.com/) |
-| Papa John's | all except Vermont | [www.papajohns.com](https://www.papajohns.com/) |
-| Pizza Hut | all 50 | [www.pizzahut.com](https://www.pizzahut.com/) |
-| Popeyes | all except Vermont and Wyoming | [www.popeyes.com](https://www.popeyes.com/) |
-| Sonic Drive-In | all except Maine, New Hampshire and Vermont | [www.sonicdrivein.com](https://www.sonicdrivein.com/) |
-| Starbucks | all 50 | [www.starbucks.com](https://www.starbucks.com/) |
-| Subway | all 50 | [www.subway.com](https://www.subway.com/) |
-| Taco Bell | all 50 | [www.tacobell.com](https://www.tacobell.com/) |
-| Texas Roadhouse | all except Hawaii | [www.texasroadhouse.com](https://www.texasroadhouse.com/) |
-| Wendy's | all 50 | [www.wendys.com](https://www.wendys.com/) |
+| Restaurant | Official site |
+|---|---|
+| Applebee's | [www.applebees.com](https://www.applebees.com/) |
+| Arby's | [www.arbys.com](https://www.arbys.com/) |
+| Blaze Pizza | [www.blazepizza.com](https://www.blazepizza.com/) |
+| Buffalo Wild Wings | [www.buffalowildwings.com](https://www.buffalowildwings.com/) |
+| Burger King | [www.bk.com](https://www.bk.com/) |
+| Charleys Cheesesteaks | [www.charleys.com](https://www.charleys.com/) |
+| Chick-fil-A | [www.chick-fil-a.com](https://www.chick-fil-a.com/) |
+| Chili's | [www.chilis.com](https://www.chilis.com/) |
+| Chipotle | [www.chipotle.com](https://www.chipotle.com/) |
+| Cracker Barrel | [www.crackerbarrel.com](https://www.crackerbarrel.com/) |
+| Culver's | [www.culvers.com](https://www.culvers.com/) |
+| Dairy Queen | [www.dairyqueen.com](https://www.dairyqueen.com/) |
+| Denny's | [www.dennys.com](https://www.dennys.com/) |
+| Domino's | [www.dominos.com](https://www.dominos.com/) |
+| Dunkin' | [www.dunkindonuts.com](https://www.dunkindonuts.com/) |
+| Firehouse Subs | [www.firehousesubs.com](https://www.firehousesubs.com/) |
+| Five Guys | [www.fiveguys.com](https://www.fiveguys.com/) |
+| Freddy's | [www.freddys.com](https://www.freddys.com/) |
+| Godfather's Pizza | [www.godfathers.com](https://www.godfathers.com/) |
+| IHOP | [www.ihop.com](https://www.ihop.com/) |
+| Jersey Mike's Subs | [www.jerseymikes.com](https://www.jerseymikes.com/) |
+| Jimmy John's | [www.jimmyjohns.com](https://www.jimmyjohns.com/) |
+| Kentucky Fried Chicken | [www.kfc.com](https://www.kfc.com/) |
+| Little Caesar's | [www.littlecaesars.com](https://www.littlecaesars.com/) |
+| McAlister's Deli | [www.mcalistersdeli.com](https://www.mcalistersdeli.com/) |
+| McDonald's | [www.mcdonalds.com](https://www.mcdonalds.com/) |
+| Olive Garden | [www.olivegarden.com](https://www.olivegarden.com/) |
+| Outback Steakhouse | [www.outback.com](https://www.outback.com/) |
+| Panda Express | [www.pandaexpress.com](https://www.pandaexpress.com/) |
+| Panera | [www.panerabread.com](https://www.panerabread.com/) |
+| Papa John's | [www.papajohns.com](https://www.papajohns.com/) |
+| Papa Murphy's | [www.papamurphys.com](https://www.papamurphys.com/) |
+| Pizza Hut | [www.pizzahut.com](https://www.pizzahut.com/) |
+| Popeyes | [www.popeyes.com](https://www.popeyes.com/) |
+| Qdoba | [www.qdoba.com](https://www.qdoba.com/) |
+| Red Robin | [www.redrobin.com](https://www.redrobin.com/) |
+| Sonic Drive-In | [www.sonicdrivein.com](https://www.sonicdrivein.com/) |
+| Starbucks | [www.starbucks.com](https://www.starbucks.com/) |
+| Subway | [www.subway.com](https://www.subway.com/) |
+| Taco Bell | [www.tacobell.com](https://www.tacobell.com/) |
+| Texas Roadhouse | [www.texasroadhouse.com](https://www.texasroadhouse.com/) |
+| Wendy's | [www.wendys.com](https://www.wendys.com/) |
+| Wingstop | [www.wingstop.com](https://www.wingstop.com/) |
 
 The list lives in `RESTAURANTS` at the top of `pull_meals.py` and is copied into `meals.json`, which is what the page's "Where the meals come from" section shows. The pages also ignore any meal whose restaurant isn't on that list.
 
@@ -128,7 +143,7 @@ Environment variables: `GEMINI_KEY` (required for the Gemini step), `MAX_GEMINI_
 {
   "updated_at": "...",
   "allowed_restaurants": ["Applebee's", "..."],
-  "restaurants": { "Chick-fil-A": { "except_states": ["Vermont", "Alaska"], "site": "www.chick-fil-a.com", "last_pulled": "..." } },
+  "restaurants": { "Chick-fil-A": { "site": "www.chick-fil-a.com", "last_pulled": "..." } },
   "quota": { "date": "2026-10-16", "calls": { "gemini-3.8-flash": 7 }, "exhausted": [] },
   "pending": ["Five Guys", "..."],
   "meals": [
@@ -160,7 +175,7 @@ Fields that start with an underscore (`_added_at`, `_model`, `_image_attempts`, 
 
 | What | Where |
 |---|---|
-| Restaurants, state exclusions and official sites (`site`) | `RESTAURANTS` in `pull_meals.py` (and the fallback copy near `restaurantInfo` in `index.html`) |
+| Restaurants and their official sites (`site`) | `RESTAURANTS` in `pull_meals.py` (and the fallback copies near `restaurantInfo` in `index.html` and `restaurantSites` in `products.html`) |
 | Models and per-day limits | `GEMINI_MODELS`, `MAX_GEMINI_CALLS_PER_DAY`, `MAX_GEMINI_CALLS_PER_RUN` in `pull_meals.py` |
 | How many new items per Gemini call | `MAX_NEW_MEALS_PER_CALL` in `pull_meals.py` |
 | Run schedule | the `cron` line in `.github/workflows/pull_meals.yml` (GitHub cron is UTC) |
