@@ -785,10 +785,18 @@
       });
       allProducts = (data.meals || [])
         .filter(m => !allowed.size || allowed.has(m.restaurant))
-        .sort((a, b) =>
-          a.restaurant.localeCompare(b.restaurant) ||
-          getCategory(a).localeCompare(getCategory(b)) ||
-          a.name.localeCompare(b.name));
+        .sort(pickRequest
+          // Pick mode (opened from index.html with ?pick=1): A-Z by item name.
+          ? (a, b) =>
+              a.name.localeCompare(b.name) ||
+              a.restaurant.localeCompare(b.restaurant)
+          // Normal browsing: newest first (ISO timestamps sort correctly as text); meals
+          // pulled in the same batch share a timestamp, so they fall back to restaurant / type / name.
+          : (a, b) =>
+              (b._added_at || '').localeCompare(a._added_at || '') ||
+              a.restaurant.localeCompare(b.restaurant) ||
+              getCategory(a).localeCompare(getCategory(b)) ||
+              a.name.localeCompare(b.name));
       filtered = allProducts;
 
       statusEl.style.display = 'none';
