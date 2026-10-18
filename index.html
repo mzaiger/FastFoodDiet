@@ -1635,7 +1635,7 @@ function mealRow(slot, meal, canRegenerate, dayIndex){
   const thumb = `<div class="meal-thumb-link">${thumbImg}</div>`;
 
   const regenBtn = canRegenerate
-    ? `<button type="button" class="regen-btn" data-day="${dayIndex}" data-slot="${slot}" title="Swap this meal for another option">regen</button>`
+    ? `<button type="button" class="regen-btn" data-day="${dayIndex}" data-slot="${slot}" title="Swap this meal for another within 100 calories">regen</button>`
     : '';
   const pickBtn = `<button type="button" class="regen-btn pick-btn" data-day="${dayIndex}" data-slot="${slot}" title="Pick this meal by hand from the product list" aria-label="Select this meal by hand">select</button>`;
 
@@ -1755,6 +1755,19 @@ function poolsForCapInfo(capInfo){
   return computeActivePools(capInfo.maxPrice, capInfo.capActive, capInfo.healthyOnly, capInfo.vegetarianOnly);
 }
 
+// Regen keeps the swapped meal close to the one it replaces: a random pick from the
+// choices within REGEN_CALORIE_RANGE calories either way of the original. If nothing is
+// that close, it takes the closest one available instead of leaving the slot unchanged.
+const REGEN_CALORIE_RANGE = 100;
+function pickRegenChoice(choices, original){
+  const base = getMealCalories(original);
+  const close = choices.filter(m => Math.abs(getMealCalories(m) - base) <= REGEN_CALORIE_RANGE);
+  if(close.length) return close[Math.floor(Math.random() * close.length)];
+  const nearest = Math.min(...choices.map(m => Math.abs(getMealCalories(m) - base)));
+  const ties = choices.filter(m => Math.abs(getMealCalories(m) - base) === nearest);
+  return ties[Math.floor(Math.random() * ties.length)];
+}
+
 function regenerateMeal(dayIndex, slot){
   if(activeTab === 'current'){
     if(!currentWeek[dayIndex]) return;
@@ -1766,7 +1779,7 @@ function regenerateMeal(dayIndex, slot){
     let choices = sourcePool.filter(m => !used.includes(m));
     if(!choices.length) choices = sourcePool;
 
-    day.meals[slot] = choices[Math.floor(Math.random() * choices.length)];
+    day.meals[slot] = pickRegenChoice(choices, day.meals[slot]);
     day.total = Object.values(day.meals).reduce((s, m) => s + getMealCalories(m), 0);
     const low = currentTargetGlobal - TOLERANCE;
     const high = currentTargetGlobal + TOLERANCE;
@@ -1790,7 +1803,7 @@ function regenerateMeal(dayIndex, slot){
   let choices = sourcePool.filter(m => !usedNames.includes(m.PRODUCT_NAME || m.name));
   if(!choices.length) choices = sourcePool;
 
-  day.meals[slot] = compactMeal(choices[Math.floor(Math.random() * choices.length)]);
+  day.meals[slot] = compactMeal(pickRegenChoice(choices, day.meals[slot]));
   day.total = Object.values(day.meals).reduce((s, m) => s + getMealCalories(m), 0);
   const low = saved.target - TOLERANCE;
   const high = saved.target + TOLERANCE;

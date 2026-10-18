@@ -178,7 +178,7 @@ Fields that start with an underscore (`_added_at`, `_updated_at`, `_model`, `_im
   - With **Healthy** checked: 3 meals up to 2300 calories, 4 meals above 2300.
 - Breakfast comes from the breakfast category; lunch and dinner from the regular category.
 - **Filters:** *Max per meal ($)*, *Healthy* and *Vegetarian*. If a filter would leave too few meals, the plan falls back to the unfiltered pool and says so. Desserts (late night) are only affected by the price cap and the vegetarian filter.
-- **Select** opens `products.html` to hand-pick a meal for a slot; **regen** swaps in a random one.
+- **Select** opens `products.html` to hand-pick a meal for a slot; **regen** swaps in a random meal from the same pool within 100 calories either way of the one it replaces (if nothing is that close, the closest one; `REGEN_CALORIE_RANGE` in `index.html`).
 - Each meal has icon links, squeezed together: first the **restaurant's own website** (its favicon links to the official site from the table above), then **DoorDash, Uber Eats and Grubhub**, which search for the restaurant name. All icons are the sites' favicons, loaded from Google's favicon service.
 - Weeks can be saved as tabs. They live in your browser only.
 
