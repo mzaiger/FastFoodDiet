@@ -64506,18 +64506,26 @@
       "gemini-3.8-flash"
     ]
   },
-  "pending": [
-    "Little Caesar's",
-    "McDonald's",
-    "Olive Garden",
-    "Panera",
-    "Pizza Hut",
-    "Starbucks",
-    "Subway",
-    "Taco Bell",
-    "Texas Roadhouse",
-    "Wendy's"
-  ],
+"pending": [
+  "Cracker Barrel",
+  "Culver's",
+  "Denny's",
+  "Dunkin'",
+  "Firehouse Subs",
+  "Freddy's",
+  "Godfather's Pizza",
+  "Jimmy John's",
+  "McAlister's Deli",
+  "Outback Steakhouse",
+  "Panda Express",
+  "Papa John's",
+  "Papa Murphy's",
+  "Popeyes",
+  "Qdoba",
+  "Red Robin",
+  "Sonic Drive-In",
+  "Wingstop"
+],
   "allowed_restaurants": [
     "Applebee's",
     "Arby's",
