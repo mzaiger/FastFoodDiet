@@ -1,11 +1,6 @@
-name: Pull fast food meals (4x daily)
+name: Pull fast food meals (manual)
 
 on:
-  schedule:
-    # 4 times a day, every 6 hours (UTC). Each run makes up to 20 Gemini calls
-    # (Flash 3.8 -> 3.7 -> 3.6 -> 3.5, each with its own 20/day allowance),
-    # retries restaurants that failed earlier, and fills in pictures.
-    - cron: "17 3,9,15,21 * * *"
   workflow_dispatch:
     inputs:
       max_gemini_calls:
