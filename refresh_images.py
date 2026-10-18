@@ -33,9 +33,6 @@ Options:
   --restaurant "Olive Garden"   only that restaurant (handy for a quick test)
   --limit 25                    stop after this many meals
   --restart                     forget what was already refreshed and do them all again
-  --added-since 2026-10-18      only meals first pulled on or after this date (UTC); "today" works
-  --clear-missing               when no relevant picture is found, remove the old one instead of
-                                keeping it (the 4x-daily pull then retries those meals)
   --delay 3                     seconds between searches (plus 0-2s random); default 3
   --time-budget-minutes 100     stop (and save) after this long; default 60
   --output path/to/meals.json
@@ -44,7 +41,6 @@ Dependencies: pip install requests ddgs
 """
 
 import argparse
-from datetime import datetime, timezone
 import random
 import sys
 import time
@@ -66,8 +62,6 @@ def main():
     ap.add_argument("--restaurant", default="", help="Only this restaurant (exact name)")
     ap.add_argument("--limit", type=int, default=0, help="Stop after this many meals (0 = no limit)")
     ap.add_argument("--restart", action="store_true", help="Redo meals that were already refreshed")
-    ap.add_argument("--added-since", default="", help='Only meals added on/after this date (YYYY-MM-DD or "today", UTC)')
-    ap.add_argument("--clear-missing", action="store_true", help="Remove the old picture when no relevant one is found")
     ap.add_argument("--delay", type=float, default=DEFAULT_DELAY_SECONDS, help="Seconds between searches")
     ap.add_argument("--time-budget-minutes", type=float, default=pm.IMAGE_TIME_BUDGET_MINUTES)
     args = ap.parse_args()
@@ -84,12 +78,6 @@ def main():
 
     store = pm.load_store(args.output)
     scope = [m for m in store["meals"] if not restaurant or m["restaurant"] == restaurant]
-    since = args.added_since.strip()
-    if since:
-        if since.lower() == "today":
-            since = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-        scope = [m for m in scope if str(m.get("_added_at") or "")[:10] >= since]
-        pm.log(f"Only meals added on or after {since}: {len(scope)} meal(s).")
     if args.restart:
         for m in scope:
             m.pop("_image_refreshed", None)
@@ -108,7 +96,7 @@ def main():
         pm.log("Nothing to do -- every meal has already been refreshed (use --restart to redo them).")
         return
 
-    replaced = kept = added = cleared = done = 0
+    replaced = kept = added = done = 0
     strikes = 0
     stopped = False
     deadline = time.monotonic() + args.time_budget_minutes * 60
@@ -152,11 +140,6 @@ def main():
                     replaced += 1
                 else:
                     added += 1
-            elif args.clear_missing and had_picture:
-                meal["image_url"] = ""                       # a wrong picture is worse than none;
-                meal["image_full_url"] = ""                  # pull_meals.py retries meals with no picture
-                meal.pop("_image_source", None)
-                cleared += 1
             else:
                 kept += 1                                    # nothing found: keep the picture it had
             done += 1
@@ -169,7 +152,7 @@ def main():
 
     left = sum(1 for m in scope if not is_done(m))
     pm.log(f"Refresh finished: {done} meal(s) searched -- {replaced} picture(s) replaced, "
-           f"{added} added, {cleared} cleared, {kept} kept (nothing found). {left} meal(s) left for {label}.")
+           f"{added} added, {kept} kept (nothing found). {left} meal(s) left for {label}.")
     if left:
         pm.log("Run it again to continue where this left off.")
 
