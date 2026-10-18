@@ -68455,15 +68455,31 @@
       "gemini-3.5-flash"
     ]
   },
-  "pending": [
-    "Dunkin'",
-    "Papa Murphy's",
-    "Popeyes",
-    "Qdoba",
-    "Red Robin",
-    "Sonic Drive-In",
-    "Wingstop"
-  ],
+"pending": [
+  "Arby's",
+  "Buffalo Wild Wings",
+  "Chili's",
+  "Outback Steakhouse",
+  "Panda Express",
+  "Papa John's",
+  "Popeyes",
+  "Sonic Drive-In",
+  "Blaze Pizza",
+  "Charleys Cheesesteaks",
+  "Cracker Barrel",
+  "Culver's",
+  "Denny's",
+  "Dunkin'",
+  "Firehouse Subs",
+  "Freddy's",
+  "Godfather's Pizza",
+  "Jimmy John's",
+  "McAlister's Deli",
+  "Papa Murphy's",
+  "Qdoba",
+  "Red Robin",
+  "Wingstop"
+],
   "allowed_restaurants": [
     "Applebee's",
     "Arby's",
