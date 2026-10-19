@@ -985,8 +985,13 @@ function isVegetarianMeal(meal){
   return meal.vegetarian === true;
 }
 
+// Pizza is never healthy; tacos aren't either unless they're street-style / Fresco, or Chipotle's or Qdoba's.
 function isHealthyMeal(meal){
-  return meal.healthy === true;
+  if(meal.healthy !== true) return false;
+  const name = String(meal.PRODUCT_NAME || meal.name || '');
+  if(/\bpizzas?\b/i.test(name)) return false;
+  if(/\btacos?\b/i.test(name) && !(/\bstreet\b|\bfresco\b/i.test(name) || ['Chipotle', 'Qdoba'].includes(getMealBrand(meal)))) return false;
+  return true;
 }
 
 // Weeks the user has saved to cookies, plus which tab is showing.
@@ -1033,7 +1038,7 @@ function compactMeal(meal){
     servings: getMealServingsPerContainer(meal),
     restaurant: getMealBrand(meal),
     vegetarian: meal.vegetarian === true,
-    healthy: meal.healthy === true,
+    healthy: isHealthyMeal(meal),
     image: getMealImage(meal) || null,
     imageFull: meal.image_full_url || meal.imageFull || null
   };
@@ -1305,7 +1310,7 @@ function normalizeMeal(m){
     PRICE_CURRENT: m.price,
     servings_per_container: m.serving,
     vegetarian: m.vegetarian === true,
-    healthy: m.healthy === true,
+    healthy: isHealthyMeal({ healthy: m.healthy, name: m.name, restaurant: m.restaurant }),
     image_url: m.image_url || '',
     image_full_url: m.image_full_url || '',
     _added_at: m._added_at || '',
@@ -1367,7 +1372,8 @@ function renderRestaurantList(counts){
     const el = document.getElementById(id);
     if(el) el.textContent = restaurantInfo.length;
   });
-  list.innerHTML = restaurantInfo.map(name => {
+  const sorted = [...restaurantInfo].sort((a, b) => a.localeCompare(b, undefined, { sensitivity: 'base' }));
+  list.innerHTML = sorted.map(name => {
     const count = counts && counts[name] ? `<span class="rest-count">${counts[name]} meals</span>` : '';
     return `<li>${escHtml(name)}${count}</li>`;
   }).join('');

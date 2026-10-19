@@ -165,7 +165,7 @@ For each item give:
 - "price": typical U.S. menu price in dollars for that single item (not a combo meal unless the item IS a combo) -- a number such as 6.49. This is an estimate; prices vary by location.
 - "serving": a short description of what one serving is, e.g. "1 sandwich", "2 slices", "medium fries", "1 bowl (14 oz)"
 - "vegetarian": true only if the item as normally served has no meat, poultry or fish
-- "healthy": true only if a reasonable dietitian would call it one of the healthier choices on this menu -- for example grilled or lean protein, salads and veggie-forward bowls, oatmeal, fruit, or a lower-calorie item that is not deep-fried and not heavy on sugar or cheese. Desserts, shakes, fried items and heavy combo-style items are normally false.
+- "healthy": true only if a reasonable dietitian would call it one of the healthier choices on this menu -- for example grilled or lean protein, salads and veggie-forward bowls, oatmeal, fruit, or a lower-calorie item that is not deep-fried and not heavy on sugar or cheese. Desserts, shakes, fried items and heavy combo-style items are normally false. Pizza is never healthy (always false). Tacos are not healthy either (false), with one exception: street-style tacos (small soft tortillas with grilled protein, onion, cilantro and the like, as at Chipotle) can be healthy.
 
 SERVING RULES (follow exactly):
 - A taco sold on its own: "serving" must be exactly "1 taco", and "calories" and "price" are for that ONE taco. Orders or packs of several tacos (e.g. "3 tacos", "order of 3 tacos", "2 rolled tacos") keep their real serving text and the calories and price of the whole order.
@@ -245,6 +245,9 @@ def load_store(path):
         entry["site"] = r["site"]
         entry.setdefault("last_pulled", "")
     store["allowed_restaurants"] = RESTAURANT_NAMES
+    unhealthied = apply_healthy_rules_to_store(store)
+    if unhealthied:
+        log(f"Healthy rules: un-flagged {unhealthied} saved pizza/taco meal(s).")
     fixed = apply_serving_rules_to_store(store)
     if fixed:
         log(f"Serving rules: updated {fixed} saved meal(s) (single taco -> 3, single pizza slice -> 2).")
@@ -456,6 +459,31 @@ def apply_serving_rules_to_store(store):
     return sum(1 for m in store["meals"] if apply_serving_rules(m))
 
 
+_PIZZA_NOT_HEALTHY_RE = re.compile(r"\bpizzas?\b", re.I)
+_TACO_RE = re.compile(r"\btacos?\b", re.I)
+_STREET_TACO_RE = re.compile(r"\bstreet\b|\bfresco\b", re.I)   # street-style and Taco Bell Fresco tacos are fine
+HEALTHY_TACO_RESTAURANTS = {"Chipotle", "Qdoba"}    # their tacos are fine, so Gemini's healthy flag stands
+
+
+def apply_healthy_rules(meal):
+    """Pizza is never healthy. Tacos aren't either, except street-style / Fresco tacos (anything with
+    "street" or "fresco" in the name, or Chipotle's or Qdoba's). Returns True if the healthy flag was switched off."""
+    if not meal.get("healthy"):
+        return False
+    name, serving = meal.get("name", ""), str(meal.get("serving", ""))
+    not_healthy = bool(_PIZZA_NOT_HEALTHY_RE.search(name) or _PIZZA_NOT_HEALTHY_RE.search(serving))
+    if not not_healthy and _TACO_RE.search(name):
+        not_healthy = not (_STREET_TACO_RE.search(name) or meal.get("restaurant") in HEALTHY_TACO_RESTAURANTS)
+    if not_healthy:
+        meal["healthy"] = False
+    return not_healthy
+
+
+def apply_healthy_rules_to_store(store):
+    """Pass over meals already saved in meals.json (harmless to repeat)."""
+    return sum(1 for m in store["meals"] if apply_healthy_rules(m))
+
+
 def clean_meal(raw, restaurant):
     """Validates one Gemini item. Returns a meal dict or None."""
     if not isinstance(raw, dict):
@@ -490,6 +518,7 @@ def clean_meal(raw, restaurant):
         "image_full_url": "",
     }
     apply_serving_rules(meal)   # single taco -> 3 tacos, single pizza slice -> 2 slices
+    apply_healthy_rules(meal)   # no healthy pizza or (non-street) tacos
     return meal
 
 

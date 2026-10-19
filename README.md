@@ -102,7 +102,7 @@ The list lives in `RESTAURANTS` at the top of `pull_meals.py` and is copied into
 
 - `category`: `breakfast`, `regular` or `dessert` (desserts, slushes, shakes, malts, sweet blended drinks)
 - `calories`, `price`, `serving`
-- `vegetarian` and `healthy` (yes/no, set by Gemini; desserts are never healthy)
+- `vegetarian` and `healthy` (yes/no, set by Gemini; desserts and pizza are never healthy, and tacos aren't either unless they're street-style or Fresco, or from Chipotle or Qdoba)
 
 Beverages, dips, sauces and condiments are excluded, and any item with an unknown category or an out-of-range calorie/price value is dropped.
 
