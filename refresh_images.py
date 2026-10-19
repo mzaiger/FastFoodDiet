@@ -71,6 +71,7 @@ IMAGE_MAX_ATTEMPTS_PER_MEAL = 3    # runs in which nothing was found, then the m
 IMAGE_FALLBACK_TO_WEB = True
 
 DEFAULT_TIME_BUDGET_MINUTES = 60
+LOG_FIRST_URLS = 10        # print the first N pictures found so a bad pull is obvious right away
 SAVE_EVERY = 25            # write meals.json this often so an interrupted run keeps its progress
 DEFAULT_DELAY_SECONDS = 3.0
 JITTER_SECONDS = 2.0       # random extra pause so the searches aren't evenly spaced
@@ -195,6 +196,7 @@ def main():
         return
 
     found = not_found = done = 0
+    logged_urls = 0
     strikes = 0
     stopped = False
     deadline = time.monotonic() + args.time_budget_minutes * 60
@@ -234,6 +236,10 @@ def main():
                 meal["_image_source"] = source           # "quoted" or "web" (looser fallback)
                 meal["_updated_at"] = datetime.now(timezone.utc).isoformat()
                 found += 1
+                if logged_urls < LOG_FIRST_URLS:
+                    logged_urls += 1
+                    pm.log(f"  image {logged_urls}/{LOG_FIRST_URLS}: {meal['restaurant']} / {meal['name']} "
+                           f"[{source}] -> {thumb}")
             else:
                 not_found += 1                           # stays empty; tried again on a later run
             done += 1
