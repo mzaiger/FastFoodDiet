@@ -138,7 +138,7 @@
     margin:0 0 14px;
     padding:0;
     display:grid;
-    grid-template-columns:repeat(auto-fill, minmax(230px, 1fr));
+    grid-template-columns:repeat(5, minmax(0, 1fr));
     gap:8px;
   }
   .rest-list li{
@@ -151,6 +151,8 @@
     color:var(--ink);
   }
   .rest-list .rest-count{ float:right; font-size:12px; font-weight:600; color:var(--steel); }
+  @media (max-width:1000px){ .rest-list{ grid-template-columns:repeat(3, minmax(0, 1fr)); } }
+  @media (max-width:640px){ .rest-list{ grid-template-columns:repeat(2, minmax(0, 1fr)); } }
   .restaurants .rest-foot{ margin:0; font-size:12px; }
 
   .sub{
@@ -841,7 +843,7 @@
 
 <header>
   <h1>Lazy Man's Fast Food Diet</h1>
-  <p class="sub">Seven days of meals pulled only from <span id="rest-total-sub">43</span> national fast food chains — 3 to 4 meals a day depending on your calorie target, each day landing within 250 calories of goal. <a class="sub-link" href="#restaurants">See the restaurants</a></p>
+  <p class="sub">Seven days of meals pulled only from <span id="rest-total-sub">50</span> national fast food chains — 3 to 4 meals a day depending on your calorie target, each day landing within 250 calories of goal. <a class="sub-link" href="#restaurants">See the restaurants</a></p>
 
   <div class="controls-wrap">
   <div class="controls">
@@ -946,7 +948,7 @@
 
   <section class="restaurants" id="restaurants">
     <h2>Where the meals come from</h2>
-    <p>Every meal in this comes from one of these <span id="rest-total">43</span> restaurants &mdash; nothing else is ever pulled in.</p>
+    <p>Every meal in this comes from one of these <span id="rest-total">50</span> restaurants &mdash; nothing else is ever pulled in.</p>
     <ul class="rest-list" id="rest-list"></ul>
     <p class="rest-foot">Meal names, calories, prices and servings are estimated by Google Gemini Flash and refreshed several times a day, so the list keeps growing. Prices and menus differ by location.</p>
   </section>
@@ -1322,16 +1324,18 @@ function normalizeMeal(m){
 // this copy is only the fallback if it can't be loaded.
 let restaurantInfo = [
   "Applebee's", "Arby's", "Blaze Pizza", "Buffalo Wild Wings",
-  "Burger King", "Charleys Cheesesteaks", "Chick-fil-A", "Chili's",
-  "Chipotle", "Cracker Barrel", "Culver's", "Dairy Queen",
-  "Denny's", "Domino's", "Dunkin'", "Firehouse Subs",
-  "Five Guys", "Freddy's", "Godfather's Pizza", "IHOP",
-  "Jersey Mike's Subs", "Jimmy John's", "Kentucky Fried Chicken", "Little Caesar's",
-  "McAlister's Deli", "McDonald's", "Olive Garden", "Outback Steakhouse",
-  "Panda Express", "Panera", "Papa John's", "Papa Murphy's",
-  "Pizza Hut", "Popeyes", "Qdoba", "Red Robin",
-  "Sonic Drive-In", "Starbucks", "Subway", "Taco Bell",
-  "Texas Roadhouse", "Wendy's", "Wingstop"
+  "Burger King", "Charleys Cheesesteaks", "Cheddar's", "Chick-fil-A",
+  "Chili's", "Chipotle", "Cracker Barrel", "Culver's",
+  "Dairy Queen", "Denny's", "Domino's", "Dunkin'",
+  "Famous Dave's", "Firehouse Subs", "Five Guys", "Freddy's",
+  "Godfather's Pizza", "IHOP", "Jersey Mike's Subs", "Jimmy John's",
+  "Kentucky Fried Chicken", "Little Caesar's", "Long John Silver's", "McAlister's Deli",
+  "McDonald's", "Moe's Southwest Grill", "Noodles & Company", "Olive Garden",
+  "Outback Steakhouse", "Panda Express", "Panera", "Papa John's",
+  "Papa Murphy's", "Pizza Hut", "Popeyes", "Qdoba",
+  "Raising Cane's", "Red Robin", "Slim Chickens", "Sonic Drive-In",
+  "Starbucks", "Subway", "Taco Bell", "Texas Roadhouse",
+  "Wendy's", "Wingstop"
 ];
 
 // Each restaurant's official website (meals.json carries these too and wins when present).
@@ -1340,25 +1344,28 @@ let restaurantSites = {
   "Applebee's": "www.applebees.com", "Arby's": "www.arbys.com",
   "Blaze Pizza": "www.blazepizza.com", "Buffalo Wild Wings": "www.buffalowildwings.com",
   "Burger King": "www.bk.com", "Charleys Cheesesteaks": "www.charleys.com",
-  "Chick-fil-A": "www.chick-fil-a.com", "Chili's": "www.chilis.com",
-  "Chipotle": "www.chipotle.com", "Cracker Barrel": "www.crackerbarrel.com",
-  "Culver's": "www.culvers.com", "Dairy Queen": "www.dairyqueen.com",
-  "Denny's": "www.dennys.com", "Domino's": "www.dominos.com",
-  "Dunkin'": "www.dunkindonuts.com", "Firehouse Subs": "www.firehousesubs.com",
+  "Cheddar's": "www.cheddars.com", "Chick-fil-A": "www.chick-fil-a.com",
+  "Chili's": "www.chilis.com", "Chipotle": "www.chipotle.com",
+  "Cracker Barrel": "www.crackerbarrel.com", "Culver's": "www.culvers.com",
+  "Dairy Queen": "www.dairyqueen.com", "Denny's": "www.dennys.com",
+  "Domino's": "www.dominos.com", "Dunkin'": "www.dunkindonuts.com",
+  "Famous Dave's": "www.famousdaves.com", "Firehouse Subs": "www.firehousesubs.com",
   "Five Guys": "www.fiveguys.com", "Freddy's": "www.freddys.com",
   "Godfather's Pizza": "www.godfathers.com", "IHOP": "www.ihop.com",
   "Jersey Mike's Subs": "www.jerseymikes.com", "Jimmy John's": "www.jimmyjohns.com",
   "Kentucky Fried Chicken": "www.kfc.com", "Little Caesar's": "www.littlecaesars.com",
-  "McAlister's Deli": "www.mcalistersdeli.com", "McDonald's": "www.mcdonalds.com",
-  "Olive Garden": "www.olivegarden.com", "Outback Steakhouse": "www.outback.com",
-  "Panda Express": "www.pandaexpress.com", "Panera": "www.panerabread.com",
-  "Papa John's": "www.papajohns.com", "Papa Murphy's": "www.papamurphys.com",
-  "Pizza Hut": "www.pizzahut.com", "Popeyes": "www.popeyes.com",
-  "Qdoba": "www.qdoba.com", "Red Robin": "www.redrobin.com",
-  "Sonic Drive-In": "www.sonicdrivein.com", "Starbucks": "www.starbucks.com",
-  "Subway": "www.subway.com", "Taco Bell": "www.tacobell.com",
-  "Texas Roadhouse": "www.texasroadhouse.com", "Wendy's": "www.wendys.com",
-  "Wingstop": "www.wingstop.com"
+  "Long John Silver's": "www.ljsilvers.com", "McAlister's Deli": "www.mcalistersdeli.com",
+  "McDonald's": "www.mcdonalds.com", "Moe's Southwest Grill": "www.moes.com",
+  "Noodles & Company": "www.noodles.com", "Olive Garden": "www.olivegarden.com",
+  "Outback Steakhouse": "www.outback.com", "Panda Express": "www.pandaexpress.com",
+  "Panera": "www.panerabread.com", "Papa John's": "www.papajohns.com",
+  "Papa Murphy's": "www.papamurphys.com", "Pizza Hut": "www.pizzahut.com",
+  "Popeyes": "www.popeyes.com", "Qdoba": "www.qdoba.com",
+  "Raising Cane's": "www.raisingcanes.com", "Red Robin": "www.redrobin.com",
+  "Slim Chickens": "www.slimchickens.com", "Sonic Drive-In": "www.sonicdrivein.com",
+  "Starbucks": "www.starbucks.com", "Subway": "www.subway.com",
+  "Taco Bell": "www.tacobell.com", "Texas Roadhouse": "www.texasroadhouse.com",
+  "Wendy's": "www.wendys.com", "Wingstop": "www.wingstop.com"
 };
 
 function escHtml(str){

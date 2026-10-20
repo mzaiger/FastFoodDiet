@@ -1,6 +1,6 @@
 # Lazy Man's Fast Food Diet
 
-A static website that builds a 7-day meal plan, **only from 43 national fast food chains**, to hit a daily calorie target. Menu data (calories, price, serving, healthy/vegetarian flags) is gathered by Google Gemini, and pictures come from DuckDuckGo Images. It is a **two-step manual process**: you run two GitHub Actions by hand, first one to pull meals, then one to fill in their pictures (see "How to update the data").
+A static website that builds a 7-day meal plan, **only from 50 national fast food chains**, to hit a daily calorie target. Menu data (calories, price, serving, healthy/vegetarian flags) is gathered by Google Gemini, and pictures come from DuckDuckGo Images. It is a **two-step manual process**: you run two GitHub Actions by hand, first one to pull meals, then one to fill in their pictures (see "How to update the data").
 
 > All calories, prices and servings are **AI estimates**. Menus and prices vary by location, so double-check at the restaurant.
 
@@ -46,7 +46,7 @@ Nothing runs on a schedule. You start both Actions yourself.
 
 ## The restaurants
 
-Meals can only come from these 43 chains. The official site is where each restaurant's favicon link on the page goes.
+Meals can only come from these 50 chains. The official site is where each restaurant's favicon link on the page goes.
 
 | Restaurant | Official site |
 |---|---|
@@ -56,6 +56,7 @@ Meals can only come from these 43 chains. The official site is where each restau
 | Buffalo Wild Wings | [www.buffalowildwings.com](https://www.buffalowildwings.com/) |
 | Burger King | [www.bk.com](https://www.bk.com/) |
 | Charleys Cheesesteaks | [www.charleys.com](https://www.charleys.com/) |
+| Cheddar's | [www.cheddars.com](https://www.cheddars.com/) |
 | Chick-fil-A | [www.chick-fil-a.com](https://www.chick-fil-a.com/) |
 | Chili's | [www.chilis.com](https://www.chilis.com/) |
 | Chipotle | [www.chipotle.com](https://www.chipotle.com/) |
@@ -65,6 +66,7 @@ Meals can only come from these 43 chains. The official site is where each restau
 | Denny's | [www.dennys.com](https://www.dennys.com/) |
 | Domino's | [www.dominos.com](https://www.dominos.com/) |
 | Dunkin' | [www.dunkindonuts.com](https://www.dunkindonuts.com/) |
+| Famous Dave's | [www.famousdaves.com](https://www.famousdaves.com/) |
 | Firehouse Subs | [www.firehousesubs.com](https://www.firehousesubs.com/) |
 | Five Guys | [www.fiveguys.com](https://www.fiveguys.com/) |
 | Freddy's | [www.freddys.com](https://www.freddys.com/) |
@@ -74,8 +76,11 @@ Meals can only come from these 43 chains. The official site is where each restau
 | Jimmy John's | [www.jimmyjohns.com](https://www.jimmyjohns.com/) |
 | Kentucky Fried Chicken | [www.kfc.com](https://www.kfc.com/) |
 | Little Caesar's | [www.littlecaesars.com](https://www.littlecaesars.com/) |
+| Long John Silver's | [www.ljsilvers.com](https://www.ljsilvers.com/) |
 | McAlister's Deli | [www.mcalistersdeli.com](https://www.mcalistersdeli.com/) |
 | McDonald's | [www.mcdonalds.com](https://www.mcdonalds.com/) |
+| Moe's Southwest Grill | [www.moes.com](https://www.moes.com/) |
+| Noodles & Company | [www.noodles.com](https://www.noodles.com/) |
 | Olive Garden | [www.olivegarden.com](https://www.olivegarden.com/) |
 | Outback Steakhouse | [www.outback.com](https://www.outback.com/) |
 | Panda Express | [www.pandaexpress.com](https://www.pandaexpress.com/) |
@@ -85,7 +90,9 @@ Meals can only come from these 43 chains. The official site is where each restau
 | Pizza Hut | [www.pizzahut.com](https://www.pizzahut.com/) |
 | Popeyes | [www.popeyes.com](https://www.popeyes.com/) |
 | Qdoba | [www.qdoba.com](https://www.qdoba.com/) |
+| Raising Cane's | [www.raisingcanes.com](https://www.raisingcanes.com/) |
 | Red Robin | [www.redrobin.com](https://www.redrobin.com/) |
+| Slim Chickens | [www.slimchickens.com](https://www.slimchickens.com/) |
 | Sonic Drive-In | [www.sonicdrivein.com](https://www.sonicdrivein.com/) |
 | Starbucks | [www.starbucks.com](https://www.starbucks.com/) |
 | Subway | [www.subway.com](https://www.subway.com/) |

@@ -92544,6 +92544,34 @@
     "Wingstop": {
       "site": "www.wingstop.com",
       "last_pulled": "2026-10-19T10:16:54.116080+00:00"
+    },
+    "Cheddar's": {
+      "last_pulled": "",
+      "site": "www.cheddars.com"
+    },
+    "Famous Dave's": {
+      "last_pulled": "",
+      "site": "www.famousdaves.com"
+    },
+    "Long John Silver's": {
+      "last_pulled": "",
+      "site": "www.ljsilvers.com"
+    },
+    "Moe's Southwest Grill": {
+      "last_pulled": "",
+      "site": "www.moes.com"
+    },
+    "Noodles & Company": {
+      "last_pulled": "",
+      "site": "www.noodles.com"
+    },
+    "Raising Cane's": {
+      "last_pulled": "",
+      "site": "www.raisingcanes.com"
+    },
+    "Slim Chickens": {
+      "last_pulled": "",
+      "site": "www.slimchickens.com"
     }
   },
   "quota": {
@@ -92560,6 +92588,13 @@
     ]
   },
   "pending": [
+    "Cheddar's",
+    "Famous Dave's",
+    "Long John Silver's",
+    "Moe's Southwest Grill",
+    "Noodles & Company",
+    "Raising Cane's",
+    "Slim Chickens",
     "Little Caesar's",
     "McDonald's",
     "Outback Steakhouse",
@@ -92586,6 +92621,7 @@
     "Buffalo Wild Wings",
     "Burger King",
     "Charleys Cheesesteaks",
+    "Cheddar's",
     "Chick-fil-A",
     "Chili's",
     "Chipotle",
@@ -92595,6 +92631,7 @@
     "Denny's",
     "Domino's",
     "Dunkin'",
+    "Famous Dave's",
     "Firehouse Subs",
     "Five Guys",
     "Freddy's",
@@ -92604,8 +92641,11 @@
     "Jimmy John's",
     "Kentucky Fried Chicken",
     "Little Caesar's",
+    "Long John Silver's",
     "McAlister's Deli",
     "McDonald's",
+    "Moe's Southwest Grill",
+    "Noodles & Company",
     "Olive Garden",
     "Outback Steakhouse",
     "Panda Express",
@@ -92615,7 +92655,9 @@
     "Pizza Hut",
     "Popeyes",
     "Qdoba",
+    "Raising Cane's",
     "Red Robin",
+    "Slim Chickens",
     "Sonic Drive-In",
     "Starbucks",
     "Subway",
