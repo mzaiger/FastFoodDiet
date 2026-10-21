@@ -48,6 +48,7 @@ Dependencies: pip install requests ddgs
 """
 
 import argparse
+import os
 import random
 import re
 import sys
@@ -71,6 +72,9 @@ except ImportError:  # pragma: no cover
 # shows by hand; it fails with "malformed headers" on GitHub's runners). Override for one
 # run with --engine.
 IMAGE_ENGINE = "bing"
+
+# meals.json next to this script (used if pull_meals.py doesn't define OUTPUT_PATH)
+OUTPUT_PATH = getattr(pm, "OUTPUT_PATH", os.path.join(os.path.dirname(os.path.abspath(__file__)), "meals.json"))
 
 IMAGE_SEARCH_DELAY_SECONDS = 1.5   # pause between the searches made for the same meal
 IMAGE_MAX_ATTEMPTS_PER_MEAL = 3    # runs in which nothing was found, then the meal is skipped
@@ -164,7 +168,7 @@ def find_image(restaurant, name, fallback=None, engine=None):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--output", default=pm.OUTPUT_PATH, help="Path to meals.json")
+    ap.add_argument("--output", default=OUTPUT_PATH, help="Path to meals.json")
     ap.add_argument("--restaurant", default="", help="Only this restaurant (exact name)")
     ap.add_argument("--limit", type=int, default=0, help="Stop after this many meals (0 = no limit)")
     ap.add_argument("--engine", default=IMAGE_ENGINE, help=f"ddgs image engine (default {IMAGE_ENGINE}); e.g. duckduckgo or bing")
