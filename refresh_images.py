@@ -48,13 +48,13 @@ Dependencies: pip install requests ddgs
 """
 
 import argparse
+import json
+import os
 import random
 import re
 import sys
 import time
 from datetime import datetime, timezone
-
-import pull_meals as pm
 
 try:  # the package was renamed from duckduckgo_search to ddgs
     from ddgs import DDGS
@@ -67,9 +67,40 @@ except ImportError:  # pragma: no cover
 # Which ddgs image engine to use. ddgs's default ("auto") shuffles its engines and picks one
 # at random for every search, so the same query can return different pictures from one meal
 # to the next (that is where the odd photos came from). Pinning it makes every search
-# come from the same place. Options: "duckduckgo" (what duckduckgo.com/images shows when
-# you type the search by hand) or "bing". Override for one run with --engine.
-IMAGE_ENGINE = "duckduckgo"
+# come from the same place. Options: "bing" or "duckduckgo" (what duckduckgo.com/images
+# shows by hand; it fails with "malformed headers" on GitHub's runners). Override for one
+# run with --engine.
+IMAGE_ENGINE = "bing"
+
+# This script is standalone: it does not import pull_meals.py, so the two files can't
+# get out of step. It only reads and writes meals.json (next to this script).
+OUTPUT_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "meals.json")
+
+
+def log(msg):
+    print(f"[{datetime.now().strftime('%H:%M:%S')}] {msg}", file=sys.stderr, flush=True)
+
+
+def load_store(path):
+    if not os.path.exists(path):
+        raise SystemExit(f"{path} not found -- run the meal pull first.")
+    try:
+        with open(path, encoding="utf-8") as f:
+            store = json.load(f)
+    except (OSError, json.JSONDecodeError) as e:
+        raise SystemExit(f"Could not read {path}: {e}")
+    if not isinstance(store, dict) or not isinstance(store.get("meals"), list):
+        raise SystemExit(f"{path} should be a JSON object with a \"meals\" list; refusing to touch it.")
+    return store
+
+
+def save_store(path, store):
+    store["updated_at"] = datetime.now(timezone.utc).isoformat()
+    tmp = path + ".tmp"
+    with open(tmp, "w", encoding="utf-8") as f:
+        json.dump(store, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+    os.replace(tmp, path)
 
 IMAGE_SEARCH_DELAY_SECONDS = 1.5   # pause between the searches made for the same meal
 IMAGE_MAX_ATTEMPTS_PER_MEAL = 3    # runs in which nothing was found, then the meal is skipped
@@ -163,7 +194,7 @@ def find_image(restaurant, name, fallback=None, engine=None):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--output", default=pm.OUTPUT_PATH, help="Path to meals.json")
+    ap.add_argument("--output", default=OUTPUT_PATH, help="Path to meals.json")
     ap.add_argument("--restaurant", default="", help="Only this restaurant (exact name)")
     ap.add_argument("--limit", type=int, default=0, help="Stop after this many meals (0 = no limit)")
     ap.add_argument("--engine", default=IMAGE_ENGINE, help=f"ddgs image engine (default {IMAGE_ENGINE}); e.g. duckduckgo or bing")
@@ -176,14 +207,15 @@ def main():
         raise SystemExit("ddgs isn't installed (pip install ddgs).")
     engine = args.engine.strip().lower() or IMAGE_ENGINE
 
+    store = load_store(args.output)
     restaurant = args.restaurant.strip()
     if restaurant:
-        match = [n for n in pm.RESTAURANT_NAMES if n.lower() == restaurant.lower()]
+        restaurant_names = sorted({m["restaurant"] for m in store["meals"]})
+        match = [n for n in restaurant_names if n.lower() == restaurant.lower()]
         if not match:
-            raise SystemExit(f"Unknown restaurant {restaurant!r}. Choose one of: {', '.join(pm.RESTAURANT_NAMES)}")
+            raise SystemExit(f"Unknown restaurant {restaurant!r}. Choose one of: {', '.join(restaurant_names)}")
         restaurant = match[0]
 
-    store = pm.load_store(args.output)
     scope = [m for m in store["meals"] if not restaurant or m["restaurant"] == restaurant]
     if args.retry_failed:
         for m in scope:
@@ -200,10 +232,10 @@ def main():
         todo = todo[: args.limit]
 
     label = restaurant or "all restaurants"
-    pm.log(f"Image engine: {engine} (ddgs backend={engine!r}; ddgs would otherwise pick one at random)")
-    pm.log(f"Images: {empty_total} meal(s) with an empty picture for {label}; {len(todo)} to search this run.")
+    log(f"Image engine: {engine} (ddgs backend={engine!r}; ddgs would otherwise pick one at random)")
+    log(f"Images: {empty_total} meal(s) with an empty picture for {label}; {len(todo)} to search this run.")
     if not todo:
-        pm.log("Nothing to do -- no empty pictures (or the rest used up their attempts; use --retry-failed).")
+        log("Nothing to do -- no empty pictures (or the rest used up their attempts; use --retry-failed).")
         return
 
     found = not_found = done = 0
@@ -214,7 +246,7 @@ def main():
     try:
         for meal in todo:
             if time.monotonic() > deadline:
-                pm.log(f"  time budget ({args.time_budget_minutes:g} min) reached -- run it again to continue.")
+                log(f"  time budget ({args.time_budget_minutes:g} min) reached -- run it again to continue.")
                 break
 
             while True:                                  # retry this same meal after a cooldown
@@ -224,19 +256,19 @@ def main():
                     break
                 except Exception as e:  # noqa: BLE001 -- DDG throws many error types when it throttles
                     strikes += 1
-                    pm.log(f"  search failed ({strikes}/{MAX_STRIKES}) for {meal['restaurant']} / {meal['name']}: {e}")
+                    log(f"  search failed ({strikes}/{MAX_STRIKES}) for {meal['restaurant']} / {meal['name']}: {e}")
                     if strikes >= MAX_STRIKES:
                         stopped = True
                         fails = meal["_image_refresh_failures"] = meal.get("_image_refresh_failures", 0) + 1
                         if fails >= GIVE_UP_AFTER_STOPPED_RUNS:
                             meal["_image_attempts"] = IMAGE_MAX_ATTEMPTS_PER_MEAL   # skip this one from now on
-                            pm.log(f"  giving up on {meal['restaurant']} / {meal['name']} after {fails} stopped runs.")
+                            log(f"  giving up on {meal['restaurant']} / {meal['name']} after {fails} stopped runs.")
                         break
                     cooldown = min(COOLDOWN_BASE_SECONDS * 2 ** (strikes - 1), COOLDOWN_MAX_SECONDS)
-                    pm.log(f"  DuckDuckGo is throttling -- cooling down {cooldown}s, then retrying the same meal.")
+                    log(f"  DuckDuckGo is throttling -- cooling down {cooldown}s, then retrying the same meal.")
                     time.sleep(cooldown)
             if stopped:
-                pm.log("  too many failures in a row -- stopping and saving; run it again later to continue.")
+                log("  too many failures in a row -- stopping and saving; run it again later to continue.")
                 break
 
             meal["_image_attempts"] = meal.get("_image_attempts", 0) + 1
@@ -250,23 +282,23 @@ def main():
                 found += 1
                 if logged_urls < LOG_FIRST_URLS:
                     logged_urls += 1
-                    pm.log(f"  image {logged_urls}: {meal['restaurant']} / {meal['name']} "
+                    log(f"  image {logged_urls}: {meal['restaurant']} / {meal['name']} "
                            f"[engine={engine} {source}] {query} -> {thumb}")
             else:
                 not_found += 1                           # stays empty; tried again on a later run
             done += 1
             if done % SAVE_EVERY == 0:
-                pm.log(f"  ...{done} searched ({found} pictures found, {not_found} not found)")
-                pm.save_store(args.output, store)
+                log(f"  ...{done} searched ({found} pictures found, {not_found} not found)")
+                save_store(args.output, store)
             time.sleep(args.delay + random.uniform(0, JITTER_SECONDS))
     finally:
-        pm.save_store(args.output, store)
+        save_store(args.output, store)
 
     left = sum(1 for m in scope if not m.get("image_url"))
-    pm.log(f"Images finished: {done} meal(s) searched -- {found} picture(s) added, "
+    log(f"Images finished: {done} meal(s) searched -- {found} picture(s) added, "
            f"{not_found} not found. {left} meal(s) still have an empty picture for {label}.")
     if left:
-        pm.log("Run it again to continue where this left off.")
+        log("Run it again to continue where this left off.")
 
 
 if __name__ == "__main__":
