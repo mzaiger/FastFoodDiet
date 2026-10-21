@@ -15,7 +15,8 @@ search box:
 
     Olive Garden / Fettuccine Alfredo  ->  "Olive Garden" "Fettuccine Alfredo"
 
-and stores the first https result. If that finds nothing it tries the same search
+and stores the best-scoring https result (candidates are judged on their title/source, so
+unrelated and off-topic pictures are rejected rather than just taking the first hit). If that finds nothing it tries the same search
 without any "(...)" in the item name (e.g. "Chicken Taco" for "Chicken Taco (Soft
 Flour)"), and finally one looser search that keeps only the restaurant in quotes
 (IMAGE_FALLBACK_TO_WEB). If there is still nothing the meal stays empty.
@@ -117,34 +118,77 @@ def _is_blocked(res):
     return any((w in words) if " " not in w else (w in text) for w in BLOCKED_WORDS)
 
 
-def _matches_restaurant(res, restaurant):
-    """True when the restaurant's name shows up in the title, page URL or image URL."""
-    squash = lambda t: re.sub(r"[^a-z0-9]", "", str(t).lower())
-    hay = squash(" ".join(str(res.get(k) or "") for k in ("title", "url", "image", "source")))
-    return squash(restaurant) in hay
+_TITLE_STOP = {"the", "a", "an", "of", "and", "vs", "v", "in", "on", "at", "to", "for", "with",
+               "is", "are", "by", "from", "new", "news", "photo", "image", "pictures", "picture",
+               "official", "live"}
+_JUNK_WORDS = ("logo", "icon", "clipart", "clip art", "vector", "wallpaper", "template", "mockup")
+_WATERMARK_HOSTS = ("alamy.", "shutterstock.", "gettyimages.", "dreamstime.", "istockphoto.",
+                    "depositphotos.", "123rf.", "pinterest.")
 
 
-def _first_https_image(query, restaurant=None, require_restaurant=False):
-    """One DuckDuckGo image search. Returns (thumbnail_url, full_url) or (None, None).
-    SafeSearch is strict, blocked words are skipped, and (for the loose fallback search)
-    the result must actually mention the restaurant."""
+def _tokens(text):
+    return {t for t in re.findall(r"[a-z0-9]+", (text or "").lower())
+            if len(t) > 1 and t not in _TITLE_STOP}
+
+
+def pick_best_image(results, restaurant, name):
+    """Chooses the most relevant of the search candidates instead of taking the first one
+    (same scoring as the Trending Topics image finder). Each candidate's own title / source
+    is checked against the item name (weighted most) and the restaurant, decent-sized,
+    normal-shaped pictures are preferred, and logos / clip art / stock-photo watermarks are
+    marked down. A candidate must mention the restaurant, and blocked words are skipped.
+    Returns (thumbnail, full) or (None, None)."""
+    item_t = _tokens(re.sub(r"\s*\([^)]*\)", "", name) or name)
+    rest_t = _tokens(restaurant)
+    best, best_score = None, -1e9
+    for idx, r in enumerate(results or []):
+        if _is_blocked(r):
+            continue
+        thumb = (r.get("thumbnail") or "").strip()
+        full = (r.get("image") or "").strip()
+        # https only: an http image would be blocked on an https site.
+        if not (thumb.startswith("https://") or full.startswith("https://")):
+            continue
+        url = full
+        text = f"{r.get('title') or ''} {r.get('source') or ''} {r.get('url') or ''} {url}"
+        title_t = _tokens(text)
+        item_cov = len(item_t & title_t) / max(1, len(item_t))
+        rest_cov = len(rest_t & title_t) / max(1, len(rest_t))
+        if rest_cov == 0:
+            continue                                  # not even about this restaurant
+        score = 4.0 * item_cov + 2.0 * rest_cov
+        w, h = r.get("width"), r.get("height")
+        if isinstance(w, (int, float)) and isinstance(h, (int, float)) and w > 0 and h > 0:
+            if min(w, h) < 200:
+                score -= 3.0
+            elif w >= 500:
+                score += 0.5
+            score += 0.5 if 0.6 <= w / h <= 2.4 else -1.0
+        low = text.lower()
+        if any(j in low for j in _JUNK_WORDS) and not any(j in name.lower() for j in _JUNK_WORDS):
+            score -= 1.5
+        if url.lower().split("?")[0].endswith(".svg"):
+            score -= 3.0
+        if any(hst in url.lower() for hst in _WATERMARK_HOSTS):
+            score -= 0.5
+        score -= idx * 0.05                           # the search engine's own order breaks ties
+        if score > best_score:
+            best, best_score = (thumb, full), score
+    if not best:
+        return None, None
+    thumb, full = best
+    return (thumb if thumb.startswith("https://") else full,
+            full if full.startswith("https://") else "")
+
+
+def _first_https_image(query, restaurant, name):
+    """One DuckDuckGo image search; returns the best (thumbnail_url, full_url) or (None, None)."""
     try:
-        results = _client().images(query, max_results=15, region=REGION, safesearch=SAFESEARCH)
+        results = list(_client().images(query, max_results=12, region=REGION, safesearch=SAFESEARCH))
     except Exception:
         _client(reset=True)
         raise
-    for res in results or []:
-        if _is_blocked(res):
-            continue
-        if require_restaurant and restaurant and not _matches_restaurant(res, restaurant):
-            continue
-        thumb = (res.get("thumbnail") or "").strip()
-        full = (res.get("image") or "").strip()
-        # https only: an http image would be blocked on an https site.
-        if thumb.startswith("https://") or full.startswith("https://"):
-            return (thumb if thumb.startswith("https://") else full,
-                    full if full.startswith("https://") else "")
-    return None, None
+    return pick_best_image(results, restaurant, name)
 
 
 def _quote(text):
@@ -176,7 +220,7 @@ def find_image(restaurant, name, fallback=None):
     for i, (query, source) in enumerate(image_queries(restaurant, name, fallback)):
         if i:
             time.sleep(IMAGE_SEARCH_DELAY_SECONDS)       # pause between searches for the same meal
-        thumb, full = _first_https_image(query, restaurant, require_restaurant=(source == "web"))
+        thumb, full = _first_https_image(query, restaurant, name)
         if thumb:
             return thumb, full, source
     return None, None, None
