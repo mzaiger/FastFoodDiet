@@ -92380,11 +92380,14 @@
       "serving": "1 platter (4 tenders)",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.01WgTVd9QqWiJginYPXJ3AHaHa&pid=15.1",
+      "image_full_url": "https://hotmessrecipes.com/wp-content/uploads/2026/03/crispy-cheddar-chicken-tenders-melted-cheese-cross-section.jpeg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:20:25.799001+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92395,11 +92398,14 @@
       "serving": "1 pot pie",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.HMdC1Rj5F3S5oV33hOj6pgHaHa&pid=15.1",
+      "image_full_url": "https://foodmacronutrient.com/wp-content/uploads/2024/11/pinteresto_43490_Cheddar_Chicken_Potpie_Amateur_photo_from_Redd_c722edf2-f2cc-4a42-9cd9-5ee1c5fef085.png",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:20:30.046529+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92410,11 +92416,14 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.explicit.bing.net/th?id=OIP.PS3dnmyF1GPcFPOT4eir9wHaE0&pid=15.1",
+      "image_full_url": "https://cheddarsmenuprices.com/wp-content/uploads/2023/05/Cheddars-4.png",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:20:34.295333+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92425,11 +92434,14 @@
       "serving": "1 entree",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.in9BLwX1dzauM5iYyQ-_3AEsDb&pid=15.1",
+      "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2025/10/cheddars-scratch-kitchen-country-fried-steak.jpg?quality=82&strip=all&w=640",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:20:38.258884+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92440,11 +92452,14 @@
       "serving": "1 bowl",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.KSJYua81M3EkZlDUzeTnhwHaEl&pid=15.1",
+      "image_full_url": "https://media.cheddars.com/en_us/images/product/new-orleans-pasta.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:20:43.062003+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92455,11 +92470,14 @@
       "serving": "1 half rack",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.0-dLwg5y5EOD7UHfwwQutwAAAA&pid=15.1",
       "image_full_url": "",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:20:48.255001+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92470,11 +92488,14 @@
       "serving": "1 full rack",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.z4Dfjoc-PSeGfqPlT5P7GwHaFj&pid=15.1",
+      "image_full_url": "https://www.familysavvy.com/wp-content/uploads/2020/04/full-rack-baby-back-ribs-scaled.jpeg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:20:53.327586+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92485,11 +92506,14 @@
       "serving": "1 entree",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.KM8UOLZsuqwfqJSgGAJfbQHaLF&pid=15.1",
+      "image_full_url": "https://i1.wp.com/shutterandmint.com/wp-content/uploads/2023/01/Cheddars-Dijon-Mushroom-Chicken-11-scaled.jpg?fit=684,1024&ssl=1",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:20:57.080801+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92500,11 +92524,14 @@
       "serving": "1 entree",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.LrKlxL7vCgL8KWRuFp2p8gHaJ4&pid=15.1",
+      "image_full_url": "https://krystelscooking.com/wp-content/uploads/2024/03/keywest1.jpeg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:00.893550+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92515,11 +92542,14 @@
       "serving": "1 platter",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.ix6NxOgQFR5u9yn7k0d3iwHaLH&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/736x/eb/ed/d8/ebedd8db40b149201c7fcb07796acab1.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:04.583628+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92530,11 +92560,14 @@
       "serving": "1 fillet",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.explicit.bing.net/th?id=OIP._8ug_wR9AHTqZ4CnwP1q5AHaEm&pid=15.1",
+      "image_full_url": "https://theatlasheart.b-cdn.net/wp-content/uploads/2020/05/tiekssizing-7-scaled-e1589390421795.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:09.547229+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92545,11 +92578,14 @@
       "serving": "1 fillet",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.o3gYj-Ndqe9pZyCo4K96pgHaEs&pid=15.1",
+      "image_full_url": "https://thebrandhopper.com/wp-content/uploads/2023/05/wallgreens-title-scaled.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:13.713379+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92560,11 +92596,14 @@
       "serving": "1 platter",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.xB7k7MpeBMA7LW05mhWQDQHaNK&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/736x/24/18/06/241806e91cde8fcbe0298cc7726bcf69.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:17.109794+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92575,11 +92614,14 @@
       "serving": "1 platter",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.PUJQ-Cy-gm-5FqGrwBteygHaLg&pid=15.1",
+      "image_full_url": "https://c8.alamy.com/comp/2F3ENNW/leandro-paredes-of-psg-during-the-french-championship-ligue-1-football-match-between-paris-saint-germain-and-fc-nantes-on-march-14-2021-at-parc-des-princes-stadium-in-paris-france-photo-jean-catuffe-dppi-2F3ENNW.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:20.570939+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92590,11 +92632,14 @@
       "serving": "1 steak",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.ILa79OMzCxqIrSwn4ipPaQAAAA&pid=15.1",
       "image_full_url": "",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:25.516426+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92605,11 +92650,14 @@
       "serving": "1 steak",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.XPTKPcmZapLkG2tzG4cX9QHaEK&pid=15.1",
+      "image_full_url": "https://www.mashed.com/img/gallery/popular-cheddars-menu-items-ranked-worst-to-best/19-top-sirloin-steak-1732251300.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:29.524049+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92620,11 +92668,14 @@
       "serving": "1 steak",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.vV-_Ga80e_ZWtAG1Cu9legHaE7&pid=15.1",
+      "image_full_url": "https://media.cheddars.com/images/site/pages/specials/csk-14oz-bone-in-ribeye-1104x735.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:33.021346+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92635,11 +92686,14 @@
       "serving": "1 burger",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.r_tdLNnbcRnKOTDcpnPW3QHaFc&pid=15.1",
+      "image_full_url": "https://cheddarsmenuprices.com/wp-content/uploads/2023/05/Cheddars-34.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:36.929705+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92650,11 +92704,14 @@
       "serving": "1 burger",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.GM9SyTXd0gW8SOURJa6vnQHaD3&pid=15.1",
+      "image_full_url": "https://mms.businesswire.com/media/20210415005024/en/792654/23/LoginVSI_logo_RGB_primary_110419.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:40.324578+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92665,11 +92722,14 @@
       "serving": "1 burger",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.aUZbZCOY0l7cOpCSMdY2dgHaJ4&pid=15.1",
+      "image_full_url": "https://cdn.shopify.com/s/files/1/1089/5480/files/Xcoser_2025_Doom_The_Dark_Ages_Doom_Guy_Helmet_Resin_Game_Replica_Cosplay_Props_15.jpg?v=1749024297",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:43.758808+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92680,11 +92740,14 @@
       "serving": "1 wrap",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.0VLe6QaWnRnFHp5sGKSnMAHaEO&pid=15.1",
+      "image_full_url": "https://www.menusprices.com/wp-content/uploads/2019/03/Buffalo-Chicken-Wrapper.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:48.435183+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92695,11 +92758,14 @@
       "serving": "1 salad",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.JSmGw1Dhc2Y5dNUfSvVTqwHaEe&pid=15.1",
+      "image_full_url": "https://cheddarsmenu.com/wp-content/uploads/2024/08/GRILLED-CHICKEN-PECAN-SALAD.webp",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:52.196086+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92710,11 +92776,14 @@
       "serving": "1 salad",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.ynch8ReYDBMYf4IYGIryeQAAAA&pid=15.1",
+      "image_full_url": "https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/Melanie_Martinez_-_Portals.png/250px-Melanie_Martinez_-_Portals.png",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:55.812827+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92725,11 +92794,14 @@
       "serving": "1 bowl",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.PxCpjDBdTsJHiP74W0tbLQHaHa&pid=15.1",
+      "image_full_url": "https://lyndyskitchen.com/wp-content/uploads/2025/08/pakoblog_Cheesy_Baked_Potato_Soup_angle_shot_kitchen_background_b2170499-e14a-40c4-b3ad-d522223c16f3.webp",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:21:59.942671+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92740,11 +92812,14 @@
       "serving": "1 cup",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.nnYV5sOFZhAHwP4HH0cwXAHaEc&pid=15.1",
+      "image_full_url": "https://static.octoparse.com/en/20251230144948331.png",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:22:04.314645+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92755,11 +92830,14 @@
       "serving": "3 croissants",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.explicit.bing.net/th?id=OIP.hW8rzPKJuO97nfwkuvFapwAAAA&pid=15.1",
+      "image_full_url": "https://media.gettyimages.com/id/2244090121/photo/varietys-2025-power-of-women.jpg?s=594x594&w=gi&k=20&c=8Z8TEyIuuVQHgPXxk8OGbMRqmbOeL4ioKEAbvCasr4M=",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:22:08.105994+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92770,11 +92848,14 @@
       "serving": "1 order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.dd9U69LsTx_vTJM19tK0RQHaEl&pid=15.1",
+      "image_full_url": "https://media.cheddars.com/en_us/images/marketing/Onion_Rings_071524.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:22:13.236383+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92785,11 +92866,14 @@
       "serving": "1 order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.D_-ShMYbX_fYowNujYyWggHaEO&pid=15.1",
+      "image_full_url": "https://www.wikidoc.org/images/1/18/Thylakoid_membrane.png",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:22:16.812438+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92800,11 +92884,14 @@
       "serving": "1 order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.d8xg8xgEfTTeypm4L0pWlwHaE2&pid=15.1",
+      "image_full_url": "https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2023/01/open-library.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:22:21.169518+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92815,11 +92902,14 @@
       "serving": "1 salad",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.6jzSplC39XWmHcmbKTDT6AHaEU&pid=15.1",
       "image_full_url": "",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:22:25.574587+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92830,11 +92920,14 @@
       "serving": "1 salad",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.FjUNRmB11S3kqt56E4a8OAHaE8&pid=15.1",
+      "image_full_url": "https://www.thefoodhussy.com/wp-content/uploads/2025/08/Cheddars-Chicken-Caesar-Pasta-Salad-7.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:22:30.304892+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92845,11 +92938,14 @@
       "serving": "1 side",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.v8kMMAq8rU-u6G5bjtNw_QHaHf&pid=15.1",
+      "image_full_url": "https://i5.walmartimages.com/seo/2-pack-Idahoan-Cheddar-Sour-Cream-Mashed-Potatoes-4-oz_1f9edb9f-3b6c-400a-9b8c-e4a388284a4d.083955c12e1500210a205fe9dc44a4ac.jpeg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:22:34.687194+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92860,11 +92956,14 @@
       "serving": "1 potato",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.dos-Zey24dMB08YThZm4IgHaHa&pid=15.1",
+      "image_full_url": "https://ricoaghrum.com/cdn-cgi/image/fit=contain,width=768,quality=80,format=auto/assets/images/1768423509504-9ji87qw1.webp",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:22:37.973324+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92875,11 +92974,14 @@
       "serving": "1 side",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.dR1L06awwu-1gUkMCODJsAAAAA&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/200x150/2b/29/52/2b29522fd6e17962c16363188567d6b6.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:22:42.630258+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92890,11 +92992,14 @@
       "serving": "1 side",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.ViE2tTZEa5M5UdMP90twOQHaRd&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/736x/ad/5c/bc/ad5cbcde10560a952b27de67859f88b6.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:22:45.981854+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92905,11 +93010,14 @@
       "serving": "1 side",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.d85ot0e6fr--0UBDAIRbhgHaEK&pid=15.1",
+      "image_full_url": "https://www.mashed.com/img/gallery/cheddars-sides-ranked-worst-to-best/buttered-off-the-cob-corn-1704820809.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:22:49.653411+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92920,11 +93028,14 @@
       "serving": "1 side",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.explicit.bing.net/th?id=OIP.02eA2o33qRTft5yPIqj4dQHaE8&pid=15.1",
+      "image_full_url": "https://tasteofrecipes.com/wp-content/uploads/2022/11/AdobeStock_391626033-scaled.jpeg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:22:52.907805+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92935,11 +93046,14 @@
       "serving": "1 side",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.ceUcMbMZc_pt7yeB1YRoHwHaGb&pid=15.1",
+      "image_full_url": "https://i0.wp.com/splashofketo.com/wp-content/uploads/2023/05/cheddar-bacon-ranch-coleslaw1.jpg?fit=1024,890&ssl=1",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:22:58.087217+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92950,11 +93064,14 @@
       "serving": "1 side",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.sRHnbmjZ1VuG2cSs1u_vpwHaGa&pid=15.1",
+      "image_full_url": "https://www.shutterstock.com/image-vector/winegrowing-areas-france-600nw-154701248.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:23:03.018797+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92965,11 +93082,14 @@
       "serving": "1 side",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.O8zPrscrSwK9Af1Rq1wu3wHaHa&pid=15.1",
+      "image_full_url": "https://is3-ssl.mzstatic.com/image/thumb/Purple128/v4/8e/03/8c/8e038ce4-cea2-a585-052f-ada5a1ce4668/source/1280x1280bb.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:23:07.176427+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92980,11 +93100,14 @@
       "serving": "1 side",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.NMyvfZ5bjsduLiGFWe-XAgHaK6&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/originals/b1/b2/1c/b1b21c4acf74bb1720ae0733ba6a6f8a.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:23:11.807207+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -92995,11 +93118,14 @@
       "serving": "1 sundae",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.XejknsrOlQ6AFxjtN_goywHaEl&pid=15.1",
+      "image_full_url": "https://media.cheddars.com/en_us/images/product/menu-hot-fudge-cake-sundae-1103.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:23:17.187465+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -93010,11 +93136,14 @@
       "serving": "1 skillet cookie",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.mcS_M3Uk74vEfO6cB5_3cwHaEK&pid=15.1",
+      "image_full_url": "https://www.mashed.com/img/gallery/the-ultimate-ranking-of-chain-restaurant-skillet-cookies/4-cheddars-legendary-monster-cookie-1736435483.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:23:22.371663+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -93025,11 +93154,14 @@
       "serving": "1 slice",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.PJJhQgUaLzPIcHlY3sALwwHaEe&pid=15.1",
+      "image_full_url": "https://media.cheddars.com/en_us/images/marketing/Carrot_Cake.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:23:27.061138+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -93040,11 +93172,14 @@
       "serving": "1 meal (2 tenders)",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.o3iWsu0t30adRNj7gqHzKAHaEl&pid=15.1",
+      "image_full_url": "https://media.cheddars.com/en_us/images/product/menu-kids-chicken-tenders.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:23:31.389099+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -93055,11 +93190,14 @@
       "serving": "1 sandwich",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.RueDdVMVPJ6S59G06o17YgHaEl&pid=15.1",
+      "image_full_url": "https://media.cheddars.com/en_us/images/product/menu-kids-grilled-cheese.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:23:36.023044+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -93070,11 +93208,14 @@
       "serving": "1 burger",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.B62SEiMgLAiOTdy1Iy7xXQHaEJ&pid=15.1",
+      "image_full_url": "https://polymer-process.com/wp-content/uploads/2023/07/Minimalist-cliff-houses.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:23:39.942857+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -93085,11 +93226,14 @@
       "serving": "1 bowl",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.3uRRIbyfR4N_Zp3DWLsxhAHaDy&pid=15.1",
+      "image_full_url": "https://iol-prod.appspot.com/image/3e9321c9ccce90dccc37df5d51863da69aa0a9c7/2000/jpeg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:23:43.809131+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -93100,11 +93244,14 @@
       "serving": "1 combo platter",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.dNkZ1GJEdCQI6VMsM9cDewHaD0&pid=15.1",
+      "image_full_url": "https://baddiehub.org.uk/wp-content/uploads/2025/02/Erome.Com-Video-Sharing-Platform-1-e1738820728462.png",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:23:48.501171+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -93115,11 +93262,14 @@
       "serving": "1 combo platter",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.explicit.bing.net/th?id=OIP.93uf3hmTnQKhgve2sYJrPwHaJ4&pid=15.1",
+      "image_full_url": "https://i.etsystatic.com/38145856/r/il/3c2e99/7506391366/il_fullxfull.7506391366_b2e5.jpg",
       "_added_at": "2026-10-21T07:24:14.048317+00:00",
-      "_updated_at": "2026-10-21T07:24:14.048317+00:00",
-      "_model": "gemini-3.7-flash"
+      "_updated_at": "2026-10-21T08:23:52.795248+00:00",
+      "_model": "gemini-3.7-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted",
+      "_image_engine": "bing"
     },
     {
       "restaurant": "Cheddar's",
@@ -97926,5 +98076,5 @@
     "Wendy's",
     "Wingstop"
   ],
-  "updated_at": "2026-10-21T07:52:34.892666+00:00"
+  "updated_at": "2026-10-21T08:23:52.795337+00:00"
 }
