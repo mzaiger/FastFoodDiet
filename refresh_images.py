@@ -64,6 +64,13 @@ except ImportError:  # pragma: no cover
     except ImportError:
         DDGS = None
 
+# Which ddgs image engine to use. ddgs's default ("auto") shuffles its engines and picks one
+# at random for every search, so the same query can return different pictures from one meal
+# to the next (that is where the odd photos came from). Pinning it makes every search
+# come from the same place. Options: "duckduckgo" (what duckduckgo.com/images shows when
+# you type the search by hand) or "bing". Override for one run with --engine.
+IMAGE_ENGINE = "duckduckgo"
+
 IMAGE_SEARCH_DELAY_SECONDS = 1.5   # pause between the searches made for the same meal
 IMAGE_MAX_ATTEMPTS_PER_MEAL = 3    # runs in which nothing was found, then the meal is skipped
 # If the quoted searches find nothing, True falls back to a looser search
@@ -71,7 +78,7 @@ IMAGE_MAX_ATTEMPTS_PER_MEAL = 3    # runs in which nothing was found, then the m
 IMAGE_FALLBACK_TO_WEB = True
 
 DEFAULT_TIME_BUDGET_MINUTES = 60
-LOG_FIRST_URLS = 10        # print the first N pictures found so a bad pull is obvious right away
+LOG_FIRST_URLS = 100000    # print this many pictures found (engine, query, url); huge = log every one
 SAVE_EVERY = 25            # write meals.json this often so an interrupted run keeps its progress
 DEFAULT_DELAY_SECONDS = 3.0
 JITTER_SECONDS = 2.0       # random extra pause so the searches aren't evenly spaced
@@ -97,10 +104,11 @@ def _client(reset=False):
     return _ddgs_client
 
 
-def _first_https_image(query):
-    """One DuckDuckGo image search. Returns (thumbnail_url, full_url) or (None, None)."""
+def _first_https_image(query, engine=None):
+    """One image search on the chosen engine. Returns (thumbnail_url, full_url) or (None, None)."""
     try:
-        results = _client().images(query, max_results=6, safesearch="moderate")
+        results = _client().images(query, max_results=6, safesearch="moderate",
+                                   backend=engine or IMAGE_ENGINE)
     except Exception:
         _client(reset=True)
         raise
@@ -134,19 +142,19 @@ def image_queries(restaurant, name, fallback):
     return queries
 
 
-def find_image(restaurant, name, fallback=None):
-    """Searches DuckDuckGo Images with the restaurant and item in double quotes.
-    Returns (thumbnail, full, source) -- source is "quoted" or "web" (looser fallback) --
-    or (None, None, None) when nothing was found."""
+def find_image(restaurant, name, fallback=None, engine=None):
+    """Searches images with the restaurant and item in double quotes on the pinned engine.
+    Returns (thumbnail, full, source, query) -- source is "quoted" or "web" (looser fallback),
+    query is the exact search that found it -- or (None, None, None, None) when nothing was found."""
     if fallback is None:
         fallback = IMAGE_FALLBACK_TO_WEB
     for i, (query, source) in enumerate(image_queries(restaurant, name, fallback)):
         if i:
             time.sleep(IMAGE_SEARCH_DELAY_SECONDS)       # pause between searches for the same meal
-        thumb, full = _first_https_image(query)
+        thumb, full = _first_https_image(query, engine)
         if thumb:
-            return thumb, full, source
-    return None, None, None
+            return thumb, full, source, query
+    return None, None, None, None
 
 
 #---------------------------------------------------------------------------
@@ -158,6 +166,7 @@ def main():
     ap.add_argument("--output", default=pm.OUTPUT_PATH, help="Path to meals.json")
     ap.add_argument("--restaurant", default="", help="Only this restaurant (exact name)")
     ap.add_argument("--limit", type=int, default=0, help="Stop after this many meals (0 = no limit)")
+    ap.add_argument("--engine", default=IMAGE_ENGINE, help=f"ddgs image engine (default {IMAGE_ENGINE}); e.g. duckduckgo or bing")
     ap.add_argument("--retry-failed", action="store_true", help="Also retry meals that used up their attempts")
     ap.add_argument("--delay", type=float, default=DEFAULT_DELAY_SECONDS, help="Seconds between searches")
     ap.add_argument("--time-budget-minutes", type=float, default=DEFAULT_TIME_BUDGET_MINUTES)
@@ -165,6 +174,7 @@ def main():
 
     if DDGS is None:
         raise SystemExit("ddgs isn't installed (pip install ddgs).")
+    engine = args.engine.strip().lower() or IMAGE_ENGINE
 
     restaurant = args.restaurant.strip()
     if restaurant:
@@ -190,6 +200,7 @@ def main():
         todo = todo[: args.limit]
 
     label = restaurant or "all restaurants"
+    pm.log(f"Image engine: {engine} (ddgs backend={engine!r}; ddgs would otherwise pick one at random)")
     pm.log(f"Images: {empty_total} meal(s) with an empty picture for {label}; {len(todo)} to search this run.")
     if not todo:
         pm.log("Nothing to do -- no empty pictures (or the rest used up their attempts; use --retry-failed).")
@@ -208,7 +219,7 @@ def main():
 
             while True:                                  # retry this same meal after a cooldown
                 try:
-                    thumb, full, source = find_image(meal["restaurant"], meal["name"])
+                    thumb, full, source, query = find_image(meal["restaurant"], meal["name"], engine=engine)
                     strikes = 0
                     break
                 except Exception as e:  # noqa: BLE001 -- DDG throws many error types when it throttles
@@ -234,12 +245,13 @@ def main():
                 meal["image_url"] = thumb
                 meal["image_full_url"] = full or ""
                 meal["_image_source"] = source           # "quoted" or "web" (looser fallback)
+                meal["_image_engine"] = engine           # which engine found it, to trace odd pictures
                 meal["_updated_at"] = datetime.now(timezone.utc).isoformat()
                 found += 1
                 if logged_urls < LOG_FIRST_URLS:
                     logged_urls += 1
-                    pm.log(f"  image {logged_urls}/{LOG_FIRST_URLS}: {meal['restaurant']} / {meal['name']} "
-                           f"[{source}] -> {thumb}")
+                    pm.log(f"  image {logged_urls}: {meal['restaurant']} / {meal['name']} "
+                           f"[engine={engine} {source}] {query} -> {thumb}")
             else:
                 not_found += 1                           # stays empty; tried again on a later run
             done += 1
