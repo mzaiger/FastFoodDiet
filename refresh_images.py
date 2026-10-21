@@ -75,6 +75,7 @@ IMAGE_FALLBACK_TO_WEB = True
 # Keep results family-friendly: DuckDuckGo SafeSearch is set to strict, and on top of that
 # any result whose title / page URL / image URL contains one of these words is skipped.
 SAFESEARCH = "on"          # ddgs: "on" = strict, "moderate", "off"
+REGION = "us-en"           # search market; keeps results (and menus) US-based on any machine
 BLOCKED_WORDS = (
     "porn", "xxx", "nsfw", "nude", "naked", "topless", "sex", "sexy", "erotic", "fetish",
     "lingerie", "bikini", "nipple", "boob", "breast", "butt", "ass", "milf", "hentai",
@@ -128,7 +129,7 @@ def _first_https_image(query, restaurant=None, require_restaurant=False):
     SafeSearch is strict, blocked words are skipped, and (for the loose fallback search)
     the result must actually mention the restaurant."""
     try:
-        results = _client().images(query, max_results=15, safesearch=SAFESEARCH)
+        results = _client().images(query, max_results=15, region=REGION, safesearch=SAFESEARCH)
     except Exception:
         _client(reset=True)
         raise
