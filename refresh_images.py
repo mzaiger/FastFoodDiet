@@ -40,6 +40,8 @@ Options:
   --restaurant "Olive Garden"   only that restaurant (handy for a quick test)
   --limit 25                    stop after this many meals
   --retry-failed                also retry meals that already used up their attempts
+  --redo                        throw away the existing pictures in scope and search them again
+                                (e.g. python refresh_images.py --redo --restaurant "Wendy's")
   --delay 3                     seconds between searches (plus 0-2s random); default 3
   --time-budget-minutes 100     stop (and save) after this long; default 60
   --output path/to/meals.json
@@ -70,6 +72,15 @@ IMAGE_MAX_ATTEMPTS_PER_MEAL = 3    # runs in which nothing was found, then the m
 # ("<restaurant>" <item>, restaurant still quoted); False leaves the meal empty.
 IMAGE_FALLBACK_TO_WEB = True
 
+# Keep results family-friendly: DuckDuckGo SafeSearch is set to strict, and on top of that
+# any result whose title / page URL / image URL contains one of these words is skipped.
+SAFESEARCH = "on"          # ddgs: "on" = strict, "moderate", "off"
+BLOCKED_WORDS = (
+    "porn", "xxx", "nsfw", "nude", "naked", "topless", "sex", "sexy", "erotic", "fetish",
+    "lingerie", "bikini", "nipple", "boob", "breast", "butt", "ass", "milf", "hentai",
+    "onlyfans", "escort", "stripper", "adult", "gore", "blood", "corpse", "dead body",
+)
+
 DEFAULT_TIME_BUDGET_MINUTES = 60
 LOG_FIRST_URLS = 10        # print the first N pictures found so a bad pull is obvious right away
 SAVE_EVERY = 25            # write meals.json this often so an interrupted run keeps its progress
@@ -97,14 +108,35 @@ def _client(reset=False):
     return _ddgs_client
 
 
-def _first_https_image(query):
-    """One DuckDuckGo image search. Returns (thumbnail_url, full_url) or (None, None)."""
+def _is_blocked(res):
+    """True when the title, page URL or image URL contains a blocked word (whole words only,
+    so 'sauce' or 'class' don't trip it)."""
+    text = " ".join(str(res.get(k) or "") for k in ("title", "url", "image", "source")).lower()
+    words = set(re.findall(r"[a-z]+", text))
+    return any((w in words) if " " not in w else (w in text) for w in BLOCKED_WORDS)
+
+
+def _matches_restaurant(res, restaurant):
+    """True when the restaurant's name shows up in the title, page URL or image URL."""
+    squash = lambda t: re.sub(r"[^a-z0-9]", "", str(t).lower())
+    hay = squash(" ".join(str(res.get(k) or "") for k in ("title", "url", "image", "source")))
+    return squash(restaurant) in hay
+
+
+def _first_https_image(query, restaurant=None, require_restaurant=False):
+    """One DuckDuckGo image search. Returns (thumbnail_url, full_url) or (None, None).
+    SafeSearch is strict, blocked words are skipped, and (for the loose fallback search)
+    the result must actually mention the restaurant."""
     try:
-        results = _client().images(query, max_results=6, safesearch="moderate")
+        results = _client().images(query, max_results=15, safesearch=SAFESEARCH)
     except Exception:
         _client(reset=True)
         raise
     for res in results or []:
+        if _is_blocked(res):
+            continue
+        if require_restaurant and restaurant and not _matches_restaurant(res, restaurant):
+            continue
         thumb = (res.get("thumbnail") or "").strip()
         full = (res.get("image") or "").strip()
         # https only: an http image would be blocked on an https site.
@@ -143,7 +175,7 @@ def find_image(restaurant, name, fallback=None):
     for i, (query, source) in enumerate(image_queries(restaurant, name, fallback)):
         if i:
             time.sleep(IMAGE_SEARCH_DELAY_SECONDS)       # pause between searches for the same meal
-        thumb, full = _first_https_image(query)
+        thumb, full = _first_https_image(query, restaurant, require_restaurant=(source == "web"))
         if thumb:
             return thumb, full, source
     return None, None, None
@@ -159,6 +191,8 @@ def main():
     ap.add_argument("--restaurant", default="", help="Only this restaurant (exact name)")
     ap.add_argument("--limit", type=int, default=0, help="Stop after this many meals (0 = no limit)")
     ap.add_argument("--retry-failed", action="store_true", help="Also retry meals that used up their attempts")
+    ap.add_argument("--redo", action="store_true",
+                    help="Clear the existing pictures in scope and search them again (use with --restaurant, or alone for everything)")
     ap.add_argument("--delay", type=float, default=DEFAULT_DELAY_SECONDS, help="Seconds between searches")
     ap.add_argument("--time-budget-minutes", type=float, default=DEFAULT_TIME_BUDGET_MINUTES)
     args = ap.parse_args()
@@ -175,6 +209,12 @@ def main():
 
     store = pm.load_store(args.output)
     scope = [m for m in store["meals"] if not restaurant or m["restaurant"] == restaurant]
+    if args.redo:
+        for m in scope:
+            for k in ("image_url", "image_full_url", "_image_source", "_image_attempts", "_image_refresh_failures"):
+                m.pop(k, None)
+            m["image_url"] = ""
+            m["image_full_url"] = ""
     if args.retry_failed:
         for m in scope:
             if not m.get("image_url"):
