@@ -121,12 +121,12 @@ Beverages, dips, sauces and condiments are excluded, and any item with an unknow
 - A leading "Single " is dropped from the name (`Single Chicken Taco` becomes `Chicken Taco`).
 - Converted meals get `_serving_multiplier` (3 or 2). The rule skips meals that have it, and it also runs over `meals.json` every time the script starts, so saved meals can never be multiplied twice.
 
-**Models and daily limits.** Gemini Flash **3.8, 3.7, 3.6, 3.5** are tried in that order. Each model has its own allowance of 20 calls per Pacific-time day (`MAX_GEMINI_CALLS`), and each run makes at most 20 calls (`MAX_CALLS_PER_RUN`), so a full pass over all the restaurants can take more than one run. Restaurants that have never been pulled (for example ones just added to `RESTAURANTS`) go to the front of the queue. Only answers Google actually served count toward the allowance.
+**Models and daily limits.** Gemini Flash **3.8, 3.7, 3.6, 3.5** are tried in that order. Each model has its own allowance of 20 calls per Pacific-time day (`MAX_GEMINI_CALLS`), and each run makes at most 20 calls (`MAX_CALLS_PER_RUN`), so a full pass over all the restaurants can take more than one run. Each pass is ordered by how many meals `meals.json` already holds for a restaurant, **fewest items first** (so never-pulled restaurants, for example ones just added to `RESTAURANTS`, go to the front, and the thinnest restaurants fill up before the big ones). Only answers Google actually served count toward the allowance.
 
 - A model that answers with a 4xx (out of quota, unknown model ID) is skipped for the rest of that day.
 - A model that returns 503/errors makes that restaurant fall through to the next model. After 3 failures in a row the model is skipped for the rest of the run and tried again on the next run.
 
-**Resuming.** `meals.json` keeps a `pending` list of restaurants not yet pulled in the current pass. A restaurant leaves the list only after a successful pull, so the next run starts exactly where the last one stopped. When the list empties, a new pass begins.
+**Resuming.** `meals.json` keeps a `pending` list of restaurants not yet pulled in the current pass. A restaurant leaves the list only after a successful pull, so the next run starts exactly where the last one stopped. When the list empties, a new pass begins, again sorted fewest items first.
 
 **Pictures are not pulled here.** `pull_meals.py` does no image search at all. Every new meal is saved with `"image_url": ""` and `"image_full_url": ""`, and the Menu Items page shows "no image" until step 2 fills it in.
 
