@@ -30,6 +30,8 @@ What it does, once per run:
 
 Resuming after errors: Gemini often answers 503 ("overloaded"). meals.json
 keeps a "pending" list of restaurants not yet pulled in the current pass.
+Each pass is ordered by how many meals meals.json already has for a restaurant,
+fewest items first (never-pulled restaurants therefore come first).
 A restaurant only leaves that list after a successful pull, so the next run
 starts exactly where this one left off. When the list empties, a fresh pass
 over all the restaurants begins.
@@ -554,6 +556,15 @@ def main():
         f"{no_image} still need a picture (run refresh_images.py).")
 
 
+def sort_fewest_items_first(store, names):
+    """Order restaurant names by how many meals meals.json already holds for each,
+    fewest first (ties keep their RESTAURANTS order), so thin restaurants fill up first."""
+    counts = {}
+    for m in store["meals"]:
+        counts[m["restaurant"]] = counts.get(m["restaurant"], 0) + 1
+    return sorted(names, key=lambda n: counts.get(n, 0))   # sorted() is stable
+
+
 def pull_one(store, restaurant, key, limiter, known):
     """One Gemini call for one restaurant. Returns the number of meals added,
     or None if the call failed (the restaurant then stays in the pending list)."""
@@ -606,7 +617,7 @@ def pull_meals(store, key, out_path):
     # Restaurants that have never been pulled (e.g. just added to RESTAURANTS) go first.
     never = [n for n in RESTAURANT_NAMES
              if n not in pending and not store["restaurants"].get(n, {}).get("last_pulled")]
-    pending = never + pending
+    pending = sort_fewest_items_first(store, never + pending)   # fewest items first
     store["pending"] = pending
     log(f"Gemini: up to {budget} call(s) left today across {len(models_available(quota))} model(s). Resuming at {pending[0]} "
         f"({len(pending)} restaurant(s) left in this pass).")
@@ -630,7 +641,7 @@ def pull_meals(store, key, out_path):
             if failed:
                 break                  # still failing; they stay at the front of "pending"
             # Whole pass finished with quota to spare: start the next pass.
-            store["pending"] = pending = list(RESTAURANT_NAMES)
+            store["pending"] = pending = sort_fewest_items_first(store, RESTAURANT_NAMES)
             queue, retried = list(pending), False
             log(f"Finished a full pass over all {len(RESTAURANT_NAMES)} restaurants -- starting another.")
             continue
