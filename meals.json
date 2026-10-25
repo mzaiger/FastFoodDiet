@@ -121515,7 +121515,8 @@
     "exhausted": [
       "gemini-3.7-flash",
       "gemini-3.6-flash",
-      "gemini-3.5-flash"
+      "gemini-3.5-flash",
+      "gemini-3.8-flash"
     ]
   },
   "pending": [
@@ -121580,5 +121581,5 @@
     "Wendy's",
     "Wingstop"
   ],
-  "updated_at": "2026-10-25T12:15:08.130805+00:00"
+  "updated_at": "2026-10-25T12:43:09.158149+00:00"
 }
