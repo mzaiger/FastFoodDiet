@@ -1,6 +1,6 @@
 # Lazy Man's Fast Food Diet
 
-A static website that builds a 7-day meal plan, **only from 50 national fast food chains**, to hit a daily calorie target. Menu data (calories, price, serving, healthy/vegetarian flags) is gathered by Google Gemini, and pictures come from DuckDuckGo Images. It is a **two-step manual process**: you run two GitHub Actions by hand, first one to pull meals, then one to fill in their pictures (see "How to update the data").
+A static website that builds a 7-day meal plan, **only from 52 national fast food chains**, to hit a daily calorie target. Menu data (calories, price, serving, healthy/vegetarian flags) is gathered by Google Gemini, and pictures come from DuckDuckGo Images. It is a **two-step manual process**: you run two GitHub Actions by hand, first one to pull meals, then one to fill in their pictures (see "How to update the data").
 
 > All calories, prices and servings are **AI estimates**. Menus and prices vary by location, so double-check at the restaurant.
 
@@ -39,14 +39,14 @@ Nothing runs on a schedule. You start both Actions yourself.
 
 ## How to update the data (two manual steps)
 
-1. **Pull meals.** Actions tab, **Pull fast food meals (manual)**, Run workflow. New meals are added with an empty picture (`image_url` and `image_full_url` are `""`) and stamped with today's date. A full pass over all the restaurants can take more than one run; run it again to keep going.
+1. **Pull meals.** Actions tab, **Pull fast food meals (manual)**, Run workflow. New meals are added with an empty picture (`image_url` and `image_full_url` are `""`) and stamped with today's date. Each run only pulls the restaurants with the fewest items (up to 20 per run); run it again to keep going.
 2. **Fill pictures.** Actions tab, **Fill missing meal images (manual)**, Run workflow. It searches DuckDuckGo only for meals whose picture is empty, so existing pictures are never touched. DuckDuckGo throttles, so a big batch can take several runs; each run picks up the meals that are still empty.
 
 **Date updated.** Every meal has an `_updated_at` timestamp. Step 1 sets it on each new meal, and step 2 sets it again on each meal that gets a picture. `meals.json` also has a top-level `updated_at` that is refreshed every time either script saves. **Menu Items** (`products.html`) sorts by `_updated_at`, newest first, so the most recent pull or picture fill is at the top. Meals from before this field existed fall back to `_added_at`.
 
 ## The restaurants
 
-Meals can only come from these 50 chains. The official site is where each restaurant's favicon link on the page goes.
+Meals can only come from these 52 chains. The official site is where each restaurant's favicon link on the page goes.
 
 | Restaurant | Official site |
 |---|---|
@@ -92,11 +92,13 @@ Meals can only come from these 50 chains. The official site is where each restau
 | Qdoba | [www.qdoba.com](https://www.qdoba.com/) |
 | Raising Cane's | [www.raisingcanes.com](https://www.raisingcanes.com/) |
 | Red Robin | [www.redrobin.com](https://www.redrobin.com/) |
+| Ruby Tuesday | [www.rubytuesday.com](https://www.rubytuesday.com/) |
 | Slim Chickens | [www.slimchickens.com](https://www.slimchickens.com/) |
 | Sonic Drive-In | [www.sonicdrivein.com](https://www.sonicdrivein.com/) |
 | Starbucks | [www.starbucks.com](https://www.starbucks.com/) |
 | Subway | [www.subway.com](https://www.subway.com/) |
 | Taco Bell | [www.tacobell.com](https://www.tacobell.com/) |
+| Taco John's | [www.tacojohns.com](https://www.tacojohns.com/) |
 | Texas Roadhouse | [www.texasroadhouse.com](https://www.texasroadhouse.com/) |
 | Wendy's | [www.wendys.com](https://www.wendys.com/) |
 | Wingstop | [www.wingstop.com](https://www.wingstop.com/) |
@@ -121,12 +123,12 @@ Beverages, dips, sauces and condiments are excluded, and any item with an unknow
 - A leading "Single " is dropped from the name (`Single Chicken Taco` becomes `Chicken Taco`).
 - Converted meals get `_serving_multiplier` (3 or 2). The rule skips meals that have it, and it also runs over `meals.json` every time the script starts, so saved meals can never be multiplied twice.
 
-**Models and daily limits.** Gemini Flash **3.8, 3.7, 3.6, 3.5** are tried in that order. Each model has its own allowance of 20 calls per Pacific-time day (`MAX_GEMINI_CALLS`), and each run makes at most 20 calls (`MAX_CALLS_PER_RUN`), so a full pass over all the restaurants can take more than one run. Each pass is ordered by how many meals `meals.json` already holds for a restaurant, **fewest items first** (so never-pulled restaurants, for example ones just added to `RESTAURANTS`, go to the front, and the thinnest restaurants fill up before the big ones). Only answers Google actually served count toward the allowance.
+**Models and daily limits.** Gemini Flash **3.8, 3.7, 3.6, 3.5** are tried in that order. Each model has its own allowance of 20 calls per Pacific-time day (`MAX_GEMINI_CALLS`), and each run makes at most 20 calls (`MAX_CALLS_PER_RUN`), so a run does not go through every restaurant. At the start of each run the restaurants are sorted by how many meals `meals.json` already holds for each, **fewest items first** (never-pulled restaurants, for example ones just added to `RESTAURANTS`, go to the front), and the run works down that list until it hits its call limit. Only answers Google actually served count toward the allowance.
 
 - A model that answers with a 4xx (out of quota, unknown model ID) is skipped for the rest of that day.
 - A model that returns 503/errors makes that restaurant fall through to the next model. After 3 failures in a row the model is skipped for the rest of the run and tried again on the next run.
 
-**Resuming.** `meals.json` keeps a `pending` list of restaurants not yet pulled in the current pass. A restaurant leaves the list only after a successful pull, so the next run starts exactly where the last one stopped. When the list empties, a new pass begins, again sorted fewest items first.
+**Order of restaurants.** Nothing is remembered between runs except the meals themselves. Every run sorts all restaurants by item count again, fewest first, so whichever restaurants are thinnest at that moment go first. A restaurant that fails (for example Gemini is overloaded) is retried once in the same run, otherwise it stays near the front of the next sort.
 
 **Pictures are not pulled here.** `pull_meals.py` does no image search at all. Every new meal is saved with `"image_url": ""` and `"image_full_url": ""`, and the Menu Items page shows "no image" until step 2 fills it in.
 
@@ -162,7 +164,6 @@ Environment variables: `GEMINI_KEY` (required for step 1), `MAX_GEMINI_CALLS` (p
   "allowed_restaurants": ["Applebee's", "..."],
   "restaurants": { "Chick-fil-A": { "site": "www.chick-fil-a.com", "last_pulled": "..." } },
   "quota": { "date": "2026-10-16", "calls": { "gemini-3.8-flash": 7 }, "exhausted": [] },
-  "pending": ["Five Guys", "..."],
   "meals": [
     {
       "restaurant": "McDonald's", "name": "Big Mac", "category": "regular",

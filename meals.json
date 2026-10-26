@@ -124483,6 +124483,14 @@
     "Slim Chickens": {
       "last_pulled": "2026-10-26T11:21:04.298150+00:00",
       "site": "www.slimchickens.com"
+    },
+    "Ruby Tuesday": {
+      "site": "www.rubytuesday.com",
+      "last_pulled": ""
+    },
+    "Taco John's": {
+      "site": "www.tacojohns.com",
+      "last_pulled": ""
     }
   },
   "quota": {
@@ -124498,46 +124506,6 @@
       "gemini-3.6-flash"
     ]
   },
-  "pending": [
-    "Long John Silver's",
-    "Outback Steakhouse",
-    "Olive Garden",
-    "Chili's",
-    "Papa Murphy's",
-    "Arby's",
-    "Papa John's",
-    "Buffalo Wild Wings",
-    "Godfather's Pizza",
-    "Dunkin'",
-    "Freddy's",
-    "Wingstop",
-    "Jimmy John's",
-    "Popeyes",
-    "Firehouse Subs",
-    "Red Robin",
-    "Chick-fil-A",
-    "Qdoba",
-    "Starbucks",
-    "Cracker Barrel",
-    "Panera",
-    "Denny's",
-    "Pizza Hut",
-    "Sonic Drive-In",
-    "Wendy's",
-    "Little Caesar's",
-    "Chipotle",
-    "Jersey Mike's Subs",
-    "Taco Bell",
-    "Culver's",
-    "IHOP",
-    "Domino's",
-    "McDonald's",
-    "Subway",
-    "Dairy Queen",
-    "Applebee's",
-    "Kentucky Fried Chicken",
-    "Burger King"
-  ],
   "allowed_restaurants": [
     "Applebee's",
     "Arby's",
@@ -124581,11 +124549,13 @@
     "Qdoba",
     "Raising Cane's",
     "Red Robin",
+    "Ruby Tuesday",
     "Slim Chickens",
     "Sonic Drive-In",
     "Starbucks",
     "Subway",
     "Taco Bell",
+    "Taco John's",
     "Texas Roadhouse",
     "Wendy's",
     "Wingstop"

@@ -28,13 +28,14 @@ What it does, once per run:
      "_updated_at" first, so the latest pull shows at the top of the Menu Items page.
   4. Writes everything to meals.json, which index.html and products.html read.
 
-Resuming after errors: Gemini often answers 503 ("overloaded"). meals.json
-keeps a "pending" list of restaurants not yet pulled in the current pass.
-Each pass is ordered by how many meals meals.json already has for a restaurant,
-fewest items first (never-pulled restaurants therefore come first).
-A restaurant only leaves that list after a successful pull, so the next run
-starts exactly where this one left off. When the list empties, a fresh pass
-over all the restaurants begins.
+Which restaurants each run pulls: a run does NOT go through every restaurant. At the start
+of each run the restaurants are sorted by how many meals meals.json already has for each,
+fewest items first (never-pulled restaurants therefore come first), and the run works down
+that list in order until it hits its call limit (MAX_CALLS_PER_RUN). The next run sorts
+again from scratch, so whichever restaurants are thinnest at that moment go first. Nothing
+is remembered between runs except the meals themselves. A restaurant whose call fails
+(Gemini often answers 503 "overloaded") is retried once later in the same run; if it still
+fails it simply stays near the front of the next run's sort.
 
 Models and daily limits: Gemini Flash 3.8, 3.7, 3.6 and 3.5 are tried in that
 order. Each model gets its own daily allowance (MAX_GEMINI_CALLS per model, default
@@ -42,8 +43,7 @@ order. Each model gets its own daily allowance (MAX_GEMINI_CALLS per model, defa
 quota (or rejects the request), the script moves to the next model; a 503
 ("overloaded") first tries the next model too. Only answers Google actually served
 count toward a model's allowance. Each run makes at most 20 Gemini calls
-(MAX_CALLS_PER_RUN; a full pass over the restaurants can take more than one run), so
-run it again to keep going.
+(MAX_CALLS_PER_RUN), so run it again to keep going.
 
 Env var required: GEMINI_KEY  (missing -> the run is skipped, exit 0)
 Optional env vars: MAX_GEMINI_CALLS (per model per day, default 20),
@@ -136,11 +136,13 @@ RESTAURANTS = [
     {"name": "Qdoba", "site": "www.qdoba.com"},
     {"name": "Raising Cane's", "site": "www.raisingcanes.com"},
     {"name": "Red Robin", "site": "www.redrobin.com"},
+    {"name": "Ruby Tuesday", "site": "www.rubytuesday.com"},
     {"name": "Slim Chickens", "site": "www.slimchickens.com"},
     {"name": "Sonic Drive-In", "site": "www.sonicdrivein.com"},
     {"name": "Starbucks", "site": "www.starbucks.com"},
     {"name": "Subway", "site": "www.subway.com"},
     {"name": "Taco Bell", "site": "www.tacobell.com"},
+    {"name": "Taco John's", "site": "www.tacojohns.com"},
     {"name": "Texas Roadhouse", "site": "www.texasroadhouse.com"},
     {"name": "Wendy's", "site": "www.wendys.com"},
     {"name": "Wingstop", "site": "www.wingstop.com"},
@@ -245,7 +247,7 @@ def load_store(path):
     store.setdefault("meals", [])
     store.setdefault("restaurants", {})
     store.setdefault("quota", {"date": "", "calls": {}, "exhausted": []})
-    store.setdefault("pending", [])   # restaurants still to pull in the current pass, in order
+    store.pop("pending", None)        # old "resume" list -- no longer used; every run re-sorts
     # Keep the published restaurant list (and sites) in the JSON in sync
     # with this script so the web page always shows what the script uses.
     for r in RESTAURANTS:
@@ -567,7 +569,7 @@ def sort_fewest_items_first(store, names):
 
 def pull_one(store, restaurant, key, limiter, known):
     """One Gemini call for one restaurant. Returns the number of meals added,
-    or None if the call failed (the restaurant then stays in the pending list)."""
+    or raises if the call failed."""
     known_names = [m["name"] for m in store["meals"] if m["restaurant"] == restaurant]
     prompt = build_prompt(restaurant, known_names)
     raw_items, model_used = ask_gemini(prompt, key, limiter, store["quota"])
@@ -609,23 +611,16 @@ def pull_meals(store, key, out_path):
             f"-- no meals pulled this run.")
         return
 
-    # Resume where the last run left off: "pending" holds the restaurants not yet
-    # pulled in the current pass. Empty (or first run) -> start a fresh pass.
-    pending = [n for n in store.get("pending", []) if n in RESTAURANT_NAMES]
-    if not pending:
-        pending = list(RESTAURANT_NAMES)
-    # Restaurants that have never been pulled (e.g. just added to RESTAURANTS) go first.
-    never = [n for n in RESTAURANT_NAMES
-             if n not in pending and not store["restaurants"].get(n, {}).get("last_pulled")]
-    pending = sort_fewest_items_first(store, never + pending)   # fewest items first
-    store["pending"] = pending
-    log(f"Gemini: up to {budget} call(s) left today across {len(models_available(quota))} model(s). Resuming at {pending[0]} "
-        f"({len(pending)} restaurant(s) left in this pass).")
+    # Every run starts fresh: sort ALL restaurants by item count, fewest first (never-pulled
+    # ones have 0 so they lead), then work down the list until the run's call limit.
+    queue = sort_fewest_items_first(store, RESTAURANT_NAMES)
+    log(f"Gemini: up to {budget} call(s) left today across {len(models_available(quota))} model(s). "
+        f"Run order starts with: {', '.join(queue[:MAX_GEMINI_CALLS_PER_RUN])}.")
 
     known = {meal_key(m["restaurant"], m["name"]) for m in store["meals"]}
     limiter = _RateLimiter(MIN_CALL_INTERVAL_SECONDS)
-    queue = list(pending)
     failed, retried = [], False
+    pulled = []
     successes = attempts = added_total = 0
     max_attempts = budget * 2          # failures can't make this loop forever
 
@@ -639,11 +634,12 @@ def pull_meals(store, key, out_path):
                 queue, failed = failed, []
                 continue
             if failed:
-                break                  # still failing; they stay at the front of "pending"
-            # Whole pass finished with quota to spare: start the next pass.
-            store["pending"] = pending = sort_fewest_items_first(store, RESTAURANT_NAMES)
-            queue, retried = list(pending), False
-            log(f"Finished a full pass over all {len(RESTAURANT_NAMES)} restaurants -- starting another.")
+                break                  # still failing; the next run's sort tries them again
+            if successes >= len(RESTAURANT_NAMES):
+                break                  # a run never needs to go around twice
+            queue = sort_fewest_items_first(store, [n for n in RESTAURANT_NAMES if n not in pulled])
+            if not queue:
+                break
             continue
 
         restaurant = queue.pop(0)
@@ -651,26 +647,23 @@ def pull_meals(store, key, out_path):
         try:
             added = pull_one(store, restaurant, key, limiter, known)
         except QuotaExceeded as e:
-            log(f"  {restaurant}: {e} -- stopping; the next run continues here.")
+            log(f"  {restaurant}: {e} -- stopping; the next run re-sorts and continues.")
             save_store(out_path, store)
             return
         except Exception as e:  # noqa: BLE001 -- one bad call shouldn't kill the run
-            log(f"  {restaurant}: failed ({e}); it stays pending for the next try.")
+            log(f"  {restaurant}: failed ({e}); it will be retried once, then left for the next run.")
             failed.append(restaurant)
             save_store(out_path, store)
             continue
 
         successes += 1
         added_total += added
-        if restaurant in pending:
-            pending.remove(restaurant)
-        store["pending"] = pending
+        pulled.append(restaurant)
         save_store(out_path, store)    # progress survives an interrupted run
 
-    nxt = store["pending"][0] if store["pending"] else "(a fresh pass)"
-    log(f"Gemini: {successes} restaurant(s) pulled, {added_total} new meal(s); "
+    log(f"Gemini: {successes} restaurant(s) pulled ({', '.join(pulled) or 'none'}), {added_total} new meal(s); "
         f"calls used today (Pacific) per model: {quota['calls']}. "
-        f"Next run starts at: {nxt}.")
+        f"The next run re-sorts by item count.")
     save_store(out_path, store)
 
 
