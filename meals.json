@@ -124144,7 +124144,7 @@
       "_added_at": "2026-10-26T11:25:11.327320+00:00",
       "_updated_at": "2026-10-26T11:25:11.327320+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "McAlister's Deli",
@@ -125424,7 +125424,7 @@
       "_added_at": "2026-10-27T09:52:42.505933+00:00",
       "_updated_at": "2026-10-27T09:52:42.505933+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2
     },
     {
       "restaurant": "Long John Silver's",
@@ -125746,7 +125746,7 @@
       "_added_at": "2026-10-27T09:58:27.067676+00:00",
       "_updated_at": "2026-10-27T09:58:27.067676+00:00",
       "_model": "gemini-3.5-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2
     },
     {
       "restaurant": "Slim Chickens",
@@ -126396,7 +126396,7 @@
       "_added_at": "2026-10-27T09:59:55.808230+00:00",
       "_updated_at": "2026-10-27T09:59:55.808230+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2
     },
     {
       "restaurant": "Cheddar's",
@@ -126429,7 +126429,7 @@
       "_added_at": "2026-10-27T09:59:55.808230+00:00",
       "_updated_at": "2026-10-27T09:59:55.808230+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2
     },
     {
       "restaurant": "Cheddar's",
@@ -126445,7 +126445,7 @@
       "_added_at": "2026-10-27T09:59:55.808230+00:00",
       "_updated_at": "2026-10-27T09:59:55.808230+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2
     },
     {
       "restaurant": "Cheddar's",
@@ -126461,7 +126461,7 @@
       "_added_at": "2026-10-27T09:59:55.808230+00:00",
       "_updated_at": "2026-10-27T09:59:55.808230+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2
     },
     {
       "restaurant": "Cheddar's",
@@ -126528,7 +126528,7 @@
       "_added_at": "2026-10-27T09:59:55.808230+00:00",
       "_updated_at": "2026-10-27T09:59:55.808230+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2
     },
     {
       "restaurant": "Cheddar's",
@@ -127848,11 +127848,13 @@
       "serving": "1 catering pan",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.cYF5JJKVmQ5I5s5wv1XaogHaHa&pid=15.1",
+      "image_full_url": "https://raisingcanesmenuwithprices.com/wp-content/uploads/2025/12/generated-image-1-85.png",
       "_added_at": "2026-10-28T09:41:56.285122+00:00",
-      "_updated_at": "2026-10-28T09:41:56.285122+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:21:59.134082+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Raising Cane's",
@@ -127863,11 +127865,13 @@
       "serving": "1 catering pan",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.VpAc4F6WqrDeJVMzxQlxvgHaNK&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/736x/98/10/cc/9810cce89c4a566a2c17f1f690f40090.jpg",
       "_added_at": "2026-10-28T09:41:56.285122+00:00",
-      "_updated_at": "2026-10-28T09:41:56.285122+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:22:04.070714+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -127878,12 +127882,14 @@
       "serving": "3 tacos",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.fZS-bWyva7u1ntq0p7k2FwHaEC&pid=15.1",
+      "image_full_url": "https://www.restaurantnews.com/wp-content/uploads/2024/09/Taco-Johns-Introduces-Fiesta-Softshell-Tacos-with-Limited-Time-2-for-5-Dollar-Offer.jpg",
       "_serving_multiplier": 3,
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:22:08.064693+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -127894,12 +127900,14 @@
       "serving": "3 tacos",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.dpL_OrTZQ9cN2yPDFAcsrwHaCd&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2017/01/softshell_taco_hero.png",
       "_serving_multiplier": 3,
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:22:12.265930+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -127910,12 +127918,14 @@
       "serving": "3 tacos",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.Ve7YT6y2mAb5AZaOS3ZS0QHaE8&pid=15.1",
+      "image_full_url": "https://www.restaurantnewsrelease.com/wp-content/uploads/2021/06/Taco-Johns-Declares-Fried-Chicken-War-Is-Over-with-Debut-of-All-New-Bigger-Bolder-Better-Fried-Chicken-Taco.jpg",
       "_serving_multiplier": 3,
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:22:16.638541+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -127926,12 +127936,14 @@
       "serving": "3 tacos",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.7fRVpKD89L7Dxu8MqcjmZQHaEK&pid=15.1",
+      "image_full_url": "https://www.mashed.com/img/gallery/taco-johns-menu-items-ranked-worst-to-best/fried-chicken-taco-1662489810.jpg",
       "_serving_multiplier": 3,
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:22:21.119136+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -127942,12 +127954,14 @@
       "serving": "3 tacos",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.jwkJDyGQrtKNblBK6tPougHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/0UGTiTiVOOw/maxresdefault.jpg",
       "_serving_multiplier": 3,
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:22:25.887800+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -127958,11 +127972,13 @@
       "serving": "small portion",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.6h6gDJJKb77i8v-maP6BVQHaFj&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/originals/cb/ce/eb/cbceebe40693533cf1aea6d2601ddab3.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:22:29.653447+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -127973,11 +127989,13 @@
       "serving": "large portion",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.v5drg-M7D5yUiUrO_hCzFwHaFP&pid=15.1",
+      "image_full_url": "https://p1.socds.net/llp/3849/photo_upload_64b89a56dae30-2023-07-20.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:22:34.377246+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -127988,11 +128006,13 @@
       "serving": "1 bowl",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP._OJFAmCWovtTCWg79FY4IwHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2020/01/tacoj10048_WebsiteImages_BossLineup_BossBowlSteak_2000x700.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:22:39.760600+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128003,11 +128023,13 @@
       "serving": "1 burrito",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.wX8kLHbdqj_dNKOmSGasCwHaEK&pid=15.1",
+      "image_full_url": "https://d2z1w4aiblvrwu.cloudfront.net/ad/doCR/taco-johns-sirloin-steak-burrito-mascot-large-10.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:22:43.479622+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128018,11 +128040,13 @@
       "serving": "1 salad bowl",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.K4HWaU-V14rgCIjtB8xyJgHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2017/01/TacoSalad-Beef_4081-CMYK_NoOlive_GFX-2-2000x700-1.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:22:47.979082+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128033,11 +128057,13 @@
       "serving": "1 burrito",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.mSss4xX7k5sC8WbFCsd6DQHaEK&pid=15.1",
+      "image_full_url": "https://www.mashed.com/img/gallery/taco-johns-menu-items-ranked-worst-to-best/meat-potato-burrito-1662489810.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:22:51.656852+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128048,11 +128074,13 @@
       "serving": "1 burrito",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.cUt70MbHQo-FkXQuCJZRKgHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2017/01/SuperBurrito-MD.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:22:55.978481+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128063,11 +128091,13 @@
       "serving": "1 burrito",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.explicit.bing.net/th?id=OIP.edrXmXrgqTH3dSK8dd2DtwHaFb&pid=15.1",
+      "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2019/12/taco-johns-bean-burrito.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:23:00.122388+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128078,11 +128108,13 @@
       "serving": "1 burrito",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.e7wYrvs5s8x-STX3Q2L4kAHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2024/02/tacoj10048_WebsiteImages_Beef-BeanBurrito_2000x700.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:23:05.269182+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128093,11 +128125,13 @@
       "serving": "1 burrito",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.PGF-xlK7uuPWqZnBC4Bp2QHaHa&pid=15.1",
+      "image_full_url": "https://www.thecountrycook.net/wp-content/uploads/2024/11/thumbnail-Taco-Bell-Chili-Cheese-Burrito.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:23:10.557710+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128108,11 +128142,13 @@
       "serving": "1 quesadilla",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.ZhtwV8Z4aChkmIqbeK8AEAHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2022/08/SteakQuesadilla_2000x700.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:23:15.913761+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128123,11 +128159,13 @@
       "serving": "1 order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.lNIsXjc7dMz7at4f6Qge3gHaDt&pid=15.1",
+      "image_full_url": "https://www.potatobusiness.com/wp-content/uploads/2018/04/images_Taco-Johns-Introduces-New-Loaded-Potato-Ols-678x381.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:23:20.831950+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128138,11 +128176,13 @@
       "serving": "1 side (6 oz)",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.pOELFLIEzODhlSLYTJtkgQHaDm&pid=15.1",
+      "image_full_url": "https://media.fooducate.com/comments/images/5C928336-0C37-519B-497B-AE344A7532D7-54170.jpeg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:23:25.409424+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128153,11 +128193,13 @@
       "serving": "1 bowl",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.Gz-5-giGQrWrslux-mMTqwHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2017/01/OleScrambler-MD.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:23:29.850646+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128168,12 +128210,14 @@
       "serving": "3 tacos",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.CkJfAE81-R7CcQ6OyzV1aAHaEK&pid=15.1",
+      "image_full_url": "https://www.mashed.com/img/gallery/taco-johns-menu-items-ranked-worst-to-best/spicy-chorizo-breakfast-burrito-1662497949.jpg",
       "_serving_multiplier": 3,
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:23:34.018195+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128184,11 +128228,13 @@
       "serving": "1 quesadilla",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.eY3B0IHCoIi8ipCyiApPFwHaHh&pid=15.1",
+      "image_full_url": "https://fastfoodnutrition.org/item-photos/full/16716958773678i.png",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:23:39.110368+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128199,11 +128245,13 @@
       "serving": "1 quesadilla",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.METyV4D7xdtSmb5qukGtiQHaFj&pid=15.1",
+      "image_full_url": "https://taco-bell-menus.com/wp-content/uploads/2026/06/7.-Breakfast-Quesadilla-Sausage-1.webp",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:23:42.465631+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128214,11 +128262,13 @@
       "serving": "1 burrito",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.EIqA7L3EmDSR3hXkYxqNwQHaCl&pid=15.1",
+      "image_full_url": "https://tacojohns.com/wp-content/uploads/2017/01/ScramblerBurrito-MD.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:23:47.373828+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -128229,11 +128279,13 @@
       "serving": "1 burrito",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.ZmysTGMMCkraraVpfigdFAHaEK&pid=15.1",
+      "image_full_url": "https://www.mashed.com/img/gallery/taco-johns-menu-items-ranked-worst-to-best/scrambler-burrito-1662489810.jpg",
       "_added_at": "2026-10-28T09:49:21.760268+00:00",
-      "_updated_at": "2026-10-28T09:49:21.760268+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:23:51.237306+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128244,11 +128296,13 @@
       "serving": "1 appetizer order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.SIza4SToBC0dPG8PWQtdWQHaE8&pid=15.1",
+      "image_full_url": "https://catering.rubytuesday.com/usercontent/product_sub_img/RUBY+1225+Ordering+Site+Images+V3_shrimp_scampi1.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:23:55.403744+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128263,7 +128317,8 @@
       "image_full_url": "",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
       "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128274,11 +128329,13 @@
       "serving": "1 burger",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.ofdQSwt-w9O9YQ4siG5NVQHaMs&pid=15.1",
+      "image_full_url": "https://bitedive.com/wp-content/uploads/2025/09/Ruby-Tuesday-Turkey-Burger-Recipe-1.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:24:07.027413+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128289,11 +128346,13 @@
       "serving": "1 burger",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.1KbE5cAphpVLnb57IpMIhwHaLH&pid=15.1",
+      "image_full_url": "https://janamarie.co/wp-content/uploads/2015/06/23-11522-post/TastyTuesday-BlackBeanBurger.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:24:11.798722+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128304,11 +128363,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.1T0m6C3IBKDMczmphoLe1wAAAA&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/736x/1a/a2/dc/1aa2dc2d8f66ca1340cef9c0c18d0993.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:24:15.523929+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128319,11 +128380,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.kOR5oun19qgG4IIfoh4WugHaJ4&pid=15.1",
+      "image_full_url": "https://cookwhatmatters.com/wp-content/uploads/2025/03/Ruby-Rueben-Sandwich-Hero.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:24:18.988196+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128334,11 +128397,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.9K8uSZWMnlo0NALBrf-_AwHaFj&pid=15.1",
+      "image_full_url": "https://live.staticflickr.com/3568/3555951938_b34a9e0901_b.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:24:23.383638+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128349,11 +128414,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.k2z04Uf1tAt7YXR3eBYvnwHaHF&pid=15.1",
+      "image_full_url": "https://restaurantclicks.com/wp-content/uploads/2023/12/Grilled-Chicken-Sandwich-768x734.png",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:24:27.960876+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128364,11 +128431,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.HEvHb5MOTzW38kWmhI9V7QHaEK&pid=15.1",
+      "image_full_url": "https://www.mashed.com/img/gallery/chain-restaurant-club-sandwiches-ranked-worst-to-best-according-to-customers/3-ruby-tuesday-1704216573.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:24:33.176709+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128379,11 +128448,13 @@
       "serving": "1 entree salad",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.w1BuZ3XHR-MS2uFplLBDmwAAAA&pid=15.1",
+      "image_full_url": "https://www.r-tuesdaymenu.onl/wp-content/uploads/2025/05/Grilled-Chicken-Caesar-Salad.jpg.webp",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:24:37.390617+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128394,11 +128465,13 @@
       "serving": "1 entree salad",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.MYkMHggMb9tMlmSJ6SupwwHaFb&pid=15.1",
+      "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2019/10/ruby-tuesday-crispy-chicken-salad.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:24:40.838841+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128409,11 +128482,13 @@
       "serving": "1 appetizer order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.njJMXNnyC1IkYUWl0txg5wHaFt&pid=15.1",
+      "image_full_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/c2/bc/df/calamari.jpg?w=600&h=-1&s=1",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:24:45.192369+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128424,11 +128499,13 @@
       "serving": "1 appetizer order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.y65Z0UCrzTduio9UDY0lnwHaEK&pid=15.1",
+      "image_full_url": "https://recipes.net/wp-content/uploads/2020/03/copycat-ruby-tuesdays-tempura-green-beans-recipe.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:24:50.143350+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128439,11 +128516,13 @@
       "serving": "1 appetizer order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.jHEF73hqEhWs3FdDdRomKQHaLH&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/736x/7b/b0/f4/7bb0f46bb92bd229f0df4e7aadeed819.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:24:54.741179+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128454,11 +128533,13 @@
       "serving": "1 steak",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.mGLbMCir8EaM-n8vIp70-gAAAA&pid=15.1",
+      "image_full_url": "https://www.r-tuesdaymenu.onl/wp-content/uploads/2025/05/new-york-strip-6813a4a1803e5.webp",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:24:58.150742+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128469,11 +128550,13 @@
       "serving": "1 entree",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.UXTdcbb1cQ7U9oX9_4O2PQHaKY&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/originals/60/f0/fd/60f0fdac3cae78864f5d7ee373c46960.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:25:02.117159+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128484,11 +128567,13 @@
       "serving": "1 entree",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.19H3PvzlzMIDNoDIAH3IpgHaFa&pid=15.1",
+      "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/12/ruby-tuesdays-chicken-parmigiana.jpg?quality=82&strip=all&w=640",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:25:07.351565+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128499,11 +128584,13 @@
       "serving": "1 entree",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.Uo5TRGEyEdW0vkPd1glalwHaFj&pid=15.1",
+      "image_full_url": "https://live.staticflickr.com/6190/6039979624_03a84b34ba_b.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:25:10.776854+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128514,11 +128601,13 @@
       "serving": "1 entree",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.8eM-N9Mxs3aO5DdbwWujiQHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/keqGiWMIUTE/maxresdefault.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:25:14.962575+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128529,11 +128618,13 @@
       "serving": "1 entree",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.m6XvW9Cfbm-mfJZvhl3MugHaGN&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/736x/fb/30/9d/fb309ddff19bc6aba4036311fe89b508.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:25:19.749554+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128544,11 +128635,13 @@
       "serving": "1 chop",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.vMK5gu0n7dhQbgiqKThGOgHaFj&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/originals/fc/db/a0/fcdba09bb5e3a3b92f3ce76e4dc8c612.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:25:23.503602+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128559,11 +128652,13 @@
       "serving": "1 side order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.UoOY_RaiMI9yXLM4oyBonQHaFw&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/736x/73/8e/f1/738ef193a9fc01c23e4a7369799533a4.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:25:27.133928+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128574,11 +128669,13 @@
       "serving": "1 side order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.TS5A9HwoMHPMdgBuxADkmQHaFj&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/originals/4e/89/c9/4e89c935aad15145361f288fa667d868.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:25:31.010159+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128589,11 +128686,13 @@
       "serving": "1 side order",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.anDj4fjf51R6LXOf6S2-ugHaSh&pid=15.1",
+      "image_full_url": "https://secretcopycatrestaurantrecipes.com/wp-content/uploads/2022/10/P1495-Ruby-Tuesday-Rice-Pilaf.png",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:25:36.090857+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128604,11 +128703,13 @@
       "serving": "1 side order",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.9r9kSzOLvxB7WJp8XccxqAHaSh&pid=15.1",
+      "image_full_url": "https://secretcopycatrestaurantrecipes.com/wp-content/uploads/2022/07/P1381-Ruby-Tuesday-Grilled-Asparagus-640x1600.png",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:25:41.215337+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128619,11 +128720,13 @@
       "serving": "1 side order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.S8ywa5m3s3PXR7-LtBtDWgHaE8&pid=15.1",
+      "image_full_url": "https://www.allrecipes.com/thmb/ZvKx8ZI0Uaf9TIxPR-MvPpcu2fo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/9040788-c679aa53f498430096a0a8617a83bf70.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:25:44.725407+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128634,11 +128737,13 @@
       "serving": "1 side salad",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.sGQ2yh8g2VRfC5iY7htAawHaFb&pid=15.1",
+      "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/08/ruby-tuesday-grilled-chicken-caesar-salad.jpg?resize=272",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:25:50.072020+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128649,11 +128754,13 @@
       "serving": "1 side salad",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.GHny-2a3FRzXS5dDPnelcQHaEo&pid=15.1",
+      "image_full_url": "https://1.bp.blogspot.com/-boaKaSFLhNI/TwP-nwLPJtI/AAAAAAAAALU/6tJRcPPssJE/s1600/RubyTuesday+Kuwait-The+Blog-Salad-+Kuwait.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:25:53.687033+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128664,11 +128771,13 @@
       "serving": "1 side order",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.K7ciKXggOTDlQQjeFMXMrAHaE8&pid=15.1",
+      "image_full_url": "https://www.tastefulselections.com/wp-content/uploads/2020/05/Roasted-Potatoes-and-Vegetables.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:26:00.599435+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "web"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128679,11 +128788,13 @@
       "serving": "1 burger",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.K7YAkgNUsHlAUljHUcdCXAAAAA&pid=15.1",
+      "image_full_url": "https://www.r-tuesdaymenu.onl/wp-content/uploads/2025/05/Kids-Cheeseburger.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:26:05.418047+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128694,11 +128805,13 @@
       "serving": "1 entree",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.tS6tA7fpUDTZUVXtI4HlEwAAAA&pid=15.1",
+      "image_full_url": "https://www.r-tuesdaymenu.onl/wp-content/uploads/2025/05/Kids-Buttermilk-Chicken-Tenders.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:26:09.481439+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128709,11 +128822,13 @@
       "serving": "1 bowl",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.XxxYopAZMrJLpFJnP3H9ZAHaLG&pid=15.1",
+      "image_full_url": "https://cookcleanrepeat.com/wp-content/uploads/2020/03/Ruby-Tuesday-Mac-and-Cheese-Pins-1-683x1024.jpg.webp",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:26:13.066074+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128724,11 +128839,13 @@
       "serving": "1 personal pizza",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.dBnhpbiQ8EybCS3kC-4nnAHaHa&pid=15.1",
+      "image_full_url": "https://rubytuesday.com.hk/wp-content/uploads/2025/04/6.-Kids-Menu-1536x1536.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:26:17.125800+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128739,11 +128856,13 @@
       "serving": "1 sandwich",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.explicit.bing.net/th?id=OIP.Hej2qqha3ZA-CDthTAsYLwHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/QipD6ARx5H8/maxresdefault.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:26:22.285093+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128754,11 +128873,13 @@
       "serving": "1 slice",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.Uri7IADXvWM9yn4LfvCiSgHaE8&pid=15.1",
+      "image_full_url": "https://catering.rubytuesday.com/usercontent/product_sub_img/Carrot-Cake.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:26:26.215790+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128769,11 +128890,13 @@
       "serving": "1 sundae",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.YyCjsyklQa3NjmgBTnZCMwHaFt&pid=15.1",
+      "image_full_url": "https://www.rubytuesday.com/wp-content/uploads/2024/05/RT-24113-Summer-LTO-Digital-Assets-Image-Chocolate-Brownie-Explosion-Sundae.jpg",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:26:30.447394+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128784,11 +128907,13 @@
       "serving": "1 slice",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.explicit.bing.net/th?id=OIP.5A24N2--y2qXv1rC1gmaYQHaFl&pid=15.1",
+      "image_full_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1496677482459682",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
-      "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:26:34.613047+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128803,7 +128928,8 @@
       "image_full_url": "",
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
       "_updated_at": "2026-10-28T09:52:46.648933+00:00",
-      "_model": "gemini-3.8-flash"
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1
     },
     {
       "restaurant": "Long John Silver's",
@@ -128814,11 +128940,13 @@
       "serving": "1 tender",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.Bvb8vq53Kc8cM_DDqlsfZQHaO0&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/originals/16/bf/72/16bf7237c9a7fc9b4d5fc4e22ba691ce.png",
       "_added_at": "2026-10-28T09:58:13.574305+00:00",
-      "_updated_at": "2026-10-28T09:58:13.574305+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:26:46.314587+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Long John Silver's",
@@ -128829,11 +128957,13 @@
       "serving": "1 order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.explicit.bing.net/th?id=OIP.D6arwCR3DwEIDfr-44ySOwHaLH&pid=15.1",
+      "image_full_url": "https://seniorskillet.com/wp-content/uploads/2020/09/Fried-Fish-2.jpg",
       "_added_at": "2026-10-28T09:58:13.574305+00:00",
-      "_updated_at": "2026-10-28T09:58:13.574305+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:26:51.382111+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Long John Silver's",
@@ -128844,11 +128974,13 @@
       "serving": "1 cup (8 oz)",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.k-SjD--xhDInFmgNhbk1AwAAAA&pid=15.1",
+      "image_full_url": "https://fastfoodinusa.com/fast-food-in-usa.php?src=templates/uploads/gallery/big/Long_John_Silvers_creamy_broccoli_cheese.png&w=262&h=197",
       "_added_at": "2026-10-28T09:58:13.574305+00:00",
-      "_updated_at": "2026-10-28T09:58:13.574305+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:26:55.288896+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Long John Silver's",
@@ -128859,11 +128991,13 @@
       "serving": "1 slice",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.Gi7wMyQnlVTtSGEPpzl_fwHaFC&pid=15.1",
+      "image_full_url": "https://cdn.restaurant.com/brands/long-john-silvers/images/image-3.webp",
       "_added_at": "2026-10-28T09:58:13.574305+00:00",
-      "_updated_at": "2026-10-28T09:58:13.574305+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:26:59.095121+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Long John Silver's",
@@ -128874,11 +129008,13 @@
       "serving": "1 piece",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.5pr92Q0Jdj4944sXxMM_VgHaFv&pid=15.1",
+      "image_full_url": "https://singalife.com/cms/wp-content/uploads/2024/03/sub3LJS-Grilled-Cajun.jpg",
       "_added_at": "2026-10-28T09:58:13.574305+00:00",
-      "_updated_at": "2026-10-28T09:58:13.574305+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:27:03.402289+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -128889,11 +129025,13 @@
       "serving": "1 side salad",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.m_DXXFA8JPknEz0yT9-MrAHaJ4&pid=15.1",
+      "image_full_url": "https://i.redd.it/4f2dlhhlei2z.jpg",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:27:07.031253+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -128904,11 +129042,13 @@
       "serving": "1 side salad",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.tD1PaeEa7eMwJboTZrU_NAHaE8&pid=15.1",
+      "image_full_url": "https://www.casadecrews.com/wp-content/uploads/2024/10/pizza-side-salad_horizontal1.jpg",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:27:10.782597+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -128919,11 +129059,13 @@
       "serving": "1 side salad",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.a801s-ycdTRwwdRpTnPS4gHaG_&pid=15.1",
+      "image_full_url": "https://i.redd.it/1x56gz2jm1j31.jpg",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:27:14.344380+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -128934,11 +129076,13 @@
       "serving": "1 side salad",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.PBbD2BZBRzjqxQTvwj7wnQHaEK&pid=15.1",
+      "image_full_url": "https://www.eatlife.net/restaurants/images/blaze-pizza-salad-and-sauce-section.jpg",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:27:18.041002+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -128949,11 +129093,13 @@
       "serving": "1 side salad",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.0N3Xr1sJ7ij5ZqrtRagCdwAAAA&pid=15.1",
+      "image_full_url": "https://eato.health/food-images/feast/act/blaze-pizza-salads-antipasto-17215554-1.webp",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:27:21.801090+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -128964,11 +129110,13 @@
       "serving": "1 side salad",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.a801s-ycdTRwwdRpTnPS4gHaG_&pid=15.1",
+      "image_full_url": "https://i.redd.it/1x56gz2jm1j31.jpg",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:27:25.162690+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -128979,11 +129127,13 @@
       "serving": "1 side salad",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.gRs5nngfVZ6Db2NN9sUsNAHaFj&pid=15.1",
+      "image_full_url": "https://williamsonsource.com/wp-content/uploads/2026/06/Blaze-Pizza-Menu-Expansion-Evolved-Salads-Flatbread.jpg",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:27:30.571579+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -128994,11 +129144,13 @@
       "serving": "1 bowl",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.C0yeoVZalG0FPR1vToJLoAHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/PP1PDYxaavY/maxresdefault.jpg",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:27:35.245711+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -129009,11 +129161,13 @@
       "serving": "1 bowl",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.9LFR_fsgOZ-6xYL_n2OeogHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/Q4kbRKntxfQ/maxresdefault.jpg",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:27:40.360875+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -129024,11 +129178,13 @@
       "serving": "4 knots",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.uNVspEWSdZEj_2ICvMrseQHaE6&pid=15.1",
+      "image_full_url": "https://shuncy.com/images/resources/are-garlic-knots-of-blaze-pizza-good_20251002213942.webp",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:27:45.156689+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -129039,11 +129195,13 @@
       "serving": "4 knots",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.Jrz_ZIX88zsInRdh00triAHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/0t6-kwVNjGk/maxresdefault.jpg",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:27:49.251946+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -129054,11 +129212,13 @@
       "serving": "1 brownie",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.J7Z6Rx7u5KDD6KlKpDnGHgHaN7&pid=15.1",
+      "image_full_url": "https://blessedbeyondcrazy.com/wp-content/uploads/2016/10/brownie-pizza-gluten-free-option.png",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:27:54.646843+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -129069,11 +129229,13 @@
       "serving": "1 personal pizza",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.IWj9x-wsTVjerEkHu18esAAAAA&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/51_MRIQsj9c/oardefault.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLB9NtiSOlkAa7T7i69xg5dQpLfx7Q",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:27:58.405587+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -129084,11 +129246,13 @@
       "serving": "1 salad",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.UcxsvREqDaRYjSdOUWlHegAAAA&pid=15.1",
+      "image_full_url": "https://eato.health/food-images/feast/act/blaze-pizza-salads-beet-goat-cheese-17215553-1.webp",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:28:02.817001+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -129099,11 +129263,13 @@
       "serving": "1 salad",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.gRs5nngfVZ6Db2NN9sUsNAHaFj&pid=15.1",
+      "image_full_url": "https://williamsonsource.com/wp-content/uploads/2026/06/Blaze-Pizza-Menu-Expansion-Evolved-Salads-Flatbread.jpg",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:28:06.816298+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -129114,11 +129280,13 @@
       "serving": "1 side salad",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.UcxsvREqDaRYjSdOUWlHegAAAA&pid=15.1",
+      "image_full_url": "https://eato.health/food-images/feast/act/blaze-pizza-salads-beet-goat-cheese-17215553-1.webp",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:28:11.683514+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Blaze Pizza",
@@ -129129,11 +129297,13 @@
       "serving": "1 side salad",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.rQtDLI2hz8D6mV9_ZAd4ZAHaFM&pid=15.1",
+      "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiOjTIhz_PMjc5eKU9LrE9n11BfbOZ7C_sEc-7_hPtDR1nN_XFRrM2g-9PBXWYSVVzE40WDz3IDUhg-OaZauDYPgQaRzca9aHDHL9Ua7QtOv3XxhccLgOayCyI_njuSVLTyeh0QIUPaVOI/s1600/blaze-pizza-butternut-squash-fall-2017.jpg",
       "_added_at": "2026-10-28T10:00:41.198502+00:00",
-      "_updated_at": "2026-10-28T10:00:41.198502+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-28T10:28:16.521485+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Famous Dave's",
@@ -129144,11 +129314,13 @@
       "serving": "1 sampler platter",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.BIM_4RkeIsPP7xedkJnMCAHaFj&pid=15.1",
+      "image_full_url": "https://bmt-prod.s3.amazonaws.com/businesses/166426/menu_pictures/image_original/8993/Dave_s_Sampler_Platters.jpg",
       "_added_at": "2026-10-28T10:07:52.652707+00:00",
-      "_updated_at": "2026-10-28T10:07:52.652707+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:28:21.126592+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Famous Dave's",
@@ -129159,11 +129331,13 @@
       "serving": "1 order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.I4PR9xT5zgKXdiSMeW6l_wHaJ4&pid=15.1",
+      "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh74NM43LpFI7pztVna8xrqWBbhGXtnE1oiDysjnD4dtboOpuYSUsujuK01zmk3GYseXeDhd_OW5troJ1Q1fwMp-Pk3kX8G9doyZ48RGJP7sJaGrFEZHDdL9yDyTENYTz-g_TBp-Faqo0c/s1600/IMG_1253.JPG",
       "_added_at": "2026-10-28T10:07:52.652707+00:00",
-      "_updated_at": "2026-10-28T10:07:52.652707+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:28:24.701854+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Famous Dave's",
@@ -129174,11 +129348,13 @@
       "serving": "1 platter",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.Mn-otVwTrVTdDcfaZN-EoQHaHa&pid=15.1",
+      "image_full_url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3446096221456250211",
       "_added_at": "2026-10-28T10:07:52.652707+00:00",
-      "_updated_at": "2026-10-28T10:07:52.652707+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:28:29.150485+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Famous Dave's",
@@ -129189,11 +129365,13 @@
       "serving": "1 salad",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.DysRw2K6Llwi-U9peXK0dgHaFj&pid=15.1",
+      "image_full_url": "https://topsecretrecipes.com/images/product/famous-daves-smoked-salmon-spread-copycat-recipe.jpg",
       "_added_at": "2026-10-28T10:07:52.652707+00:00",
-      "_updated_at": "2026-10-28T10:07:52.652707+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:28:32.984155+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Famous Dave's",
@@ -129204,11 +129382,13 @@
       "serving": "1 bowl",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.V-8R3qddpv6YWgrOSywLiQHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/19uiQ9FOC3s/maxresdefault.jpg",
       "_added_at": "2026-10-28T10:07:52.652707+00:00",
-      "_updated_at": "2026-10-28T10:07:52.652707+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:28:37.346690+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Famous Dave's",
@@ -129219,11 +129399,13 @@
       "serving": "3 tacos",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.Mi4m1_SQI_KhSLHy5PTNhwHaGl&pid=15.1",
       "image_full_url": "",
       "_added_at": "2026-10-28T10:07:52.652707+00:00",
-      "_updated_at": "2026-10-28T10:07:52.652707+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:28:42.332338+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Famous Dave's",
@@ -129234,11 +129416,13 @@
       "serving": "3 tacos",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.Mi4m1_SQI_KhSLHy5PTNhwHaGl&pid=15.1",
       "image_full_url": "",
       "_added_at": "2026-10-28T10:07:52.652707+00:00",
-      "_updated_at": "2026-10-28T10:07:52.652707+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:28:47.192033+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Famous Dave's",
@@ -129249,11 +129433,13 @@
       "serving": "1 burger",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.-FWocPCyV_ZUW4qZhiiYlwHaGl&pid=15.1",
+      "image_full_url": "https://www.famousdaves.ae/uploads/custom-images/classic-cheeseburger-2025-02-24-04-07-08-4711.jpg",
       "_added_at": "2026-10-28T10:07:52.652707+00:00",
-      "_updated_at": "2026-10-28T10:07:52.652707+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:28:51.712435+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Famous Dave's",
@@ -129264,11 +129450,13 @@
       "serving": "1 order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.5lPVn1ibY76AV61qef7VWgHaE8&pid=15.1",
+      "image_full_url": "https://burgerbeast.com/wp-content/uploads/2025/09/Daves-Hot-Chicken-Cheese-Fries.jpg",
       "_added_at": "2026-10-28T10:07:52.652707+00:00",
-      "_updated_at": "2026-10-28T10:07:52.652707+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:28:55.623430+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Famous Dave's",
@@ -129279,11 +129467,13 @@
       "serving": "1 platter",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.M5TIg95CjwL8fWYohfhepQHaDs&pid=15.1",
+      "image_full_url": "https://www.famousdaveschicago.com/cm/dpl/images/create/fried-chicken-feast.jpg",
       "_added_at": "2026-10-28T10:07:52.652707+00:00",
-      "_updated_at": "2026-10-28T10:07:52.652707+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:28:59.681859+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Famous Dave's",
@@ -129294,11 +129484,13 @@
       "serving": "1 float",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.037xcs2BbgiRum2rv5yMZAHaFj&pid=15.1",
+      "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhFUIx3pdFAWH-LXupQykhSe3EXEnMXSRXRp-HHP6sVrDEY0qqrX5-oZmvhuUhp2Kw2XYIPE86vVGCShSCjBXIB1U55Zs_g-2UI5RlcZo4LRz4Sol3GHe209-OhqediZ144kgmkUYnw-6g/s1600/IMG_1676.JPG",
       "_added_at": "2026-10-28T10:07:52.652707+00:00",
-      "_updated_at": "2026-10-28T10:07:52.652707+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:29:04.237326+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Famous Dave's",
@@ -129309,11 +129501,13 @@
       "serving": "1 slice",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.dtKHcZDXu7WZhAYyBUC6ggHaHa&pid=15.1",
+      "image_full_url": "https://davescoffeecakes.com/wp-content/uploads/2021/04/Triple-Chocolate.jpg",
       "_added_at": "2026-10-28T10:07:52.652707+00:00",
-      "_updated_at": "2026-10-28T10:07:52.652707+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:29:07.638649+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Famous Dave's",
@@ -129324,11 +129518,13 @@
       "serving": "1 slice",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.EB9YKIEHFCPjvE4jwX-tBQHaEO&pid=15.1",
+      "image_full_url": "https://pollyrecipes.com/wp-content/uploads/2024/10/What-is-the-most-famous-New-York-cheesecake.jpg",
       "_added_at": "2026-10-28T10:07:52.652707+00:00",
-      "_updated_at": "2026-10-28T10:07:52.652707+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:29:12.458863+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129339,11 +129535,13 @@
       "serving": "1 cup (6 oz)",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.jq-pgnVj5esjGfydmakj8gHaFd&pid=15.1",
+      "image_full_url": "https://www.restaurantmagazine.com/wp-content/uploads/2018/11/Moes-Southwest-Grill-Street-Corn.jpg",
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:29:17.476320+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129354,11 +129552,13 @@
       "serving": "1 burrito",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.-rhKJYwQJwHtJE2yFy7FaQHaFj&pid=15.1",
+      "image_full_url": "https://eatlocalbn.com/wp-content/uploads/elementor/thumbs/burrito-qzwm3fp7st7stobjar8l7aszintt0y7k5w8skrphd4.jpg",
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:29:22.797482+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129369,11 +129569,13 @@
       "serving": "1 burrito",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.pz_jo9u3ejt1-uivOydemQHaJQ&pid=15.1",
+      "image_full_url": "https://cdn.fastpixel.io/fp/ret_img+v_f22f+w_637+h_796+q_lossy+to_webp/cheatdaydesign.com/wp-content/uploads/2023/07/Moes-Stacked-Burrito.jpeg",
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:29:26.427606+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129384,11 +129586,13 @@
       "serving": "1 burrito",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.IdH4lk-F7PLYTgrHomli9wHaEb&pid=15.1",
+      "image_full_url": "https://www.sargento.com/assets/Uploads/Recipe/Image/1195x595__FocusFillWyIwLjAwIiwiMC4wMCIsODAwLDQ3OF0_CompressedW10.jpg",
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:29:29.775698+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129399,11 +129603,13 @@
       "serving": "1 bowl",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.xjfpB5jSj7qNcjrwLNuEQwHaHa&pid=15.1",
+      "image_full_url": "https://www.instacart.com/image-server/1200x1200/www.instacart.com/assets/domains/product-image/file/large_935a3e51-19d8-462e-819f-5cc202e19e0b.png",
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:29:34.463802+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129414,12 +129620,14 @@
       "serving": "3 tacos",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.1_c7dGqIpMnWrb1Z3agJtgHaFb&pid=15.1",
+      "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2020/01/moes-southwest-grill-taco.jpg?resize=473",
       "_serving_multiplier": 3,
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:29:37.878491+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129430,12 +129638,14 @@
       "serving": "3 tacos",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.sWr9aIvl2pVkE72g1vxWnwHaSh&pid=15.1",
+      "image_full_url": "https://secretcopycatrestaurantrecipes.com/wp-content/uploads/2024/01/Moes-Southwest-Grill-Steak-Taco-Salad.png",
       "_serving_multiplier": 3,
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:29:41.702138+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129446,11 +129656,13 @@
       "serving": "1 salad",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.explicit.bing.net/th?id=OIP.FFkBB5jdFHi2XUUzGZu-LQHaEy&pid=15.1",
+      "image_full_url": "https://www.thedailymeal.com/img/gallery/the-healthiest-things-to-eat-at-taco-bell-chipotle-and-moes-southwest-grill-slideshow/moes_yelp_biz_chicken_salad_copy.jpg",
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:29:46.081920+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129461,11 +129673,13 @@
       "serving": "1 salad",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.sWr9aIvl2pVkE72g1vxWnwHaSh&pid=15.1",
+      "image_full_url": "https://secretcopycatrestaurantrecipes.com/wp-content/uploads/2024/01/Moes-Southwest-Grill-Steak-Taco-Salad.png",
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:29:50.269469+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129476,11 +129690,13 @@
       "serving": "1 burrito",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.WEiT0PuZkz1LrDGsy-4cfAHaEK&pid=15.1",
+      "image_full_url": "https://aarp.widen.net/content/t17hmyoysl/jpeg/1140x641-turquoise-background-chicken-burrito-wrapped-and-bowl-version.jpeg?position=c&color=ffffffff&quality=99&u=qgu0ow",
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:29:55.135131+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129491,11 +129707,13 @@
       "serving": "1 burrito",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.IHMZFXF5fCgO5cQbzU2sCAHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/iM6JUdSfoS8/maxresdefault.jpg",
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:30:00.174853+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129506,11 +129724,13 @@
       "serving": "1 burrito",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.WEiT0PuZkz1LrDGsy-4cfAHaEK&pid=15.1",
+      "image_full_url": "https://aarp.widen.net/content/t17hmyoysl/jpeg/1140x641-turquoise-background-chicken-burrito-wrapped-and-bowl-version.jpeg?position=c&color=ffffffff&quality=99&u=qgu0ow",
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:30:03.869730+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129521,11 +129741,13 @@
       "serving": "1 burrito",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.k9qrmeJ3Gz5cKQibGsfU9QHaEK&pid=15.1",
+      "image_full_url": "https://www.thedailymeal.com/img/gallery/the-ultimate-ranking-of-moes-southwest-grill-proteins/5-ground-beef-1747166669.jpg",
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:30:08.981841+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129536,12 +129758,14 @@
       "serving": "3 tacos",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.67Kwz2Px9Zw21WxMDrgE5wHaFj&pid=15.1",
+      "image_full_url": "https://www.boozyburbs.com/wp-content/uploads/2012/06/fat-sam_steak.jpg",
       "_serving_multiplier": 3,
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:30:12.963147+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -129552,11 +129776,13 @@
       "serving": "1 quesadilla",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.e4gcYaHVWuDFrmW-Cjs5sgHaFb&pid=15.1",
+      "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2020/01/moes-southwest-grill-quesadilla.jpg?resize=684",
       "_added_at": "2026-10-28T10:08:17.903869+00:00",
-      "_updated_at": "2026-10-28T10:08:17.903869+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:30:17.839879+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Cheddar's",
@@ -129571,7 +129797,8 @@
       "image_full_url": "",
       "_added_at": "2026-10-28T10:08:31.359251+00:00",
       "_updated_at": "2026-10-28T10:08:31.359251+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1
     },
     {
       "restaurant": "Cheddar's",
@@ -129586,7 +129813,8 @@
       "image_full_url": "",
       "_added_at": "2026-10-28T10:08:31.359251+00:00",
       "_updated_at": "2026-10-28T10:08:31.359251+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1
     },
     {
       "restaurant": "Cheddar's",
@@ -129597,11 +129825,13 @@
       "serving": "1 entree",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.RuFjJqZxTxN0wNuXSQzJJgHaHa&pid=15.1",
+      "image_full_url": "https://petlyvox.com/cdn/shop/files/fancy-feast-delights-cheddar-whitefish-pack-24.jpg?v=1777820132",
       "_added_at": "2026-10-28T10:08:31.359251+00:00",
-      "_updated_at": "2026-10-28T10:08:31.359251+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:30:36.331287+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Cheddar's",
@@ -129612,11 +129842,13 @@
       "serving": "1 slice",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.5k6El3QjQiFPC0kQUXH6SwHaHa&pid=15.1",
+      "image_full_url": "https://arorasrecipe.com/thumb/768/classic-cheesecake-recipe.webp",
       "_added_at": "2026-10-28T10:08:31.359251+00:00",
-      "_updated_at": "2026-10-28T10:08:31.359251+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:30:40.934694+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Cheddar's",
@@ -129627,11 +129859,13 @@
       "serving": "1 meal",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.AEoQJBCmobnAZDeOmQydxgHaFj&pid=15.1",
+      "image_full_url": "https://cdn.apartmenttherapy.info/image/upload/v1722361910/k/Photo/Recipes/2024-07-marinara-sauce/marinara-sauce-508.jpg",
       "_added_at": "2026-10-28T10:08:31.359251+00:00",
-      "_updated_at": "2026-10-28T10:08:31.359251+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:30:44.778531+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Cheddar's",
@@ -129642,11 +129876,13 @@
       "serving": "1 platter",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.4sWj7y6BJrAxLjfhLZARXAHaLH&pid=15.1",
+      "image_full_url": "https://easykitchenguide.com/wp-content/uploads/2023/08/Cheddars-Grilled-Salmon-Recipe.jpg",
       "_added_at": "2026-10-28T10:08:31.359251+00:00",
-      "_updated_at": "2026-10-28T10:08:31.359251+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:30:49.261819+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Cheddar's",
@@ -129657,11 +129893,13 @@
       "serving": "1 wrap",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.meEfxFIjh5iDEMPdj6Mz2gHaHa&pid=15.1",
+      "image_full_url": "https://platefullyjoy.com/assets/images/1763953678357-ur8c6glj.webp",
       "_added_at": "2026-10-28T10:08:31.359251+00:00",
-      "_updated_at": "2026-10-28T10:08:31.359251+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:30:52.916423+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Cheddar's",
@@ -129676,7 +129914,8 @@
       "image_full_url": "",
       "_added_at": "2026-10-28T10:08:31.359251+00:00",
       "_updated_at": "2026-10-28T10:08:31.359251+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129687,11 +129926,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.GnIH0zG8dxPc3AU_3LmiLQHaEK&pid=15.1",
+      "image_full_url": "https://cdn.tworld.com/index.php/gallery/getFile/id/44558/key/d5a9b30e2b21589606325e244a24008bda7af0e709fd92976350dc7e3dce3619",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:31:03.906738+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129702,11 +129943,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.BUhfrlgVzJJrAt3cwQwNoAHaHa&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2024/11/5_cheesesteak-1-1024x1024.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:31:07.827883+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129717,11 +129960,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.K0KUMeFAJqBdfpRu4-aPeQHaEK&pid=15.1",
+      "image_full_url": "https://www.mashed.com/img/gallery/charleys-cheesesteaks-sandwiches-ranked-worst-to-best/teriyaki-chicken-cheesesteak-1686607409.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:31:12.807060+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129732,11 +129977,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.Ol81lBB0RCXv_1feF-82pAHaE8&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2024/09/Evergreen-CHeesesteak-Imagery_3.15-1-2-1024x683.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:31:16.760605+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129747,11 +129994,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.ZyptvmZh-mMdFPHk539bWQHaE8&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2024/11/Category-Image_Crispy-Chicken-Cheesesteaks.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:31:21.442194+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129762,11 +130011,13 @@
       "serving": "1 order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.9QqInTfCHTPUaezJDSwpfgHaEK&pid=15.1",
+      "image_full_url": "https://www.tastingtable.com/img/gallery/10-chain-restaurant-cheese-fries-ranked-worst-to-best/4-charleys-cheesesteaks-wings-cheese-fries-1762542447.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:31:25.818677+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129777,11 +130028,13 @@
       "serving": "1 order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.explicit.bing.net/th?id=OIP.fCNTUVaL32Cpdz0o9FPO8wHaFL&pid=15.1",
+      "image_full_url": "https://www.restaurantnews.com/wp-content/uploads/2015/07/Charleys-Philly-Steaks-Introduces-New-Pepperoni-Pizza-Fry.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:31:30.206631+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129792,11 +130045,13 @@
       "serving": "1 order (6 count)",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.4LJEgwmK5AtJvu-4ZkEqSgHaHa&pid=15.1",
+      "image_full_url": "https://a.mktgcdn.com/p/jdubE8mePD6atLpn_7YuhDk0_iWMieTU_R5JAx1gFos/1080x1080.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:31:35.516092+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129807,11 +130062,13 @@
       "serving": "1 brownie",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.4LJEgwmK5AtJvu-4ZkEqSgHaHa&pid=15.1",
+      "image_full_url": "https://a.mktgcdn.com/p/jdubE8mePD6atLpn_7YuhDk0_iWMieTU_R5JAx1gFos/1080x1080.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:31:39.902924+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129822,11 +130079,13 @@
       "serving": "8 wings",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.6-rVhjp1H2OSZw01NXuhbgHaF7&pid=15.1",
+      "image_full_url": "https://tb-static.uber.com/prod/image-proc/processed_images/ba1e77e3139b7af5bf63af16ad7404be/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:31:43.534169+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129837,11 +130096,13 @@
       "serving": "8 wings",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.aM8Um0iWq97SFiFzHAMq2gHaE8&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2024/11/80aeaa7d396345deae2f85f6859aadb5.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:31:47.322400+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129852,11 +130113,13 @@
       "serving": "1 small order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.explicit.bing.net/th?id=OIP.D79zp7CXBeOzZpSPiONe0wAAAA&pid=15.1",
+      "image_full_url": "https://img.restaurantguru.com/c5a9-Charleys-Cheesesteaks-and-Wings-Salisbury-french-fries.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:31:51.687974+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129867,11 +130130,13 @@
       "serving": "1 large order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.D5hmxtVb9onAznBDtHglKgHaE8&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2025/04/1024x683_category_cheesesteak-hot-box-fries.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:31:55.242871+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129882,11 +130147,13 @@
       "serving": "1 sandwich",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.bDZAgZzd16MNO7JQGyH3fAHaE8&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2022/03/d1025cccfd094fd7a3d236776474e08f.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:31:59.204113+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129897,11 +130164,13 @@
       "serving": "1 bowl",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.BUhfrlgVzJJrAt3cwQwNoAHaHa&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2024/11/5_cheesesteak-1-1024x1024.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:32:02.798728+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129912,11 +130181,13 @@
       "serving": "1 bowl",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.oh9RZLH5p7CD4UsWCXGnEgHaE8&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2022/11/2dac93cf29ee4aef97f5397a302e0631-1024x683.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:32:07.311966+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129927,11 +130198,13 @@
       "serving": "1 bowl",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.D5hmxtVb9onAznBDtHglKgHaE8&pid=15.1",
+      "image_full_url": "https://www.charleys.com/wp-content/uploads/2025/04/1024x683_category_cheesesteak-hot-box-fries.jpg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:32:12.301636+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -129942,11 +130215,13 @@
       "serving": "1 salad",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.83-G3a8E-LbovCoHSRzXfwHaF7&pid=15.1",
+      "image_full_url": "https://tb-static.uber.com/prod/image-proc/processed_images/ba1e77e3139b7af5bf63af16ad7404be/719c6bd2757b08684c0faae44d43159d.jpeg",
       "_added_at": "2026-10-28T10:08:46.581476+00:00",
-      "_updated_at": "2026-10-28T10:08:46.581476+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:32:19.189305+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "web"
     },
     {
       "restaurant": "Chili's",
@@ -129957,11 +130232,13 @@
       "serving": "1 sandwich",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.HZQ9f5uJxQnfk1RzE8xT2AHaFj&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/736x/52/aa/07/52aa077fd3a4d67dfc718d8af1581675.jpg",
       "_added_at": "2026-10-28T10:10:25.353380+00:00",
-      "_updated_at": "2026-10-28T10:10:25.353380+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:32:23.364863+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Chili's",
@@ -129972,11 +130249,13 @@
       "serving": "1 side portion",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.YuYCNJ3zjxzlc6vYPw4nSgHaO0&pid=15.1",
+      "image_full_url": "https://alldayidreamaboutfood.com/wp-content/uploads/2025/02/Chili-Garlic-Green-Beans-Pin.jpg",
       "_added_at": "2026-10-28T10:10:25.353380+00:00",
-      "_updated_at": "2026-10-28T10:10:25.353380+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:32:27.308489+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Chili's",
@@ -129987,11 +130266,13 @@
       "serving": "1 burger",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.yJfgAwt3MG1eZvIWa6-uxgHaE-&pid=15.1",
+      "image_full_url": "https://chilispr.com/images/burger/southern-smokehouse.jpg",
       "_added_at": "2026-10-28T10:10:25.353380+00:00",
-      "_updated_at": "2026-10-28T10:10:25.353380+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:32:31.231626+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Chili's",
@@ -130002,11 +130283,13 @@
       "serving": "1 bowl",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.rDjB5ulPmME_3XoD5LjSewHaFG&pid=15.1",
+      "image_full_url": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/5c050425960183.5634d6e4dc649.jpg",
       "_added_at": "2026-10-28T10:10:25.353380+00:00",
-      "_updated_at": "2026-10-28T10:10:25.353380+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:32:35.099895+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Chili's",
@@ -130017,11 +130300,13 @@
       "serving": "1 sundae",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.ees-Q28EsK6vQWCefL6A4gHaFF&pid=15.1",
+      "image_full_url": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/3a4bfa25960183.5634d76db2a43.jpg",
       "_added_at": "2026-10-28T10:10:25.353380+00:00",
-      "_updated_at": "2026-10-28T10:10:25.353380+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:32:39.676087+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Chili's",
@@ -130036,7 +130321,8 @@
       "image_full_url": "",
       "_added_at": "2026-10-28T10:10:25.353380+00:00",
       "_updated_at": "2026-10-28T10:10:25.353380+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1
     },
     {
       "restaurant": "Chili's",
@@ -130047,11 +130333,13 @@
       "serving": "1 order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.SZm5AlbG-DRdcps9ah2zsAHaKD&pid=15.1",
+      "image_full_url": "https://i0.wp.com/coopcancook.com/wp-content/uploads/2021/07/Photo-Jun-17-3-52-46-PM.jpg?fit=1474,2000&ssl=1",
       "_added_at": "2026-10-28T10:10:25.353380+00:00",
-      "_updated_at": "2026-10-28T10:10:25.353380+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:32:50.543791+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Chili's",
@@ -130062,11 +130350,13 @@
       "serving": "1 order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.tbOnyabcPVoPetSdnE_uoQHaJ4&pid=15.1",
+      "image_full_url": "https://www.recipesbyeloise.com/wp-content/uploads/2025/12/p7jsul488whwqjhceeme.webp",
       "_added_at": "2026-10-28T10:10:25.353380+00:00",
-      "_updated_at": "2026-10-28T10:10:25.353380+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:32:55.787876+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Chili's",
@@ -130077,11 +130367,13 @@
       "serving": "1 order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.wtXaVibXj3J1P8R8Cm63zwHaE7&pid=15.1",
+      "image_full_url": "https://chilisphilippines.com/wp-content/uploads/2020/06/chilis-quesadillas-bacon-ranch-chicken-quesadillas.jpg",
       "_added_at": "2026-10-28T10:10:25.353380+00:00",
-      "_updated_at": "2026-10-28T10:10:25.353380+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:32:59.621204+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Chili's",
@@ -130092,11 +130384,13 @@
       "serving": "1 side portion",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.T_m34CuCW_r4JbNAG3bdwQHaEK&pid=15.1",
+      "image_full_url": "https://www.chowhound.com/img/gallery/i-tried-and-ranked-9-sides-from-chilis/steamed-broccoli-1773750947.jpg",
       "_added_at": "2026-10-28T10:10:25.353380+00:00",
-      "_updated_at": "2026-10-28T10:10:25.353380+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:33:03.785439+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Chili's",
@@ -130107,11 +130401,13 @@
       "serving": "1 order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.cL958Q5mLn3DyNBY9G4INQHaGb&pid=15.1",
+      "image_full_url": "https://e22d0640933e3c7f8c86-34aee0c49088be50e3ac6555f6c963fb.ssl.cf2.rackcdn.com/0017854470070_CL_default_default_large.jpeg",
       "_added_at": "2026-10-28T10:10:25.353380+00:00",
-      "_updated_at": "2026-10-28T10:10:25.353380+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:33:08.552926+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Chili's",
@@ -130122,11 +130418,13 @@
       "serving": "1 ear",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.s0KUr121UU6KJwBLDHvGxQHaFM&pid=15.1",
+      "image_full_url": "https://recipeask.com/wp-content/uploads/2026/02/Serving-Chilis-Corn-on-the-Cob.webp",
       "_added_at": "2026-10-28T10:10:25.353380+00:00",
-      "_updated_at": "2026-10-28T10:10:25.353380+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:33:12.643578+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Chili's",
@@ -130137,11 +130435,13 @@
       "serving": "1 side portion",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.O7qH-MOjx_ACdnavkI2VsgHaHa&pid=15.1",
+      "image_full_url": "https://forknbite.com/wp-content/uploads/2024/12/Leonardo_Kino_XL_Chilis_Loaded_Mashed_Potatoes_Recipe_3-1-1-500x500.jpg",
       "_added_at": "2026-10-28T10:10:25.353380+00:00",
-      "_updated_at": "2026-10-28T10:10:25.353380+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:33:17.379887+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130152,11 +130452,13 @@
       "serving": "1 calzone",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.o0TT3nf9XjdAAXJaEN3-cQAAAA&pid=15.1",
+      "image_full_url": "https://papamurphysmenu.com/wp-content/uploads/2025/12/Pepperoni-Mozzarella-Calzone.webp",
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
-      "_updated_at": "2026-10-28T10:10:36.876503+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:33:21.998060+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130167,11 +130469,13 @@
       "serving": "1 calzone",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.KaZpulBj_MToWIFbDgdmYQHaEh&pid=15.1",
+      "image_full_url": "https://www.snackandbakery.com/ext/resources/2023/05/25/papa-murphy-calzones.png?1685041725",
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
-      "_updated_at": "2026-10-28T10:10:36.876503+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:33:27.426774+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130182,11 +130486,13 @@
       "serving": "1 calzone",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.rnDW3Qfo-pH9xqpagPbTjAHaEK&pid=15.1",
+      "image_full_url": "https://www.papamurphys.com/link/edea179aefb947b9bc8a9db2fe42626d.aspx",
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
-      "_updated_at": "2026-10-28T10:10:36.876503+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:33:30.819001+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130197,11 +130503,13 @@
       "serving": "1 calzone",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.49ntv30vhJrlgHdWPdjNGQAAAA&pid=15.1",
+      "image_full_url": "https://papamurphysmenu.com/wp-content/uploads/2025/12/Dairy-Free-Cheese-Create-Your-Own-Calzone.webp",
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
-      "_updated_at": "2026-10-28T10:10:36.876503+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:33:35.840137+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130216,7 +130524,8 @@
       "image_full_url": "",
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
       "_updated_at": "2026-10-28T10:10:36.876503+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130227,11 +130536,13 @@
       "serving": "1 bowl",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.aT0mypxuYXsQHbxA65KhYgHaHa&pid=15.1",
+      "image_full_url": "https://fitnessunicorn.com/wp-content/uploads/2023/02/Chicken-Bacon-Artichoke.jpg",
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
-      "_updated_at": "2026-10-28T10:10:36.876503+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:33:47.684122+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130246,7 +130557,8 @@
       "image_full_url": "",
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
       "_updated_at": "2026-10-28T10:10:36.876503+00:00",
-      "_model": "gemini-3.6-flash"
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130257,11 +130569,13 @@
       "serving": "1 bowl",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.KWNMePiHzwS6QkyT_wK4-wHaM0&pid=15.1",
+      "image_full_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=570360642035947&get_thumbnail=1",
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
-      "_updated_at": "2026-10-28T10:10:36.876503+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:33:58.007039+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130272,11 +130586,13 @@
       "serving": "1 cookie (1.2 oz dough)",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.explicit.bing.net/th?id=OIP.MpUkBOisgS0i9QkLtmwkfgHaHa&pid=15.1",
+      "image_full_url": "https://pub-d566ac4f0b8d4d958aa18b0470b9094a.r2.dev/2025/12/papa-murphy-s-cookie-dough-recipe-png.jpg",
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
-      "_updated_at": "2026-10-28T10:10:36.876503+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:34:01.652934+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130287,12 +130603,14 @@
       "serving": "2 slices (2/8 large pizza)",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.JjP32rzsLNweN7QQtrOSAAHaLM&pid=15.1",
+      "image_full_url": "https://www.thriftynorthwestmom.com/wp-content/uploads/2017/07/Papa-Murphys-KC-Masterpiece-BBQ-Take-Bake-Chicken-.jpg",
       "_serving_multiplier": 2,
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
-      "_updated_at": "2026-10-28T10:10:36.876503+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:34:05.027015+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130303,12 +130621,14 @@
       "serving": "2 slices (2/8 large pizza)",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.7cAbDvq3gCeKvlxFKMGKRAHaIm&pid=15.1",
+      "image_full_url": "https://cychicken.com/images/resources/what-is-on-a-papa-murpheys-buffalo-chicken-pizza_20250630022520.webp",
       "_serving_multiplier": 2,
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
-      "_updated_at": "2026-10-28T10:10:36.876503+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:34:09.716516+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130319,12 +130639,14 @@
       "serving": "2 slices (2/8 large pizza)",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.OLTUOy_dCz3tP4vY66jSLQHaE8&pid=15.1",
+      "image_full_url": "https://www.thriftynorthwestmom.com/wp-content/uploads/2017/06/Papa-Murphys-Gourmet-Vegetarian-Delite-Pizza.jpg",
       "_serving_multiplier": 2,
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
-      "_updated_at": "2026-10-28T10:10:36.876503+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:34:14.872016+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130335,12 +130657,14 @@
       "serving": "2 slices (2/8 medium pizza)",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.7cAbDvq3gCeKvlxFKMGKRAHaIm&pid=15.1",
+      "image_full_url": "https://cychicken.com/images/resources/what-is-on-a-papa-murpheys-buffalo-chicken-pizza_20250630022520.webp",
       "_serving_multiplier": 2,
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
-      "_updated_at": "2026-10-28T10:10:36.876503+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:34:19.752785+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130351,12 +130675,14 @@
       "serving": "2 slices (2/8 medium pizza)",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.JPjIbYUP4q8g4HSkknORbwHaIb&pid=15.1",
+      "image_full_url": "https://www.thriftynorthwestmom.com/wp-content/uploads/2017/07/BBQ-Chicken-Pizza-from-Papa-Murphys-.jpg",
       "_serving_multiplier": 2,
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
-      "_updated_at": "2026-10-28T10:10:36.876503+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:34:24.755252+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130367,11 +130693,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.ue7ScPjSNpcF7oTamWXbcAHaFw&pid=15.1",
+      "image_full_url": "https://www.cupcakediariesblog.com/wp-content/uploads/2013/12/PW0SdzP.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:34:28.405067+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130382,11 +130710,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.r1YmMfmPdaDy99jhznZs4AHaFj&pid=15.1",
+      "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJcNbsozqowm1W40OmfdkDQtkxSt92ly1v8Hgpmw7Zxna-WgbppEHBb2NQKbVxcM1aTwANabDN0pzhL_OCBmwaw9OiVVLALj9dEJb8YaQ216wxVbfyoC8N2JwlTDaTQhCz0iEJgqEtOCw/s640/arbys-luau-chicken-sandwich-01.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:34:32.922446+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130397,11 +130727,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.GuA4ychVD1Zzc9KampeEkwHaEK&pid=15.1",
+      "image_full_url": "https://d2z1w4aiblvrwu.cloudfront.net/ad/Ix8Z/arbys-kings-hawaiian-big-kahuna-sandwich-almost-every-meat-featuring-h-jon-benjamin-song-by-yogi-large-6.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:34:37.369044+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130412,11 +130744,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.T11foE4Rvxsv_LOay9cb-gHaGQ&pid=15.1",
+      "image_full_url": "https://i0.wp.com/spicyfoodreviews.com/wp-content/uploads/2022/11/Arbys-Diablo-Chicken-Sandwich-Review.jpg?w=544&ssl=1",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:34:41.787639+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130427,11 +130761,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.knBStSDQsNXR5wUE_nkcRwHaD7&pid=15.1",
+      "image_full_url": "https://www.fastfoodpost.com/wp-content/uploads/2022/10/Arbys-Launches-New-Diablo-Roast-Beef-Sandwich-And-Diablo-Loaded-Fries-1068x566.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:34:45.229573+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130442,11 +130778,13 @@
       "serving": "3 potato cakes",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.yy6OvoyiZ_JpqZOaHn3brwHaHa&pid=15.1",
+      "image_full_url": "https://img.zmenu.com/large/22270/20140418161922573266.jpg?format=auto",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:34:48.918926+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130457,11 +130795,13 @@
       "serving": "1 slush (medium)",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.Rgf_mH1C3jLDkR77pNTB6wHaHa&pid=15.1",
+      "image_full_url": "https://live.staticflickr.com/65535/52363616853_96dbdcdfd9_b.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:34:53.286188+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130472,11 +130812,13 @@
       "serving": "1 slush (medium)",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.XF4DnlXAOpVEZxzsZ41xgwHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/RNBxreG2T6k/maxresdefault.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:34:56.991976+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130487,11 +130829,13 @@
       "serving": "1 slush (medium)",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.XF4DnlXAOpVEZxzsZ41xgwHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/RNBxreG2T6k/maxresdefault.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:35:01.722004+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130502,11 +130846,13 @@
       "serving": "4 nuggets",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.XTt2IbzeLWTp3W3nE-_sqgHaEK&pid=15.1",
+      "image_full_url": "https://images-cdn.ispot.tv/ad/OW_6/default-large.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:35:06.036745+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130517,11 +130863,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.rIuGUGF9OPCc9KrLuwa77gHaEK&pid=15.1",
+      "image_full_url": "https://images-cdn.ispot.tv/ad/wAL4/default-large.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:35:09.733599+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130532,11 +130880,13 @@
       "serving": "1 wrap",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.cGrrBgG6K_33CNr1c9bjLQHaHa&pid=15.1",
+      "image_full_url": "https://image.zmenu.com/large/22270/20140418161843431444.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:35:14.021388+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130547,11 +130897,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.RDw3U8U4n6PjP9kadHmLiAHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/ZcZ8Z65tud8/maxresdefault.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:35:17.750647+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130562,11 +130914,13 @@
       "serving": "1 wrap",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.SGFvecXgAiCoBCjmEhN-owHaDu&pid=15.1",
+      "image_full_url": "https://cdn.foodbeast.com.s3.amazonaws.com/content/wp-content/uploads/2012/06/market-fresh-blt.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:35:21.488961+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130577,11 +130931,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.YC-uRokmvrEeiI82m8i0oAHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/jLR3DYSPw-Q/maxresdefault.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:35:25.090148+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130592,11 +130948,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.FvFRkosUfs0jOtJwmBGZsgHaF5&pid=15.1",
+      "image_full_url": "https://i.dailymail.co.uk/1s/2024/10/29/04/88494077-14012173-The_Bourbon_BBQ_brisket_sandwich_comes_with_melted_cheddar_chees-a-6_1730177456934.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:35:28.961007+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130607,11 +130965,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.FvFRkosUfs0jOtJwmBGZsgHaF5&pid=15.1",
+      "image_full_url": "https://i.dailymail.co.uk/1s/2024/10/29/04/88494077-14012173-The_Bourbon_BBQ_brisket_sandwich_comes_with_melted_cheddar_chees-a-6_1730177456934.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:35:33.214713+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130622,11 +130982,13 @@
       "serving": "1 sandwich",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.dlDwoUQ0o7H_I9WPxBeNZAHaFq&pid=15.1",
+      "image_full_url": "https://brobible.com/wp-content/uploads/2018/05/arby-s-bourbon-bbq-triple-stack-sandwich.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:35:37.447137+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130637,11 +130999,13 @@
       "serving": "1 shake (medium)",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.-tyYwvWNvaIx040t5-dSzQAAAA&pid=15.1",
+      "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2xjsD5ZJQ1KDQdvnflTLxaXufG51hR_zKpBK8-hgtzxSnPimsee_qrPiwTBVFJwdphZn-uNOE9W9CgatN_9uZSj9CpTUAnSBrL72xFoOId2au2ShBWQe3_OV129600B4cgO4eC6W-Lx8/s1600/arbys+cookie+butter+shake.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:35:41.169369+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130652,11 +131016,13 @@
       "serving": "1 pouch (3.2 oz)",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.ntzWJYgE5wF9RGRwF26kqQHaFj&pid=15.1",
+      "image_full_url": "https://abymenus.com/wp-content/uploads/2024/08/yyy.webp",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:35:45.914654+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130667,11 +131033,13 @@
       "serving": "1 wrap",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.16Z5nAQ1oawW_nluLzN1MAHaEK&pid=15.1",
+      "image_full_url": "https://www.mashed.com/img/gallery/heres-whats-in-arbys-new-southwest-chicken-avocado-wrap/the-new-southwest-chicken-avocado-wrap-is-a-spice-lovers-dream-come-true-1627414776.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:35:50.744678+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Arby's",
@@ -130682,11 +131050,13 @@
       "serving": "1 wrap",
       "vegetarian": false,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.pLpvHYMupko4oSja_K8HrAHaEK&pid=15.1",
+      "image_full_url": "https://i.ytimg.com/vi/jpQbVVig90Q/maxresdefault.jpg",
       "_added_at": "2026-10-28T10:10:57.335771+00:00",
-      "_updated_at": "2026-10-28T10:10:57.335771+00:00",
-      "_model": "gemini-3.6-flash"
+      "_updated_at": "2026-10-28T10:35:54.436898+00:00",
+      "_model": "gemini-3.6-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "McAlister's Deli",
@@ -130697,11 +131067,13 @@
       "serving": "1 pretzel",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.1OB5OE43pLzy3NqVbZ6bAwHaEK&pid=15.1",
+      "image_full_url": "https://images2.minutemediacdn.com/image/upload/c_crop,w_2048,h_1152,x_0,y_103/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/images/voltaxMediaLibrary/mmsport/306/01j80412xx6se20f7907.jpg",
       "_added_at": "2026-10-28T10:11:47.674518+00:00",
-      "_updated_at": "2026-10-28T10:11:47.674518+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-10-28T10:35:58.251622+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "McAlister's Deli",
@@ -130712,11 +131084,13 @@
       "serving": "1 sandwich",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.kyEfS4A3gCmvOFoe7FnXeQHaEK&pid=15.1",
+      "image_full_url": "https://menuandprice.org/wp-content/uploads/2020/07/mcallister-foods-1024x576.jpg",
       "_added_at": "2026-10-28T10:11:47.674518+00:00",
-      "_updated_at": "2026-10-28T10:11:47.674518+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-10-28T10:36:02.932073+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "McAlister's Deli",
@@ -130727,11 +131101,13 @@
       "serving": "1 salad",
       "vegetarian": true,
       "healthy": true,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.eBsu99nsE04hkai07upxDwHaJ4&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/originals/d6/93/01/d6930198f64ce00a469ba8b91fab9b04.jpg",
       "_added_at": "2026-10-28T10:11:47.674518+00:00",
-      "_updated_at": "2026-10-28T10:11:47.674518+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-10-28T10:36:08.114899+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "McAlister's Deli",
@@ -130742,11 +131118,13 @@
       "serving": "1 rollup",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.a_PDpDm30y24VBLJfBHhLAHaJC&pid=15.1",
+      "image_full_url": "https://i.pinimg.com/736x/a4/1a/91/a41a914c22a6e825d4c455b4d6e7cde3.jpg",
       "_added_at": "2026-10-28T10:11:47.674518+00:00",
-      "_updated_at": "2026-10-28T10:11:47.674518+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-10-28T10:36:12.660207+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "McAlister's Deli",
@@ -130757,11 +131135,13 @@
       "serving": "1 biscuit",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.D5CSNMXFgxRvnhNjaMEgVQHaE8&pid=15.1",
+      "image_full_url": "https://catering.mcalistersdeli.com/usercontent/product_sub_img/MCA_709918_Breakfast+Catering+Test+Images_Egg+Florentine+Box.jpg",
       "_added_at": "2026-10-28T10:11:47.674518+00:00",
-      "_updated_at": "2026-10-28T10:11:47.674518+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-10-28T10:36:17.586974+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "McAlister's Deli",
@@ -130772,11 +131152,13 @@
       "serving": "1 croissant",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts2.mm.bing.net/th?id=OIP.80CSRAwzJ91vbZpzU8mrWAHaEd&pid=15.1",
+      "image_full_url": "https://silkcitydeli.com/wp-content/uploads/2024/01/Egg-Cheese-Croissant.png",
       "_added_at": "2026-10-28T10:11:47.674518+00:00",
-      "_updated_at": "2026-10-28T10:11:47.674518+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-10-28T10:36:22.196186+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "McAlister's Deli",
@@ -130787,11 +131169,13 @@
       "serving": "1 wrap",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.uUUY4MBl4k8536Jw1lD52wHaDt&pid=15.1",
+      "image_full_url": "https://imgproxy.ezcater.com/VzkoTxK_dkLJFgYI4BZTpLNlQ7z7rrfs667SuFWe92A/crop:1200:600/g:nowe:0:163/rs:fit:640:320/q:85/czM6Ly9lemltYWdl/cy1wcm9kL3VwbG9h/ZHMvZXpfaW1hZ2Uv/aW1hZ2UvNTEwNzUx/L01DQV8xNzEyNDQz/X0NhdGVyaW5nX01T/SV9JbWFnZXNfVHVy/a2V5X1JhbmNoX1dy/YXBfMTIwMHg4MDAt/bWluLmpwZw.jpg",
       "_added_at": "2026-10-28T10:11:47.674518+00:00",
-      "_updated_at": "2026-10-28T10:11:47.674518+00:00",
-      "_model": "gemini-3.5-flash"
+      "_updated_at": "2026-10-28T10:36:25.939019+00:00",
+      "_model": "gemini-3.5-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     }
   ],
   "restaurants": {
@@ -131072,5 +131456,5 @@
     "Wendy's",
     "Wingstop"
   ],
-  "updated_at": "2026-10-28T10:11:47.916294+00:00"
+  "updated_at": "2026-10-28T10:36:29.590071+00:00"
 }
