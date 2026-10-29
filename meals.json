@@ -125424,7 +125424,7 @@
       "_added_at": "2026-10-27T09:52:42.505933+00:00",
       "_updated_at": "2026-10-27T09:52:42.505933+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Long John Silver's",
@@ -125746,7 +125746,7 @@
       "_added_at": "2026-10-27T09:58:27.067676+00:00",
       "_updated_at": "2026-10-27T09:58:27.067676+00:00",
       "_model": "gemini-3.5-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Slim Chickens",
@@ -126396,7 +126396,7 @@
       "_added_at": "2026-10-27T09:59:55.808230+00:00",
       "_updated_at": "2026-10-27T09:59:55.808230+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Cheddar's",
@@ -126429,7 +126429,7 @@
       "_added_at": "2026-10-27T09:59:55.808230+00:00",
       "_updated_at": "2026-10-27T09:59:55.808230+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Cheddar's",
@@ -126445,7 +126445,7 @@
       "_added_at": "2026-10-27T09:59:55.808230+00:00",
       "_updated_at": "2026-10-27T09:59:55.808230+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Cheddar's",
@@ -126461,7 +126461,7 @@
       "_added_at": "2026-10-27T09:59:55.808230+00:00",
       "_updated_at": "2026-10-27T09:59:55.808230+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Cheddar's",
@@ -126528,7 +126528,7 @@
       "_added_at": "2026-10-27T09:59:55.808230+00:00",
       "_updated_at": "2026-10-27T09:59:55.808230+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Cheddar's",
@@ -128318,7 +128318,7 @@
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
       "_updated_at": "2026-10-28T09:52:46.648933+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -128929,7 +128929,7 @@
       "_added_at": "2026-10-28T09:52:46.648933+00:00",
       "_updated_at": "2026-10-28T09:52:46.648933+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2
     },
     {
       "restaurant": "Long John Silver's",
@@ -129798,7 +129798,7 @@
       "_added_at": "2026-10-28T10:08:31.359251+00:00",
       "_updated_at": "2026-10-28T10:08:31.359251+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2
     },
     {
       "restaurant": "Cheddar's",
@@ -129814,7 +129814,7 @@
       "_added_at": "2026-10-28T10:08:31.359251+00:00",
       "_updated_at": "2026-10-28T10:08:31.359251+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2
     },
     {
       "restaurant": "Cheddar's",
@@ -129915,7 +129915,7 @@
       "_added_at": "2026-10-28T10:08:31.359251+00:00",
       "_updated_at": "2026-10-28T10:08:31.359251+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2
     },
     {
       "restaurant": "Charleys Cheesesteaks",
@@ -130317,12 +130317,13 @@
       "serving": "order of 3 tacos",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts1.mm.bing.net/th?id=OIP.T1abUm4Tnz9g8U4OU7_1RgHaJ_&pid=15.1",
+      "image_full_url": "https://www.staysnatched.com/wp-content/uploads/2021/01/creamy-seafood-chili-1.jpg",
       "_added_at": "2026-10-28T10:10:25.353380+00:00",
-      "_updated_at": "2026-10-28T10:10:25.353380+00:00",
+      "_updated_at": "2026-10-29T12:14:35.291418+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Chili's",
@@ -130525,7 +130526,7 @@
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
       "_updated_at": "2026-10-28T10:10:36.876503+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2
     },
     {
       "restaurant": "Papa Murphy's",
@@ -130558,7 +130559,7 @@
       "_added_at": "2026-10-28T10:10:36.876503+00:00",
       "_updated_at": "2026-10-28T10:10:36.876503+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 1
+      "_image_attempts": 2
     },
     {
       "restaurant": "Papa Murphy's",
@@ -131186,11 +131187,13 @@
       "serving": "1 order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.w5b62vCesqUiOAW3ldlPSQHaFj&pid=15.1",
+      "image_full_url": "https://www.onceuponachef.com/images/2023/08/Beef-Tacos.jpg",
       "_added_at": "2026-10-29T10:47:59.796922+00:00",
-      "_updated_at": "2026-10-29T10:47:59.796922+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-29T12:14:50.818550+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -131201,11 +131204,13 @@
       "serving": "1 order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.w5b62vCesqUiOAW3ldlPSQHaFj&pid=15.1",
+      "image_full_url": "https://www.onceuponachef.com/images/2023/08/Beef-Tacos.jpg",
       "_added_at": "2026-10-29T10:47:59.796922+00:00",
-      "_updated_at": "2026-10-29T10:47:59.796922+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-29T12:14:54.828248+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -131216,11 +131221,13 @@
       "serving": "1 order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.w5b62vCesqUiOAW3ldlPSQHaFj&pid=15.1",
+      "image_full_url": "https://www.onceuponachef.com/images/2023/08/Beef-Tacos.jpg",
       "_added_at": "2026-10-29T10:47:59.796922+00:00",
-      "_updated_at": "2026-10-29T10:47:59.796922+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-29T12:14:59.612066+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -131231,11 +131238,13 @@
       "serving": "1 order",
       "vegetarian": true,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.w5b62vCesqUiOAW3ldlPSQHaFj&pid=15.1",
+      "image_full_url": "https://www.onceuponachef.com/images/2023/08/Beef-Tacos.jpg",
       "_added_at": "2026-10-29T10:47:59.796922+00:00",
-      "_updated_at": "2026-10-29T10:47:59.796922+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-29T12:15:03.024964+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -131246,11 +131255,13 @@
       "serving": "1 order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.Nh2DIbynsUPO6vTgG17l_gHaLH&pid=15.1",
+      "image_full_url": "https://carlsbadcravings.com/wp-content/uploads/2023/06/chicken-street-tacos-7a.jpg",
       "_added_at": "2026-10-29T10:47:59.796922+00:00",
-      "_updated_at": "2026-10-29T10:47:59.796922+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-29T12:15:08.011166+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -131261,11 +131272,13 @@
       "serving": "1 order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.w5b62vCesqUiOAW3ldlPSQHaFj&pid=15.1",
+      "image_full_url": "https://www.onceuponachef.com/images/2023/08/Beef-Tacos.jpg",
       "_added_at": "2026-10-29T10:47:59.796922+00:00",
-      "_updated_at": "2026-10-29T10:47:59.796922+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-29T12:15:12.209551+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -131276,11 +131289,13 @@
       "serving": "1 order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.w5b62vCesqUiOAW3ldlPSQHaFj&pid=15.1",
+      "image_full_url": "https://www.onceuponachef.com/images/2023/08/Beef-Tacos.jpg",
       "_added_at": "2026-10-29T10:47:59.796922+00:00",
-      "_updated_at": "2026-10-29T10:47:59.796922+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-29T12:15:16.139751+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -131291,11 +131306,13 @@
       "serving": "1 order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts4.mm.bing.net/th?id=OIP.Nh2DIbynsUPO6vTgG17l_gHaLH&pid=15.1",
+      "image_full_url": "https://carlsbadcravings.com/wp-content/uploads/2023/06/chicken-street-tacos-7a.jpg",
       "_added_at": "2026-10-29T10:47:59.796922+00:00",
-      "_updated_at": "2026-10-29T10:47:59.796922+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-29T12:15:19.463983+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -131306,11 +131323,13 @@
       "serving": "1 order",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.w5b62vCesqUiOAW3ldlPSQHaFj&pid=15.1",
+      "image_full_url": "https://www.onceuponachef.com/images/2023/08/Beef-Tacos.jpg",
       "_added_at": "2026-10-29T10:47:59.796922+00:00",
-      "_updated_at": "2026-10-29T10:47:59.796922+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-29T12:15:23.530716+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -131321,11 +131340,13 @@
       "serving": "1 quesadilla",
       "vegetarian": false,
       "healthy": false,
-      "image_url": "",
-      "image_full_url": "",
+      "image_url": "https://ts3.mm.bing.net/th?id=OIP.w5b62vCesqUiOAW3ldlPSQHaFj&pid=15.1",
+      "image_full_url": "https://www.onceuponachef.com/images/2023/08/Beef-Tacos.jpg",
       "_added_at": "2026-10-29T10:47:59.796922+00:00",
-      "_updated_at": "2026-10-29T10:47:59.796922+00:00",
-      "_model": "gemini-3.8-flash"
+      "_updated_at": "2026-10-29T12:15:27.242127+00:00",
+      "_model": "gemini-3.8-flash",
+      "_image_attempts": 1,
+      "_image_source": "quoted"
     },
     {
       "restaurant": "Taco John's",
@@ -134573,5 +134594,5 @@
     "Wendy's",
     "Wingstop"
   ],
-  "updated_at": "2026-10-29T11:33:35.508565+00:00"
+  "updated_at": "2026-10-29T12:15:27.242208+00:00"
 }
