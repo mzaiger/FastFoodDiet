@@ -135456,7 +135456,7 @@
       "_added_at": "2026-10-30T07:07:48.481961+00:00",
       "_updated_at": "2026-10-30T07:07:48.481961+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Long John Silver's",
@@ -136033,7 +136033,7 @@
       "_added_at": "2026-10-30T07:11:37.004071+00:00",
       "_updated_at": "2026-10-30T07:11:37.004071+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -136168,7 +136168,7 @@
       "_added_at": "2026-10-30T07:11:37.004071+00:00",
       "_updated_at": "2026-10-30T07:11:37.004071+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -136269,7 +136269,7 @@
       "_added_at": "2026-10-30T07:11:37.004071+00:00",
       "_updated_at": "2026-10-30T07:11:37.004071+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -136387,7 +136387,7 @@
       "_added_at": "2026-10-30T07:11:37.004071+00:00",
       "_updated_at": "2026-10-30T07:11:37.004071+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -136471,7 +136471,7 @@
       "_added_at": "2026-10-30T07:11:37.004071+00:00",
       "_updated_at": "2026-10-30T07:11:37.004071+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Ruby Tuesday",
@@ -136504,7 +136504,7 @@
       "_added_at": "2026-10-30T07:11:37.004071+00:00",
       "_updated_at": "2026-10-30T07:11:37.004071+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Panda Express",
@@ -136945,7 +136945,7 @@
       "_added_at": "2026-10-30T07:15:21.052975+00:00",
       "_updated_at": "2026-10-30T07:15:21.052975+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Slim Chickens",
@@ -137896,7 +137896,7 @@
       "_added_at": "2026-10-30T07:22:24.443949+00:00",
       "_updated_at": "2026-10-30T07:22:24.443949+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Famous Dave's",
@@ -139923,7 +139923,7 @@
       "_added_at": "2026-10-30T07:31:22.555593+00:00",
       "_updated_at": "2026-10-30T07:31:22.555593+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Godfather's Pizza",
@@ -139973,7 +139973,7 @@
       "_added_at": "2026-10-30T07:31:22.555593+00:00",
       "_updated_at": "2026-10-30T07:31:22.555593+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "Godfather's Pizza",
@@ -140369,7 +140369,7 @@
       "_added_at": "2026-10-30T07:31:54.224334+00:00",
       "_updated_at": "2026-10-30T07:31:54.224334+00:00",
       "_model": "gemini-3.6-flash",
-      "_image_attempts": 2
+      "_image_attempts": 3
     },
     {
       "restaurant": "McAlister's Deli",
@@ -143662,5 +143662,5 @@
     "Wendy's",
     "Wingstop"
   ],
-  "updated_at": "2026-10-31T11:13:19.253950+00:00"
+  "updated_at": "2026-10-31T11:19:46.015998+00:00"
 }
