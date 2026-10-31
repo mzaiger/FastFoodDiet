@@ -14,6 +14,8 @@ A static website that builds a 7-day meal plan, **only from 52 national fast foo
 | `.github/workflows/pull_meals.yml` | Manual GitHub Action ("Pull fast food meals (manual)") that runs `pull_meals.py` and commits `meals.json`. |
 | `refresh_images.py` | **Step 2.** Finds pictures on DuckDuckGo, **only for meals whose picture is empty** (see "Pictures"). |
 | `.github/workflows/refresh_images.yml` | Manual GitHub Action ("Fill missing meal images (manual)") that runs `refresh_images.py` and commits `meals.json`. |
+| `check_availability.py` | **Availability check.** Asks Gemini whether each meal is on the regular menu in most states as of today and marks it `active` true/false. Tracks progress per cycle. |
+| `.github/workflows/check_availability.yml` | Scheduled GitHub Action ("Check meal availability (4x daily)") that runs `check_availability.py` and commits `meals.json`. |
 | `meals.json` | **Created by the first run.** All meals plus run state. Both pages read it. |
 
 Repo layout:
@@ -23,8 +25,10 @@ index.html
 products.html
 pull_meals.py
 refresh_images.py
+check_availability.py
 .github/workflows/pull_meals.yml
 .github/workflows/refresh_images.yml
+.github/workflows/check_availability.yml
 meals.json            <- created by the first run
 ```
 
@@ -35,7 +39,7 @@ meals.json            <- created by the first run
 3. Turn on GitHub Pages for the repo (Settings, Pages) so `index.html` is served.
 4. Go to the **Actions** tab, open **Pull fast food meals (manual)** and click **Run workflow** once. This creates `meals.json`. Until it exists the site shows "Meal list not found yet."
 
-Nothing runs on a schedule. You start both Actions yourself.
+The two Actions above are started by hand. The availability check (below) is the only one that runs on a schedule.
 
 ## How to update the data (two manual steps)
 
@@ -43,6 +47,20 @@ Nothing runs on a schedule. You start both Actions yourself.
 2. **Fill pictures.** Actions tab, **Fill missing meal images (manual)**, Run workflow. It searches DuckDuckGo only for meals whose picture is empty, so existing pictures are never touched. DuckDuckGo throttles, so a big batch can take several runs; each run picks up the meals that are still empty.
 
 **Date updated.** Every meal has an `_updated_at` timestamp. Step 1 sets it on each new meal, and step 2 sets it again on each meal that gets a picture. `meals.json` also has a top-level `updated_at` that is refreshed every time either script saves. **Menu Items** (`products.html`) sorts by `_updated_at`, newest first, so the most recent pull or picture fill is at the top. Meals from before this field existed fall back to `_added_at`.
+
+## Availability check (`check_availability.py`)
+
+Runs **4 times a day** (03:23, 09:23, 15:23 and 21:23 UTC, so every Pacific-time day gets exactly 4 runs) and can also be started by hand. It marks every meal as sold in most states right now or not.
+
+- **What is checked.** Gemini is asked, with today's date in the prompt, whether each meal is currently a regular item on that restaurant's U.S. menu in **most states / at most locations**. `"active": true` means yes. `"active": false` means discontinued, limited-time or seasonal and not on sale now, regional / test-market / only some locations, or the model isn't sure it exists. `index.html` leaves inactive meals out of plan generation (and out of its pool counter); meals not checked yet stay in. `products.html` still lists every meal, inactive ones included.
+- **How much per run.** 40 meals per Gemini call, 20 calls per run = up to **800 meals per run**, spread round-robin over Flash 3.8, 3.7, 3.6 and 3.5 (about 5 calls each per run, so 4 runs use each model's 20 calls per Pacific day). A model that is out of quota or failing is skipped and the others take over. Settings: `AVAIL_ITEMS_PER_CALL`, `AVAIL_CALLS_PER_RUN`, `MAX_GEMINI_CALLS`.
+- **Cycles.** Each meal remembers the cycle it was last checked in (`_avail_cycle`). When every meal has been checked, the cycle is closed (a summary goes into `availability.history`), the cycle number goes up and the whole pool is run through again. Meals added by the pull join the current cycle.
+- **Tracking.** After each run the log, the Action's run summary and the commit message show the progress, for example `Cycle 2: 1600/8392 meals checked (19.1%) -- 1259 active, 341 inactive`. The same numbers are in `meals.json` under `availability` (`progress`, `last_run`, `history`, `quota`).
+- **Quota.** It uses the same Gemini free tier as the pull, so the two compete if they use the same key. To give the check its own quota, add a second repository secret **`GEMINI_KEY_AVAIL`** from a different Google project; the workflow uses it when it exists and falls back to `GEMINI_KEY` otherwise.
+- **Limit.** Gemini answers from its training, so a menu that changed recently can be wrong. Setting `AVAIL_USE_SEARCH=1` turns on Google Search grounding for fresher answers (off by default, it has its own quota).
+- **Same lock.** The workflow shares the `pull-meals` concurrency group with the other two Actions, so they never edit `meals.json` at once.
+
+Run locally: `GEMINI_KEY=your_key python check_availability.py` (needs `pull_meals.py` next to it).
 
 ## The restaurants
 
@@ -164,19 +182,21 @@ Environment variables: `GEMINI_KEY` (required for step 1), `MAX_GEMINI_CALLS` (p
   "allowed_restaurants": ["Applebee's", "..."],
   "restaurants": { "Chick-fil-A": { "site": "www.chick-fil-a.com", "last_pulled": "..." } },
   "quota": { "date": "2026-10-16", "calls": { "gemini-3.8-flash": 7 }, "exhausted": [] },
+  "availability": { "cycle": 2, "progress": { "checked": 1600, "pool": 8392, "active": 1259, "inactive": 341 }, "history": [], "quota": {} },
   "meals": [
     {
       "restaurant": "McDonald's", "name": "Big Mac", "category": "regular",
       "calories": 590, "price": 6.49, "serving": "1 sandwich",
       "vegetarian": false, "healthy": false,
       "image_url": "https://...", "image_full_url": "https://...",
-      "_updated_at": "2026-10-18T14:48:08+00:00"
+      "_updated_at": "2026-10-18T14:48:08+00:00",
+      "active": true, "_avail_cycle": 2
     }
   ]
 }
 ```
 
-Fields that start with an underscore (`_added_at`, `_updated_at`, `_model`, `_image_attempts`, `_image_source`, `_serving_multiplier`; older files may also have `_image_refreshed`, which is no longer used) are bookkeeping. If you ever want a clean start, delete `meals.json` and run the workflow again.
+Fields that start with an underscore (`_added_at`, `_updated_at`, `_model`, `_image_attempts`, `_image_source`, `_serving_multiplier`, `_avail_cycle`, `_avail_checked_at`, `_avail_model`; older files may also have `_image_refreshed`, which is no longer used) are bookkeeping. If you ever want a clean start, delete `meals.json` and run the workflow again.
 
 ## How the plan works (`index.html`)
 

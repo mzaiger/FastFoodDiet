@@ -1403,8 +1403,10 @@ async function loadPool(){
       });
     }
     const allowed = new Set(restaurantInfo);
-    // Only meals from the approved restaurants are ever used.
-    let items = (rawData.meals || []).filter(m => allowed.has(m.restaurant)).map(normalizeMeal);
+    // Only meals from the approved restaurants are ever used. Meals the availability check
+    // marked inactive ("active": false) are left out of plan generation; meals not checked
+    // yet (no "active" field) stay in. products.html still lists every meal.
+    let items = (rawData.meals || []).filter(m => allowed.has(m.restaurant) && m.active !== false).map(normalizeMeal);
 
     const counts = {};
     items.forEach(m => { counts[m.restaurant] = (counts[m.restaurant] || 0) + 1; });
