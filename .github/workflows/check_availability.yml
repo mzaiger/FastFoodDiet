@@ -1,0 +1,70 @@
+name: Check meal availability (4x daily)
+
+# Runs 4 times a day (and by hand: Actions tab > this workflow > Run workflow).
+# Each run asks Gemini (Flash 3.8 / 3.7 / 3.6 / 3.5, round-robin) about 40 meals per call, 20 calls
+# per run, whether each meal is on the regular menu in most states as of today, and marks it
+# "active": true / false in meals.json. When every meal has been checked, it starts over.
+# Progress ("Cycle 2: 1600/8392 meals checked ...") is in the run summary and the commit message.
+#
+# Times are UTC and chosen so each Pacific-time day (when Gemini's daily quota resets) gets exactly
+# 4 runs, in both daylight and standard time: 03:23, 09:23, 15:23, 21:23 UTC.
+on:
+  schedule:
+    - cron: "23 3,9,15,21 * * *"
+  workflow_dispatch:
+    inputs:
+      calls_per_run:
+        description: "Gemini calls this run (4 runs x 20 = the 20 per model per day free tier)"
+        required: false
+        default: "20"
+      items_per_call:
+        description: "Meals checked per Gemini call"
+        required: false
+        default: "40"
+
+# Same group as the meal pull and the image fill, so they never edit meals.json at once.
+concurrency:
+  group: pull-meals
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Check availability (marks meals active / inactive)
+        id: check
+        env:
+          # Optional second key (secret GEMINI_KEY_AVAIL, from a different Google project) gives this
+          # job its own free quota; without it the normal GEMINI_KEY is used and shares its quota.
+          GEMINI_KEY: ${{ secrets.GEMINI_KEY_AVAIL || secrets.GEMINI_KEY }}
+          AVAIL_CALLS_PER_RUN: ${{ github.event.inputs.calls_per_run || '20' }}
+          AVAIL_ITEMS_PER_CALL: ${{ github.event.inputs.items_per_call || '40' }}
+          MAX_GEMINI_CALLS: "20"
+        run: python check_availability.py
+
+      - name: Commit updated meals.json
+        env:
+          PROGRESS: ${{ steps.check.outputs.progress }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add meals.json
+          git diff --staged --quiet || git commit -m "Availability check: ${PROGRESS:-no progress} [automated]"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
