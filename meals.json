@@ -5206,7 +5206,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.-igubqiAmvmQMVZssFYZLgHaHZ&pid=15.1",
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjE_IrPkaa0zn05REHn8iiiHC8OjN4DvbU17mmCbAzoXbrnCtjKY346Yf2Kj82eg4vJBLidjcz-7ehKq8QlqJ2LkKsbsgtEhC3CRsQgaI0qZy2KQ7-u6fAc2m9W9gKbvA3lVVvdhFh2Q4k/s2636/PXL_20211024_015013964.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21541,7 +21545,11 @@
       "image_full_url": "https://i.pinimg.com/originals/56/6e/6c/566e6c178c5520ae15a654f9c643f99b.png",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -33320,7 +33328,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.WLQJJNJeBZmqLCNCGT0vvwHaFS&pid=15.1",
       "image_full_url": "https://eu-images.contentstack.com/v3/assets/bltea7aee2fca050a19/bltbfbbaec31c0a1691/6748776c80eb500c5f7405ef/five-cheese-mac-and-cheese.jpg?width=1280&auto=webp&quality=80&format=jpg&disable=upscale",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -33354,7 +33366,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.HJpariHOxomUAB_0s1u8jwHaFd&pid=15.1",
       "image_full_url": "https://www.dominos.co.in/files/items/garlic-bread.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -33920,7 +33936,11 @@
       "image_full_url": "https://copykat.com/wp-content/uploads/2024/06/Dominos-Buffalo-Chicken-Pizza-Pin-2.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -33960,7 +33980,11 @@
       "image_full_url": "https://i.ytimg.com/vi/GjjAsZ19Sso/sddefault.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -53925,7 +53949,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.16D1xk6odenQjO8eNYsNzwHaHa&pid=15.1",
       "image_full_url": "https://images.squarespace-cdn.com/content/v1/5ea9b75fa66a7a5f5b9b3fbb/3e6813f1-1734-4397-95e0-44b47ac870f9/201402_OCT23_San+Francisco_$7.99+OGS_WindowCling_V1.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -53984,7 +54012,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.1yrAgPgWZAVtqlKN-VTomwHaHa&pid=15.1",
       "image_full_url": "https://ml.globenewswire.com/Resource/Download/4a298b44-e4af-4513-9d48-f3339984bf43/4-berry-stuffed-french-toast-slam.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54022,7 +54054,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.We6_Q53JLkcs1sQzP5S2iAHaHa&pid=15.1",
       "image_full_url": "https://i.pinimg.com/736x/c3/e9/92/c3e99213338b69a8a876a0d4cf23e445.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54060,7 +54096,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.sceTY13mhYmeOPknvISELAHaHa&pid=15.1",
       "image_full_url": "https://ml.globenewswire.com/Resource/Download/61f55e3f-6674-44c6-8710-5f937393a907/3-grand-slamwich.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54077,7 +54117,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.sTVHf1KQXDJbQ6Dbp1yT_gHaHa&pid=15.1",
       "image_full_url": "",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54199,7 +54243,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.r7poNbj_z8YFm0Ex7dKMcQHaEK&pid=15.1",
       "image_full_url": "https://dynl.mktgcdn.com/p/ZeOtSE9RNLiowQAs0XXaK4BR-lGcdbrqCgx3p-y5H7U/1250x704.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54237,7 +54285,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.EK_2hgFbWWTKYOFRN0d_fAHaFa&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/12/dennys-hearty-9-grain-pancake-slam.jpg?quality=82&strip=all&w=640",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54275,7 +54327,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.Fb3vcC0eQJAeVycHq9UurAHaEK&pid=15.1",
       "image_full_url": "https://www.mashed.com/img/gallery/popular-dennys-menu-items-ranked-worst-to-best/6-double-berry-banana-pancake-breakfast-1623239743.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54292,7 +54348,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.VCeW-8Od1AN5CcuwJuvZ4QHaNK&pid=15.1",
       "image_full_url": "https://nodashofgluten.com/wp-content/uploads/2025/07/Steel-Cut-Oatmeal.png.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54372,7 +54432,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.CAtauSpoaoyE2jM2F8NecwHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/fcbKpiTI2sQ/maxresdefault.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54494,7 +54558,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.WGEhFso-s-pPCl_tTzZgAgHaGN&pid=15.1",
       "image_full_url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3603400380891016838",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54511,7 +54579,11 @@
       "image_url": "https://ts2.explicit.bing.net/th?id=OIP.57XDF0l8iG-Q1wYLIpHLSgHaGN&pid=15.1",
       "image_full_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=789838673878906",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54528,7 +54600,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.73f4CTAeuP3LJ2L-GM9DlwHaHa&pid=15.1",
       "image_full_url": "https://dennysofguam.com/wp-content/uploads/2022/01/Grilled-Chicken-Breast-Dinner-600x600.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54587,7 +54663,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.lORDlCVdM7d_whU6DmCJxwHaFa&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/12/dennys-mama-fried-chicken-house-salad.jpg?quality=82&strip=all&w=640",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54604,7 +54684,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.cjlieBynLe6XT4OpOU-u7wHaDv&pid=15.1",
       "image_full_url": "https://dennysmenuguide.com/wp-content/uploads/2024/01/Dennys-Menu-With-Prices7-3.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54663,7 +54747,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.IDDahLo6f8ffBsjU0G3shQHaHa&pid=15.1",
       "image_full_url": "https://www.instacart.com/image-server/1200x1200/www.instacart.com/assets/domains/product-image/file/large_5a83bed2-58f6-436a-86ef-daa3a93a49e0.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54722,7 +54810,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP._PSbc2Id6h9NPuGe9iofagHaEK&pid=15.1",
       "image_full_url": "https://www.eatlife.net/keto/images/dennys-broccoli-side.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54739,7 +54831,11 @@
       "image_url": "https://ts4.explicit.bing.net/th?id=OIP.2-y5_84wreccObfFf8vtcAHaFj&pid=15.1",
       "image_full_url": "https://www.eatlife.net/restaurants/images/dennys-fresh-seasonal-fruit.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54819,7 +54915,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.gZ23Rg96BjycElfbxHkJ0wHaLW&pid=15.1",
       "image_full_url": "https://mb.cision.com/Public/4665/9311003/a5388a5b64f75d1c_org.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54836,7 +54936,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.4FTshASfSRpcocoN-VGqGwHaEK&pid=15.1",
       "image_full_url": "https://denysmenuprices.com/wp-content/uploads/2025/07/Strawberry-Shake-Pack-1024x576.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54895,7 +54999,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.uuxXQOieF62AgL5NI2z6OAHaE8&pid=15.1",
       "image_full_url": "https://www.restaurantnews.com/wp-content/uploads/2026/06/Dennys-The-Clocks-Off-Menu-24-7-Dining.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -54912,7 +55020,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.Pk2pZnpM55l4PUK16f6pnQHaGN&pid=15.1",
       "image_full_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=766672329528874",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77010,7 +77122,11 @@
       "_updated_at": "2026-10-19T09:32:57.581719+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77027,7 +77143,11 @@
       "_updated_at": "2026-10-19T09:33:01.385182+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77044,7 +77164,11 @@
       "_updated_at": "2026-10-19T09:33:05.437257+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77187,7 +77311,11 @@
       "_updated_at": "2026-10-19T09:33:36.456992+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77267,7 +77395,11 @@
       "_updated_at": "2026-10-19T09:33:51.604202+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77284,7 +77416,11 @@
       "_updated_at": "2026-10-19T09:33:56.559331+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77301,7 +77437,11 @@
       "_updated_at": "2026-10-19T09:34:00.109082+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77318,7 +77458,11 @@
       "_updated_at": "2026-10-19T09:34:03.606182+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77335,7 +77479,11 @@
       "_updated_at": "2026-10-19T09:34:07.408550+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77352,7 +77500,11 @@
       "_updated_at": "2026-10-19T09:34:10.958482+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77369,7 +77521,11 @@
       "_updated_at": "2026-10-19T09:34:15.594357+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77449,7 +77605,11 @@
       "_updated_at": "2026-10-19T09:34:33.455537+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77466,7 +77626,11 @@
       "_updated_at": "2026-10-19T09:34:37.263343+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77504,7 +77668,11 @@
       "_updated_at": "2026-10-19T09:34:44.862703+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77542,7 +77710,11 @@
       "_updated_at": "2026-10-19T09:34:52.087676+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -77622,7 +77794,11 @@
       "_updated_at": "2026-10-19T09:35:09.094809+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -93503,7 +93679,11 @@
       "_updated_at": "2026-10-19T11:17:29.878114+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -93520,7 +93700,11 @@
       "_updated_at": "2026-10-19T11:17:34.863302+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -93558,7 +93742,11 @@
       "_updated_at": "2026-10-19T11:17:44.405326+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -93596,7 +93784,11 @@
       "_updated_at": "2026-10-19T11:17:54.664159+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -93718,7 +93910,11 @@
       "_updated_at": "2026-10-19T11:18:20.087657+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -93756,7 +93952,11 @@
       "_updated_at": "2026-10-19T11:18:29.715270+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -93878,7 +94078,11 @@
       "_updated_at": "2026-10-19T11:18:56.586939+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -93895,7 +94099,11 @@
       "_updated_at": "2026-10-19T11:19:00.015368+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -93912,7 +94120,11 @@
       "_updated_at": "2026-10-19T11:19:03.759643+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -93950,7 +94162,11 @@
       "_updated_at": "2026-10-19T11:19:12.273864+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -93967,7 +94183,11 @@
       "_updated_at": "2026-10-19T11:19:15.703174+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -93984,7 +94204,11 @@
       "_updated_at": "2026-10-19T11:19:20.657187+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -94043,7 +94267,11 @@
       "_updated_at": "2026-10-19T11:19:33.136869+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -94102,7 +94330,11 @@
       "_updated_at": "2026-10-19T11:19:44.438540+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -94182,7 +94414,11 @@
       "_updated_at": "2026-10-19T11:20:02.272434+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -128063,7 +128299,11 @@
       "_updated_at": "2026-10-25T13:03:19.363021+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128080,7 +128320,11 @@
       "_updated_at": "2026-10-25T13:03:24.300471+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128097,7 +128341,11 @@
       "_updated_at": "2026-10-25T13:03:29.318524+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128197,7 +128445,11 @@
       "_added_at": "2026-10-25T12:08:06.432970+00:00",
       "_updated_at": "2026-10-25T12:08:06.432970+00:00",
       "_model": "gemini-3.7-flash",
-      "_image_attempts": 3
+      "_image_attempts": 3,
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128213,7 +128465,11 @@
       "_added_at": "2026-10-25T12:08:06.432970+00:00",
       "_updated_at": "2026-10-25T12:08:06.432970+00:00",
       "_model": "gemini-3.7-flash",
-      "_image_attempts": 3
+      "_image_attempts": 3,
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128230,7 +128486,11 @@
       "_updated_at": "2026-10-25T13:04:03.051407+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128268,7 +128528,11 @@
       "_updated_at": "2026-10-26T12:11:03.930861+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 2,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128285,7 +128549,11 @@
       "_updated_at": "2026-10-25T13:04:16.509285+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128322,7 +128590,11 @@
       "_updated_at": "2026-10-25T13:04:27.455160+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128360,7 +128632,11 @@
       "_updated_at": "2026-10-25T13:04:36.239548+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128377,7 +128653,11 @@
       "_updated_at": "2026-10-25T13:04:41.508359+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128436,7 +128716,11 @@
       "_updated_at": "2026-10-25T13:04:55.495823+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128453,7 +128737,11 @@
       "_updated_at": "2026-10-25T13:05:00.693148+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128491,7 +128779,11 @@
       "_updated_at": "2026-10-25T13:05:10.125369+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128529,7 +128821,11 @@
       "_updated_at": "2026-10-26T12:11:17.521180+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 2,
-      "_image_source": "web"
+      "_image_source": "web",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128546,7 +128842,11 @@
       "_updated_at": "2026-10-25T13:05:26.468947+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128584,7 +128884,11 @@
       "_updated_at": "2026-10-26T12:11:28.708335+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 2,
-      "_image_source": "web"
+      "_image_source": "web",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128622,7 +128926,11 @@
       "_updated_at": "2026-10-25T13:05:47.219099+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128660,7 +128968,11 @@
       "_updated_at": "2026-10-25T13:05:54.765989+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128719,7 +129031,11 @@
       "_updated_at": "2026-10-25T13:06:08.038796+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:14:33.190715+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Denny's",
@@ -128736,7 +129052,11 @@
       "_updated_at": "2026-10-25T13:06:13.006119+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-03T21:15:01.708898+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Panera",
@@ -153422,7 +153742,7 @@
     "Wendy's",
     "Wingstop"
   ],
-  "updated_at": "2026-11-03T11:22:40.121984+00:00",
+  "updated_at": "2026-11-03T21:15:35.180372+00:00",
   "availability": {
     "cycle": 1,
     "history": [],
@@ -153430,29 +153750,31 @@
       "date": "2026-11-03",
       "calls": {
         "gemini-3.5-flash": 2,
-        "gemini-3.6-flash": 1
+        "gemini-3.6-flash": 3
       },
       "exhausted": [
-        "gemini-3.5-flash"
+        "gemini-3.5-flash",
+        "gemini-3.7-flash",
+        "gemini-3.8-flash",
+        "gemini-3.6-flash"
       ]
     },
     "progress": {
       "cycle": 1,
-      "checked": 2440,
+      "checked": 2520,
       "pool": 8392,
-      "active": 1183,
-      "inactive": 1257,
+      "active": 1228,
+      "inactive": 1292,
       "cycle_complete": false,
-      "updated_at": "2026-11-03T11:22:40.121884+00:00"
+      "updated_at": "2026-11-03T21:15:35.180232+00:00"
     },
     "last_run": {
-      "at": "2026-11-03T11:22:40.121899+00:00",
-      "calls": 3,
-      "marked_active": 75,
-      "marked_inactive": 45,
+      "at": "2026-11-03T21:15:35.180258+00:00",
+      "calls": 2,
+      "marked_active": 45,
+      "marked_inactive": 35,
       "calls_per_model": {
-        "gemini-3.5-flash": 2,
-        "gemini-3.6-flash": 1
+        "gemini-3.6-flash": 2
       }
     }
   }
