@@ -4944,7 +4944,11 @@
       "image_full_url": "https://www.eatlife.net/restaurants/images/dominos-pizza-honolulu-hawaiian.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5064,7 +5068,11 @@
       "image_full_url": "https://live.staticflickr.com/65535/53845975044_8a09365758_b.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5099,7 +5107,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.I_bqYfhyn_p8m5snZ1vIWQHaE8&pid=15.1",
       "image_full_url": "https://www.copycatkitchen.com/wp-content/uploads/2026/04/tmpgm66l99g-1024x683.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5117,7 +5129,11 @@
       "image_full_url": "https://c2.staticflickr.com/4/3393/3601528619_6b86af8bd8_b.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5135,7 +5151,11 @@
       "image_full_url": "https://www.mashed.com/img/gallery/dominos-thin-crust-pizza-what-to-know-before-ordering/l-intro-1642452980.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5153,7 +5173,11 @@
       "image_full_url": "https://fallrivermenus.com/wp-content/uploads/2021/08/dominos-pan-pizza-pepperoni-featured-scaled.jpg?v=1630154529",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5171,7 +5195,11 @@
       "image_full_url": "",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5189,7 +5217,11 @@
       "image_full_url": "https://cache.dominos.com/olo/6_155_1/assets/build/market/US/_en/images/img/nutritional-page/gluten-free/nutrition_gluten_free_crust_variety.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5244,7 +5276,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.N1tZkLlt8uaQ1LiI2s6H_wHaFF&pid=15.1",
       "image_full_url": "https://www.dominos.fr/ManagedAssets/FR/product/ECBFWSF/FR_ECBFWSF_fr_hero_13706.png?v-1614395041",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5261,7 +5297,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.Ar1-MGLdSk0v6d6lrkM9CQHaEw&pid=15.1",
       "image_full_url": "https://www.cleveland.com/resizer/v2/BOG64U6GPZGTVD75YI7KY5BWXU.JPG?auth=82bd85703bb89639db5a45e759479c9f95ab87daaba0dea5483c381341eb344f&width=1280&smart=true&quality=90",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5278,7 +5318,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.3ZI5U-pwSvZ-lpJkXEB_uQHaGc&pid=15.1",
       "image_full_url": "https://www.shopfood.com/wp-content/uploads/2022/10/dominos-sweet-mango-habanero-wings.png",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5316,7 +5360,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.15VcKD4OvNPoP04eZflT-QHaHa&pid=15.1",
       "image_full_url": "https://i.pinimg.com/736x/79/a8/28/79a8289eb19ab90ed60a375d8c0fec3f--dominos-pizza-dominos.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5350,7 +5398,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.jr8WUMyP-MKh6Q-Iu4u28AHaFj&pid=15.1",
       "image_full_url": "https://fallrivermenus.com/wp-content/uploads/2021/08/dominos-bbq-bacon-specialty-chicken-featured-scaled.jpg?v=1629330629",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5367,7 +5419,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.bJh_PhZW744Qb9j3FuR6cQHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/R6pIPIJS2VU/maxresdefault.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5422,7 +5478,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.w8O3gFIsy3mgF3P2vMTaMAHaFj&pid=15.1",
       "image_full_url": "https://www.eatlife.net/restaurants/images/dominos-italian-sandwich.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5498,7 +5558,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.dar8yv-72RYzoovnZzLHpAHaEK&pid=15.1",
       "image_full_url": "https://i.pinimg.com/originals/5e/6e/3e/5e6e3e507e070c0e7bc9402f58d69e63.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5574,7 +5638,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.sNdZDSMEbdp_cbDqeoVbOAHaFj&pid=15.1",
       "image_full_url": "https://fallrivermenus.com/wp-content/uploads/2021/08/dominos-italian-sausage-marinara-featured-scaled.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5633,7 +5701,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.n1cTnQr2mpLQlR5a0DTiKwHaEK&pid=15.1",
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTg9oqQEIZ_cufDFzgSqoW0SqTIvs-wzy3rGIAYa9Ul0jjbrUtvT83cP5bHrEfNyQ6ENPsP5GFMBgceozmL22K-CDTd5NDqxWRbO4F9DQswD20BOEWMUEUWCBJtbX8Dv2haNydig1sYadZ4HHoXJCJUh1-6-VQoMCvbEqa8axrDQRPTQkIxCmR1nGP-_0/s4080/PXL_20231228_213812520.~2_exported_1264_1703828936536.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5650,7 +5722,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.LY-tjoXSYyZoV7FVyDi10QHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/-scYQ-rZrUM/maxresdefault.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5667,7 +5743,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.Mjttv47EQL-D5ytbXttl5AHaFj&pid=15.1",
       "image_full_url": "https://fallrivermenus.com/wp-content/uploads/2021/08/dominos-stuffed-cheesy-bread-with-spinach-and-feta-scaled.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5739,7 +5819,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.9DN39d8VK9-5dsyQJYbI1wHaFb&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/02/Dominos-Bacon-Cheddar-Loaded-Tots.jpg?resize=473",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5756,7 +5840,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.cnvCPFLr1DSa8S6q_rrSDwHaFb&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/02/Dominos-Philly-Cheese-Steak-Loaded-Tots.jpg?resize=768",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5773,7 +5861,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.OBseCvE9mH4Bcd1VwX0O8gHaJR&pid=15.1",
       "image_full_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=937612120570589&get_thumbnail=1",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5811,7 +5903,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.S3D1CB0Onh9vhBPuYF6N8wHaHa&pid=15.1",
       "image_full_url": "https://s3-media3.fl.yelpcdn.com/bphoto/FIv7adH6GjWNOEvgvGH4mw/o.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21645,7 +21741,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.pyTp264tG0VFgvZDYRgMxQHaET&pid=15.1",
       "image_full_url": "",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21701,7 +21801,11 @@
       "image_full_url": "https://media.dominos.com/content/images/menu_tc-pizza_pacific-veggie_2023-05.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21719,7 +21823,11 @@
       "image_full_url": "https://pbs.twimg.com/media/CADZD-DW4AAsEv2.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21737,7 +21845,11 @@
       "image_full_url": "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/food_pics_v2/medium/dominos_thin_crust_extravaganza_pizza.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21755,7 +21867,11 @@
       "image_full_url": "https://cache.dominos.com/wam/prod/market/GU/_en/images/promo/b3655960-3555-4391-a4ab-aba5798ef02e.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21773,7 +21889,11 @@
       "image_full_url": "https://i.redd.it/xt73mzyrha0a1.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21791,7 +21911,11 @@
       "image_full_url": "https://i.ytimg.com/vi/GjjAsZ19Sso/sddefault.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21809,7 +21933,11 @@
       "image_full_url": "https://www.dominos.com.au/ManagedAssets/AU/product/P576/AU_P576_en_hero_16198.jpg?v1646158270",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21827,7 +21955,11 @@
       "image_full_url": "https://copykat.com/wp-content/uploads/2024/06/Dominos-Buffalo-Chicken-Pizza-Pin-2.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21845,7 +21977,11 @@
       "image_full_url": "https://www.eatlife.net/restaurants/images/dominos-pizza-memphis-bbq-chicken.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21862,7 +21998,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.2-TOfa6bhdk-UVIrdLAmqgHaFa&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2025/06/dominos-spinach-feta-thin-crust.jpg?quality=82&strip=all&w=640",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21880,7 +22020,11 @@
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2025/04/Wisconsin-6-cheese.jpg?quality=82&strip=all",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21898,7 +22042,11 @@
       "image_full_url": "https://www.eatlife.net/restaurants/images/dominos-pizza-ultimate-pepperoni.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21916,7 +22064,11 @@
       "image_full_url": "https://c1.staticflickr.com/7/6180/6188177562_edf95a3521_b.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21934,7 +22086,11 @@
       "image_full_url": "https://pbs.twimg.com/media/CADZD-DW4AAsEv2.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21952,7 +22108,11 @@
       "image_full_url": "https://www.dominos.fr/ManagedAssets/FR/product/PLEX/FR_PLEX_fr_hero_15705.png?v1443610900",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21970,7 +22130,11 @@
       "image_full_url": "https://i.redd.it/14f8xq9bdo791.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -21988,7 +22152,11 @@
       "image_full_url": "https://www.eatlife.net/restaurants/images/dominos-pizza-honolulu-hawaiian.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22006,7 +22174,11 @@
       "image_full_url": "https://i.ytimg.com/vi/GjjAsZ19Sso/sddefault.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22024,7 +22196,11 @@
       "image_full_url": "",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22041,7 +22217,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.4_FHY7p24-7FwZI1XFFxMAHaEI&pid=15.1",
       "image_full_url": "https://s.alicdn.com/@sc02/kf/Hc4350ff7e991405d95857ff8bd899705z.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22059,7 +22239,11 @@
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEispokbmazsdeeG7NzeX72PABsa0MJvopPbeUgD73Lsy_A5DoEaembXB6HIR-O4PT0ZO-VO-EM6m1uHPcoOHNgkdINZ1TqABIlTImphyphenhyphenUSsArQM0un5r3RZyRJmRzROOsmhDQfiYzB3uRf5/w1200-h630-p-k-no-nu/dominos_wisconsin_six_cheese.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22077,7 +22261,11 @@
       "image_full_url": "https://fallrivermenus.com/wp-content/uploads/2021/08/dominos-pan-pizza-pepperoni-featured-scaled.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22095,7 +22283,11 @@
       "image_full_url": "https://copykat.com/wp-content/uploads/2024/06/Dominos-Buffalo-Chicken-Pizza-Pin-2.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22113,7 +22305,11 @@
       "image_full_url": "https://www.eatlife.net/restaurants/images/dominos-pizza-memphis-bbq-chicken.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22131,7 +22327,11 @@
       "image_full_url": "https://www.mamaknowsglutenfree.com/wp-content/uploads/2025/02/JTH_GF-Dominos-1.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22149,7 +22349,11 @@
       "image_full_url": "https://i.redd.it/14f8xq9bdo791.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22167,7 +22371,11 @@
       "image_full_url": "https://cache.dominos.com/olo/6_155_1/assets/build/market/US/_en/images/img/nutritional-page/gluten-free/nutrition_gluten_free_crust_variety.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22185,7 +22393,11 @@
       "image_full_url": "https://i.pinimg.com/736x/2a/be/3a/2abe3a6532cf04ac211e2f0617939af6--dominos-hawaiian-pizza.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22224,7 +22436,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.5_i_CwBYcESN_CS37a9T_AHaFa&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2024/01/dominos-spinach-feta-pizza.jpg?quality=82&strip=all&w=640",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22242,7 +22458,11 @@
       "image_full_url": "https://cache.dominos.com/olo/6_155_1/assets/build/market/US/_en/images/img/nutritional-page/gluten-free/nutrition_gluten_free_crust_variety.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22260,7 +22480,11 @@
       "image_full_url": "https://c1.staticflickr.com/7/6180/6188177562_edf95a3521_b.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22278,7 +22502,11 @@
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPXu_QVmTqE_0GSSneaLCd9fxkFmeZUsaVSDyCxqA_i_IsPzSXwBd2l_L0p-ep0vsRrYKGhD0KTG_iMouHqXXnMFHp6-aa1YxI_gthmPal2pJKp9MxuRQ-DB9NAjk2_wZl7ViSbBzkoWrB1RhlJv6ki8AT7TgI77HwMmaUSaCTSJlCF09vRXI10NPJJw0/w640-h512/PXL_20231228_214103151_exported_955_1703829526611.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22296,7 +22524,11 @@
       "image_full_url": "https://s3-media0.fl.yelpcdn.com/bphoto/oDlMZXNstdaj3iB25MdQvg/348s.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -22314,7 +22546,11 @@
       "image_full_url": "https://i.redd.it/zyxwcde08f671.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -33349,7 +33585,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.Q0rLX_2cCW1CczU6be8vqAHaFd&pid=15.1",
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVyjyLU4ZD0ZA_q-3eIx42SufaY4Ji9T_oU1E5kYyh_G2j2R0S56caKnub8XzupGY5LwlZAsZYMUpriStQNTp4oXS_m7WeDOtuzCONJ_Cx8ioNvSg67rWco2cqCQlCU0l3rNG5956iKUAqRn0d02wxJhCJB8HOwL0bVgz__woem0NOu0jvFJbWrUpsiVU/s640/Dominos--Spicy-Buffalo-5-Cheese-Mac-and-Cheese.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -33409,7 +33649,11 @@
       "image_full_url": "https://www.dominos.nl/ManagedAssets/NL/product/PCRE/NL_PCRE_nl_menu_13107.png?v-1824531426",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -33427,7 +33671,11 @@
       "image_full_url": "https://live.staticflickr.com/65535/49892303683_7c0bc53b32_o.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -33445,7 +33693,11 @@
       "image_full_url": "https://www.dexerto.com/cdn-image/wp-content/uploads/2024/05/27/Untitled-design-2024-05-27T161515.845.jpg?width=3840&quality=60&format=auto",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -33463,7 +33715,11 @@
       "image_full_url": "https://i.pinimg.com/originals/a0/dc/b4/a0dcb4bc3cec14fc2908a68f5b673ba7.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -33481,7 +33737,11 @@
       "image_full_url": "https://i.ytimg.com/vi/_chRz_elJgo/maxresdefault.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -33499,7 +33759,11 @@
       "image_full_url": "https://i.ytimg.com/vi/_chRz_elJgo/maxresdefault.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -33517,7 +33781,11 @@
       "image_full_url": "https://i.ytimg.com/vi/Y4F95dg8-_E/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLD2nR8racR5GpR84YTUb_5wKoxLbw",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -33535,7 +33803,11 @@
       "image_full_url": "https://i.ytimg.com/vi/Y4F95dg8-_E/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLD2nR8racR5GpR84YTUb_5wKoxLbw",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -33553,7 +33825,11 @@
       "image_full_url": "",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34067,7 +34343,11 @@
       "image_full_url": "https://tipbuzz.com/wp-content/uploads/Philly-cheesesteak-Pizza-3.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34085,7 +34365,11 @@
       "image_full_url": "https://www.mashed.com/img/gallery/dominos-handmade-pan-pizza-what-to-know-before-ordering/how-does-the-dominos-handmade-pan-pizza-taste-1629819316.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34103,7 +34387,11 @@
       "image_full_url": "https://pbs.twimg.com/media/DIhiT3qXkAAZBlH.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34121,7 +34409,11 @@
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCzxPdEC38MLPo0DpRqJjpyN6CNaqaJn_5Fg07-QvIjuEg5yY-e7c59Q-TBaMm-gEBA8r0Pg2PIknfcyibDjQThTv7ZYUDkK9bn0SoPzdTXiGgU45rVmbrpgEvp2g0oMZ6ygBj21idMYw/w640-h480/dominos_handmade_pan_pizza_03.JPG",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34139,7 +34431,11 @@
       "image_full_url": "https://pbs.twimg.com/media/DIhiT3qXkAAZBlH.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34157,7 +34453,11 @@
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgHagCJoWzs8IiyOKSk5_Tk6jjkasJqGFLj097ujvuZaJYlVMqEs0JCXgMvNGYAY7ohXuKPHM2eRCBT5IL0DZ0OpFkBlxeX81UAROP9ds3MGBhWmdRRx6ip2KiANJjTZbUFwKRvDCgusQg/s1600/dominos_handmade_pan_pizza_02.JPG",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34175,7 +34475,11 @@
       "image_full_url": "https://www.fabnews.live/wp-content/uploads/2012/09/MM75014.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34193,7 +34497,11 @@
       "image_full_url": "",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34211,7 +34519,11 @@
       "image_full_url": "https://tipbuzz.com/wp-content/uploads/Philly-cheesesteak-Pizza-6.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34251,7 +34563,11 @@
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2019/01/dominos-memphis-bbq-chicken-pizza.jpg?resize=183",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34269,7 +34585,11 @@
       "image_full_url": "https://www.slicepizzeria.com/wp-content/uploads/2023/04/Wisconsin-6-Cheese.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34287,7 +34607,11 @@
       "image_full_url": "https://glutenfreepizzapies.com/wp-content/uploads/2022/09/Dominos-Ultimate-Pepperoni-Copycat--500x500.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34305,7 +34629,11 @@
       "image_full_url": "https://cache.dominos.com/olo/6_155_1/assets/build/market/US/_en/images/img/nutritional-page/gluten-free/nutrition_gluten_free_crust_variety.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34367,7 +34695,11 @@
       "image_full_url": "https://preview.redd.it/gluten-free-dominos-pizza-v0-ezym7qkz8aob1.jpg?width=1080&crop=smart&auto=webp&s=f9d167a7afc6a23d245396a8a32b99a01ff1534f",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34385,7 +34717,11 @@
       "image_full_url": "https://glutenfreepizzapies.com/wp-content/uploads/2022/06/Gluten-Free-Pizza-from-Dominos-3-Topping-.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34402,7 +34738,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.rELtn2PbNjxa_Mk7FY7iVwHaFj&pid=15.1",
       "image_full_url": "https://www.allrecipes.com/thmb/pIHDApkGCb5h86JEfoKeQ25wGOE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-dominos-thin-crust-pizza-8281192e2d15433292436e9ea0d69799.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34419,7 +34759,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.GG_224RvQ2FxLtLrTRha0QHaFF&pid=15.1",
       "image_full_url": "https://www.dominos.com.sg/ManagedAssets/SG/product/PQPM/SG_PQPM_en_hero_11915.jpg?v-81695107",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -34436,7 +34780,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.J72KmXPwcvV_FxK97GOwAAHaEK&pid=15.1",
       "image_full_url": "https://www.mashed.com/img/gallery/dominos-just-ended-the-pineapple-pizza-debate-once-and-for-all/intro-1673802104.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -48121,7 +48469,11 @@
       "image_url": "https://ts2.explicit.bing.net/th?id=OIP.ovyT-Kmx1rIF3-61e3xTkgHaHa&pid=15.1",
       "image_full_url": "https://theraiderland.com/wp-content/uploads/2024/05/Dominos-Pizza-Canadian-Bacon.jpeg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48138,7 +48490,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.rELtn2PbNjxa_Mk7FY7iVwHaFj&pid=15.1",
       "image_full_url": "https://www.allrecipes.com/thmb/pIHDApkGCb5h86JEfoKeQ25wGOE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-dominos-thin-crust-pizza-8281192e2d15433292436e9ea0d69799.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48155,7 +48511,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.L77JKiDv4LDM0FlluEom_AHaHa&pid=15.1",
       "image_full_url": "https://lazygirlvegan.com/wp-content/uploads/2016/08/green-peppers-onions-dominos-vegan1.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48172,7 +48532,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.a44zIsqpjQCQOCwKsB0urwHaJ4&pid=15.1",
       "image_full_url": "https://www.diningandcooking.com/wp-content/uploads/2025/11/8ro9bpp0vi2g1-scaled.jpeg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48189,7 +48553,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.x2iPG6Cdy7zrgxvM6N63CAHaF6&pid=15.1",
       "image_full_url": "https://i.pinimg.com/originals/12/ef/ea/12efeaf005950f7aa3f22f601fd98817.png",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48206,7 +48574,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.bJajy2lHJmAqIeVf6DJi5gHaJ4&pid=15.1",
       "image_full_url": "https://i.redd.it/5yq5fghfele51.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48223,7 +48595,11 @@
       "image_url": "https://ts4.explicit.bing.net/th?id=OIP.CtzdO-8tY1NwVgDpfW_tWgHaHa&pid=15.1",
       "image_full_url": "https://oakandrowan.com/wp-content/uploads/2022/09/Dominos-Memphis-BBQ-Chicken-Pizza.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48241,7 +48617,11 @@
       "image_full_url": "https://glutenfreepizzapies.com/wp-content/uploads/2022/06/Gluten-Free-Pizza-from-Dominos-3-Topping-.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48259,7 +48639,11 @@
       "image_full_url": "https://soranews24.com/wp-content/uploads/sites/3/2024/05/Dominos-Japan-pineapple-pizza-hawaiaan-twist-weird-food-menu-review-news-6.jpg?w=640",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48277,7 +48661,11 @@
       "image_full_url": "https://cache.dominos.com/olo/6_155_1/assets/build/market/US/_en/images/img/nutritional-page/gluten-free/nutrition_gluten_free_crust_variety.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48295,7 +48683,11 @@
       "image_full_url": "https://i.redd.it/ezym7qkz8aob1.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48335,7 +48727,11 @@
       "image_full_url": "https://pbs.twimg.com/media/DIhiT3qXkAAZBlH.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48353,7 +48749,11 @@
       "image_full_url": "https://www.wadav.com/assets/images/posts/dominos-handmade-pan-banner-01-(1)-(1).jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48371,7 +48771,11 @@
       "image_full_url": "https://www.wadav.com/assets/images/posts/dominos-handmade-pan-banner-01-(1)-(1).jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48389,7 +48793,11 @@
       "image_full_url": "https://www.wadav.com/assets/images/posts/dominos-handmade-pan-banner-01-(1)-(1).jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48407,7 +48815,11 @@
       "image_full_url": "",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48425,7 +48837,11 @@
       "image_full_url": "https://fallrivermenus.com/wp-content/uploads/2021/08/dominos-pan-pizza-pepperoni-7-scaled.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48443,7 +48859,11 @@
       "image_full_url": "https://www.thedailymeal.com/img/gallery/10-discontinued-dominos-items-we-wont-see-again/roasted-red-pepper-pizza-topping-1689098851.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -48461,7 +48881,11 @@
       "image_full_url": "https://s.alicdn.com/@sc02/kf/H59713e01d1994e43adf8798be9177d90b.jpg",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "IHOP",
@@ -55096,7 +55520,11 @@
       "image_url": "https://ts3.explicit.bing.net/th?id=OIP.gbWkysmYca2pkQAhbiWnvwHaFb&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2019/05/dunkin-sausage-egg-cheese-sandwich-croissant.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55113,7 +55541,11 @@
       "image_url": "https://ts3.explicit.bing.net/th?id=OIP.iFaHljvCKNcONV0J-SSXZwHaJh&pid=15.1",
       "image_full_url": "https://i.pinimg.com/originals/15/c0/b9/15c0b98dfcb4be2a300a379498aa9c02.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55130,7 +55562,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.gsqIzv1zOxpDOP1JtMHPRAHaFj&pid=15.1",
       "image_full_url": "https://www.eatlife.net/restaurants/images/dunkin-turkey-sausage-egg-cheese-english-muffin.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55147,7 +55583,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.VzWqqyfVAYapmZaAj87OZwHaFj&pid=15.1",
       "image_full_url": "https://www.eatlife.net/restaurants/images/dunkin-bacon-egg-cheese-wake-up-wrap.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55164,7 +55604,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.3RNukb7UvPVaDmSlxV0aIwHaEK&pid=15.1",
       "image_full_url": "https://images-cdn.ispot.tv/ad/A8Lu/default-large.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55181,7 +55625,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.skijs0MHIXpYCkyKgvKw1gHaFj&pid=15.1",
       "image_full_url": "https://www.eatlife.net/restaurants/images/dunkin-wake-up-wrap-sausage.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55215,7 +55663,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.snMfdiXr6wAx7BZfkBmXawHaIw&pid=15.1",
       "image_full_url": "https://www.fastfoodpost.com/wp-content/uploads/2020/10/Dunkin-Unveils-New-Sourdough-Breakfast-Sandwich-And-New-Chai-Oatmilk-Latte-696x823.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55232,7 +55684,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.U0i_nP1GiRgDQUcN0-N-DAHaEK&pid=15.1",
       "image_full_url": "https://www.mashed.com/img/gallery/this-is-why-dunkins-hash-browns-are-so-delicious/l-intro-1618410393.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55283,7 +55739,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.UrfAD3vfEQoGv9pXpg6AHwHaE8&pid=15.1",
       "image_full_url": "https://www.tasteofhome.com/wp-content/uploads/2020/09/dunkin-bgel-bites-QT-1200x800.jpg?fit=700,800",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55317,7 +55777,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.v5Vl3vbvyCs1H1OnS53yEgHaFb&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2025/07/dunkin-egg-white-veggies-omelet-bites.jpg?quality=82&strip=all",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55334,7 +55798,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.63BngHevQefJGZaVirGoJQHaIH&pid=15.1",
       "image_full_url": "https://www.fastfoodpost.com/wp-content/uploads/2020/02/Dunkin-new-Snackin-Bacon-hero-696x763.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55351,7 +55819,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.VEgiHXkSpkGzfyvYbUDZxwHaJ4&pid=15.1",
       "image_full_url": "https://watchlearneat.com/wp-content/uploads/2022/05/Dunkin-Donurts-plain-bagel.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55368,7 +55840,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.ckVpuMia15ehyShjHmkJOAHaHr&pid=15.1",
       "image_full_url": "https://fastfoodnutrition.org/item-photos/full/13917.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55385,7 +55861,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.cobEFbobNVUySemybxd2BgHaHa&pid=15.1",
       "image_full_url": "https://dunkinmenus.com/wp-content/uploads/2026/04/Cinnamon-Raisin-Bagel-1.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55402,7 +55882,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP._2AaqQ3McOs7QC9eNr_EYQHaEy&pid=15.1",
       "image_full_url": "https://www.thedailymeal.com/img/gallery/the-healthiest-and-unhealthiest-food-at-dunkin-donuts-gallery/2_Multigrain_bagel_Slide_Edit.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55419,7 +55903,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.Qx1yNGi9OwWt53PPzbf3ZwHaHa&pid=15.1",
       "image_full_url": "https://www.dunkindonuts.com/content/dam/dd/img/menu-redesign/bagels-and-muffins/pdp-bagels-muffins/PlainBagelCreamCheese.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55436,7 +55924,11 @@
       "image_url": "https://ts2.explicit.bing.net/th?id=OIP.AdvNUtoblAFKjUPWBn0vUgHaFb&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/06/dunkin-coffee-and-croissant.jpg?resize=640",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55453,7 +55945,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.zoNdauXTy6kyHLvIkqJiWgHaHa&pid=15.1",
       "image_full_url": "https://inturfiles.s3.us-east-2.amazonaws.com/folder/products/500X500/English_Muffin_Combo_921b6c6.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55487,7 +55983,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.DcvES1iwixsQitHfPJaMmAAAAA&pid=15.1",
       "image_full_url": "https://dunkinmenus.com/wp-content/uploads/2026/04/Chocolate-Chip-Muffin.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55504,7 +56004,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.xcXR4Na0l3Y_CMW9G2-f1wHaFj&pid=15.1",
       "image_full_url": "https://i.pinimg.com/originals/f3/b7/b2/f3b7b2b1146e33ed2ef15383f3d4683c.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55521,7 +56025,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.kXE3Ef1ObWI8rEmlfoGsuQHaJ4&pid=15.1",
       "image_full_url": "https://s3.amazonaws.com/cms.ipressroom.com/285/files/20247/66cf25913d63324e337a03ef_Dunkin'+Loaded+Hashbrowns/Dunkin'+Loaded+Hashbrowns_b93bde00-4c9c-43c1-b0c3-fd4ec7609627-prv.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55538,7 +56046,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.jKY2R3odQK44f7vrIoBp1wHaEK&pid=15.1",
       "image_full_url": "https://i.pinimg.com/originals/35/45/2b/35452ba8172799a93e423431d7b8a6ac.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55555,7 +56067,11 @@
       "image_url": "https://ts1.explicit.bing.net/th?id=OIP.a6jsrn-uvMf-XvaFPs9n2QHaLH&pid=15.1",
       "image_full_url": "https://www.alyonascooking.com/wp-content/uploads/2018/03/dunkin-donuts-krispy-kreme-copycat-glazed-donut-recipe-.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55572,7 +56088,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.IBbdvpwgfle5AVXxGDDyewHaHa&pid=15.1",
       "image_full_url": "https://dunkin-donut.net/wp-content/uploads/2024/10/Chocolate-Frosted-Donut-Dunkin.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55589,7 +56109,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.4Uk2uLbwTWXq9sUqYB0H7gHaFj&pid=15.1",
       "image_full_url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e9cb6fcc-167b-4cba-96b0-e125ae9e48ac/dfevp1x-12380d73-9c8d-47a7-91cc-80e301d2a60e.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U5Y2I2ZmNjLTE2N2ItNGNiYS05NmIwLWUxMjVhZTllNDhhY1wvZGZldnAxeC0xMjM4MGQ3My05YzhkLTQ3YTctOTFjYy04MGUzMDFkMmE2MGUuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.6yMO9UHUlHluGFUWZnYteBRaryFuGlW7JvuS3-TIAI4",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55606,7 +56130,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.PHtzIEwYg9muDmm9N7H0_wHaEH&pid=15.1",
       "image_full_url": "https://thanksgivingrestaurants.com/wp-content/uploads/2023/11/Dunkin-Donuts-Strawberry-Frosted-with-Sprinkles-Donut.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55623,7 +56151,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.P7jOp0v9PJUyvfUKo7dPqgHaFj&pid=15.1",
       "image_full_url": "https://www.dunkinbh.com/Media/Menu/21092023122626~Vanilla_Frosted_Spri.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55674,7 +56206,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.HQSTSwauJE0cthDucNK_QwHaE7&pid=15.1",
       "image_full_url": "https://s3.amazonaws.com/cms.ipressroom.com/285/files/20238/64f890e63d63327af5b2be2b_Choc+Large/Choc+Large_bae6432a-b8b6-40b6-8fb0-e29f65348ddb-prv.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55691,7 +56227,11 @@
       "image_url": "https://ts3.explicit.bing.net/th?id=OIP.toCi8nHHMKH0xBiEdnRWOQHaJ4&pid=15.1",
       "image_full_url": "https://live.staticflickr.com/3123/2668779855_ba78fdfee6_b.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55708,7 +56248,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.2zAFeZ6e_kiCzB-y5QXm3wHaHa&pid=15.1",
       "image_full_url": "https://dunkin-donut.net/wp-content/uploads/2024/10/Glazed-Chocolate-Donut-Dunkin-768x768.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55725,7 +56269,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.h7cXDVMteH6_HEiv4PBLLwHaHa&pid=15.1",
       "image_full_url": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/98/c1/9c/double-chocolate-donut.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55759,7 +56307,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.8u_K3DAkj64QZJE7RDJKHwHaHa&pid=15.1",
       "image_full_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=2038518016328704",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55776,7 +56328,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.obZ_cJTG1fi103Jk_fdkpQHaEK&pid=15.1",
       "image_full_url": "https://www.mashed.com/img/gallery/dunkin-donuts-ranked-from-worst-to-best/french-cruller-1647268191.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55827,7 +56383,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.awE-rMWXD6trZdXvXhPx3gHaEy&pid=15.1",
       "image_full_url": "https://nutritionandingredients.com/wp-content/uploads/2024/08/dunkin-glazed-munchkin-60-calories.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55844,7 +56404,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.0f0qbIbDX5oLYME2WIJ5igHaKx&pid=15.1",
       "image_full_url": "https://www.tiktok.com/api/img/?itemId=7595166607828126994&location=0&aid=1988",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55861,7 +56425,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.c1Sawx8p1Tt9lrwRhDrizwHaFj&pid=15.1",
       "image_full_url": "https://www.dunkinbh.com/Media/Menu/18102023120658~19092022115005~munch.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55878,7 +56446,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.7pNeGZRJxT39aoq5K-NMVgHaLH&pid=15.1",
       "image_full_url": "https://heyjoecoffee.com/wp-content/uploads/2022/04/Dunkin-Strawberry-Coolatta.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55912,7 +56484,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.L7WJjwLvC2U8l9uAqyLL3AAAAA&pid=15.1",
       "image_full_url": "https://s3.amazonaws.com/cms.ipressroom.com/285/files/20233/644824e2b3aed37fb865e41d_Butter+Pecan+Crunch+Frozen+Coffee/Butter+Pecan+Crunch+Frozen+Coffee_mid.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55929,7 +56505,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.g33vKOXbVplLHeTZqSuA2QHaD4&pid=15.1",
       "image_full_url": "https://www.hangrypants.com/wp-content/uploads/2024/11/0c99c44ccfcabb8b/dunkin-donuts-frozen-chocolate-calories-taste-and-more-1200x630.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -77899,7 +78479,11 @@
       "_updated_at": "2026-10-19T09:35:31.267756+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -77916,7 +78500,11 @@
       "_updated_at": "2026-10-19T09:35:34.772073+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -77950,7 +78538,11 @@
       "_updated_at": "2026-10-19T09:35:43.514906+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -77967,7 +78559,11 @@
       "_updated_at": "2026-10-19T09:35:48.552270+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -77984,7 +78580,11 @@
       "_updated_at": "2026-10-19T09:35:52.248022+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78001,7 +78601,11 @@
       "_updated_at": "2026-10-19T09:35:57.210159+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78018,7 +78622,11 @@
       "_updated_at": "2026-10-19T09:36:01.330958+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78035,7 +78643,11 @@
       "_updated_at": "2026-10-19T09:36:06.586541+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78052,7 +78664,11 @@
       "_updated_at": "2026-10-19T09:36:11.170671+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78069,7 +78685,11 @@
       "_updated_at": "2026-10-19T09:36:16.215406+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78104,7 +78724,11 @@
       "_updated_at": "2026-10-19T09:36:24.980969+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78138,7 +78762,11 @@
       "_updated_at": "2026-10-19T09:36:34.681252+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78172,7 +78800,11 @@
       "_updated_at": "2026-10-19T09:36:41.954326+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78189,7 +78821,11 @@
       "_updated_at": "2026-10-19T09:36:46.755295+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78223,7 +78859,11 @@
       "_updated_at": "2026-10-19T09:36:55.913017+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78240,7 +78880,11 @@
       "_updated_at": "2026-10-19T09:36:59.343044+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78257,7 +78901,11 @@
       "_updated_at": "2026-10-19T09:37:03.484662+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78274,7 +78922,11 @@
       "_updated_at": "2026-10-19T09:37:07.203114+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78291,7 +78943,11 @@
       "_updated_at": "2026-10-19T09:37:12.076132+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78308,7 +78964,11 @@
       "_updated_at": "2026-10-19T09:37:17.262193+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78325,7 +78985,11 @@
       "_updated_at": "2026-10-19T09:37:21.893479+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78342,7 +79006,11 @@
       "_updated_at": "2026-10-19T09:37:26.794503+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78359,7 +79027,11 @@
       "_updated_at": "2026-10-19T09:37:30.675689+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78376,7 +79048,11 @@
       "_updated_at": "2026-10-19T09:37:34.590357+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78393,7 +79069,11 @@
       "_updated_at": "2026-10-19T09:37:38.860839+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78427,7 +79107,11 @@
       "_updated_at": "2026-10-19T09:37:48.717103+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78444,7 +79128,11 @@
       "_updated_at": "2026-10-19T09:37:53.542586+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78461,7 +79149,11 @@
       "_updated_at": "2026-10-19T09:37:57.780393+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78478,7 +79170,11 @@
       "_updated_at": "2026-10-19T09:38:02.945767+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78495,7 +79191,11 @@
       "_updated_at": "2026-10-19T09:38:07.047819+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78512,7 +79212,11 @@
       "_updated_at": "2026-10-19T09:38:11.078665+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78546,7 +79250,11 @@
       "_updated_at": "2026-10-19T09:38:19.395258+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78563,7 +79271,11 @@
       "_updated_at": "2026-10-19T09:38:22.839959+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -94452,7 +95164,11 @@
       "_updated_at": "2026-10-19T11:20:10.183675+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -94520,7 +95236,11 @@
       "_updated_at": "2026-10-19T11:20:28.602557+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -94554,7 +95274,11 @@
       "_updated_at": "2026-10-19T11:20:36.054937+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -94571,7 +95295,11 @@
       "_updated_at": "2026-10-19T11:20:40.071126+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -94588,7 +95316,11 @@
       "_updated_at": "2026-10-19T11:20:43.728467+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -94605,7 +95337,11 @@
       "_updated_at": "2026-10-19T11:20:48.833891+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -94622,7 +95358,11 @@
       "_updated_at": "2026-10-19T11:20:53.319392+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -94656,7 +95396,11 @@
       "_updated_at": "2026-10-19T11:21:01.379781+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -94673,7 +95417,11 @@
       "_updated_at": "2026-10-19T11:21:04.749309+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -94690,7 +95438,11 @@
       "_updated_at": "2026-10-19T11:21:08.424833+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -94707,7 +95459,11 @@
       "_updated_at": "2026-10-19T11:21:13.038209+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -94741,7 +95497,11 @@
       "_updated_at": "2026-10-19T11:21:21.558897+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -94758,7 +95518,11 @@
       "_updated_at": "2026-10-19T11:21:25.320799+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -94792,7 +95556,11 @@
       "_updated_at": "2026-10-19T11:21:34.307004+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -94810,7 +95578,11 @@
       "_updated_at": "2026-10-20T11:55:05.358150+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -94828,7 +95600,11 @@
       "_updated_at": "2026-10-20T11:55:09.365240+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -94846,7 +95622,11 @@
       "_updated_at": "2026-10-20T11:55:14.384859+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -94864,7 +95644,11 @@
       "_updated_at": "2026-10-20T11:55:19.364743+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -94882,7 +95666,11 @@
       "_updated_at": "2026-10-20T11:55:23.642600+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -94900,7 +95688,11 @@
       "_updated_at": "2026-10-20T11:55:28.463058+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -94918,7 +95710,11 @@
       "_updated_at": "2026-10-20T11:55:32.003752+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -94936,7 +95732,11 @@
       "_updated_at": "2026-10-20T11:55:37.057283+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:23:59.292067+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Domino's",
@@ -94954,7 +95754,11 @@
       "_updated_at": "2026-10-20T11:55:41.938672+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -94972,7 +95776,11 @@
       "_updated_at": "2026-10-20T11:55:46.909477+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:20:32.529586+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -94990,7 +95798,11 @@
       "_updated_at": "2026-10-20T11:55:50.821559+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -95008,7 +95820,11 @@
       "_updated_at": "2026-10-20T11:55:55.365877+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -95026,7 +95842,11 @@
       "_updated_at": "2026-10-20T11:55:59.355536+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -95044,7 +95864,11 @@
       "_updated_at": "2026-10-20T11:56:02.856030+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:19:11.587530+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -124070,7 +124894,11 @@
       "_updated_at": "2026-10-24T12:06:38.283246+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124087,7 +124915,11 @@
       "_updated_at": "2026-10-24T12:06:42.462674+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124121,7 +124953,11 @@
       "_updated_at": "2026-10-24T12:06:49.681641+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124155,7 +124991,11 @@
       "_updated_at": "2026-10-24T12:06:57.995282+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124172,7 +125012,11 @@
       "_updated_at": "2026-10-24T12:07:02.560432+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124189,7 +125033,11 @@
       "_updated_at": "2026-10-24T12:07:07.251620+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124223,7 +125071,11 @@
       "_updated_at": "2026-10-24T12:07:16.540366+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124257,7 +125109,11 @@
       "_updated_at": "2026-10-24T12:07:25.878751+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124274,7 +125130,11 @@
       "_updated_at": "2026-10-24T12:07:30.433873+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124325,7 +125185,11 @@
       "_updated_at": "2026-10-24T12:07:44.234670+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124342,7 +125206,11 @@
       "_updated_at": "2026-10-24T12:07:49.200621+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124359,7 +125227,11 @@
       "_updated_at": "2026-10-24T12:07:53.395967+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124376,7 +125248,11 @@
       "_updated_at": "2026-10-24T12:07:57.506626+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124393,7 +125269,11 @@
       "_updated_at": "2026-10-24T12:08:01.173928+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124409,7 +125289,11 @@
       "_added_at": "2026-10-24T11:34:04.108038+00:00",
       "_updated_at": "2026-10-24T11:34:04.108038+00:00",
       "_model": "gemini-3.5-flash",
-      "_image_attempts": 3
+      "_image_attempts": 3,
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -124426,7 +125310,11 @@
       "_updated_at": "2026-10-24T12:08:12.121348+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -150552,7 +151440,11 @@
       "_updated_at": "2026-10-30T08:03:19.991482+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150603,7 +151495,11 @@
       "_updated_at": "2026-10-30T08:03:34.232080+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150637,7 +151533,11 @@
       "_updated_at": "2026-10-30T08:03:43.960904+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150654,7 +151554,11 @@
       "_updated_at": "2026-10-30T08:03:47.834575+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150705,7 +151609,11 @@
       "_updated_at": "2026-10-30T08:04:01.608694+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150722,7 +151630,11 @@
       "_updated_at": "2026-10-30T08:04:06.568205+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150739,7 +151651,11 @@
       "_updated_at": "2026-10-30T08:04:10.446101+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150773,7 +151689,11 @@
       "_updated_at": "2026-10-30T08:04:19.367266+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150790,7 +151710,11 @@
       "_updated_at": "2026-10-30T08:04:22.813183+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150807,7 +151731,11 @@
       "_updated_at": "2026-10-30T08:04:27.071621+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150824,7 +151752,11 @@
       "_updated_at": "2026-10-30T08:04:32.076664+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150841,7 +151773,11 @@
       "_updated_at": "2026-10-30T08:04:36.822631+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150858,7 +151794,11 @@
       "_updated_at": "2026-10-30T08:04:41.008608+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150875,7 +151815,11 @@
       "_updated_at": "2026-10-30T08:04:44.874812+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150892,7 +151836,11 @@
       "_updated_at": "2026-10-30T08:04:48.666061+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150909,7 +151857,11 @@
       "_updated_at": "2026-10-30T08:04:52.670109+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:28:18.966851+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150943,7 +151895,11 @@
       "_updated_at": "2026-10-30T08:05:01.475385+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:27:35.954205+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -150960,7 +151916,11 @@
       "_updated_at": "2026-10-30T08:05:05.002371+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-04T11:29:36.815662+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -153742,38 +154702,38 @@
     "Wendy's",
     "Wingstop"
   ],
-  "updated_at": "2026-11-04T01:29:52.407111+00:00",
+  "updated_at": "2026-11-04T11:29:37.109376+00:00",
   "availability": {
     "cycle": 1,
     "history": [],
     "quota": {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "calls": {
-        "gemini-3.5-flash": 2,
-        "gemini-3.6-flash": 3
+        "gemini-3.6-flash": 5,
+        "gemini-3.5-flash": 1
       },
       "exhausted": [
-        "gemini-3.5-flash",
-        "gemini-3.7-flash",
-        "gemini-3.8-flash",
         "gemini-3.6-flash"
       ]
     },
     "progress": {
       "cycle": 1,
-      "checked": 2520,
+      "checked": 2760,
       "pool": 8392,
-      "active": 1228,
-      "inactive": 1292,
+      "active": 1391,
+      "inactive": 1369,
       "cycle_complete": false,
-      "updated_at": "2026-11-04T01:29:52.407066+00:00"
+      "updated_at": "2026-11-04T11:29:37.109319+00:00"
     },
     "last_run": {
-      "at": "2026-11-04T01:29:52.407080+00:00",
-      "calls": 0,
-      "marked_active": 0,
-      "marked_inactive": 0,
-      "calls_per_model": {}
+      "at": "2026-11-04T11:29:37.109330+00:00",
+      "calls": 6,
+      "marked_active": 163,
+      "marked_inactive": 77,
+      "calls_per_model": {
+        "gemini-3.6-flash": 5,
+        "gemini-3.5-flash": 1
+      }
     }
   }
 }
