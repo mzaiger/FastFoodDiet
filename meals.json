@@ -5110,7 +5110,11 @@
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2025/04/Wisconsin-6-cheese.jpg?quality=82&strip=all",
       "_serving_multiplier": 2,
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Domino's",
@@ -5993,7 +5997,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.iCXGY2-blZc1WeIRDX2eiwHaF7&pid=15.1",
       "image_full_url": "https://tb-static.uber.com/prod/image-proc/processed_images/4cab48192e564746535574989e0d8c71/885ba8620d45ab36746a0e8c7b85ee66.jpeg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6010,7 +6018,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.iCXGY2-blZc1WeIRDX2eiwHaF7&pid=15.1",
       "image_full_url": "https://tb-static.uber.com/prod/image-proc/processed_images/4cab48192e564746535574989e0d8c71/885ba8620d45ab36746a0e8c7b85ee66.jpeg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6027,7 +6039,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.S8L3J10FtVG3fQWHfFWcEQHaJ4&pid=15.1",
       "image_full_url": "https://miro.medium.com/v2/resize:fit:1400/1*qxWEkqik6Vytj9wMR78R0g@2x.jpeg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6044,7 +6060,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.S8L3J10FtVG3fQWHfFWcEQHaJ4&pid=15.1",
       "image_full_url": "https://miro.medium.com/v2/resize:fit:1400/1*qxWEkqik6Vytj9wMR78R0g@2x.jpeg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6061,7 +6081,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.viACBsVVBnt92sOeuc3VMQHaHa&pid=15.1",
       "image_full_url": "https://pbs.twimg.com/media/EzcGnTHWEAI4TgC.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6078,7 +6102,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.viACBsVVBnt92sOeuc3VMQHaHa&pid=15.1",
       "image_full_url": "https://pbs.twimg.com/media/EzcGnTHWEAI4TgC.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6095,7 +6123,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.kUSo25TwGFhY7tg1qfQYVwHaHa&pid=15.1",
       "image_full_url": "https://pbs.twimg.com/media/EqGSulRWMAAtXzw.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6112,7 +6144,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.ckOglztY7Xk9m_eY6-hrSQHaFL&pid=15.1",
       "image_full_url": "https://fiveguysmenu.com/wp-content/uploads/2024/06/Little-Bacon-Burger.webp",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6129,7 +6165,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.zbMkhmT4DssMLlOlxAU8uQHaHa&pid=15.1",
       "image_full_url": "https://pbs.twimg.com/media/DzUBPnZWoAUTFNu.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6146,7 +6186,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.KK9n58ouyiywQEUz3Q_R9wHaHa&pid=15.1",
       "image_full_url": "https://eatsbible.com/wp-content/uploads/2024/05/Five-Guys_Fries_4.png",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6163,7 +6207,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.EhXSMH8ofYp1rYsnyQdmOgHaHa&pid=15.1",
       "image_full_url": "https://menuspot.uk/wp-content/uploads/2024/09/Five-Guys-fries-menuspotuk.webp",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6180,7 +6228,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.PNxKqSRiUPnSjG30P8I1oQHaFq&pid=15.1",
       "image_full_url": "https://fiveguysmenus.com/wp-content/uploads/2024/09/Regular-Cajun-Fries.webp",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6197,7 +6249,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.HQPdSOd31hDxXiIyliIAvQHaFq&pid=15.1",
       "image_full_url": "https://fiveguysmenus.com/wp-content/uploads/2024/09/Little-Cajun-Fries.webp",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6214,7 +6270,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.C96RI3QLMLPzb8dv_LkKNwHaHa&pid=15.1",
       "image_full_url": "https://media.fiveguys.com/uk/2025/12/FIVE_GUYS_Loaded-fries_cajun-scaled.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6231,7 +6291,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.ms4COP226OIOUPxsPu2aNwHaHa&pid=15.1",
       "image_full_url": "https://clipartcraft.com/images/five-guys-logo-hot-dog-2.png",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6248,7 +6312,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.oCnv7-YgC0bzpNupC9PHXQHaFK&pid=15.1",
       "image_full_url": "https://media.fiveguys.com/uk/2025/09/CheeseDog.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6265,7 +6333,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.vrsii3Vpn91CDX25MRWomgHaEK&pid=15.1",
       "image_full_url": "https://www.thedailymeal.com/img/gallery/the-ultimate-ranking-of-five-guys-menu-items/12-bacon-dog-1744537921.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6282,7 +6354,11 @@
       "image_url": "https://ts1.explicit.bing.net/th?id=OIP.8DLAur91g6gECtA0YZNkJwHaFJ&pid=15.1",
       "image_full_url": "https://media.fiveguys.com/us/2025/06/BaconCheeseDog.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6299,7 +6375,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.AG0dj1cOvb58SDbE5RIffgHaFK&pid=15.1",
       "image_full_url": "https://media.fiveguys.com/uk/2025/09/GrilledCheese.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6316,7 +6396,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.O24FYKleVheGEkwgLC7suAHaFJ&pid=15.1",
       "image_full_url": "https://media.fiveguys.com/us/2025/06/BLT.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6333,7 +6417,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.OmvVONxTj57CJkANbztWoAHaFj&pid=15.1",
       "image_full_url": "https://prod-cdn-thekrazycouponlady.imgix.net/wp-content/uploads/2022/01/five-guys-burgers-fries-veggie-burger-2022-1644249522-1644249522.jpg?auto=format&fit=fill&crop=faces",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6350,7 +6438,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.Dfd2JocM4FauaVii1Qwi6wHaLH&pid=15.1",
       "image_full_url": "https://www.easycheesyvegetarian.com/wp-content/uploads/2020/10/Cheese-veggie-sandwich-Five-Guys-11-650x975.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -6367,7 +6459,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.3bcfsTDHwiw-oiMUlWI17QHaFr&pid=15.1",
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtuY61icXz3lw139AnaTXG4TIPRMq5eJwPRwefLAPgIjE-Dcs7f4FSRRS652Kq1CYif5lb-5ObRFZd4cQ-aCnQazikRQ4POnqDjIgtnFqceX2d3wVhJkixzRBQaSREHPOuBYGXICFzjvPXy87IsAwYV26LLXrPtrSSsmCRiUT9ZKOVWz_46xmmSzbfGMA/s640/five-guys-candy-cane-crunch-milkshake.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "IHOP",
@@ -19538,7 +19634,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.dGO2OC7OVwobLp3H-mEnCAAAAA&pid=15.1",
       "image_full_url": "https://media.fiveguys.com/uk/2025/09/bacon-egg-and-cheese.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -19555,7 +19655,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.FvssoRIa_bkrRkaUP2drawHaFJ&pid=15.1",
       "image_full_url": "https://media.fiveguys.com/us/2025/07/EggCheese.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -19572,7 +19676,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.Bz7MGFYJ-sz7wfxCPYB3NgHaHa&pid=15.1",
       "image_full_url": "",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -19589,7 +19697,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.dGO2OC7OVwobLp3H-mEnCAAAAA&pid=15.1",
       "image_full_url": "https://media.fiveguys.com/uk/2025/09/bacon-egg-and-cheese.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Chipotle",
@@ -34917,7 +35029,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.AlY0nbxhuaJ1O1ooHbjsjgHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/bv8DwYTlGFk/maxresdefault.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -34934,7 +35050,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.dGO2OC7OVwobLp3H-mEnCAAAAA&pid=15.1",
       "image_full_url": "https://media.fiveguys.com/uk/2025/09/bacon-egg-and-cheese.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -34951,7 +35071,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.iLF-8lzQlR3uIKYeVdkhegHaFj&pid=15.1",
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhY_nFe9yR10TCpx_aW2lkppadkMXJa1zPklsoqL2uMssLkkflqk21jAJuc7xmpsbU1owO1ywUOTdJXDHcPFJfVMyLEwZP5QkCanOECzfKsFckhuifynz1yFW-v-QTo3fyN9FprXgDJNaBN/s1600/Five+Guys+5.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Five Guys",
@@ -34968,7 +35092,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.AlY0nbxhuaJ1O1ooHbjsjgHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/bv8DwYTlGFk/maxresdefault.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "IHOP",
@@ -55602,7 +55730,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.rX1zKaEBf3R91JwPhHspxwHaFj&pid=15.1",
       "image_full_url": "https://www.eatlife.net/restaurants/images/dunkin-bacon-egg-cheese-bagel.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55619,7 +55751,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.BvIJHG-m9eKyQI97TmL3VAHaEK&pid=15.1",
       "image_full_url": "https://d2z1w4aiblvrwu.cloudfront.net/ad/AvLm/dunkin-donuts-bacon-egg-and-cheese-croissant-go-time-large-4.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55762,7 +55898,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.6FPdFrEPmoM8zz-FvKbjRwHaFj&pid=15.1",
       "image_full_url": "https://www.eatlife.net/restaurants/images/dunkin-turkey-sausage-egg-cheese-wake-up-wrap.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55821,7 +55961,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.k9kdOERjiorsQIQiihWGLwHaJ4&pid=15.1",
       "image_full_url": "https://helloyummy.co/wp-content/uploads/2021/02/Dunkin-Donuts-Avocado-Toast-3.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55838,7 +55982,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.9d8ZNxfqzl9BQF7Fq1tcQwHaHa&pid=15.1",
       "image_full_url": "https://dunkin-donut.net/wp-content/uploads/2024/10/Dunkin-Donuts-Avocado-Toast-1024x1024.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -55876,7 +56024,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.oc0DmOylpvVzp6KojPAovwHaFl&pid=15.1",
       "image_full_url": "https://elzateacoffeestudio.com/images/2026/04/1415-bacon-and-cheddar-omelet-bites-in-a-paper-serving-cup.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -56082,7 +56234,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.W5-qkwsu_-eveULBS9vvhgHaHa&pid=15.1",
       "image_full_url": "https://i5.walmartimages.com/seo/Dunkin-Blueberry-Muffin-Ground-Coffee-11-oz_163b448f-f729-4334-9b1d-381aad044b3c.03f6c828d6db20b63e5bb9e9ff8d21e2.jpeg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -56288,7 +56444,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.G64wVn9YZGKeRRJNkPQVFQHaEy&pid=15.1",
       "image_full_url": "https://nutritionandingredients.com/wp-content/uploads/2024/08/dunkin-donuts-boston-kreme-display.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -56305,7 +56465,11 @@
       "image_url": "https://ts4.explicit.bing.net/th?id=OIP.lh5kbY0heoKbNpr58FnEawHaHa&pid=15.1",
       "image_full_url": "https://i.pinimg.com/736x/17/89/7c/17897c800a984a7124aacb0d0e40dcd9.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -56406,7 +56570,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.6OM0L8ruEOyEYMxYeeqkSQHaHa&pid=15.1",
       "image_full_url": "https://dunkin-donut.net/wp-content/uploads/2024/10/Blueberry-Donut-Dunkin-2.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -56465,7 +56633,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.9A-vsdCPI6KsjMuuiccYigHaEK&pid=15.1",
       "image_full_url": "https://www.mashed.com/img/gallery/dunkin-donuts-ranked-from-worst-to-best/apple-fritter-1647268191.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -56482,7 +56654,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.wKeMxy6iZKkZhO2-DYu4MgHaEK&pid=15.1",
       "image_full_url": "https://www.thedailymeal.com/img/gallery/dunkin-donuts-nutrition-which-donuts-are-healthiest/apple-crumb-donut-1708716152.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -56583,7 +56759,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.aSmu_rANohheUrSIAG5ywgHaHa&pid=15.1",
       "image_full_url": "https://dunkin.cl/wp-content/uploads/2025/09/COOLATTA-BLUE-RASPBERRY_Dunkin_Chile.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -56659,7 +56839,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.LSm378iHy5XK1bvCii-6xAHaHa&pid=15.1",
       "image_full_url": "https://static.slickdealscdn.com/attachment/2/2/0/5/3/15134628.attach",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -56676,7 +56860,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.wWMHCyx-Fmf9N89z-TUn9AHaE7&pid=15.1",
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiksiII1ofqXhqX2NaWdMuKXpcsK6ddthJaGa8K4ynRofL9o9Hw9l9bboqVmYRLGfQz9yrcbsEuJWOuhRsfQasg76g_PZFvuaGAX7QXueA5-BhRvPGf003tC0nlMYygln2ful8giW7oy0A/s1600/IMG_5816.JPG",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -56710,7 +56898,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.YdKt5LwSksCCmnKiUOJxLgHaEK&pid=15.1",
       "image_full_url": "https://i.vimeocdn.com/video/644371571-c75d1254a4222530cf9d76a8aff124986e87fd61897ac8fc3ae47d8b994fb78d-d?f=webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -56727,7 +56919,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.f10NUtcsFcQms66ijK8rHAHaFD&pid=15.1",
       "image_full_url": "https://cdn.sanity.io/images/czqk28jt/prod_fhs_us/4dc53652a7c9a60849800f331d13e8eaabf03da9-800x545.png?w=275&h=250&dpr=1.75&fm=webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -56744,7 +56940,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.4tYzbwvQWVn5ikTFrzmU6wHaFj&pid=15.1",
       "image_full_url": "https://www.allrecipes.com/thmb/rOBK1RfD07YXkx0Jd93ibH8VcS4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-taste-test-firehouse-subs-club-on-a-sub-9ca1f9ec29b641e195cfb05cb614a74a.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -56778,7 +56978,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.yWdepm_osU5fysDpzpjqHQHaJ4&pid=15.1",
       "image_full_url": "https://imgv2-2-f.scribdassets.com/img/document/789901068/original/af903f0075/1?v=1",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -56795,7 +56999,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.CyPbvjop2k1rJD2ilW4wBAAAAA&pid=15.1",
       "image_full_url": "https://s3-media0.fl.yelpcdn.com/bphoto/0vhSpv6-MZQzRZ89BIK2dw/348s.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -56812,7 +57020,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.2uBx_IfYIKxKST-oIFyC3gHaFb&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2024/04/firehouse-spicy-cajun-chicken-sub.jpg?resize=800",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -56846,7 +57058,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.EMrTP3wOV0-Gfzrc3hQKtwHaFc&pid=15.1",
       "image_full_url": "https://firehousesubsmnus.com/wp-content/uploads/2024/12/Sweet-Spicy-Meatball-Combo.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -56863,7 +57079,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.23QCmfrhfD__Z9kHnEEb5gHaFj&pid=15.1",
       "image_full_url": "https://bloximages.chicago2.vip.townnews.com/thespec.com/content/tncms/assets/v3/editorial/a/86/a8624610-fc2e-51fc-97e1-0594256a0e27/63d873ac81284.image.jpg?resize=666,500",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -56897,7 +57117,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.OedLUCAGEep2WW4vK3DZHwHaGl&pid=15.1",
       "image_full_url": "https://firehousesubs.com.mx/wp-content/uploads/2025/06/Mesa-de-trabajo-10.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -56914,7 +57138,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.ssoFoT-XvJ7QIAT26wi9kgHaHa&pid=15.1",
       "image_full_url": "https://i.pinimg.com/736x/ec/d3/b0/ecd3b0ee84a7dab8a6f5cb955c5e292f.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -56931,7 +57159,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.fiQL7TPXYoUGKV3fYLgSjwHaGl&pid=15.1",
       "image_full_url": "https://firehousesubs.com.mx/wp-content/uploads/2024/01/ROAST-BEEF-1.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -56965,7 +57197,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.rNMmkn2W8AUzRmUJEUyn1wAAAA&pid=15.1",
       "image_full_url": "https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_150/eznnezes3kl4chwlpwdk",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -56982,7 +57218,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.ERLpugdX2b7PRQpwj8sadgHaFC&pid=15.1",
       "image_full_url": "",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -57016,7 +57256,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.D_BUJLvVBDfwRxU1xikZVAHaFC&pid=15.1",
       "image_full_url": "https://cdn.sanity.io/images/czqk28jt/prod_fhs_us/bb74113feaac4891747ab9d8291fc6150ff2efa6-800x545.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -57033,7 +57277,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.VsXGxkK_LUfKbUYR53Hg2AHaHa&pid=15.1",
       "image_full_url": "https://www.skipthedishes.com/_next/image?url=https://menu-images-static.skipthedishes.com/images/resized/item-53acbc6e0795742857c8.png&w=1920&q=75",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -57050,7 +57298,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.EFx18UmoyvccZdmf5E1RTwAAAA&pid=15.1",
       "image_full_url": "https://www.firehousesubsmenus.com/wp-content/uploads/2023/11/Firehouse-Salad-with-Ham.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -57084,7 +57336,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.Yb8Rewwn20QuORwOAQ141QAAAA&pid=15.1",
       "image_full_url": "https://www.firehousesubsmenus.com/wp-content/uploads/2023/11/Side-Salad.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -57101,7 +57357,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.epqQsY8Oxfidenkc7i6HWgHaEK&pid=15.1",
       "image_full_url": "https://www.mashed.com/img/gallery/firehouse-subs-menu-items-ranked-from-worst-to-best/firehouse-chili-1645650612.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -57118,7 +57378,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.9IvzSDLYgIQO9k2gi7QPGwHaHa&pid=15.1",
       "image_full_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=4463798477042848",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -57152,7 +57416,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.tXvmnetCOP6lrIJCOTCZkwHaFj&pid=15.1",
       "image_full_url": "https://southernfoodjunkie.com/wp-content/uploads/2018/05/IMG_20180425_132041117.jpg.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -57169,7 +57437,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.yaLe_Npn3yT47MUNY5Gx4QHaEy&pid=15.1",
       "image_full_url": "https://nutritionandingredients.com/wp-content/uploads/2024/10/firehouse-subs-oatmeal-raisin-cookie.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -57186,7 +57458,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.MneUlwEyYpZVI6VluXqdyAHaFj&pid=15.1",
       "image_full_url": "https://i.pinimg.com/736x/b4/e4/db/b4e4db26a99d123bbeb42b4a6ddab622--cookie-lemon.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -57203,7 +57479,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.1O-E_SIwqsgdLP1Ck31hDQHaGf&pid=15.1",
       "image_full_url": "https://i.pinimg.com/564x/03/ee/75/03ee75327cb385da18f9aa59b9d681f9.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -57305,7 +57585,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.VuwcF0DFp5dkPgQnVf_qvgHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/eHLfcqzGL_Y/maxresdefault.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -57356,7 +57640,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.C0imRQJHBC1e8WN9U9pZTwAAAA&pid=15.1",
       "image_full_url": "https://www.freddys.com/sites/default/files/styles/max_650x650/public/2022-07/Cheese_Curds_800.png.webp?itok=SrYJRTsf",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -57390,7 +57678,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.l6pHa64vAFRxohje3HtbUAHaEH&pid=15.1",
       "image_full_url": "https://olo-images-live.imgix.net/8b/8b1e0775c02b483097ca9540c19c44a0.png?auto=format,compress&q=60&cs=tinysrgb&w=1800&h=999&fit=crop&fm=png32&s=e8797b22caa52eda37747ede294ad73e",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -57543,7 +57835,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.OfcJhO-2f41CuniTE8KH0QHaHa&pid=15.1",
       "image_full_url": "https://freddymenu.us/wp-content/uploads/2026/02/All-Beef-Hot-Dog-Combo.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -57951,7 +58247,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.eZsKcP4Cf46_Bz-zFCpjIgHaHa&pid=15.1",
       "image_full_url": "https://freddymenu.us/wp-content/uploads/2026/02/Motts®-Natural-Applesauce.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Godfather's Pizza",
@@ -78637,7 +78937,11 @@
       "_updated_at": "2026-10-19T09:35:38.802822+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78823,7 +79127,11 @@
       "_updated_at": "2026-10-19T09:36:21.561255+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78861,7 +79169,11 @@
       "_updated_at": "2026-10-19T09:36:30.131918+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78899,7 +79211,11 @@
       "_updated_at": "2026-10-19T09:36:38.372371+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -78958,7 +79274,11 @@
       "_updated_at": "2026-10-19T09:36:50.637387+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -79206,7 +79526,11 @@
       "_updated_at": "2026-10-19T09:37:43.796733+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -79349,7 +79673,11 @@
       "_updated_at": "2026-10-19T09:38:15.573362+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -79442,7 +79770,11 @@
       "_updated_at": "2026-10-19T09:38:37.035362+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79459,7 +79791,11 @@
       "_updated_at": "2026-10-19T09:38:41.756691+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79476,7 +79812,11 @@
       "_updated_at": "2026-10-19T09:38:45.369565+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79493,7 +79833,11 @@
       "_updated_at": "2026-10-19T09:38:48.859225+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79510,7 +79854,11 @@
       "_updated_at": "2026-10-19T09:38:52.961394+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79527,7 +79875,11 @@
       "_updated_at": "2026-10-19T09:38:58.213902+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79612,7 +79964,11 @@
       "_updated_at": "2026-10-19T09:39:22.041846+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79629,7 +79985,11 @@
       "_updated_at": "2026-10-19T09:39:26.832617+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79646,7 +80006,11 @@
       "_updated_at": "2026-10-19T09:39:31.064982+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79663,7 +80027,11 @@
       "_updated_at": "2026-10-19T09:39:36.384882+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79680,7 +80048,11 @@
       "_updated_at": "2026-10-19T09:39:40.170094+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79697,7 +80069,11 @@
       "_updated_at": "2026-10-19T09:39:44.604816+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79714,7 +80090,11 @@
       "_updated_at": "2026-10-19T09:39:48.720988+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79731,7 +80111,11 @@
       "_updated_at": "2026-10-19T09:39:52.943623+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79748,7 +80132,11 @@
       "_updated_at": "2026-10-19T09:39:57.878779+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79765,7 +80153,11 @@
       "_updated_at": "2026-10-19T09:40:01.895423+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79816,7 +80208,11 @@
       "_updated_at": "2026-10-19T09:40:14.566681+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79833,7 +80229,11 @@
       "_updated_at": "2026-10-19T09:40:19.584683+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79850,7 +80250,11 @@
       "_updated_at": "2026-10-19T09:40:23.086191+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79867,7 +80271,11 @@
       "_updated_at": "2026-10-19T09:40:27.506930+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79918,7 +80326,11 @@
       "_updated_at": "2026-10-19T09:40:41.695946+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79935,7 +80347,11 @@
       "_updated_at": "2026-10-19T09:40:46.448100+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79952,7 +80368,11 @@
       "_updated_at": "2026-10-19T09:40:51.296269+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79969,7 +80389,11 @@
       "_updated_at": "2026-10-19T09:40:54.736736+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -79986,7 +80410,11 @@
       "_updated_at": "2026-10-19T09:40:58.321083+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80003,7 +80431,11 @@
       "_updated_at": "2026-10-19T09:41:03.388430+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80054,7 +80486,11 @@
       "_updated_at": "2026-10-19T09:41:15.861790+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80071,7 +80507,11 @@
       "_updated_at": "2026-10-19T09:41:20.232500+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80088,7 +80528,11 @@
       "_updated_at": "2026-10-19T09:41:23.973621+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80105,7 +80549,11 @@
       "_updated_at": "2026-10-19T09:41:28.642182+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80122,7 +80570,11 @@
       "_updated_at": "2026-10-19T09:41:33.229087+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80139,7 +80591,11 @@
       "_updated_at": "2026-10-19T09:41:38.266280+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80156,7 +80612,11 @@
       "_updated_at": "2026-10-19T09:41:43.325430+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80173,7 +80633,11 @@
       "_updated_at": "2026-10-19T09:41:48.432113+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80190,7 +80654,11 @@
       "_updated_at": "2026-10-19T09:41:51.818298+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80207,7 +80675,11 @@
       "_updated_at": "2026-10-19T09:41:55.507466+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80224,7 +80696,11 @@
       "_updated_at": "2026-10-19T09:42:00.115739+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80241,7 +80717,11 @@
       "_updated_at": "2026-10-19T09:42:05.280712+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80258,7 +80738,11 @@
       "_updated_at": "2026-10-19T09:42:10.545050+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80275,7 +80759,11 @@
       "_updated_at": "2026-10-19T09:42:15.884714+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80292,7 +80780,11 @@
       "_updated_at": "2026-10-19T09:42:19.419560+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -80309,7 +80801,11 @@
       "_updated_at": "2026-10-19T09:42:23.414196+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -80377,7 +80873,11 @@
       "_updated_at": "2026-10-19T09:42:41.094347+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -80394,7 +80894,11 @@
       "_updated_at": "2026-10-19T09:42:44.648104+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -80411,7 +80915,11 @@
       "_updated_at": "2026-10-19T09:42:48.957168+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -80428,7 +80936,11 @@
       "_updated_at": "2026-10-19T09:42:53.658447+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -80768,7 +81280,11 @@
       "_updated_at": "2026-10-19T09:44:20.426494+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -80853,7 +81369,11 @@
       "_updated_at": "2026-10-19T09:44:42.132740+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -80887,7 +81407,11 @@
       "_updated_at": "2026-10-19T09:44:50.610857+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -80921,7 +81445,11 @@
       "_updated_at": "2026-10-19T09:44:59.362075+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -95263,7 +95791,11 @@
       "_updated_at": "2026-10-19T11:20:06.784666+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -95301,7 +95833,11 @@
       "_updated_at": "2026-10-19T11:20:13.855352+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -95318,7 +95854,11 @@
       "_updated_at": "2026-10-19T11:20:19.057768+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -95335,7 +95875,11 @@
       "_updated_at": "2026-10-19T11:20:23.610541+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -95373,7 +95917,11 @@
       "_updated_at": "2026-10-19T11:20:31.969151+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -95495,7 +96043,11 @@
       "_updated_at": "2026-10-19T11:20:57.481557+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -95596,7 +96148,11 @@
       "_updated_at": "2026-10-19T11:21:17.015390+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -95655,7 +96211,11 @@
       "_updated_at": "2026-10-19T11:21:29.507348+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -96265,7 +96825,11 @@
       "_updated_at": "2026-10-20T11:57:03.509716+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96282,7 +96846,11 @@
       "_updated_at": "2026-10-20T11:57:07.328944+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96299,7 +96867,11 @@
       "_updated_at": "2026-10-20T11:57:12.321893+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96316,7 +96888,11 @@
       "_updated_at": "2026-10-20T11:57:17.603630+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96333,7 +96909,11 @@
       "_updated_at": "2026-10-20T11:57:21.896385+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96350,7 +96930,11 @@
       "_updated_at": "2026-10-20T11:57:26.128389+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96367,7 +96951,11 @@
       "_updated_at": "2026-10-20T11:57:30.443205+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96384,7 +96972,11 @@
       "_updated_at": "2026-10-20T11:57:35.729926+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96401,7 +96993,11 @@
       "_updated_at": "2026-10-20T11:57:40.619375+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96418,7 +97014,11 @@
       "_updated_at": "2026-10-20T11:57:45.004233+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96435,7 +97035,11 @@
       "_updated_at": "2026-10-20T11:57:48.623834+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96469,7 +97073,11 @@
       "_updated_at": "2026-10-20T11:57:56.343572+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96486,7 +97094,11 @@
       "_updated_at": "2026-10-20T11:58:01.404426+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96503,7 +97115,11 @@
       "_updated_at": "2026-10-20T11:58:05.928962+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96520,7 +97136,11 @@
       "_updated_at": "2026-10-20T11:58:09.952679+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96537,7 +97157,11 @@
       "_updated_at": "2026-10-20T11:58:14.795826+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96554,7 +97178,11 @@
       "_updated_at": "2026-10-20T11:58:19.861985+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96571,7 +97199,11 @@
       "_updated_at": "2026-10-20T11:58:23.226123+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96605,7 +97237,11 @@
       "_updated_at": "2026-10-20T11:58:31.412263+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96622,7 +97258,11 @@
       "_updated_at": "2026-10-20T11:58:36.092138+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -96639,7 +97279,11 @@
       "_updated_at": "2026-10-20T11:58:40.552108+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -96758,7 +97402,11 @@
       "_updated_at": "2026-10-20T11:59:08.194472+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -96877,7 +97525,11 @@
       "_updated_at": "2026-10-20T11:59:37.074136+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -102075,7 +102727,11 @@
       "_updated_at": "2026-10-21T08:59:52.382709+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102092,7 +102748,11 @@
       "_updated_at": "2026-10-21T08:59:55.976901+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102109,7 +102769,11 @@
       "_updated_at": "2026-10-21T09:00:00.822181+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102126,7 +102790,11 @@
       "_updated_at": "2026-10-21T09:00:05.843416+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102143,7 +102811,11 @@
       "_updated_at": "2026-10-21T09:00:10.131100+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102160,7 +102832,11 @@
       "_updated_at": "2026-10-21T09:00:13.964185+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102177,7 +102853,11 @@
       "_updated_at": "2026-10-21T09:00:18.801469+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102194,7 +102874,11 @@
       "_updated_at": "2026-10-21T09:00:22.635281+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102211,7 +102895,11 @@
       "_updated_at": "2026-10-21T09:00:26.309216+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102228,7 +102916,11 @@
       "_updated_at": "2026-10-21T09:00:30.475855+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102245,7 +102937,11 @@
       "_updated_at": "2026-10-21T09:00:35.161377+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102262,7 +102958,11 @@
       "_updated_at": "2026-10-21T09:00:38.976111+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102279,7 +102979,11 @@
       "_updated_at": "2026-10-21T09:00:42.664715+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102296,7 +103000,11 @@
       "_updated_at": "2026-10-21T09:00:47.448713+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102313,7 +103021,11 @@
       "_updated_at": "2026-10-21T09:00:52.375897+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102330,7 +103042,11 @@
       "_updated_at": "2026-10-21T09:00:57.290086+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102347,7 +103063,11 @@
       "_updated_at": "2026-10-22T09:54:00.875282+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 2,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102364,7 +103084,11 @@
       "_updated_at": "2026-10-21T09:01:06.526492+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102381,7 +103105,11 @@
       "_updated_at": "2026-10-21T09:01:11.581665+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102398,7 +103126,11 @@
       "_updated_at": "2026-10-21T09:01:15.185577+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102415,7 +103147,11 @@
       "_updated_at": "2026-10-21T09:01:20.330673+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102432,7 +103168,11 @@
       "_updated_at": "2026-10-21T09:01:24.869753+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102449,7 +103189,11 @@
       "_updated_at": "2026-10-21T09:01:28.430721+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102466,7 +103210,11 @@
       "_updated_at": "2026-10-21T09:01:33.495392+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102483,7 +103231,11 @@
       "_updated_at": "2026-10-21T09:01:39.867942+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "web"
+      "_image_source": "web",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102500,7 +103252,11 @@
       "_updated_at": "2026-10-21T09:01:45.606560+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102517,7 +103273,11 @@
       "_updated_at": "2026-10-21T09:01:49.496486+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102534,7 +103294,11 @@
       "_updated_at": "2026-10-21T09:01:52.850376+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102551,7 +103315,11 @@
       "_updated_at": "2026-10-21T09:01:57.191402+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102568,7 +103336,11 @@
       "_updated_at": "2026-10-21T09:02:01.142669+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102585,7 +103357,11 @@
       "_updated_at": "2026-10-21T09:02:05.061736+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102602,7 +103378,11 @@
       "_updated_at": "2026-10-21T09:02:08.489671+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102619,7 +103399,11 @@
       "_updated_at": "2026-10-21T09:02:13.434801+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102636,7 +103420,11 @@
       "_updated_at": "2026-10-21T09:02:17.174056+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102653,7 +103441,11 @@
       "_updated_at": "2026-10-21T09:02:21.314487+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102670,7 +103462,11 @@
       "_updated_at": "2026-10-21T09:02:26.473638+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102687,7 +103483,11 @@
       "_updated_at": "2026-10-21T09:02:30.599658+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102704,7 +103504,11 @@
       "_updated_at": "2026-10-21T09:02:34.252111+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102721,7 +103525,11 @@
       "_updated_at": "2026-10-21T09:02:38.581354+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -102738,7 +103546,11 @@
       "_updated_at": "2026-10-21T09:02:42.789099+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Long John Silver's",
@@ -120434,7 +121246,11 @@
       "_updated_at": "2026-10-24T11:46:44.055885+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120451,7 +121267,11 @@
       "_updated_at": "2026-10-24T11:46:49.160217+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120468,7 +121288,11 @@
       "_updated_at": "2026-10-24T11:46:53.944217+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120485,7 +121309,11 @@
       "_updated_at": "2026-10-24T11:46:58.960648+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120502,7 +121330,11 @@
       "_updated_at": "2026-10-24T11:47:04.190179+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120519,7 +121351,11 @@
       "_updated_at": "2026-10-24T11:47:08.230424+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120536,7 +121372,11 @@
       "_updated_at": "2026-10-24T11:47:13.244855+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120553,7 +121393,11 @@
       "_updated_at": "2026-10-24T11:47:18.391906+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120570,7 +121414,11 @@
       "_updated_at": "2026-10-24T11:47:22.947697+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120587,7 +121435,11 @@
       "_updated_at": "2026-10-24T11:47:27.350901+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120604,7 +121456,11 @@
       "_updated_at": "2026-10-24T11:47:32.125389+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120621,7 +121477,11 @@
       "_updated_at": "2026-10-24T11:47:36.571781+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120638,7 +121498,11 @@
       "_updated_at": "2026-10-24T11:47:40.316946+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120655,7 +121519,11 @@
       "_updated_at": "2026-10-24T11:47:44.443545+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120672,7 +121540,11 @@
       "_updated_at": "2026-10-24T11:47:48.940103+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120689,7 +121561,11 @@
       "_updated_at": "2026-10-24T11:47:54.356513+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120706,7 +121582,11 @@
       "_updated_at": "2026-10-24T11:47:57.958433+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120723,7 +121603,11 @@
       "_updated_at": "2026-10-24T11:48:01.632353+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120740,7 +121624,11 @@
       "_updated_at": "2026-10-24T11:48:05.984652+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120757,7 +121645,11 @@
       "_updated_at": "2026-10-24T11:48:09.390665+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120774,7 +121666,11 @@
       "_updated_at": "2026-10-24T11:48:13.968251+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120791,7 +121687,11 @@
       "_updated_at": "2026-10-24T11:48:18.261389+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120808,7 +121708,11 @@
       "_updated_at": "2026-10-24T11:48:23.187003+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120826,7 +121730,11 @@
       "_updated_at": "2026-10-24T11:48:28.043595+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120843,7 +121751,11 @@
       "_updated_at": "2026-10-24T11:48:33.153242+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120860,7 +121772,11 @@
       "_updated_at": "2026-10-24T11:48:37.168473+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120877,7 +121793,11 @@
       "_updated_at": "2026-10-24T11:48:42.380325+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120894,7 +121814,11 @@
       "_updated_at": "2026-10-24T11:48:47.547630+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120911,7 +121835,11 @@
       "_updated_at": "2026-10-24T11:48:51.085856+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120928,7 +121856,11 @@
       "_updated_at": "2026-10-24T11:48:56.062309+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120945,7 +121877,11 @@
       "_updated_at": "2026-10-24T11:49:01.062865+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -120962,7 +121898,11 @@
       "_updated_at": "2026-10-24T11:49:05.406761+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Slim Chickens",
@@ -123599,7 +124539,11 @@
       "_updated_at": "2026-10-24T12:00:16.727308+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -123616,7 +124560,11 @@
       "_updated_at": "2026-10-24T12:00:20.918855+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -123633,7 +124581,11 @@
       "_updated_at": "2026-10-24T12:00:25.951536+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -123650,7 +124602,11 @@
       "_updated_at": "2026-10-24T12:00:29.420540+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -123667,7 +124623,11 @@
       "_updated_at": "2026-10-24T12:00:34.554281+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -123684,7 +124644,11 @@
       "_updated_at": "2026-10-24T12:00:39.107214+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -123701,7 +124665,11 @@
       "_updated_at": "2026-10-24T12:00:43.201407+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -123786,7 +124754,11 @@
       "_updated_at": "2026-10-24T12:01:04.498371+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -123820,7 +124792,11 @@
       "_updated_at": "2026-10-24T12:01:14.850325+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -123854,7 +124830,11 @@
       "_updated_at": "2026-10-24T12:01:25.460758+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -123922,7 +124902,11 @@
       "_updated_at": "2026-10-24T12:01:44.141509+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -124058,7 +125042,11 @@
       "_updated_at": "2026-10-24T12:02:19.464005+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -125037,7 +126025,11 @@
       "_updated_at": "2026-10-24T12:06:34.806818+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -125096,7 +126088,11 @@
       "_updated_at": "2026-10-24T12:06:45.998789+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -125134,7 +126130,11 @@
       "_updated_at": "2026-10-24T12:06:54.228418+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -125214,7 +126214,11 @@
       "_updated_at": "2026-10-24T12:07:12.363377+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -125252,7 +126256,11 @@
       "_updated_at": "2026-10-24T12:07:20.848959+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -125311,7 +126319,11 @@
       "_updated_at": "2026-10-24T12:07:34.872234+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -125328,7 +126340,11 @@
       "_updated_at": "2026-10-24T12:07:40.072423+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -126800,7 +127816,11 @@
       "_updated_at": "2026-10-25T12:52:21.675558+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -126817,7 +127837,11 @@
       "_updated_at": "2026-10-25T12:52:25.730558+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -126902,7 +127926,11 @@
       "_updated_at": "2026-10-25T12:52:48.433996+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -126919,7 +127947,11 @@
       "_updated_at": "2026-10-25T12:52:53.336102+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -126953,7 +127985,11 @@
       "_updated_at": "2026-10-25T12:53:03.297788+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -126970,7 +128006,11 @@
       "_updated_at": "2026-10-25T12:53:07.043654+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -127105,7 +128145,11 @@
       "_added_at": "2026-10-25T11:38:52.897026+00:00",
       "_updated_at": "2026-10-25T11:38:52.897026+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 3
+      "_image_attempts": 3,
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -127121,7 +128165,11 @@
       "_added_at": "2026-10-25T11:38:52.897026+00:00",
       "_updated_at": "2026-10-25T11:38:52.897026+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 3
+      "_image_attempts": 3,
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -127138,7 +128186,11 @@
       "_updated_at": "2026-10-26T12:10:22.759451+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 2,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -127154,7 +128206,11 @@
       "_added_at": "2026-10-25T11:38:52.897026+00:00",
       "_updated_at": "2026-10-25T11:38:52.897026+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 3
+      "_image_attempts": 3,
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -127170,7 +128226,11 @@
       "_added_at": "2026-10-25T11:38:52.897026+00:00",
       "_updated_at": "2026-10-25T11:38:52.897026+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 3
+      "_image_attempts": 3,
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:09.835660+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -127187,7 +128247,11 @@
       "_updated_at": "2026-10-25T12:54:16.276989+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:27:53.680867+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Firehouse Subs",
@@ -132519,7 +133583,11 @@
       "_updated_at": "2026-10-26T12:13:19.582744+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132536,7 +133604,11 @@
       "_updated_at": "2026-10-26T12:13:24.003388+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132553,7 +133625,11 @@
       "_updated_at": "2026-10-26T12:13:28.488378+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132570,7 +133646,11 @@
       "_updated_at": "2026-10-26T12:13:32.693535+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132587,7 +133667,11 @@
       "_updated_at": "2026-10-26T12:13:36.169874+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132604,7 +133688,11 @@
       "_updated_at": "2026-10-26T12:13:40.827755+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132621,7 +133709,11 @@
       "_updated_at": "2026-10-26T12:13:44.130857+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132638,7 +133730,11 @@
       "_updated_at": "2026-10-26T12:13:47.748836+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132655,7 +133751,11 @@
       "_updated_at": "2026-10-26T12:13:52.260535+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132672,7 +133772,11 @@
       "_updated_at": "2026-10-26T12:13:56.262892+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132689,7 +133793,11 @@
       "_updated_at": "2026-10-26T12:14:00.002555+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132706,7 +133814,11 @@
       "_updated_at": "2026-10-26T12:14:04.353428+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132723,7 +133835,11 @@
       "_updated_at": "2026-10-26T12:14:08.043818+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132740,7 +133856,11 @@
       "_updated_at": "2026-10-26T12:14:11.808995+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132757,7 +133877,11 @@
       "_updated_at": "2026-10-26T12:14:15.720339+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:26:13.070650+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132774,7 +133898,11 @@
       "_updated_at": "2026-10-26T12:14:20.458669+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132791,7 +133919,11 @@
       "_updated_at": "2026-10-26T12:14:25.717104+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -132808,7 +133940,11 @@
       "_updated_at": "2026-10-26T12:14:29.177965+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -136204,7 +137340,11 @@
       "_updated_at": "2026-10-27T10:22:39.347167+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -136221,7 +137361,11 @@
       "_updated_at": "2026-10-27T10:22:44.075146+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -136238,7 +137382,11 @@
       "_updated_at": "2026-10-27T10:22:47.911913+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -136255,7 +137403,11 @@
       "_updated_at": "2026-10-27T10:22:52.909255+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -136272,7 +137424,11 @@
       "_updated_at": "2026-10-27T10:22:57.051650+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -136289,7 +137445,11 @@
       "_updated_at": "2026-10-27T10:23:01.783646+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -136306,7 +137466,11 @@
       "_updated_at": "2026-10-27T10:23:06.373950+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -136323,7 +137487,11 @@
       "_updated_at": "2026-10-27T10:23:10.515701+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -136340,7 +137508,11 @@
       "_updated_at": "2026-10-27T10:23:14.924945+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -136357,7 +137529,11 @@
       "_updated_at": "2026-10-27T10:23:18.852638+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -139681,7 +140857,11 @@
       "_updated_at": "2026-10-28T10:28:21.126592+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -139698,7 +140878,11 @@
       "_updated_at": "2026-10-28T10:28:24.701854+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -139715,7 +140899,11 @@
       "_updated_at": "2026-10-28T10:28:29.150485+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -139732,7 +140920,11 @@
       "_updated_at": "2026-10-28T10:28:32.984155+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -139749,7 +140941,11 @@
       "_updated_at": "2026-10-28T10:28:37.346690+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -139766,7 +140962,11 @@
       "_updated_at": "2026-10-28T10:28:42.332338+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -139783,7 +140983,11 @@
       "_updated_at": "2026-10-28T10:28:47.192033+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -139800,7 +141004,11 @@
       "_updated_at": "2026-10-28T10:28:51.712435+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -139817,7 +141025,11 @@
       "_updated_at": "2026-10-28T10:28:55.623430+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -139834,7 +141046,11 @@
       "_updated_at": "2026-10-28T10:28:59.681859+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -139851,7 +141067,11 @@
       "_updated_at": "2026-10-28T10:29:04.237326+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -139868,7 +141088,11 @@
       "_updated_at": "2026-10-28T10:29:07.638649+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -139885,7 +141109,11 @@
       "_updated_at": "2026-10-28T10:29:12.458863+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -144116,7 +145344,11 @@
       "_updated_at": "2026-10-29T12:27:06.593159+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -144133,7 +145365,11 @@
       "_updated_at": "2026-10-29T12:27:11.890453+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -144150,7 +145386,11 @@
       "_updated_at": "2026-10-29T12:27:15.702035+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -144167,7 +145407,11 @@
       "_updated_at": "2026-10-29T12:27:20.176686+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -144184,7 +145428,11 @@
       "_updated_at": "2026-10-29T12:27:24.161736+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -144201,7 +145449,11 @@
       "_updated_at": "2026-10-29T12:27:27.721337+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -144218,7 +145470,11 @@
       "_updated_at": "2026-10-29T12:27:32.665137+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -144235,7 +145491,11 @@
       "_updated_at": "2026-10-29T12:27:37.849392+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -144252,7 +145512,11 @@
       "_updated_at": "2026-10-29T12:27:42.827017+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -144269,7 +145533,11 @@
       "_updated_at": "2026-10-29T12:27:46.872730+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -144286,7 +145554,11 @@
       "_updated_at": "2026-10-29T12:27:51.684885+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -144303,7 +145575,11 @@
       "_updated_at": "2026-10-29T12:27:56.074327+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -144320,7 +145596,11 @@
       "_updated_at": "2026-10-29T12:28:01.340234+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -144337,7 +145617,11 @@
       "_updated_at": "2026-10-29T12:28:04.853644+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -144354,7 +145638,11 @@
       "_updated_at": "2026-10-29T12:28:08.517736+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Moe's Southwest Grill",
@@ -148409,7 +149697,11 @@
       "_updated_at": "2026-10-30T07:50:33.018045+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148426,7 +149718,11 @@
       "_updated_at": "2026-10-30T07:50:38.020276+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148443,7 +149739,11 @@
       "_updated_at": "2026-10-30T07:50:41.770120+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148460,7 +149760,11 @@
       "_updated_at": "2026-10-30T07:50:47.034802+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148477,7 +149781,11 @@
       "_updated_at": "2026-10-30T07:50:51.552559+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148494,7 +149802,11 @@
       "_updated_at": "2026-10-30T07:50:55.632898+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148511,7 +149823,11 @@
       "_updated_at": "2026-10-31T11:07:06.440309+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 2,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148528,7 +149844,11 @@
       "_updated_at": "2026-10-30T07:51:04.657954+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148545,7 +149865,11 @@
       "_updated_at": "2026-10-30T07:51:10.402441+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "web"
+      "_image_source": "web",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148562,7 +149886,11 @@
       "_updated_at": "2026-10-30T07:51:14.116486+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148579,7 +149907,11 @@
       "_updated_at": "2026-10-30T07:51:19.147757+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148596,7 +149928,11 @@
       "_updated_at": "2026-10-30T07:51:23.500781+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148613,7 +149949,11 @@
       "_updated_at": "2026-10-31T11:07:10.707698+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 2,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148630,7 +149970,11 @@
       "_updated_at": "2026-10-31T11:07:14.132493+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 2,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148647,7 +149991,11 @@
       "_updated_at": "2026-10-30T07:51:38.301274+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148664,7 +150012,11 @@
       "_updated_at": "2026-10-30T07:51:43.584429+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148681,7 +150033,11 @@
       "_updated_at": "2026-10-31T11:07:18.739348+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 2,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148698,7 +150054,11 @@
       "_updated_at": "2026-10-30T07:51:53.001049+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148715,7 +150075,11 @@
       "_updated_at": "2026-10-30T07:51:56.428656+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148732,7 +150096,11 @@
       "_updated_at": "2026-10-30T07:52:01.504200+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:23:38.997198+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148748,7 +150116,11 @@
       "_added_at": "2026-10-30T07:22:24.443949+00:00",
       "_updated_at": "2026-10-30T07:22:24.443949+00:00",
       "_model": "gemini-3.8-flash",
-      "_image_attempts": 3
+      "_image_attempts": 3,
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148765,7 +150137,11 @@
       "_updated_at": "2026-10-30T07:52:13.528045+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148782,7 +150158,11 @@
       "_updated_at": "2026-10-30T07:52:18.121479+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:54.989827+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148799,7 +150179,11 @@
       "_updated_at": "2026-10-30T07:52:21.929682+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148816,7 +150200,11 @@
       "_updated_at": "2026-10-30T07:52:26.836547+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148833,7 +150221,11 @@
       "_updated_at": "2026-10-30T07:52:31.353313+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148850,7 +150242,11 @@
       "_updated_at": "2026-10-30T07:52:35.669283+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148867,7 +150263,11 @@
       "_updated_at": "2026-10-30T07:52:40.127382+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:34.932989+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Famous Dave's",
@@ -148884,7 +150284,11 @@
       "_updated_at": "2026-10-30T07:52:43.938159+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Buffalo Wild Wings",
@@ -151621,7 +153025,11 @@
       "_updated_at": "2026-10-30T08:03:23.864769+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -151638,7 +153046,11 @@
       "_updated_at": "2026-10-31T11:08:05.988320+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 2,
-      "_image_source": "web"
+      "_image_source": "web",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -151676,7 +153088,11 @@
       "_updated_at": "2026-10-30T08:03:38.760590+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:20:00.552797+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -151735,7 +153151,11 @@
       "_updated_at": "2026-10-30T08:03:52.254920+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -151752,7 +153172,11 @@
       "_updated_at": "2026-10-30T08:03:56.670060+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -151832,7 +153256,11 @@
       "_updated_at": "2026-10-30T08:04:14.620984+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -152038,7 +153466,11 @@
       "_updated_at": "2026-10-30T08:04:56.594464+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Dunkin'",
@@ -152097,7 +153529,11 @@
       "_updated_at": "2026-10-30T08:05:09.517019+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:18:12.760876+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -152250,7 +153686,11 @@
       "_updated_at": "2026-10-30T08:05:47.542676+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-05T11:29:45.724059+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Freddy's",
@@ -154862,38 +156302,38 @@
     "Wendy's",
     "Wingstop"
   ],
-  "updated_at": "2026-11-05T01:36:27.410906+00:00",
+  "updated_at": "2026-11-05T11:30:39.978514+00:00",
   "availability": {
     "cycle": 1,
     "history": [],
     "quota": {
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "calls": {
-        "gemini-3.6-flash": 5,
-        "gemini-3.5-flash": 2
+        "gemini-3.6-flash": 8,
+        "gemini-3.5-flash": 1
       },
       "exhausted": [
-        "gemini-3.6-flash",
-        "gemini-3.5-flash",
-        "gemini-3.7-flash",
-        "gemini-3.8-flash"
+        "gemini-3.6-flash"
       ]
     },
     "progress": {
       "cycle": 1,
-      "checked": 2800,
+      "checked": 3160,
       "pool": 8392,
-      "active": 1431,
-      "inactive": 1369,
+      "active": 1662,
+      "inactive": 1498,
       "cycle_complete": false,
-      "updated_at": "2026-11-05T01:36:27.410845+00:00"
+      "updated_at": "2026-11-05T11:30:39.978413+00:00"
     },
     "last_run": {
-      "at": "2026-11-05T01:36:27.410870+00:00",
-      "calls": 0,
-      "marked_active": 0,
-      "marked_inactive": 0,
-      "calls_per_model": {}
+      "at": "2026-11-05T11:30:39.978431+00:00",
+      "calls": 9,
+      "marked_active": 231,
+      "marked_inactive": 129,
+      "calls_per_model": {
+        "gemini-3.6-flash": 8,
+        "gemini-3.5-flash": 1
+      }
     }
   }
 }
