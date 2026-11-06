@@ -11794,7 +11794,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.v4St3R4oiqlJ3h53IzS3QwHaJ4&pid=15.1",
       "image_full_url": "https://s3-media1.fl.yelpcdn.com/bphoto/vCtSJGncACmtcerDhrnfMQ/o.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -11811,7 +11815,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.J5UHP595PG3Bn52FRz9sZAHaEK&pid=15.1",
       "image_full_url": "https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1RASUu.img?w=1920&h=1080&m=4&q=36",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -11828,7 +11836,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.6K7X7rRTFm1KPG3DqwDWFwAAAA&pid=15.1",
       "image_full_url": "https://www.jerseymikes.com/media/static/bedrock/sm/combo-reg-13-water-chip.png",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -11845,7 +11857,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.Vk5LqmNQ9aki4ujAZZzgawAAAA&pid=15.1",
       "image_full_url": "https://www.jerseymikesmenus.com/wp-content/uploads/2025/09/miss-vickies-salt-vinegar-min-300x300.png",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -11883,7 +11899,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.8uDRvigldH-6-1gxpIE8WQHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/8YjAytLn_g4/maxresdefault.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -11900,7 +11920,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.WbHMD2-Ja2pT6-BfOx7qUAHaFj&pid=15.1",
       "image_full_url": "https://www.allrecipes.com/thmb/-YuPBtlcyd1mE7BlNEKiEaeP67g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-JerseyMikes-4x3-059a9534b89e4b95bf36d9ea0bbc80a7.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -11917,7 +11941,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.Kunra-3tlOhRHMpiV1i2iQHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/crWAzEHYz7E/maxresdefault.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -11934,7 +11962,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.IgAEJrqtS4F9uP9-RCopZgHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/37cI29p-Bvs/maxresdefault.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -11951,7 +11983,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.enycTHgt6Ak5TMVInGg_cQHaEK&pid=15.1",
       "image_full_url": "https://www.thetakeout.com/img/gallery/discontinued-jersey-mikes-menu-items-we-may-never-eat-again/cookies-1736871138.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -11968,7 +12004,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.OjjqLxGmofHaGl2wFaJ8qgHaJQ&pid=15.1",
       "image_full_url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=3625143336916388053",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -11985,7 +12025,11 @@
       "image_url": "https://ts3.explicit.bing.net/th?id=OIP.z1PWKmtdDfIv7q4EEinDugHaEK&pid=15.1",
       "image_full_url": "https://www.thetakeout.com/img/gallery/12-things-you-should-think-twice-about-ordering-from-jersey-mikes/the-brownies-1721671558.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Olive Garden",
@@ -21730,7 +21774,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.-9uodu9kvzNBzsk9f1xPGgHaHa&pid=15.1",
       "image_full_url": "https://recipes.net/wp-content/uploads/2023/05/jersey-mikes-grilled-chicken-caesar-wrap-recipe_9c41ed1e5fd50947208681484104db91.jpeg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -21874,7 +21922,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.jlUR6qxITliS1-A8H3nknAHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/ijEf8zXLH9Q/maxresdefault.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -21891,7 +21943,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.yIwG7AQhslN6F18HhdYlbwHaHu&pid=15.1",
       "image_full_url": "https://www.snackhistory.com/wp-content/uploads/2022/01/Sub-in-a-Tub.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -21908,7 +21964,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.IQYJlzu1A3ZTrQcltDAzOQHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/ypV88YJTki4/maxresdefault.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -21959,7 +22019,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.oApDbQjnRRjd43SnR5j0DgHaEK&pid=15.1",
       "image_full_url": "https://i.pinimg.com/originals/7f/19/df/7f19df56d070d8a811ef9d473f7f8c63.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -21976,7 +22040,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.vVw0i1EPL7PUfG-LTH_KZwHaEK&pid=15.1",
       "image_full_url": "https://jerseymikes-menu.com/wp-content/uploads/2023/12/Jersey-Mikes-Kids-Menu-1024x576.webp",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -21993,7 +22061,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.ystgDc-r4whz4uCLcpHzUAHaLc&pid=15.1",
       "image_full_url": "https://www.jerseymikesmenus.com/wp-content/uploads/2025/04/Jersey-Mikes-Kids-Meal-Menu-with-Prices.webp",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -22010,7 +22082,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.MwxkymZIPI9rBageuHJSgAHaEK&pid=15.1",
       "image_full_url": "https://www.mashed.com/img/gallery/the-ultimate-guide-to-jersey-mikes-breakfast-menu/trenton-pork-rolls-are-a-fan-favorite-with-new-jersey-origins-1675791104.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -22027,7 +22103,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.GvZx12XrGo-tr8CxnfMqFQHaEU&pid=15.1",
       "image_full_url": "https://www.qsrmagazine.com/wp-content/uploads/2024/11/PastramiJerseyMikes.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -22078,7 +22158,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.X-GKXJJAoeHAQ_oZ3MYIkgHaE8&pid=15.1",
       "image_full_url": "https://www.mamaknowsglutenfree.com/wp-content/uploads/2024/06/JTH_JerseyMikes-Udis-GF-Snickerdoodle.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -22129,7 +22213,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.IqUJWU-zoOcokDqLCB-ZdQAAAA&pid=15.1",
       "image_full_url": "https://hermes.media.static.aol.com/media/2026/05/04/3f1d086a-3560-347a-947b-890a65c4b22b/7cb3c549-a188-4247-a485-4c2095c9c88e.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -22146,7 +22234,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.Thgz0X-9-ibCT9wK18GnvgAAAA&pid=15.1",
       "image_full_url": "https://www.jerseymikesmenus.com/wp-content/uploads/2025/09/miss-vickies-jalepeno-296x300.png",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -22163,7 +22255,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.XPkIEemwj9wG5A6VxRfIHgAAAA&pid=15.1",
       "image_full_url": "https://www.jerseymikesmenus.com/wp-content/uploads/2025/09/miss-vickies-bbq-min-150x150.png",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -22239,7 +22335,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.z7kQG1C95_3vyEdIjnIVYwHaF7&pid=15.1",
       "image_full_url": "https://tb-static.uber.com/prod/image-proc/processed_images/2da682494d2b7bb116666be8b4501538/fb86662148be855d931b37d6c1e5fcbe.jpeg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -22256,7 +22356,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.q6DVqO-ktnPYfbPRn9970wHaHa&pid=15.1",
       "image_full_url": "https://i5.walmartimages.com/asr/3832e5a5-edaa-467c-96ae-7f49940365bb_1.affc6ab8c7ea00d3d4e54c48365b6032.jpeg?odnWidth=612&odnHeight=612&odnBg=ffffff",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Domino's",
@@ -36909,7 +37013,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.8uDRvigldH-6-1gxpIE8WQHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/8YjAytLn_g4/maxresdefault.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -36926,7 +37034,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.WbHMD2-Ja2pT6-BfOx7qUAHaFj&pid=15.1",
       "image_full_url": "https://www.allrecipes.com/thmb/-YuPBtlcyd1mE7BlNEKiEaeP67g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-JerseyMikes-4x3-059a9534b89e4b95bf36d9ea0bbc80a7.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -36943,7 +37055,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.IgAEJrqtS4F9uP9-RCopZgHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/37cI29p-Bvs/maxresdefault.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -36960,7 +37076,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.MwxkymZIPI9rBageuHJSgAHaEK&pid=15.1",
       "image_full_url": "https://www.mashed.com/img/gallery/the-ultimate-guide-to-jersey-mikes-breakfast-menu/trenton-pork-rolls-are-a-fan-favorite-with-new-jersey-origins-1675791104.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -36977,7 +37097,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.imw-7b80lWdMOSine9PinAHaEK&pid=15.1",
       "image_full_url": "https://www.mashed.com/img/gallery/the-ultimate-guide-to-jersey-mikes-breakfast-menu/try-your-breakfast-sandwich-as-a-wrap-to-turn-it-into-a-breakfast-burrito-1675791104.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -36994,7 +37118,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.rK2c78Yb5IVtVfAyUXrgcQHaEK&pid=15.1",
       "image_full_url": "https://www.tastingtable.com/img/gallery/15-popular-jersey-mikes-subs-ranked/roast-beef-and-provolone-1685454051.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -37011,7 +37139,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.3N1hAMfR8wOTWcEOVjIoWgHaHa&pid=15.1",
       "image_full_url": "https://chefstandards.com/wp-content/uploads/2025/02/Jersey-Mike-2.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -37028,7 +37160,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.fzFxOQW87Zgw7Ka2XuhB4wHaNK&pid=15.1",
       "image_full_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=958726879449384&get_thumbnail=1",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -37045,7 +37181,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.fCszaHS-FkYtlkVUlVyY2wHaNK&pid=15.1",
       "image_full_url": "https://easymealrecipe.com/wp-content/uploads/2024/12/Jersey-Mikes-Peanut-Butter-Cookie-Recipe.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -37062,7 +37202,11 @@
       "image_url": "https://ts1.explicit.bing.net/th?id=OIP.o9SHbGTnICv2nnebpywFMQAAAA&pid=15.1",
       "image_full_url": "https://meaningfuleats.com/wp-content/uploads/2024/04/gluten-free-chocolate-chip-cookie-recipe-378x570.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -37079,7 +37223,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.rAjvdvrRSxqfm_YSK6PvjAHaJ4&pid=15.1",
       "image_full_url": "https://www.celiacandthebeast.com/wp-content/uploads/2018/01/JerseyMikes2.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -37130,7 +37278,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.Hf-EIjv_8puM51etKiwu5AAAAA&pid=15.1",
       "image_full_url": "https://www.jerseymikesmenus.com/wp-content/uploads/2025/09/chip-bakedlays-bbq-min-300x300.png",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -37147,7 +37299,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.XGHhUhsTUcLypxPeE9aP2AHaHa&pid=15.1",
       "image_full_url": "https://bjs.scene7.com/is/image/bjs/275185025?$bjs-Zoom$",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -37164,7 +37320,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.EuPBS0CFxIohxSYFDcgohwHaHa&pid=15.1",
       "image_full_url": "https://smartlabel.pepsico.info/028400516310-0011-en-US/images/ff2be4e9-2a07-48a8-b4c6-b8c94084576a.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -37181,7 +37341,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.UKjgex5qWmBbfHlaf-cjXwHaJQ&pid=15.1",
       "image_full_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1288537209974005",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -37198,7 +37362,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.RVXMz6BUmCRTI9_pQy7BgQHaHa&pid=15.1",
       "image_full_url": "https://m.media-amazon.com/images/I/91JqlN5OeOL.jpg",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -37215,7 +37383,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.BNyvG5s31iTOZ_KCZw-hEgHaHa&pid=15.1",
       "image_full_url": "https://i5.samsclubimages.com/asr/cd336c14-5006-440f-95df-74d31b7199fc.524efe00ee300bb03ed31ac6f5b58c29.jpeg?odnHeight=580&odnWidth=580&odnBg=FFFFFF",
       "_image_refreshed": "quoted-v1",
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Kentucky Fried Chicken",
@@ -69480,7 +69652,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.V5Y8vdj5vpWeJsuYSSQcTQHaFj&pid=15.1",
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjaZd9A3dcm2S6cLun2PE-RywuFZuesGNNdN7EBov7Ge9Xol4jGWhh8lQ1OImWW17i8X5nTXaoK1HobehOocvZemqajuZAlgkcrqRgoTiCzAgSN0_4cfsE5RpjwtsiuNtQAT2CiTjkp4Jtj/s1600/A2jt8UHCSbutawT8Iv8FzQ.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -69518,7 +69694,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.6qRa0PzsZ1twgnublxVJsQHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/-ZKhWUnCMas/maxresdefault.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -69535,7 +69715,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.aBJ6LnkxbPTaK3apMjFY1AHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/omNAmEbhMRE/maxresdefault.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -69552,7 +69736,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.CvUTy9dXXqt1XlQ-qgQESQHaEL&pid=15.1",
       "image_full_url": "https://www.timesrecordnews.com/gcdn/-mm-/44e7b49d73e88b1d981c9cd5164e3c6541350e20/c=0-278-3000-1973/local/-/media/2018/02/14/TXGroup/Wichita/636542219489823544-Philly-Steak-Jersey-Mike-s.jpg?width=3000&height=1695&fit=crop&format=pjpg&auto=webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -69569,7 +69757,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.MwxkymZIPI9rBageuHJSgAHaEK&pid=15.1",
       "image_full_url": "https://www.mashed.com/img/gallery/the-ultimate-guide-to-jersey-mikes-breakfast-menu/trenton-pork-rolls-are-a-fan-favorite-with-new-jersey-origins-1675791104.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -69586,7 +69778,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.3OqqKYgRtyB90trBq1DRfAHaEK&pid=15.1",
       "image_full_url": "https://www.thedailymeal.com/img/gallery/everything-you-need-to-know-about-jersey-mikes-subs/jersey-mikes-subs-serves-breakfast-at-some-locations-1676668810.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -69603,7 +69799,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.R_cBIaCjRo_Tfi1EgZ2yeAHaFj&pid=15.1",
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioPAdPwBXeSbuEZv2tsbVo2sC4KzrAmrqUP_CgwgSDnq4hpr28iBW3OMNYqp4JF65AQ0ZxAmsIenHWUgMWFvSdho1QmB8We28AX8kcEZdiJmtoYFp-7HJdtQJkRUfH-N_X726TzWAbBDNd_JxxE7_ewLC5weLx1sXaU3452_PNA338qxBnpWgzYBuuj4c/s640/jersey-mikes-classic-pastrami-sub-03.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -69675,7 +69875,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.LaaCSU0re7EWZmvotFAVOAHaF7&pid=15.1",
       "image_full_url": "https://d1ralsognjng37.cloudfront.net/14c894d2-667f-4b10-9313-815f443ddeb0.jpeg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -69692,7 +69896,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.MfwIPgfaKp8TCprAjvff7AAAAA&pid=15.1",
       "image_full_url": "https://www.jerseymikesmenus.com/wp-content/uploads/2025/09/miss-vickies-spicy-dill-pickle-min-300x300.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -69709,7 +69917,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.8JzeonbvntfAmXZURwOkUwHaHa&pid=15.1",
       "image_full_url": "https://ip.prod.freshop.retail.ncrcloud.com/resize?url=https://images.prd.freshop.retail.ncrgov.com/00028400029025/19cf5e70469e85e5baa7913536f8d838_large.png&width=512&type=webp&quality=80",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -69726,7 +69938,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.Nn-YJbV4fVCtDezE6s4aaQHaHa&pid=15.1",
       "image_full_url": "https://i5.samsclubimages.com/asr/b60a50f1-1a9b-4ccb-aebe-95e935c76051.32c9722c4f9cb3f82cb71c583ff52aa9.jpeg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -69743,7 +69959,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.42gCh5e-ULHzxwkM0xZMxwHaHa&pid=15.1",
       "image_full_url": "https://cdn.shopify.com/s/files/1/0631/9256/3764/files/Lays-Kettle-Cooked-Mesquite-BBQ-Potato-Chips-8-oz-Crunchyfix.png?v=1757430528&width=800",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -69781,7 +70001,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.Q9dm_MWzJfmDKyEXDJKtMAHaHa&pid=15.1",
       "image_full_url": "https://treatspree.com/cdn/shop/files/TS-BSK-CHP-031.jpg?v=1769214132&width=1946",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -69798,7 +70022,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.RbMd0rijk0NfnrBVSsJm0gHaHa&pid=15.1",
       "image_full_url": "https://treatspree.com/cdn/shop/files/image_7c860770-2441-45e8-b239-c42ae09c3b8d.jpg?v=1776659723&width=1946",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -69815,7 +70043,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.Y_mDIQj5Ha1XJEYH3fRFXwHaHa&pid=15.1",
       "image_full_url": "https://images.gopuff.com/blob/gopuffcatalogstorageprod/catalog-images-container/resize/cf/version=1_0,format=auto,fit=scale-down,width=800,height=800/4a08b63c-fb09-4d98-97ff-81ddab44ba41.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101114,7 +101346,11 @@
       "_updated_at": "2026-10-20T12:06:52.160613+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101131,7 +101367,11 @@
       "_updated_at": "2026-10-20T12:06:55.815182+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101148,7 +101388,11 @@
       "_updated_at": "2026-10-20T12:07:00.348823+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101186,7 +101430,11 @@
       "_updated_at": "2026-10-20T12:07:08.595611+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101203,7 +101451,11 @@
       "_updated_at": "2026-10-20T12:07:13.071772+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101220,7 +101472,11 @@
       "_updated_at": "2026-10-20T12:07:16.904738+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101279,7 +101535,11 @@
       "_updated_at": "2026-10-20T12:07:28.419303+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101296,7 +101556,11 @@
       "_updated_at": "2026-10-20T12:07:33.387306+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101313,7 +101577,11 @@
       "_updated_at": "2026-10-20T12:07:37.913182+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101330,7 +101598,11 @@
       "_updated_at": "2026-10-20T12:07:43.028018+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101347,7 +101619,11 @@
       "_updated_at": "2026-10-20T12:07:48.172066+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101364,7 +101640,11 @@
       "_updated_at": "2026-10-20T12:07:52.411875+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101381,7 +101661,11 @@
       "_updated_at": "2026-10-20T12:07:56.145667+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101398,7 +101682,11 @@
       "_updated_at": "2026-10-20T12:07:59.513782+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101415,7 +101703,11 @@
       "_updated_at": "2026-10-20T12:08:04.172263+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101432,7 +101724,11 @@
       "_updated_at": "2026-10-20T12:08:08.120072+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101449,7 +101745,11 @@
       "_updated_at": "2026-10-20T12:08:12.328258+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101466,7 +101766,11 @@
       "_updated_at": "2026-10-20T12:08:16.340260+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101483,7 +101787,11 @@
       "_updated_at": "2026-10-20T12:08:21.279254+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -101500,7 +101808,11 @@
       "_updated_at": "2026-10-20T12:08:25.149451+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -134766,7 +135078,11 @@
       "_updated_at": "2026-10-25T13:12:26.489605+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:11:37.850337+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "Jersey Mike's Subs",
@@ -134859,7 +135175,11 @@
       "_updated_at": "2026-10-25T13:12:47.691262+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-06T21:08:16.703947+00:00",
+      "_avail_model": "gemini-3.7-flash"
     },
     {
       "restaurant": "McDonald's",
@@ -158702,7 +159022,7 @@
     "Wendy's",
     "Wingstop"
   ],
-  "updated_at": "2026-11-06T11:45:13.995565+00:00",
+  "updated_at": "2026-11-06T21:25:47.162877+00:00",
   "availability": {
     "cycle": 1,
     "history": [],
@@ -158710,30 +159030,31 @@
       "date": "2026-11-06",
       "calls": {
         "gemini-3.6-flash": 8,
-        "gemini-3.5-flash": 6
+        "gemini-3.5-flash": 6,
+        "gemini-3.7-flash": 2
       },
       "exhausted": [
         "gemini-3.6-flash",
-        "gemini-3.5-flash"
+        "gemini-3.5-flash",
+        "gemini-3.7-flash"
       ]
     },
     "progress": {
       "cycle": 1,
-      "checked": 3760,
+      "checked": 3840,
       "pool": 8392,
-      "active": 1977,
-      "inactive": 1783,
+      "active": 1989,
+      "inactive": 1851,
       "cycle_complete": false,
-      "updated_at": "2026-11-06T11:45:13.995422+00:00"
+      "updated_at": "2026-11-06T21:25:47.162764+00:00"
     },
     "last_run": {
-      "at": "2026-11-06T11:45:13.995460+00:00",
-      "calls": 14,
-      "marked_active": 287,
-      "marked_inactive": 273,
+      "at": "2026-11-06T21:25:47.162781+00:00",
+      "calls": 2,
+      "marked_active": 12,
+      "marked_inactive": 68,
       "calls_per_model": {
-        "gemini-3.6-flash": 8,
-        "gemini-3.5-flash": 6
+        "gemini-3.7-flash": 2
       }
     }
   }
