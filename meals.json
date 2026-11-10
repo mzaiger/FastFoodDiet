@@ -69094,7 +69094,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.jAIw9u2uGz9LP4ioCTnQQAHaE8&pid=15.1",
       "image_full_url": "https://popeyes-menu.com/wp-content/uploads/2024/12/Classic-Chicken-Sandwich-1536x1024.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69128,7 +69132,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.rYnL9VQBYoZhdbSmX22j1wHaHa&pid=15.1",
       "image_full_url": "https://lookaside.instagram.com/seo/google_widget/crawler/?media_id=2994083573565965047",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69162,7 +69170,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.oTd-SM9DYv1yUPfkGrmjfgHaEK&pid=15.1",
       "image_full_url": "https://www.mashed.com/img/gallery/the-most-unhealthy-chicken-sandwiches-youll-find-at-tk-major-restaurant-chains/popeyes-classic-bacon-cheese-chicken-sandwich-1706634912.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69179,7 +69191,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.G0hiLM8NhvWO_JwKEhabmwHaFb&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/06/popeyes-spicy-chicken-bacon-cheese-sandwich.jpg?resize=343",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69196,7 +69212,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.W08zpFwRrkcqPswj27e7uQHaFb&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2024/05/Popeyes-Golden-BBQ-Chicken-Sandwich-2.jpg?quality=82&strip=1&w=1250",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69213,7 +69233,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.mEGAyRzG3f-B5G4mlCzWGgHaE2&pid=15.1",
       "image_full_url": "https://popeyes-menu.com/wp-content/uploads/2024/12/Ghost-Pepper-Chicken-Sandwich.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69293,7 +69317,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.f36WhNodBnfCSlJyPOOy8gHaE8&pid=15.1",
       "image_full_url": "https://cdn-pe-uk-ordering.azureedge.net/media/aflnaimj/tenders-5-piece-solo.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69352,7 +69380,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.LC-IDxJRAHfTPhTrM_ELpwHaE8&pid=15.1",
       "image_full_url": "https://www.superadrianme.com/wp-content/uploads/2011/04/Popeyes-Bonafide-Chicken.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69369,7 +69401,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.P6Gz-RduIGbZ2HIlNsDjagAAAA&pid=15.1",
       "image_full_url": "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/food_pics_v2/medium/popeyes_spicy_chicken_breast.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69386,7 +69422,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.U_J3SXLSRWzFZwMsappqkwHaEO&pid=15.1",
       "image_full_url": "https://usafoodjournal.com/_next/image?url=/Popeyes-Img/8pc-signature-chicken.png&w=1920&q=75",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69403,7 +69443,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.SZykOgc5po6KyztBEgN4BgAAAA&pid=15.1",
       "image_full_url": "https://snapcalorie-webflow-website.s3.us-east-2.amazonaws.com/media/food_pics_v2/medium/popeyes_spicy_chicken.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69420,7 +69464,11 @@
       "image_url": "https://ts1.explicit.bing.net/th?id=OIP.Kh5ljUxS_jTev0lLznBAGwHaD4&pid=15.1",
       "image_full_url": "https://popeyesmenuprice.us/wp-content/uploads/2025/02/Popeyes-Mild-Chicken-Drumstick-1024x536.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69437,7 +69485,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.mWsH9t0439MO8QPyDe6bYgHaEK&pid=15.1",
       "image_full_url": "https://whatzup.com/wp-content/uploads/2023/11/Popeyes.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69454,7 +69506,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.RLLmtFCtv_cF1LdfrLm00wHaFj&pid=15.1",
       "image_full_url": "https://cdn.prod.website-files.com/62e81a6c2171bd40143e605c/68a47f1612df8f82ebf89733_Popeyes___Ghost_Pepper_Dry_Rub_Wings___Lemon_Pepper_Dry_Rub_Wings___Sweet__N_Spicy.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69471,7 +69527,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.B5PNNQR8jENkwnjp2MTWTgHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/YKNkEe__tKE/maxresdefault.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69488,7 +69548,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.xvpnYRJvzqUxrFPCzi8U7gHaHa&pid=15.1",
       "image_full_url": "https://cdn.prod.website-files.com/6662fcdb8ba7ca663730c505/6894a655600007c686c2d0f6_6-wings.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69522,7 +69586,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP._y4ZGi8gpTpZW7uKVAln4wHaFv&pid=15.1",
       "image_full_url": "https://cdn.prod.website-files.com/6662fcdb8ba7ca663730c530/68952ce25fab5292178904b9_boneIn-sighot-6pc-p-800.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69539,7 +69607,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.YHPiN9qziv9ntaxu1yaYtgHaE7&pid=15.1",
       "image_full_url": "https://cdn-pe-uk-ordering.azureedge.net/media/3iiikmpa/6-bbq-wings_meal_800x533px-webp.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69556,7 +69628,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.qb7EVZQZu1L2UWGB5WPOnAHaE7&pid=15.1",
       "image_full_url": "https://cdn-pe-uk-ordering.azureedge.net/media/ol0ncym3/6-garlic-parm-wings_meal_800x533px-webp.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69573,7 +69649,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.0ZoHXfRSrpIxANomTkZY_gHaE7&pid=15.1",
       "image_full_url": "https://www.meatpoultry.com/ext/resources/2024/03/19/Popeyes_Honey-Lemon-Pepper-Wings.jpg?height=667&t=1710863972&width=1080",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69590,7 +69670,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.wW_wki9VDdZEx1wagRQ55wHaFj&pid=15.1",
       "image_full_url": "https://prod-cdn-thekrazycouponlady.imgix.net/wp-content/uploads/2022/06/popeyes-louisiana-kitchen-fast-food-restaurant-popcorn-shrimp-2022-06-1655915316-1655915316.jpg?auto=format&fit=fill",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69607,7 +69691,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.5oldeAZ0TirErkXSgafoBQHaFj&pid=15.1",
       "image_full_url": "https://fox59.com/wp-content/uploads/sites/21/2021/07/Nuggets-Key-Visual-2.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69645,7 +69733,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.PyxdTivzLEYDxzGlujmpvAHaHa&pid=15.1",
       "image_full_url": "https://fastfoodinusa.com/templates/uploads/news/big/2023/02/popeyes-regular-homestyle-mac-cheese.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69662,7 +69754,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.qxSTRxZ_2q-ZuKjm2IyFpwHaFj&pid=15.1",
       "image_full_url": "https://popeyesmenuprice.us/wp-content/uploads/2025/04/Popeyes-Mac-n-Cheese-768x576.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69679,7 +69775,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.0yX5SG-RiS952zTfYKB4HwHaFj&pid=15.1",
       "image_full_url": "https://pinoycupidgifts.com/wp-content/uploads/2022/08/Regular-CajunFries-Popeyes-600x450.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69696,7 +69796,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.460lvA1nF1pDS5kYIw7HkAHaGr&pid=15.1",
       "image_full_url": "https://pinoycupidgifts.com/wp-content/uploads/2022/08/Large-Cajun-Fries-Popeyes.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69713,7 +69817,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.hrLoaPEpZXuy0HBisRsLfAHaQB&pid=15.1",
       "image_full_url": "https://i.redd.it/pah1drgk1zzb1.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69730,7 +69838,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.hrLoaPEpZXuy0HBisRsLfAHaQB&pid=15.1",
       "image_full_url": "https://i.redd.it/pah1drgk1zzb1.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69747,7 +69859,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.sABC-PziqPrCX2NxIIKePgHaHa&pid=15.1",
       "image_full_url": "https://fastfoodinusa.com/templates/uploads/news/big/2023/03/popeyes-regular-red-beans-rice.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69764,7 +69880,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.IKGd9c2PJq-gNhG8FR1tfgAAAA&pid=15.1",
       "image_full_url": "https://media-cdn.grubhub.com/image/upload/d_search:browse-images:default.jpg/w_150,q_auto:low,fl_lossy,dpr_2.0,c_fill,f_auto,h_150/skgjyhryj47ajqswicqf",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69781,7 +69901,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.9C1viN6XtaMTLNEsA1QyrwHaEK&pid=15.1",
       "image_full_url": "https://www.thedailymeal.com/img/gallery/these-15-fast-food-places-have-the-best-coleslaw/popeyes-1693419345.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69798,7 +69922,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.IqY5hKUM0UlVZVoq41aGzwHaE8&pid=15.1",
       "image_full_url": "https://cdn-pe-uae-ordering.azureedge.net/media/lx4nmyws/coleslaw.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69815,7 +69943,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.-DBUq-BvwBlCgkmlQDemlgHaHa&pid=15.1",
       "image_full_url": "https://dinnerthendessert.com/wp-content/uploads/2022/07/Popeyes-Biscuits-1X1.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69832,7 +69964,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.hp-1-CKZdpbsdD09ffKj8gHaHa&pid=15.1",
       "image_full_url": "https://popeyespuertorico.com/wp-content/uploads/2025/02/6biscuits.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69849,7 +69985,11 @@
       "image_url": "https://ts2.explicit.bing.net/th?id=OIP.lytpuODiUOaJ4w0joaG-zwHaJQ&pid=15.1",
       "image_full_url": "https://chefstandards.com/wp-content/uploads/2025/02/Popeyes-Cinnamon-Apple-Pie.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69900,7 +70040,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.8R5vcEV9ttAxFIFk7_moLQHaEK&pid=15.1",
       "image_full_url": "https://www.thedailymeal.com/img/gallery/popeyes-oreo-cheesecake-cup-a-rich-and-creamy-ending-to-a-spicy-meal/intro-1690402108.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69917,7 +70061,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.BYYpRRz8eZuXMu-n_5XRqgHaE2&pid=15.1",
       "image_full_url": "https://popeyes-menu.com/wp-content/uploads/2024/12/Caramel-Apple-Cheesecake-Cup-768x503.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69934,7 +70082,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.0_793XP46ujen-GPOeT0CQAAAA&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/0n6dcPmLwp4/maxresdefault.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69951,7 +70103,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.ZohvH-Qo0sn1RoVRNDIhoAHaEK&pid=15.1",
       "image_full_url": "https://popeyes-menus.us/wp-content/uploads/2025/11/Popeyes-Chicken-Biscuit-sandwich.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69968,7 +70124,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP._dQ56-88bZ2aDpPze2OaOgHaD4&pid=15.1",
       "image_full_url": "https://popeyesmenuprice.us/wp-content/uploads/2024/12/2-2.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -69985,7 +70145,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.2p_0bxEqmAHNFL8lk3Lg1gHaEK&pid=15.1",
       "image_full_url": "https://www.thedailymeal.com/img/gallery/12-things-you-might-want-to-avoid-ordering-at-popeyes/the-egg-and-sausage-biscuit-is-a-monster-breakfast-1680091813.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -70002,7 +70166,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP._dQ56-88bZ2aDpPze2OaOgHaD4&pid=15.1",
       "image_full_url": "https://popeyesmenuprice.us/wp-content/uploads/2024/12/2-2.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -70019,7 +70187,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.dmu6aTXoXR9jwHk3E1uttQHaE7&pid=15.1",
       "image_full_url": "https://chefstandards.com/wp-content/uploads/2025/04/Hashbrowns.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70036,7 +70208,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.SwkRsxajurKyOI1Z4Ai8agHaHa&pid=15.1",
       "image_full_url": "https://a.mktgcdn.com/p/MsTvIBYL7cNY-HpWdrfH8jBRhcEgrgT2YBKClWztoa8/5000x5000.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70053,7 +70229,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.s441WlM1wtW4F52EvILiAwHaFj&pid=15.1",
       "image_full_url": "https://www.allrecipes.com/thmb/jrWhwQ041Q0If2zWM27Eop66oMQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-taste-test-fast-food-burritos-qdoba-grilled-steak-burrito-97daea86acbb457da6e27816debc77bf.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70087,7 +70267,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.s441WlM1wtW4F52EvILiAwHaFj&pid=15.1",
       "image_full_url": "https://www.allrecipes.com/thmb/jrWhwQ041Q0If2zWM27Eop66oMQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-taste-test-fast-food-burritos-qdoba-grilled-steak-burrito-97daea86acbb457da6e27816debc77bf.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70104,7 +70288,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.Bke7eI9UZWq7BZ_1UqdyxAHaHB&pid=15.1",
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2AISZDJKNvilV4XYI_9thMOddNDJIozrllJmkh469s1zcwyCjAL9IHN3yvsM3DbKIgBMoCPhBlrb20pp2yJjiZ3yFlY1dyMXNjHfkSs3oQtIq92M0FopURme1LvSURTnEgTpIqD3Eni8/s1600/IMG_7498.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70121,7 +70309,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.gsCfCqAx97eLm-7KFDPoyAHaEU&pid=15.1",
       "image_full_url": "https://www.qsrmagazine.com/wp-content/uploads/2019/04/qdoba-pork-and-queso-burrito-1024x597.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70138,7 +70330,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.iotsPHVWgMxZGEKO1XaRVQHaDs&pid=15.1",
       "image_full_url": "https://www.fastfoodpost.com/wp-content/uploads/2019/10/Qdoba-Introduces-New-Plant-Based-Impossible-Fajita-Bowl-And-Burrito.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70155,7 +70351,11 @@
       "image_url": "https://ts2.explicit.bing.net/th?id=OIP.4lM7UsMruV9KxJ0SnXybrAHaEK&pid=15.1",
       "image_full_url": "https://images-cdn.ispot.tv/ad/1Jk4/default-large.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70172,7 +70372,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.zoJZFXsfxYCEzMhsPvaSygHaHa&pid=15.1",
       "image_full_url": "https://qdobanutritioncalculator.org/images/blog/blog1-img1.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70189,7 +70393,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.DMNBQAnERZLqGQRacsDi8wHaJQ&pid=15.1",
       "image_full_url": "https://images.squarespace-cdn.com/content/v1/55467dc6e4b0ebaf8fab24a0/ce533b47-9f45-4a2e-bbfe-e6944fa8c685/Qdoba+habanero+steak+bowl.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70206,7 +70414,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.NDdCWniq6p3pPYZ8Y1LQawHaNK&pid=15.1",
       "image_full_url": "https://i.pinimg.com/736x/1d/8c/c5/1d8cc55c6bd5db81ef751c2edca768a9.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70223,7 +70435,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.4quXu-yJfGTiEhhwIWH3mQHaEK&pid=15.1",
       "image_full_url": "https://www.thedailymeal.com/img/gallery/the-ultimate-ranking-of-qdobas-protein-options/4-pulled-pork-1742919171.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70240,7 +70456,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.dQEnsHpxnkTzXaaFhUQQWQAAAA&pid=15.1",
       "image_full_url": "https://qdobanutritioncalculator.org/images/blog/best-qdoba-bowl-1.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70257,7 +70477,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.VWC_blJDqDrpqqPY5i9vjwHaEU&pid=15.1",
       "image_full_url": "https://www.qsrmagazine.com/wp-content/uploads/2019/10/qdoba-kiss-deal-returns-valentines-day.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70291,7 +70515,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.AipwZgGnjGkSS0LZ2sRPHQHaDx&pid=15.1",
       "image_full_url": "https://cookingpanda.com/cdn/shop/articles/qdoba_d787cb18-640a-43e2-b227-3faa20def228.jpg?v=1638386000&width=1100",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70308,7 +70536,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.DMNBQAnERZLqGQRacsDi8wHaJQ&pid=15.1",
       "image_full_url": "https://images.squarespace-cdn.com/content/v1/55467dc6e4b0ebaf8fab24a0/ce533b47-9f45-4a2e-bbfe-e6944fa8c685/Qdoba+habanero+steak+bowl.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70326,7 +70558,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.7mCUqNDNChvsVbKLDuEDbQHaLH&pid=15.1",
       "image_full_url": "https://cupofyum.com/uploads/images/000/142/780/142780-grilled-adobo-chicken-tacos-874bbc060e68b894c1393ba4dc53421a.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70344,7 +70580,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.x3GAH0e4V44b1gmV7dFu-QHaFa&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/04/qdoba-tacos.jpg?quality=82&strip=all&w=640",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70362,7 +70602,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.e-IjLWW8KkZ-lVj0YjcQngHaDk&pid=15.1",
       "image_full_url": "https://www.unileverfoodsolutions.com.ph/dam/global-ufs/mcos/sea/philippines/acm/recipe/2023/pulled-pork-adobo-tacos/pulled-pork-adobo-tacos-main.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70380,7 +70624,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.7sE4q1Ju1r_okJdxOUuwBwHaNK&pid=15.1",
       "image_full_url": "https://i.pinimg.com/originals/94/70/16/947016d69bf1f412d9ae280143fcbd2d.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70397,7 +70645,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.LrhLeFJDFpy2dhqY5_gTlQHaHB&pid=15.1",
       "image_full_url": "https://restaurantclicks.com/wp-content/uploads/2023/12/Street-Style-Chicken-Tacos-758x719.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70414,7 +70666,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.x3GAH0e4V44b1gmV7dFu-QHaFa&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/04/qdoba-tacos.jpg?quality=82&strip=all&w=640",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70431,7 +70687,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.Edf7sBc6Sk6qg7r92QupJgHaGi&pid=15.1",
       "image_full_url": "https://dyn.mktgcdn.com/p/tcoa0Q-vC0Nb0h_Qy-aIWXKoNYCCHflujpxq_2FP2q0/width=500,height=500",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70448,7 +70708,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.ZQFTSgZMPIasgfYFMdOnJAHaHa&pid=15.1",
       "image_full_url": "https://recipes.net/wp-content/uploads/2023/05/qdoba-chicken-quesadilla_32c3cb19af8d861166f51c0957dfa166.jpeg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70465,7 +70729,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.DV_6rbZr3-Da5Z5WR8nIqwHaEe&pid=15.1",
       "image_full_url": "https://www.fastfoodpost.com/wp-content/uploads/2023/01/Qdoba-Adds-Viral-TikTok-Philly-Cheesesteak-Quesadilla-To-The-Menu-768x464.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70499,7 +70767,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.aGvBsPZNvcXRxH0FvyvvmwHaEo&pid=15.1",
       "image_full_url": "https://recipes-for-life.com/wp-content/uploads/2026/02/Spicy-Qdoba-Chicken-Nachos.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70516,7 +70788,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.tPYaxepozrGHS8IcucwdyQHaEK&pid=15.1",
       "image_full_url": "https://www.mashed.com/img/gallery/how-qdoba-is-preparing-to-make-a-colossal-comeback/l-intro-1655237145.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70550,7 +70826,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.gQGu0G8XYUwGTQVSvRSf6QHaEK&pid=15.1",
       "image_full_url": "https://i.ytimg.com/vi/IcIWlyp-1ak/maxresdefault.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70584,7 +70864,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.DMNBQAnERZLqGQRacsDi8wHaJQ&pid=15.1",
       "image_full_url": "https://images.squarespace-cdn.com/content/v1/55467dc6e4b0ebaf8fab24a0/ce533b47-9f45-4a2e-bbfe-e6944fa8c685/Qdoba+habanero+steak+bowl.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70601,7 +70885,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.FkoS7rKTyUG-Kg7Dqy4MPwAAAA&pid=15.1",
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhAa7gs7FfRAY1Y3FvRQ2cXKw9GH_iB4BR7WGR7TS8TLfsNPcU8wWinZ7TOeoHsrKjhAoBLi-lWiAKc5ABuvPUc6sYbsy-BNvNYEs5KLyjrzJkZUqZDYyklySZiSHIFQqze30ju1OTNK4EgaGqa8RubcgUSCmVwiobPE4BBH3CRpaBGBeCtQa4jq-G7Kqg/w400-h275/Qdoba-Loaded-Tortilla-Soup.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70618,7 +70906,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.z_wC0r8WmIbnSLCkMior9QHaHa&pid=15.1",
       "image_full_url": "https://chickenandchive.com/wp-content/uploads/2025/09/Panera-chicken-tortilla-soup-recipe-720x720.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70669,7 +70961,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.5SHRdeibn2MamYI0fC_TPQHaE8&pid=15.1",
       "image_full_url": "https://www.simplyrecipes.com/thmb/yFie9sDQlqPVpgehwoskBsmPx8U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Qdoba-Queso-LEAD-2-8e8b2c5119694e9ca336eee4bff8bfb9.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70686,7 +70982,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.r28Zf8WB25yQWImo5LYNegHaE8&pid=15.1",
       "image_full_url": "https://culinarypearl.com/wp-content/uploads/2026/01/Qdoba-Black-Beans-Recipe.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70703,7 +71003,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.Nv-vOsNVixWrSPnrrHhADAHaHa&pid=15.1",
       "image_full_url": "https://chopchopchronicles.com/images/large/culinary-significance-q-doba-pinto-beans-bowl-of-beans.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70720,7 +71024,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.T1en_rcK5FHmQH9ldR2vvQHaLH&pid=15.1",
       "image_full_url": "https://bexskitchen.com/wp-content/uploads/2024/01/best-qdoba-brown-rice-recipe.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70737,7 +71045,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.zKiBQnJpvEVoSOErVqyxSgHaLH&pid=15.1",
       "image_full_url": "https://i.pinimg.com/originals/94/98/a3/9498a33b04e57866fc67b0ade6fb130e.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70754,7 +71066,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.LvYhoOQivLtn0n0L_sba4AHaFb&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2024/09/qdoba-chicken-cheese-quesadilla.jpg?resize=272",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70771,7 +71087,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.5DaZ63pFRiOdIA3qIO8BJAHaHa&pid=15.1",
       "image_full_url": "https://pbs.twimg.com/media/FSX_LUkVsAEGMu7.jpg:large",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70788,7 +71108,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.YH4Ug84MZBeO2Gv6f73KjAHaFj&pid=15.1",
       "image_full_url": "https://www.qdobawv.com/sites/default/files/QDOBA-images/kids_taco_build_event_west_virginia_qdoba.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70805,7 +71129,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.zoJZFXsfxYCEzMhsPvaSygHaHa&pid=15.1",
       "image_full_url": "https://qdobanutritioncalculator.org/images/blog/blog1-img1.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70839,7 +71167,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.wffrboOY_W_ycvKqXbS5NAHaEL&pid=15.1",
       "image_full_url": "https://www.indystar.com/gcdn/-mm-/9069c159ce7ddf1bf5ac0986f4f2d299efe1c721/c=0-520-3594-2550/local/-/media/2017/04/18/INGroup/Indianapolis/636281024346236479-Qdoba-Chorizo-Breakfast-Burrito-Low.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70856,7 +71188,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.s441WlM1wtW4F52EvILiAwHaFj&pid=15.1",
       "image_full_url": "https://www.allrecipes.com/thmb/jrWhwQ041Q0If2zWM27Eop66oMQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ar-taste-test-fast-food-burritos-qdoba-grilled-steak-burrito-97daea86acbb457da6e27816debc77bf.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70873,7 +71209,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.T4mkP1YevQyzM4WFf5n2qgHaFb&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2024/09/qdoba-chicken-queso-burrito.jpg?resize=800",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70890,7 +71230,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.bmDQZlGx27XCCq8Hv1xMvAHaDt&pid=15.1",
       "image_full_url": "https://imgproxy.ezcater.com/UnMlARz21W6bfu7ez4LDQaWjjcsYmTNylE9rDSSyMq8/crop:1119:559/g:nowe:40:240/rs:fit:640:320/q:85/czM6Ly9lemltYWdl/cy1wcm9kL3VwbG9h/ZHMvZXpfaW1hZ2Uv/aW1hZ2UvMjM3MzA0/L0VnZ19icmVhazEu/anBlZw.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70924,7 +71268,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.DMNBQAnERZLqGQRacsDi8wHaJQ&pid=15.1",
       "image_full_url": "https://images.squarespace-cdn.com/content/v1/55467dc6e4b0ebaf8fab24a0/ce533b47-9f45-4a2e-bbfe-e6944fa8c685/Qdoba+habanero+steak+bowl.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70941,7 +71289,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.q65J2hzHnrc-HKEp7z_cNAHaJ4&pid=15.1",
       "image_full_url": "https://www.cookingwithateen.com/wp-content/uploads/2025/12/r8g5jdpfctwsbmtrwz8j.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70958,7 +71310,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.o0OMVgYEIJOZqlzKY7fUWgHaEo&pid=15.1",
       "image_full_url": "https://www.hightasty.com/wp-content/uploads/2025/04/Mq2foL4DQxWJuyp9cyz2zA-e1743725109965.webp",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -70992,7 +71348,11 @@
       "image_url": "https://ts4.explicit.bing.net/th?id=OIP.N57BSBCNax4WISHpD178zAHaDU&pid=15.1",
       "image_full_url": "https://catercurator.com/img/backend/uploads/item/double-chocolate-brownie.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71009,7 +71369,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.gLwVXDpzUGCrQn4JYA2EHAHaD4&pid=15.1",
       "image_full_url": "https://geekspin.co/wp-content/uploads/2024/10/Reds-Tavern-Double-Burger-with-Steak-Fries-available-at-Red-Robin-758x397.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71043,7 +71407,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.V-QZtWuYEl1pv-0qQC2ERgHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/gourmet-burgers-royal-red-robin.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71060,7 +71428,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.SH8R2x_LNTsnocOeCc0_DwHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/gourmet-burgers-banzai.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71077,7 +71449,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.DjKBfcU1g0QT6CzcMo_9cwHaLH&pid=15.1",
       "image_full_url": "https://i.pinimg.com/originals/ab/ef/2d/abef2d31c1ea610c3e251e1fd128772a.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71094,7 +71470,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.AVMxex3efkDqTCXkAtHC0AHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/gourmet-burgers-burnin-love.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71111,7 +71491,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.rjL5gn8gfwLu0SUlK8yk0wHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/gourmet-burgers-sauteed-shroom.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71128,7 +71512,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.kLKpJzQskXwj1rLtABA0kAAAAA&pid=15.1",
       "image_full_url": "https://sandwichtalk.files.wordpress.com/2010/05/redrobin.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71145,7 +71533,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.zay29gozKa4JnE5t4wn7HAHaFj&pid=15.1",
       "image_full_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiK1aaG7amPD6y2H0hGGKfOom4SAudaphVTaFEFQYaYORctonpAVrTx1ehy6eSmWhFfGLjOHsbY0A9lIG3ibX9Mu23iW-pEkbCTa6vhg-i-ioeCCTsz5Ufs1mIMSse2d4jz8cKVflYrtS0/s1600/red-robin-the-master-cheese-finest-burger.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71162,7 +71554,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.4uqOSdk2BYc20r1u3S-VXQHaJQ&pid=15.1",
       "image_full_url": "https://lookaside.fbsbx.com/lookaside/crawler/media/?media_id=1195109543862946",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71179,7 +71575,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.ZTg05Z83X1ifRPbkAQUaLwHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-06/dive-in-smoke-and-pepper.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71196,7 +71596,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.-yJgvvqNeFfOW3kYKO_55wHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/gourmet-burgers-keep-it-simple.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71213,7 +71617,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.m1Ny-0s1iIR3-6TGRpGDAQHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2025-02/lto-buzzer-beater-two-pointer.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71247,7 +71655,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.Cf19wGL_f2mWtANARtOfbwHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/lifestyle-burgers-impossible-cheeseburger.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71281,7 +71693,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.WIF2PQBYRLDrfBMZzGonbgHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/sandwiches-california-chicken.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71298,7 +71714,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.RCtDjyevrVEolad8ETWlpQHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/sandwiches-crispy-chicken.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71315,7 +71735,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.OGXgoELM8I_CU2jGC5Fw5AHaFb&pid=15.1",
       "image_full_url": "https://www.eatthis.com/wp-content/uploads/sites/4/2023/10/red-robin-buzzin-chicken-sandwich.jpeg?resize=473",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71332,7 +71756,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.hvrg67QzkjKoV-cR2COn8gHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/sandwiches-teriyaki-grilled-chicken_0.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71349,7 +71777,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.S8gqh2D8-ZJkJLOa_54PfQHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/sandwiches-blta.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71383,7 +71815,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.9YbQIXQ-B7OTcFM3OCJ65AHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2025-03/sandwiches-everything-caesar-wrap.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71400,7 +71836,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.ejnQYFP5SKF2tPHCVoSHtQHaF8&pid=15.1",
       "image_full_url": "https://restaurantclicks.com/wp-content/uploads/2023/11/Clucks-Fries-758x609.png",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71417,7 +71857,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.qY0c51kzuaFlYKv3cw006QHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2025-08/entrees-buzz-clucks-and-fries_0.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71434,7 +71878,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.HfR-f5hXgAGySs0u35zbUAHaEK&pid=15.1",
       "image_full_url": "https://www.mashed.com/img/gallery/popular-red-robin-menu-items-ranked-worst-to-best/21-arctic-cod-fish-chips-1626185576.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71451,7 +71899,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.DuyzD2CdFtKjNgCF2yB0iQHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/entrees-ensenada-chicken-platter_0.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71468,7 +71920,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.q_9Wwz71QU7uKhrxTBPPhwHaFj&pid=15.1",
       "image_full_url": "https://images.ctfassets.net/oewsurrg31ok/3bsMrkXlyAWBcr5sE8nr0U/8bf609205d7254a90c3418082895651f/2019_Entree_Sear-ious_Salmon.png?w=950&q=55",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71502,7 +71958,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.EEUoeCnSPLwih2XD4aTAjQHaSU&pid=15.1",
       "image_full_url": "https://i.pinimg.com/736x/21/81/82/21818257d812686610d5220be5405124.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71519,7 +71979,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.4Wx0FKIEkN96MCIIcuNBWQHaFj&pid=15.1",
       "image_full_url": "https://www.allrecipes.com/thmb/EMhm-WnzOB2-5RsjfXvLUnXs_-E=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/ashia-aubourg-allrecipes-mozzarella-sticks-10-e6eb0e46e51041a2847b0a709c38da3b.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71536,7 +72000,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.cHr18dUyf330zcdHPqLBBwHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/appetizers-pretzel-bites.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71553,7 +72021,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.F7vg-QpuAphtmXtt83n4JwHaHa&pid=15.1",
       "image_full_url": "https://pbs.twimg.com/media/B8iaOzQIYAAyxPy.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71570,7 +72042,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.ghkgagZHSrs84PY-rdE2xgHaFj&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2024-03/RR-1425_2024_Website-GuacamoleSalsa&Chips+(1).jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71587,7 +72063,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.bY9n6l-d2HRGfmDmnskCLQHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/salads-avo-cobb-o.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71604,7 +72084,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.TrH0Uy8BffkfIXZp3YaCjAHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/salads-crispy-chicken-salad.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71621,7 +72105,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.eLdDAEEuu1rjz6mhQTlbbwHaEK&pid=15.1",
       "image_full_url": "https://www.thedailymeal.com/img/gallery/6-of-the-unhealthiest-foods-at-red-robin/mighty-caesar-salad-1688478616.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71638,7 +72126,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.9Dif48tmJ1W4Z-1V4gKmoQHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2024-02/side-house-salad_0.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71655,7 +72147,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.pfU3ivExXw-J9E-j8-IurQHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2024-02/side-steak-fries.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71672,7 +72168,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.AyGZdxq6NXjcmEYcA9TtFAHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2024-02/side-sweet-potato-fries.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71689,7 +72189,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.M7UimVCqO13kEXRh39_IggHaFj&pid=15.1",
       "image_full_url": "https://i.redd.it/779fwc7uokk21.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71706,7 +72210,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.qb4xzyYv5iiLRytASkuIFwHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2024-02/side-steamed-broccoli.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71723,7 +72231,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.aTk1ub0G0lsx07Yb_KxsJAHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2024-02/side-coleslaw.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71757,7 +72269,11 @@
       "image_url": "https://ts2.mm.bing.net/th?id=OIP.Es2IAyvB6zkEEc78580gaQHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/desserts-mountain-high-mudd-pie.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71774,7 +72290,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.z2FknziYBaduZzuJAVywZgHaDt&pid=15.1",
       "image_full_url": "https://catering.redrobin.com/usercontent/product_sub_img/Catering-Doh!-Rings.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71791,7 +72311,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.gX36G1hhqTwfSQIANvBkpAHaKU&pid=15.1",
       "image_full_url": "https://fastfoodnutrition.org/item-photos/full/8671_s.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71808,7 +72332,11 @@
       "image_url": "https://ts3.mm.bing.net/th?id=OIP.lUe7OYupbLtfo96TkQlOCQHaE8&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-10/desserts-gooey-chocolate-brownie-cake.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71825,7 +72353,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.DTLymWHALX6dXmBIT10hDgHaIg&pid=15.1",
       "image_full_url": "https://www.fastfoodclub.com/wp-content/uploads/2024/06/Red-Robins-Chocolate-Covered-Milkshake-588x675.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71859,7 +72391,11 @@
       "image_url": "https://ts1.mm.bing.net/th?id=OIP.tSG70Myh10IVbgTsxRU36QHaHg&pid=15.1",
       "image_full_url": "https://www.redrobin.com/sites/default/files/2023-01/feature-shortcake-shake-feature.jpg",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -71876,7 +72412,11 @@
       "image_url": "https://ts4.mm.bing.net/th?id=OIP.9JQPmYnsmzGilqzT7BYR5gHaFj&pid=15.1",
       "image_full_url": "https://external-preview.redd.it/jeC9a3WnMTnZDGPH-pR7SKWHMLAw4YiZe4mKzhbyhuQ.jpg?width=640&crop=smart&auto=webp&s=5a1ec62d2399eb1ccca4faaa002a0030737f1ef2",
       "_image_source": "quoted",
-      "_image_refreshed": "quoted-v1"
+      "_image_refreshed": "quoted-v1",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Sonic Drive-In",
@@ -79829,7 +80369,11 @@
       "_updated_at": "2026-10-19T09:16:49.032696+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -79863,7 +80407,11 @@
       "_updated_at": "2026-10-19T09:16:56.873917+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -79897,7 +80445,11 @@
       "_updated_at": "2026-10-19T09:17:04.434146+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -79914,7 +80466,11 @@
       "_updated_at": "2026-10-19T09:17:09.713615+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -79931,7 +80487,11 @@
       "_updated_at": "2026-10-19T09:17:14.158128+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -79948,7 +80508,11 @@
       "_updated_at": "2026-10-19T09:17:18.771625+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -79982,7 +80546,11 @@
       "_updated_at": "2026-10-19T09:17:27.439831+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -79999,7 +80567,11 @@
       "_updated_at": "2026-10-19T09:17:31.725683+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80016,7 +80588,11 @@
       "_updated_at": "2026-10-19T09:17:36.120562+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80033,7 +80609,11 @@
       "_updated_at": "2026-10-19T09:17:40.447626+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80113,7 +80693,11 @@
       "_updated_at": "2026-10-19T09:17:58.083155+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80130,7 +80714,11 @@
       "_updated_at": "2026-10-19T09:18:01.564318+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80147,7 +80735,11 @@
       "_updated_at": "2026-10-19T09:18:06.842672+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80164,7 +80756,11 @@
       "_updated_at": "2026-10-19T09:18:10.958414+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80181,7 +80777,11 @@
       "_updated_at": "2026-10-19T09:18:15.664905+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80198,7 +80798,11 @@
       "_updated_at": "2026-10-19T09:18:20.338278+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80215,7 +80819,11 @@
       "_updated_at": "2026-10-19T09:18:23.740790+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80232,7 +80840,11 @@
       "_updated_at": "2026-10-19T09:18:28.828024+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80266,7 +80878,11 @@
       "_updated_at": "2026-10-19T09:18:37.421857+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80300,7 +80916,11 @@
       "_updated_at": "2026-10-19T09:18:45.793163+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80317,7 +80937,11 @@
       "_updated_at": "2026-10-19T09:18:49.401778+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80334,7 +80958,11 @@
       "_updated_at": "2026-10-19T09:18:53.775615+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80351,7 +80979,11 @@
       "_updated_at": "2026-10-19T09:18:57.607172+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80389,7 +81021,11 @@
       "_updated_at": "2026-10-19T09:19:06.633944+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80406,7 +81042,11 @@
       "_updated_at": "2026-10-19T09:19:10.175686+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -80423,7 +81063,11 @@
       "_updated_at": "2026-10-19T09:19:14.726887+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Sonic Drive-In",
@@ -90471,7 +91115,11 @@
       "_updated_at": "2026-10-19T10:36:34.288247+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90488,7 +91136,11 @@
       "_updated_at": "2026-10-19T10:36:37.756211+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90506,7 +91158,11 @@
       "_updated_at": "2026-10-19T10:36:41.696387+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90523,7 +91179,11 @@
       "_updated_at": "2026-10-19T10:36:45.962575+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90540,7 +91200,11 @@
       "_updated_at": "2026-10-19T10:36:50.208210+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90557,7 +91221,11 @@
       "_updated_at": "2026-10-19T10:36:53.872576+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90575,7 +91243,11 @@
       "_updated_at": "2026-10-19T10:36:58.765584+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90592,7 +91264,11 @@
       "_updated_at": "2026-10-19T10:37:02.138888+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90609,7 +91285,11 @@
       "_updated_at": "2026-10-19T10:37:05.743182+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90626,7 +91306,11 @@
       "_updated_at": "2026-10-19T10:37:10.895003+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90643,7 +91327,11 @@
       "_updated_at": "2026-10-19T10:37:14.710335+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90660,7 +91348,11 @@
       "_updated_at": "2026-10-19T10:37:20.034976+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90677,7 +91369,11 @@
       "_updated_at": "2026-10-19T10:37:24.711294+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90694,7 +91390,11 @@
       "_updated_at": "2026-10-19T10:37:28.092302+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90711,7 +91411,11 @@
       "_updated_at": "2026-10-19T10:37:32.159137+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90728,7 +91432,11 @@
       "_updated_at": "2026-10-19T10:37:36.471300+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90745,7 +91453,11 @@
       "_updated_at": "2026-10-19T10:37:40.876883+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90762,7 +91474,11 @@
       "_updated_at": "2026-10-19T10:37:45.229299+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90779,7 +91495,11 @@
       "_updated_at": "2026-10-19T10:37:49.228696+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90796,7 +91516,11 @@
       "_updated_at": "2026-10-19T10:37:53.282101+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90813,7 +91537,11 @@
       "_updated_at": "2026-10-19T10:37:58.521243+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90831,7 +91559,11 @@
       "_updated_at": "2026-10-19T10:38:02.211493+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90848,7 +91580,11 @@
       "_updated_at": "2026-10-19T10:38:06.731136+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90899,7 +91635,11 @@
       "_updated_at": "2026-10-19T10:38:21.675544+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90916,7 +91656,11 @@
       "_updated_at": "2026-10-19T10:38:25.504839+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90933,7 +91677,11 @@
       "_updated_at": "2026-10-19T10:38:29.836285+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90950,7 +91698,11 @@
       "_updated_at": "2026-10-19T10:38:34.400057+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90968,7 +91720,11 @@
       "_updated_at": "2026-10-19T10:38:37.961174+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -90985,7 +91741,11 @@
       "_updated_at": "2026-10-19T10:38:41.502153+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -91002,7 +91762,11 @@
       "_updated_at": "2026-10-19T10:38:46.122820+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -91019,7 +91783,11 @@
       "_updated_at": "2026-10-19T10:38:49.943193+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -91036,7 +91804,11 @@
       "_updated_at": "2026-10-19T10:38:54.975620+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -91070,7 +91842,11 @@
       "_updated_at": "2026-10-19T10:39:03.128695+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -91087,7 +91863,11 @@
       "_updated_at": "2026-10-19T10:39:07.917622+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -91104,7 +91884,11 @@
       "_updated_at": "2026-10-19T10:39:11.393164+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -91121,7 +91905,11 @@
       "_updated_at": "2026-10-19T10:39:15.819256+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -91138,7 +91926,11 @@
       "_updated_at": "2026-10-19T10:39:20.261005+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -91174,7 +91966,11 @@
       "_updated_at": "2026-10-19T10:39:30.283015+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -91192,7 +91988,11 @@
       "_updated_at": "2026-10-19T10:39:33.638281+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -91210,7 +92010,11 @@
       "_updated_at": "2026-10-19T10:39:38.547287+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -91228,7 +92032,11 @@
       "_updated_at": "2026-10-19T10:39:43.532613+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91245,7 +92053,11 @@
       "_updated_at": "2026-10-19T10:39:47.831673+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91262,7 +92074,11 @@
       "_updated_at": "2026-10-19T10:39:52.245778+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91279,7 +92095,11 @@
       "_updated_at": "2026-10-19T10:39:56.749147+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91296,7 +92116,11 @@
       "_updated_at": "2026-10-19T10:40:01.979088+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91313,7 +92137,11 @@
       "_updated_at": "2026-10-19T10:40:06.578527+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91347,7 +92175,11 @@
       "_updated_at": "2026-10-19T10:40:15.410566+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91364,7 +92196,11 @@
       "_updated_at": "2026-10-19T10:40:19.428149+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91381,7 +92217,11 @@
       "_updated_at": "2026-10-19T10:40:23.973826+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91415,7 +92255,11 @@
       "_updated_at": "2026-10-19T10:40:33.197985+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91432,7 +92276,11 @@
       "_updated_at": "2026-10-19T10:40:37.694362+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91449,7 +92297,11 @@
       "_updated_at": "2026-10-19T10:40:41.903641+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91466,7 +92318,11 @@
       "_updated_at": "2026-10-19T10:40:45.385884+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91483,7 +92339,11 @@
       "_updated_at": "2026-10-19T10:40:49.896120+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91500,7 +92360,11 @@
       "_updated_at": "2026-10-19T10:40:53.784707+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91517,7 +92381,11 @@
       "_updated_at": "2026-10-19T10:40:58.832934+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91534,7 +92402,11 @@
       "_updated_at": "2026-10-19T10:41:02.800178+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91551,7 +92423,11 @@
       "_updated_at": "2026-10-19T10:41:06.412775+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91568,7 +92444,11 @@
       "_updated_at": "2026-10-19T10:41:10.863941+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91585,7 +92465,11 @@
       "_updated_at": "2026-10-19T10:41:15.614695+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91602,7 +92486,11 @@
       "_updated_at": "2026-10-19T10:41:19.597350+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91619,7 +92507,11 @@
       "_updated_at": "2026-10-19T10:41:23.816557+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91636,7 +92528,11 @@
       "_updated_at": "2026-10-19T10:41:28.795880+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91653,7 +92549,11 @@
       "_updated_at": "2026-10-19T10:41:34.048625+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91670,7 +92570,11 @@
       "_updated_at": "2026-10-19T10:41:38.455443+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91687,7 +92591,11 @@
       "_updated_at": "2026-10-19T10:41:43.307348+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91704,7 +92612,11 @@
       "_updated_at": "2026-10-19T10:41:47.616249+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91721,7 +92633,11 @@
       "_updated_at": "2026-10-19T10:41:51.805030+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91738,7 +92654,11 @@
       "_updated_at": "2026-10-19T10:41:55.384605+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91755,7 +92675,11 @@
       "_updated_at": "2026-10-19T10:41:59.349549+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91772,7 +92696,11 @@
       "_updated_at": "2026-10-19T10:42:03.300588+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91789,7 +92717,11 @@
       "_updated_at": "2026-10-19T10:42:07.914880+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91806,7 +92738,11 @@
       "_updated_at": "2026-10-19T10:42:12.939667+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -91823,7 +92759,11 @@
       "_updated_at": "2026-10-19T10:42:17.206813+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Wingstop",
@@ -113749,7 +114689,11 @@
       "_updated_at": "2026-10-21T09:10:50.911934+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Raising Cane's",
@@ -113766,7 +114710,11 @@
       "_updated_at": "2026-10-21T09:10:54.933348+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Raising Cane's",
@@ -113783,7 +114731,11 @@
       "_updated_at": "2026-10-21T09:10:59.331820+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Raising Cane's",
@@ -113800,7 +114752,11 @@
       "_updated_at": "2026-10-21T09:11:03.530662+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Raising Cane's",
@@ -113817,7 +114773,11 @@
       "_updated_at": "2026-10-21T09:11:07.413905+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Raising Cane's",
@@ -113834,7 +114794,11 @@
       "_updated_at": "2026-10-21T09:11:11.400121+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Raising Cane's",
@@ -113851,7 +114815,11 @@
       "_updated_at": "2026-10-21T09:11:15.423909+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Raising Cane's",
@@ -113868,7 +114836,11 @@
       "_updated_at": "2026-10-21T09:11:18.967627+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Raising Cane's",
@@ -113885,7 +114857,11 @@
       "_updated_at": "2026-10-21T09:11:23.402732+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Raising Cane's",
@@ -113902,7 +114878,11 @@
       "_updated_at": "2026-10-21T09:11:28.159635+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Raising Cane's",
@@ -113919,7 +114899,11 @@
       "_updated_at": "2026-10-21T09:11:32.889582+00:00",
       "_model": "gemini-3.7-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Slim Chickens",
@@ -119531,7 +120515,11 @@
       "_updated_at": "2026-10-22T10:04:12.042333+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119548,7 +120536,11 @@
       "_updated_at": "2026-10-22T10:04:16.609635+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119582,7 +120574,11 @@
       "_updated_at": "2026-10-22T10:04:24.907295+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119599,7 +120595,11 @@
       "_updated_at": "2026-10-22T10:04:28.887544+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119616,7 +120616,11 @@
       "_updated_at": "2026-10-22T10:04:33.614191+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119633,7 +120637,11 @@
       "_updated_at": "2026-10-22T10:04:37.843727+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119650,7 +120658,11 @@
       "_updated_at": "2026-10-22T10:04:42.293583+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119667,7 +120679,11 @@
       "_updated_at": "2026-10-22T10:04:46.566082+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119701,7 +120717,11 @@
       "_updated_at": "2026-10-22T10:04:55.153771+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119718,7 +120738,11 @@
       "_updated_at": "2026-10-22T10:04:59.725152+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119735,7 +120759,11 @@
       "_updated_at": "2026-10-22T10:05:03.839180+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119752,7 +120780,11 @@
       "_updated_at": "2026-10-22T10:05:09.149733+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119769,7 +120801,11 @@
       "_updated_at": "2026-10-22T10:05:13.715152+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119803,7 +120839,11 @@
       "_updated_at": "2026-10-22T10:05:22.648973+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119820,7 +120860,11 @@
       "_updated_at": "2026-10-22T10:05:27.385059+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119837,7 +120881,11 @@
       "_updated_at": "2026-10-22T10:05:30.860214+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119854,7 +120902,11 @@
       "_updated_at": "2026-10-22T10:05:34.486268+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119905,7 +120957,11 @@
       "_updated_at": "2026-10-22T10:05:47.501556+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119922,7 +120978,11 @@
       "_updated_at": "2026-10-22T10:05:52.326580+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119939,7 +120999,11 @@
       "_updated_at": "2026-10-22T10:05:57.073026+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119956,7 +121020,11 @@
       "_updated_at": "2026-10-22T10:06:01.954689+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119973,7 +121041,11 @@
       "_updated_at": "2026-10-22T10:06:06.626060+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -119990,7 +121062,11 @@
       "_updated_at": "2026-10-22T10:06:10.453427+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -120007,7 +121083,11 @@
       "_updated_at": "2026-10-22T10:06:15.370975+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -120041,7 +121121,11 @@
       "_updated_at": "2026-10-22T10:06:25.410284+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120075,7 +121159,11 @@
       "_updated_at": "2026-10-22T10:06:35.022848+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120092,7 +121180,11 @@
       "_updated_at": "2026-10-22T10:06:38.935515+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120109,7 +121201,11 @@
       "_updated_at": "2026-10-22T10:06:43.448850+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120126,7 +121222,11 @@
       "_updated_at": "2026-10-22T10:06:47.799170+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120143,7 +121243,11 @@
       "_updated_at": "2026-10-22T10:06:52.809409+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120160,7 +121264,11 @@
       "_updated_at": "2026-10-22T10:06:56.765740+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120177,7 +121285,11 @@
       "_updated_at": "2026-10-22T10:07:01.629660+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120194,7 +121306,11 @@
       "_updated_at": "2026-10-22T10:07:06.809078+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120211,7 +121327,11 @@
       "_updated_at": "2026-10-22T10:07:11.914249+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120228,7 +121348,11 @@
       "_updated_at": "2026-10-22T10:07:15.963555+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120245,7 +121369,11 @@
       "_updated_at": "2026-10-22T10:07:20.026860+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120262,7 +121390,11 @@
       "_updated_at": "2026-10-22T10:07:24.398801+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120279,7 +121411,11 @@
       "_updated_at": "2026-10-22T10:07:29.573507+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120296,7 +121432,11 @@
       "_updated_at": "2026-10-22T10:07:33.158537+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120313,7 +121453,11 @@
       "_updated_at": "2026-10-22T10:07:36.539607+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120330,7 +121474,11 @@
       "_updated_at": "2026-10-22T10:07:40.304383+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -120347,7 +121495,11 @@
       "_updated_at": "2026-10-22T10:07:45.568599+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -120364,7 +121516,11 @@
       "_updated_at": "2026-10-22T10:07:50.751750+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -120381,7 +121537,11 @@
       "_updated_at": "2026-10-22T10:07:55.263124+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -120398,7 +121558,11 @@
       "_updated_at": "2026-10-22T10:07:59.353469+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -120415,7 +121579,11 @@
       "_updated_at": "2026-10-22T10:08:04.692202+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -120432,7 +121600,11 @@
       "_updated_at": "2026-10-22T10:08:08.699015+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -120449,7 +121621,11 @@
       "_updated_at": "2026-10-22T10:08:13.465843+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -120466,7 +121642,11 @@
       "_updated_at": "2026-10-22T10:08:18.312597+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -120483,7 +121663,11 @@
       "_updated_at": "2026-10-22T10:08:22.044781+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -120500,7 +121684,11 @@
       "_updated_at": "2026-10-22T10:08:25.589157+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -120517,7 +121705,11 @@
       "_updated_at": "2026-10-22T10:08:29.077649+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -120534,7 +121726,11 @@
       "_updated_at": "2026-10-22T10:08:32.920970+00:00",
       "_model": "gemini-3.5-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Sonic Drive-In",
@@ -136719,7 +137915,11 @@
       "_updated_at": "2026-10-25T12:46:47.720381+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -136736,7 +137936,11 @@
       "_updated_at": "2026-10-25T12:46:52.344494+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -136770,7 +137974,11 @@
       "_updated_at": "2026-10-25T12:46:59.889537+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -136787,7 +137995,11 @@
       "_updated_at": "2026-10-25T12:47:05.091139+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -136804,7 +138016,11 @@
       "_updated_at": "2026-10-25T12:47:09.793179+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -136821,7 +138037,11 @@
       "_updated_at": "2026-10-25T12:47:13.409781+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -136838,7 +138058,11 @@
       "_updated_at": "2026-10-25T12:47:17.407007+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -136855,7 +138079,11 @@
       "_updated_at": "2026-10-25T12:47:21.922757+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -136872,7 +138100,11 @@
       "_updated_at": "2026-10-25T12:47:26.026984+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -136889,7 +138121,11 @@
       "_updated_at": "2026-10-25T12:47:29.485578+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -136906,7 +138142,11 @@
       "_updated_at": "2026-10-25T12:47:32.885897+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -136974,7 +138214,11 @@
       "_updated_at": "2026-10-25T12:47:49.642084+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -136991,7 +138235,11 @@
       "_updated_at": "2026-10-25T12:47:54.857778+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137008,7 +138256,11 @@
       "_updated_at": "2026-10-25T12:47:59.842842+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137025,7 +138277,11 @@
       "_updated_at": "2026-10-25T12:48:04.107365+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137042,7 +138298,11 @@
       "_updated_at": "2026-10-25T12:48:08.073203+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137059,7 +138319,11 @@
       "_updated_at": "2026-10-25T12:48:11.905285+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137076,7 +138340,11 @@
       "_updated_at": "2026-10-25T12:48:16.585400+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137110,7 +138378,11 @@
       "_updated_at": "2026-10-25T12:48:24.804333+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137127,7 +138399,11 @@
       "_updated_at": "2026-10-25T12:48:28.857614+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137144,7 +138420,11 @@
       "_updated_at": "2026-10-25T12:48:32.464700+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137161,7 +138441,11 @@
       "_updated_at": "2026-10-25T12:48:35.939996+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137178,7 +138462,11 @@
       "_updated_at": "2026-10-25T12:48:41.139833+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137195,7 +138483,11 @@
       "_updated_at": "2026-10-25T12:48:46.274357+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137212,7 +138504,11 @@
       "_updated_at": "2026-10-25T12:48:51.201059+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137229,7 +138525,11 @@
       "_updated_at": "2026-10-25T12:48:55.034443+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137246,7 +138546,11 @@
       "_updated_at": "2026-10-25T12:49:00.139164+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137263,7 +138567,11 @@
       "_updated_at": "2026-10-25T12:49:05.351009+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137297,7 +138605,11 @@
       "_updated_at": "2026-10-25T12:49:13.459175+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137314,7 +138626,11 @@
       "_updated_at": "2026-10-26T12:10:02.420287+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 2,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137331,7 +138647,11 @@
       "_updated_at": "2026-10-25T12:49:22.940276+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137348,7 +138668,11 @@
       "_updated_at": "2026-10-25T12:49:26.584803+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137365,7 +138689,11 @@
       "_updated_at": "2026-10-25T12:49:31.261001+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137382,7 +138710,11 @@
       "_updated_at": "2026-10-25T12:49:35.258080+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137399,7 +138731,11 @@
       "_updated_at": "2026-10-25T12:49:38.914295+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137416,7 +138752,11 @@
       "_updated_at": "2026-10-25T12:49:43.406539+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137433,7 +138773,11 @@
       "_updated_at": "2026-10-25T12:49:46.884559+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137450,7 +138794,11 @@
       "_updated_at": "2026-10-25T12:49:51.675301+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137467,7 +138815,11 @@
       "_updated_at": "2026-10-25T12:49:55.482440+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137484,7 +138836,11 @@
       "_updated_at": "2026-10-25T12:49:59.901880+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137501,7 +138857,11 @@
       "_updated_at": "2026-10-25T12:50:04.142834+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:31.478197+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137518,7 +138878,11 @@
       "_updated_at": "2026-10-26T12:10:06.938319+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 2,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137535,7 +138899,11 @@
       "_updated_at": "2026-10-25T12:50:14.599894+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:23:49.456974+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Red Robin",
@@ -137552,7 +138920,11 @@
       "_updated_at": "2026-10-25T12:50:18.661011+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:24:16.299064+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Jimmy John's",
@@ -138997,7 +140369,11 @@
       "_updated_at": "2026-10-25T12:55:49.989655+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139014,7 +140390,11 @@
       "_updated_at": "2026-10-25T12:55:54.441917+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139031,7 +140411,11 @@
       "_updated_at": "2026-10-25T12:55:58.795149+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139048,7 +140432,11 @@
       "_updated_at": "2026-10-25T12:56:03.300111+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139065,7 +140453,11 @@
       "_updated_at": "2026-10-25T12:56:08.227747+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139082,7 +140474,11 @@
       "_updated_at": "2026-10-25T12:56:13.299576+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139099,7 +140495,11 @@
       "_updated_at": "2026-10-25T12:56:16.844986+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139116,7 +140516,11 @@
       "_updated_at": "2026-10-25T12:56:20.530227+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139150,7 +140554,11 @@
       "_updated_at": "2026-10-25T12:56:29.093408+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139167,7 +140575,11 @@
       "_updated_at": "2026-10-25T12:56:32.800108+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139184,7 +140596,11 @@
       "_updated_at": "2026-10-25T12:56:36.915137+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139201,7 +140617,11 @@
       "_updated_at": "2026-10-25T12:56:41.146002+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139218,7 +140638,11 @@
       "_updated_at": "2026-10-25T12:56:44.511312+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139235,7 +140659,11 @@
       "_updated_at": "2026-10-25T12:56:48.877929+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139252,7 +140680,11 @@
       "_updated_at": "2026-10-25T12:56:52.611650+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139269,7 +140701,11 @@
       "_updated_at": "2026-10-25T12:56:56.425741+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139286,7 +140722,11 @@
       "_updated_at": "2026-10-25T12:57:00.794513+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -139303,7 +140743,11 @@
       "_updated_at": "2026-10-25T12:57:05.458636+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139321,7 +140765,11 @@
       "_updated_at": "2026-10-25T12:57:09.215595+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139339,7 +140787,11 @@
       "_updated_at": "2026-10-25T12:57:13.847696+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139357,7 +140809,11 @@
       "_updated_at": "2026-10-25T12:57:18.080786+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139375,7 +140831,11 @@
       "_updated_at": "2026-10-25T12:57:22.678547+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139444,7 +140904,11 @@
       "_updated_at": "2026-10-25T12:57:38.757097+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139461,7 +140925,11 @@
       "_updated_at": "2026-10-25T12:57:42.267394+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139478,7 +140946,11 @@
       "_updated_at": "2026-10-25T12:57:46.737231+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139495,7 +140967,11 @@
       "_updated_at": "2026-10-25T12:57:50.109760+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139512,7 +140988,11 @@
       "_updated_at": "2026-10-25T12:57:55.383575+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139529,7 +141009,11 @@
       "_updated_at": "2026-10-25T12:57:59.592038+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139546,7 +141030,11 @@
       "_updated_at": "2026-10-25T12:58:04.839676+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139563,7 +141051,11 @@
       "_updated_at": "2026-10-25T12:58:09.761764+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139580,7 +141072,11 @@
       "_updated_at": "2026-10-25T12:58:13.817813+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139597,7 +141093,11 @@
       "_updated_at": "2026-10-25T12:58:18.385967+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139614,7 +141114,11 @@
       "_updated_at": "2026-10-25T12:58:22.767623+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139631,7 +141135,11 @@
       "_updated_at": "2026-10-25T12:58:27.781111+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139648,7 +141156,11 @@
       "_updated_at": "2026-10-25T12:58:31.221719+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139665,7 +141177,11 @@
       "_updated_at": "2026-10-25T12:58:34.673840+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139682,7 +141198,11 @@
       "_updated_at": "2026-10-25T12:58:38.745784+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139699,7 +141219,11 @@
       "_updated_at": "2026-10-25T12:58:42.982214+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:21:32.828162+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139716,7 +141240,11 @@
       "_updated_at": "2026-10-25T12:58:47.891483+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139733,7 +141261,11 @@
       "_updated_at": "2026-10-25T12:58:52.350377+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:20:49.063901+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139784,7 +141316,11 @@
       "_updated_at": "2026-10-25T12:59:07.082490+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Qdoba",
@@ -139801,7 +141337,11 @@
       "_updated_at": "2026-10-25T12:59:10.568311+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:04.491617+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Little Caesar's",
@@ -143988,7 +145528,11 @@
       "_updated_at": "2026-10-26T12:11:38.135442+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Raising Cane's",
@@ -144005,7 +145549,11 @@
       "_updated_at": "2026-10-26T12:11:42.341425+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Slim Chickens",
@@ -150742,7 +152290,11 @@
       "_updated_at": "2026-10-28T10:21:59.134082+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Raising Cane's",
@@ -150759,7 +152311,11 @@
       "_updated_at": "2026-10-28T10:22:04.070714+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Taco John's",
@@ -158568,7 +160124,11 @@
       "_updated_at": "2026-10-30T07:37:35.180605+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Raising Cane's",
@@ -158585,7 +160145,11 @@
       "_updated_at": "2026-10-30T07:37:39.671084+00:00",
       "_model": "gemini-3.8-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:22:56.961755+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Taco John's",
@@ -168412,7 +169976,11 @@
       "_updated_at": "2026-10-31T11:12:17.038629+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -168429,7 +169997,11 @@
       "_updated_at": "2026-10-31T11:12:20.752176+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -168446,7 +170018,11 @@
       "_updated_at": "2026-10-31T11:12:24.209468+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": true,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -168543,7 +170119,11 @@
       "_updated_at": "2026-10-31T11:12:45.977641+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -168577,7 +170157,11 @@
       "_updated_at": "2026-10-31T11:12:54.524018+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -168594,7 +170178,11 @@
       "_updated_at": "2026-10-31T11:12:59.244324+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -168611,7 +170199,11 @@
       "_updated_at": "2026-10-31T11:13:02.661903+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T09:56:37.608281+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -168628,7 +170220,11 @@
       "_updated_at": "2026-10-31T11:13:06.307602+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:04:43.820016+00:00",
+      "_avail_model": "gemini-3.5-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -168645,7 +170241,11 @@
       "_updated_at": "2026-10-31T11:13:10.221332+00:00",
       "_model": "gemini-3.6-flash",
       "_image_attempts": 1,
-      "_image_source": "quoted"
+      "_image_source": "quoted",
+      "active": false,
+      "_avail_cycle": 1,
+      "_avail_checked_at": "2026-11-10T10:02:29.556919+00:00",
+      "_avail_model": "gemini-3.6-flash"
     },
     {
       "restaurant": "Popeyes",
@@ -168942,40 +170542,39 @@
     "Wendy's",
     "Wingstop"
   ],
-  "updated_at": "2026-11-10T07:28:09.895298+00:00",
+  "updated_at": "2026-11-10T10:24:39.864891+00:00",
   "availability": {
     "cycle": 1,
     "history": [],
     "quota": {
-      "date": "2026-11-09",
+      "date": "2026-11-10",
       "calls": {
-        "gemini-3.8-flash": 2,
-        "gemini-3.7-flash": 3,
-        "gemini-3.6-flash": 5,
-        "gemini-3.5-flash": 1
+        "gemini-3.6-flash": 6,
+        "gemini-3.5-flash": 4
       },
       "exhausted": [
-        "gemini-3.5-flash",
-        "gemini-3.8-flash",
         "gemini-3.6-flash",
-        "gemini-3.7-flash"
+        "gemini-3.5-flash"
       ]
     },
     "progress": {
       "cycle": 1,
-      "checked": 6320,
+      "checked": 6720,
       "pool": 8392,
-      "active": 2945,
-      "inactive": 3375,
+      "active": 3158,
+      "inactive": 3562,
       "cycle_complete": false,
-      "updated_at": "2026-11-10T07:28:09.895250+00:00"
+      "updated_at": "2026-11-10T10:24:39.864840+00:00"
     },
     "last_run": {
-      "at": "2026-11-10T07:28:09.895263+00:00",
-      "calls": 0,
-      "marked_active": 0,
-      "marked_inactive": 0,
-      "calls_per_model": {}
+      "at": "2026-11-10T10:24:39.864854+00:00",
+      "calls": 10,
+      "marked_active": 213,
+      "marked_inactive": 187,
+      "calls_per_model": {
+        "gemini-3.6-flash": 6,
+        "gemini-3.5-flash": 4
+      }
     }
   }
 }
