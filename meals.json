@@ -170702,7 +170702,7 @@
     "Wendy's",
     "Wingstop"
   ],
-  "updated_at": "2026-11-10T21:24:59.387287+00:00",
+  "updated_at": "2026-11-11T01:21:24.399552+00:00",
   "availability": {
     "cycle": 1,
     "history": [],
@@ -170727,16 +170727,14 @@
       "active": 3175,
       "inactive": 3585,
       "cycle_complete": false,
-      "updated_at": "2026-11-10T21:24:59.387211+00:00"
+      "updated_at": "2026-11-11T01:21:24.399504+00:00"
     },
     "last_run": {
-      "at": "2026-11-10T21:24:59.387230+00:00",
-      "calls": 1,
-      "marked_active": 17,
-      "marked_inactive": 23,
-      "calls_per_model": {
-        "gemini-3.8-flash": 1
-      }
+      "at": "2026-11-11T01:21:24.399519+00:00",
+      "calls": 0,
+      "marked_active": 0,
+      "marked_inactive": 0,
+      "calls_per_model": {}
     }
   }
 }
